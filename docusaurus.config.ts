@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Navigator Help',
   tagline: 'User guide for Rightview Document Intelligence',
-  favicon: 'img/logo.png',
+  favicon: 'img/rightview-square.png',
 
   future: {
     v4: true,
@@ -43,7 +43,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.png',
+    image: 'img/rightview-square.png',
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
@@ -51,8 +51,10 @@ const config: Config = {
     navbar: {
       title: 'Navigator Help',
       logo: {
-        alt: 'Rightview logo',
-        src: 'img/logo.png',
+        alt: 'Rightview',
+        src: 'img/rightview-square.png',
+        width: 32,
+        height: 32,
       },
       items: [
         {
@@ -65,6 +67,7 @@ const config: Config = {
           href: 'https://sites.rightview.ai',
           label: 'Open Navigator',
           position: 'right',
+          className: 'navbar-cta-button',
         },
         {
           href: 'https://github.com/RightView-AI/navigator-docs',
@@ -92,11 +95,12 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Rightview Research. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Rightview Research.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['bash', 'json'],
     },
   } satisfies Preset.ThemeConfig,
 };

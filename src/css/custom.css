@@ -1,18 +1,60 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Rightview AI brand theme for Navigator docs.
+ * Palette matches rightview-site: medical-teal #0F766E, medical-blue #0EA5E9.
  */
 
+@import url('https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-sans/style.css');
+
 :root {
-  --ifm-color-primary: #0f766e;
-  --ifm-color-primary-dark: #0d6a63;
+  /* Brand tokens */
+  --rv-teal: #0f766e;
+  --rv-teal-dark: #0d6a63;
+  --rv-teal-darker: #0a524d;
+  --rv-teal-light: #149a8f;
+  --rv-blue: #0ea5e9;
+  --rv-blue-dark: #0284c7;
+  --rv-gradient: linear-gradient(135deg, #0ea5e9 0%, #0f766e 100%);
+  --rv-gradient-subtle: linear-gradient(
+    135deg,
+    rgba(14, 165, 233, 0.08) 0%,
+    rgba(15, 118, 110, 0.06) 100%
+  );
+
+  /* Infima primary scale (teal) */
+  --ifm-color-primary: var(--rv-teal);
+  --ifm-color-primary-dark: var(--rv-teal-dark);
   --ifm-color-primary-darker: #0c645d;
-  --ifm-color-primary-darkest: #0a524d;
+  --ifm-color-primary-darkest: var(--rv-teal-darker);
   --ifm-color-primary-light: #118277;
-  --ifm-color-primary-lighter: #12887f;
-  --ifm-color-primary-lightest: #149a8f;
+  --ifm-color-primary-lighter: var(--rv-teal-light);
+  --ifm-color-primary-lightest: #2dd4bf;
+
+  --ifm-color-secondary: var(--rv-blue);
+  --ifm-color-secondary-dark: var(--rv-blue-dark);
+  --ifm-color-secondary-darker: #0369a1;
+  --ifm-color-secondary-darkest: #075985;
+  --ifm-color-secondary-light: #38bdf8;
+  --ifm-color-secondary-lighter: #7dd3fc;
+  --ifm-color-secondary-lightest: #bae6fd;
+
+  --ifm-font-family-base: 'Geist Sans', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+  --ifm-font-family-monospace: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
   --ifm-code-font-size: 95%;
+  --ifm-heading-font-weight: 600;
+  --ifm-global-radius: 0.625rem;
+  --ifm-link-color: var(--rv-teal);
+  --ifm-link-hover-color: var(--rv-teal-dark);
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.92);
+  --ifm-navbar-shadow: 0 1px 0 rgba(15, 118, 110, 0.12);
+  --ifm-navbar-height: 4rem;
+  --ifm-footer-background-color: transparent;
+  --ifm-menu-color-active: var(--rv-teal);
+  --ifm-menu-color-background-active: rgba(15, 118, 110, 0.1);
+  --ifm-breadcrumb-color-active: var(--rv-teal);
+  --ifm-toc-link-color: var(--ifm-color-content-secondary);
+  --ifm-toc-link-color-active: var(--rv-teal);
   --docusaurus-highlighted-code-line-bg: rgba(15, 118, 110, 0.1);
 }
 
@@ -23,11 +65,278 @@
   --ifm-color-primary-darkest: #1d8f81;
   --ifm-color-primary-light: #4fd9c8;
   --ifm-color-primary-lighter: #5bddcc;
-  --ifm-color-primary-lightest: #7fe5d6;
+  --ifm-color-primary-lightest: #99f6e4;
+  --ifm-link-color: #2dd4bf;
+  --ifm-link-hover-color: #5eead4;
+  --ifm-navbar-background-color: rgba(20, 20, 20, 0.92);
+  --ifm-navbar-shadow: 0 1px 0 rgba(45, 212, 191, 0.15);
+  --ifm-menu-color-background-active: rgba(45, 212, 191, 0.12);
   --docusaurus-highlighted-code-line-bg: rgba(45, 212, 191, 0.15);
 }
 
+/* ── Navbar ─────────────────────────────────────────────────────────────── */
+
+.navbar {
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(15, 118, 110, 0.15);
+}
+
+.navbar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--rv-gradient);
+  opacity: 0.85;
+}
+
+.navbar__title {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--rv-teal);
+}
+
+[data-theme='dark'] .navbar__title {
+  color: #2dd4bf;
+}
+
+.navbar__logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+.navbar__link {
+  font-weight: 500;
+}
+
+.navbar__link--active {
+  color: var(--rv-teal);
+  font-weight: 600;
+}
+
+.navbar-cta-button {
+  background: var(--rv-gradient) !important;
+  color: #fff !important;
+  border-radius: 0.5rem !important;
+  padding: 0.4rem 0.9rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.navbar-cta-button:hover {
+  color: #fff !important;
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+/* ── Sidebar ────────────────────────────────────────────────────────────── */
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid rgba(15, 118, 110, 0.1) !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  border-left: 3px solid var(--rv-teal);
+  background: rgba(15, 118, 110, 0.08);
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible .menu__link--active {
+  color: var(--rv-teal);
+}
+
+/* ── Doc content ────────────────────────────────────────────────────────── */
+
+.markdown h1 {
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+}
+
+.markdown h2 {
+  border-bottom: 1px solid rgba(15, 118, 110, 0.15);
+  padding-bottom: 0.35rem;
+}
+
 .markdown img {
-  border-radius: 8px;
+  border-radius: 0.625rem;
   box-shadow: 0 4px 24px rgba(15, 118, 110, 0.12);
+  border: 1px solid rgba(15, 118, 110, 0.1);
+}
+
+.markdown table {
+  border-radius: 0.625rem;
+  overflow: hidden;
+  border: 1px solid rgba(15, 118, 110, 0.15);
+}
+
+.markdown table thead tr {
+  background: var(--rv-gradient-subtle);
+}
+
+.markdown table th {
+  border-bottom: 1px solid rgba(15, 118, 110, 0.2);
+  font-weight: 600;
+}
+
+.theme-admonition {
+  border-radius: 0.625rem;
+  border-left-width: 4px;
+}
+
+.theme-admonition-tip {
+  border-left-color: var(--rv-teal);
+  background: rgba(15, 118, 110, 0.06);
+}
+
+.theme-admonition-info {
+  border-left-color: var(--rv-blue);
+  background: rgba(14, 165, 233, 0.06);
+}
+
+/* ── Intro hero ─────────────────────────────────────────────────────────── */
+
+.rv-hero {
+  position: relative;
+  margin: -1rem -1rem 2rem;
+  padding: 2.5rem 2rem;
+  border-radius: 0.875rem;
+  overflow: hidden;
+  color: #fff;
+  background: var(--rv-gradient);
+}
+
+.rv-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.65;
+  background-image:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.45) 1px, transparent 1px),
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+  background-size: 32px 32px, 64px 64px;
+  background-position: 0 0, 32px 32px;
+}
+
+.rv-hero__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.rv-hero__logo {
+  height: 2.75rem;
+  width: auto;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.rv-hero__title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.rv-hero__subtitle {
+  margin: 0;
+  max-width: 42rem;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.rv-hero__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  padding: 0.55rem 1rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--rv-teal-darker);
+  font-weight: 600;
+  text-decoration: none;
+  width: fit-content;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.rv-hero__cta:hover {
+  background: #fff;
+  color: var(--rv-teal-darker);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────────── */
+
+.footer {
+  position: relative;
+  overflow: hidden;
+  background: var(--rv-gradient) !important;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.55;
+  background-image:
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.35) 1px, transparent 1px),
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 32px 32px, 64px 64px;
+  background-position: 0 0, 32px 32px;
+  pointer-events: none;
+}
+
+.footer .container {
+  position: relative;
+}
+
+.footer .container::before {
+  content: '';
+  display: block;
+  width: 9rem;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
+  background: url('/img/rightview-white.png') no-repeat left center / contain;
+}
+
+.footer__title,
+.footer__link-item,
+.footer__item-heading {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.footer__link-item:hover {
+  color: #fff;
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.875rem;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: transparent;
+}
+
+/* ── Pagination & breadcrumbs ─────────────────────────────────────────────── */
+
+.pagination-nav__link {
+  border: 1px solid rgba(15, 118, 110, 0.15);
+  border-radius: 0.625rem;
+}
+
+.pagination-nav__link:hover {
+  border-color: rgba(15, 118, 110, 0.35);
+}
+
+.breadcrumbs__link:hover {
+  color: var(--rv-teal);
 }
