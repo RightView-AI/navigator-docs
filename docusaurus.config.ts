@@ -1,0 +1,104 @@
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+const config: Config = {
+  title: 'Navigator Help',
+  tagline: 'User guide for Rightview Document Intelligence',
+  favicon: 'img/logo.png',
+
+  future: {
+    v4: true,
+  },
+
+  url: 'https://docs.navigator.rightview.ai',
+  baseUrl: '/',
+
+  organizationName: 'RightView-AI',
+  projectName: 'navigator-docs',
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
+          editUrl: 'https://github.com/RightView-AI/navigator-docs/tree/main/',
+        },
+        blog: false,
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  themeConfig: {
+    image: 'img/logo.png',
+    colorMode: {
+      defaultMode: 'light',
+      respectPrefersColorScheme: true,
+    },
+    navbar: {
+      title: 'Navigator Help',
+      logo: {
+        alt: 'Rightview logo',
+        src: 'img/logo.png',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'userGuideSidebar',
+          position: 'left',
+          label: 'User Guide',
+        },
+        {
+          href: 'https://sites.rightview.ai',
+          label: 'Open Navigator',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/RightView-AI/navigator-docs',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Guide',
+          items: [
+            {label: 'Getting Started', to: '/getting-started/sign-in'},
+            {label: 'Ask Questions', to: '/chat/asking-questions'},
+            {label: 'Upload Documents', to: '/collections/upload-documents'},
+          ],
+        },
+        {
+          title: 'Rightview',
+          items: [
+            {label: 'Navigator App', href: 'https://sites.rightview.ai'},
+            {label: 'Contact Support', href: 'mailto:research@rightview.ai'},
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Rightview Research. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  } satisfies Preset.ThemeConfig,
+};
+
+export default config;
