@@ -32,7 +32,6 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
-          editUrl: 'https://github.com/RightView-AI/navigator-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -49,12 +48,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Navigator Help',
+      title: 'Help',
       logo: {
         alt: 'Rightview',
-        src: 'img/rightview-square.png',
-        width: 32,
-        height: 32,
+        src: 'img/rightview-white.png',
       },
       items: [
         {
@@ -68,11 +65,6 @@ const config: Config = {
           label: 'Open Navigator',
           position: 'right',
           className: 'navbar-cta-button',
-        },
-        {
-          href: 'https://github.com/RightView-AI/navigator-docs',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },

@@ -29,7 +29,7 @@ Click any row to open the same preview panel.
 
 The preview panel slides in from the right and shows:
 
-1. **Document metadata** — document type and source filename
+1. **Document details** — document type and file name
 2. **Highlighted excerpt** — the relevant passage from the document
 3. **PDF viewer** — when available, the full PDF scrolled to the cited page
 
@@ -47,7 +47,3 @@ When a citation is marked **PI Verified**, it means a Principal Investigator has
 
 - [View all sources](/chat/viewing-sources) — see every source grouped by document type
 - [Send to PI](/inbox/send-to-pi) — share an answer with a Principal Investigator
-
-:::info Screenshots
-Replace this section with screenshots of an answer showing citation badges and the open preview panel. Capture from your staging or production environment so document names match what users expect.
-:::

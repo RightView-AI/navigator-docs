@@ -21,7 +21,7 @@ Site staff, medical monitors, and admins can upload documents. Sponsor admins ca
 4. For each file, enter a **document type** (for example `lab manual`, `protocol document`, `investigator guide`).
 5. Click **Create collection**.
 
-Navigator processes each PDF in the background. You will see an **Uploading** or **Creating** status until processing completes. When ready, the status changes to **Ready**.
+Navigator uploads and indexes each PDF. You will see an **Uploading** or **Creating** status until the collection is ready. When finished, the status changes to **Ready**.
 
 :::note PDF only
 Only **PDF** files are supported. Other formats are rejected.
@@ -32,7 +32,7 @@ Only **PDF** files are supported. Other formats are rejected.
 1. Go to **Collections**.
 2. Find the protocol row and click **Manage collection**.
 3. Upload additional PDFs and assign document types.
-4. Wait for processing to finish before asking questions about the new content in chat.
+4. Wait until the collection shows **Ready** before asking questions about the new content in chat.
 
 ## Document types
 
@@ -59,7 +59,3 @@ Large PDFs may take a few minutes to process. You can leave the Collections page
 ## Related guides
 
 - [Manage collections](/collections/manage-collections) — view status, amendments, and delete documents
-
-:::info Screenshots
-Add screenshots of the Collections table, the Create new dialog, and the Manage collection view with file upload.
-:::

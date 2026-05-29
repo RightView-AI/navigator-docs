@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## Open contacts
 
-Click **Contacts** in the sidebar (not shown for medical monitor-only layouts in some configurations).
+Click **Contacts** in the sidebar.
 
 ## Add a contact
 
@@ -28,8 +28,4 @@ Use the row actions to update a contact's details or remove someone who should n
 
 When you click **Send to PI** on a message, the contact dropdown lists PIs relevant to the current protocol. If no contacts appear, add them here first.
 
-Site admins and admins can manage contacts for their site. Global admins can manage contacts across sites.
-
-:::info Screenshots
-Add a screenshot of the Contacts list and the add-contact form.
-:::
+Site admins and admins can manage contacts for their site.

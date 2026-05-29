@@ -28,12 +28,8 @@ Click a section header to expand or collapse it. Each item shows a short excerpt
 ## When to use sources vs. inline citations
 
 - Use **inline citation badges** when you want to check one specific reference while reading the answer.
-- Use **View sources** when you want a complete audit of everything Navigator consulted for that response.
+- Use **View sources** when you want to see every source used in that answer.
 
 ## Close the panel
 
 Click the **X** at the top of the sources panel or start interacting with the chat again. The panel closes without affecting your conversation.
-
-:::info Screenshots
-Add a screenshot of the sources panel with multiple groups expanded. This helps users recognize the layout quickly.
-:::

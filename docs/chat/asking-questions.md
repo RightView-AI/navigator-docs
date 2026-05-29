@@ -18,11 +18,11 @@ Chat is the core of Navigator. You ask a question in plain language, and Navigat
 2. Type your question, for example: *What are the inclusion criteria for Visit 2?*
 3. Press **Enter** or click the send button.
 
-While Navigator works, you may see progress indicators such as "Searching trial docs..." as the agent retrieves relevant passages.
+While Navigator prepares your answer, you may see a progress message such as "Searching trial docs..."
 
-## Conversation threads
+## Past conversations
 
-Each chat session is saved as a **thread** in the sidebar under your recent conversations. Click a thread to reopen it, or start a new conversation with the **New chat** button.
+Each chat is saved in the sidebar under your recent conversations. Click one to reopen it, or start fresh with the **New chat** button.
 
 ## Tips for better answers
 
@@ -32,7 +32,7 @@ Each chat session is saved as a **thread** in the sidebar under your recent conv
 
 ## Feedback
 
-After a response finishes, you can use the **thumbs up / thumbs down** buttons to rate the answer. This helps improve the system over time.
+After a response finishes, you can use the **thumbs up / thumbs down** buttons to rate the answer.
 
 ## Related guides
 

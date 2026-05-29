@@ -19,7 +19,7 @@ Navigator lets you send a chat response to a **Principal Investigator (PI)** by 
 3. Optionally add a note or edit the message body.
 4. Click **Send**.
 
-Navigator sends an email from **research@rightview.ai** to the PI's address. The message includes the answer and a link back to Navigator when configured.
+Navigator sends an email from **research@rightview.ai** to the PI's address. The message includes the answer and a link back to Navigator.
 
 ## Track in Inbox
 
@@ -29,12 +29,8 @@ Open **Inbox** from the sidebar to see items you have sent:
 - Protocol and message preview
 - Sent date and status
 
-Click an inbox entry to jump back to the related chat thread.
+Click an inbox entry to jump back to the related conversation.
 
 ## Medical monitor inbox
 
-Medical monitors use **My PI Inbox** to manage PI-related correspondence from their perspective. The workflow is similar but scoped to the monitor's assigned protocols.
-
-:::info Screenshots
-Add screenshots of the Send to PI dialog and the Inbox list with a sent item.
-:::
+Medical monitors use **My PI Inbox** to manage PI-related correspondence. The workflow is similar but scoped to the monitor's assigned protocols.

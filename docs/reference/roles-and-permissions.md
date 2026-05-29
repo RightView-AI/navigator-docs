@@ -11,7 +11,7 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Capability | User | Medical Monitor | Sponsor Admin | Site Admin | Admin |
 | --- | :---: | :---: | :---: | :---: | :---: |
 | Chat / ask questions | ✅ | ✅ | ❌ | ✅ | ✅ |
-| View own chat threads | ✅ | ✅ | ❌ | ✅ | ✅ |
+| View past conversations | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Create / delete own artifacts | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Share artifacts with site | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Edit / delete any site artifact | ❌ | ❌ | ❌ | ✅ | ✅ |
@@ -32,7 +32,7 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 Standard site staff. Can chat, upload documents, save artifacts, and manage PI contacts for their site.
 
 ### Medical Monitor
-Can chat and use the **My PI Inbox** workflow to communicate with PIs. Does not see the standard Contacts section in some layouts.
+Can chat and use the **My PI Inbox** to communicate with PIs.
 
 ### Sponsor Admin
 Views sponsor-level protocol lists and analytics. Cannot use chat or upload documents in the main Navigator interface.

@@ -13,7 +13,7 @@ sidebar_position: 1
 3. Enter a **title** and optionally edit the content in the rich text editor.
 4. Click **Save**.
 
-The artifact is stored in your personal library and linked to the conversation thread it came from.
+The artifact is saved to your personal library and linked to the conversation it came from.
 
 ## Browse artifacts
 
@@ -39,8 +39,4 @@ Site admins can edit or delete any site artifact. Regular users can only modify 
 
 ## Download
 
-Some artifacts support **Download** as a file for offline reference or regulatory records.
-
-:::info Screenshots
-Add screenshots of the Artifacts list, the save dialog from chat, and the share action.
-:::
+Some artifacts can be **Downloaded** for offline reference or your records.

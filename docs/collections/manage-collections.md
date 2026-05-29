@@ -42,7 +42,3 @@ If you are a global admin with access to multiple sites, use the **site selector
 1. **Keep document types accurate** — citations display these labels to users.
 2. **Upload amendments promptly** — mark outdated protocol versions so staff know which content is current.
 3. **One collection per protocol** — avoid splitting the same protocol across multiple collections.
-
-:::info Screenshots
-Add a screenshot of the Collections table with mixed statuses and the Manage collection detail view.
-:::
