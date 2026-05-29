@@ -2,7 +2,9 @@
 
 User guide for [Navigator](https://sites.rightview.ai) (Rightview Document Intelligence), hosted as a static Docusaurus site on GitHub Pages.
 
-**Live site:** [docs.navigator.rightview.ai](https://docs.navigator.rightview.ai)
+**Live site:** [rightview-ai.github.io/navigator-docs](https://rightview-ai.github.io/navigator-docs/)
+
+GitHub Pages serves this as a project site, so `baseUrl` is set to `/navigator-docs/` in `docusaurus.config.ts`. If you later move to a custom domain at the root (e.g. `docs.navigator.rightview.ai`), change `url` to that domain and set `baseUrl` to `/`, then restore `static/CNAME`.
 
 ## Local development
 

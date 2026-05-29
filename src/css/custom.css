@@ -304,7 +304,7 @@
   width: 9rem;
   height: 2.5rem;
   margin-bottom: 1.25rem;
-  background: url('/img/rightview-white.png') no-repeat left center / contain;
+  background: var(--rv-footer-logo) no-repeat left center / contain;
 }
 
 .footer__title,
