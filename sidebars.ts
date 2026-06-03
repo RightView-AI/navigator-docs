@@ -10,6 +10,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'getting-started/sign-in',
         'getting-started/navigation',
+        'getting-started/whats-new',
       ],
     },
     {
@@ -19,6 +20,7 @@ const sidebars: SidebarsConfig = {
         'chat/asking-questions',
         'chat/viewing-citations',
         'chat/viewing-sources',
+        'chat/view-flow',
       ],
     },
     {
@@ -32,11 +34,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Administration',
-      items: ['admin/preview-other-roles'],
-    },
-    {
-      type: 'category',
       label: 'Artifacts',
       items: ['artifacts/save-and-share'],
     },
@@ -46,6 +43,14 @@ const sidebars: SidebarsConfig = {
       items: [
         'inbox/send-to-pi',
         'contacts/pi-contacts',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Administration',
+      items: [
+        'admin/site-settings',
+        'admin/preview-other-roles',
       ],
     },
     {

@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Navigator Help',
-  tagline: 'User guide for Rightview Document Intelligence',
+  tagline: 'Help center for clinical research teams using Navigator',
   favicon: 'img/rightview-square.png',
 
   future: {
@@ -74,9 +74,9 @@ const config: Config = {
         {
           title: 'Guide',
           items: [
-            {label: 'Getting Started', to: '/getting-started/sign-in'},
-            {label: 'Ask Questions', to: '/chat/asking-questions'},
+            {label: "What's New", to: '/getting-started/whats-new'},
             {label: 'Upload Documents', to: '/collections/upload-documents'},
+            {label: 'Access Control', to: '/collections/restrict-access'},
           ],
         },
         {

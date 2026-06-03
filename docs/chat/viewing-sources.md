@@ -18,7 +18,7 @@ Sources are organized into collapsible sections:
 
 | Group | Description |
 | --- | --- |
-| **Trial documents** | Citations from uploaded PDFs in your study collection (protocol, lab manual, etc.) |
+| **Trial documents** | Citations from files in your study collection (PDF, Office, images, and other supported formats) |
 | **External search** | Web or PubMed results referenced in the answer |
 | **Governance / regulatory** | Regulatory or policy documents when applicable |
 | **PI verified** | Content confirmed by a Principal Investigator |

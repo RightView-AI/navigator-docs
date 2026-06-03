@@ -24,11 +24,23 @@ While Navigator prepares your answer, you may see a progress message such as "Se
 
 Each chat is saved in the sidebar under your recent conversations. Click one to reopen it, or start fresh with the **New chat** button.
 
+## Follow-up questions
+
+In the same conversation, you can ask short follow-up questions that build on your earlier messages—for example, after asking about inclusion criteria, you might ask *"What about exclusion criteria?"* or *"Is that allowed under ICH?"*
+
+Navigator uses recent turns in the thread to interpret follow-ups. For best results:
+
+- Stay in the **same conversation** when clarifying or drilling down.
+- Keep the **same study collection** selected unless you intentionally switch protocols.
+- If a follow-up seems off-topic, restate the key detail once (visit, procedure, or document type).
+
+Regulatory or governance follow-ups may pull regulatory sources in addition to your study documents. Use **View sources** to see every source used.
+
 ## Tips for better answers
 
 - **Be specific** — mention visit numbers, procedures, or document types when you know them.
-- **One topic per message** — complex multi-part questions work better when broken into separate messages.
-- **Pick the right collection** — answers only use documents uploaded to the selected study collection.
+- **One topic per message** — very long multi-part questions work better when broken into separate messages.
+- **Pick the right collection** — answers primarily use documents uploaded to the selected study collection (plus regulatory sources when relevant).
 
 ## Feedback
 
@@ -38,4 +50,5 @@ After a response finishes, you can use the **thumbs up / thumbs down** buttons t
 
 - [View citations](/chat/viewing-citations) — open numbered references in the answer
 - [View all sources](/chat/viewing-sources) — browse every source used for a response
+- [View Flow](/chat/view-flow) — see how Navigator built the answer
 - [Save as artifact](/artifacts/save-and-share) — keep a useful answer for later

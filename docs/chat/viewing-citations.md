@@ -14,6 +14,7 @@ Some answers also include:
 
 - **Globe icons** — external references (for example PubMed search results)
 - **Shield icons** — PI-verified content that a Principal Investigator has confirmed
+- **Regulatory badges** — governance or regulatory references (for example `[Reg-1]`), shown as small teal badges you can click to inspect
 
 ## Citation list below the answer
 
@@ -31,7 +32,7 @@ The preview panel slides in from the right and shows:
 
 1. **Document details** — document type and file name
 2. **Highlighted excerpt** — the relevant passage from the document
-3. **PDF viewer** — when available, the full PDF scrolled to the cited page
+3. **Document viewer** — for PDF sources, an in-app viewer may scroll to the cited page; other file types show the extracted passage Navigator used
 
 Close the panel with the **X** button or by clicking outside it on larger screens.
 

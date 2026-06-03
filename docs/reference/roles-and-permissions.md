@@ -23,7 +23,7 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Upload documents | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Delete protocol documents | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Sponsor protocols & analytics | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Site analytics | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Site Insights & export | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Manage PI contacts (own site) | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Manage PI contacts (any site) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Create / delete users & sites | ❌ | ❌ | ❌ | ❌ | ✅ |

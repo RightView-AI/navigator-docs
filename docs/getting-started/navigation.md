@@ -34,8 +34,8 @@ Users with admin roles may see additional links under an **Admin** section:
 | Link | Who sees it | Purpose |
 | --- | --- | --- |
 | **Admin Panel** | Global administrators | Manage users, sites, documents, and audit history |
-| **Site settings** | Site administrators (and global admins) | Collection list, **Access** controls, and data export for your site |
-| **Insights** | Site administrators, sponsor administrators, global administrators | Usage and question analytics for your scope |
+| **Site settings** | Site administrators (and global admins) | Collection list, **Access** controls, and data export — see [Site settings and Insights](/admin/site-settings) |
+| **Insights** | Site administrators, sponsor administrators, global administrators | Usage analytics and optional subtopic analysis |
 
 Global administrators also see **Admin view** in the sidebar to [preview site or sponsor administrator sessions](/admin/preview-other-roles) without a separate login.
 

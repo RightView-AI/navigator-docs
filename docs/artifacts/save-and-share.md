@@ -22,7 +22,7 @@ Open **Artifacts** from the sidebar. Use the tabs at the top:
 - **My Artifacts** — responses and notes you saved
 - **Shared with Site** — artifacts others have shared with you (whole site or by name)
 
-Use the search bar to find artifacts by title. Group or filter by **protocol** when you need artifacts tied to a specific study collection. Each card shows the linked protocol when one was selected in chat.
+Use the search bar to find artifacts by title. Turn on **Group by collection** to organize artifacts by study collection. Each card shows the linked protocol when the artifact was saved from chat with a collection selected—new collections are labeled correctly (not grouped as "No collection").
 
 ## Share an artifact
 

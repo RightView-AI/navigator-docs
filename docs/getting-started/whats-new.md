@@ -1,0 +1,40 @@
+---
+sidebar_position: 3
+---
+
+# What's new in Navigator
+
+This page summarizes recent improvements that affect how you work in Navigator. For step-by-step instructions, follow the links in each section.
+
+## Smarter chat
+
+- **Follow-up questions** — Navigator keeps context from your recent messages in the same conversation, so short follow-ups (for example *"What about Visit 2?"*) work without repeating the full question.
+- **Regulatory references** — Answers can cite governance and regulatory sources alongside your study documents. Look for regulatory badges in the text and in **View sources**.
+- **View Flow** — On completed answers, open **View Flow** to see how Navigator approached your question (helpful for complex or multi-step responses).
+
+## Documents and collections
+
+- **More file types** — Upload PDFs, Microsoft Office files (Word, PowerPoint, Excel), CSV, HTML, Markdown, and common images—not only PDF. See [Upload documents](/collections/upload-documents).
+- **Rename collections** — Site administrators can rename a study collection’s Protocol ID from the **Collections** table.
+- **Access control** — Site administrators can limit who sees a whole collection or individual documents. See [Restrict collection and document access](/collections/restrict-access).
+
+## Artifacts
+
+- **Flexible sharing** — Share saved answers privately, with **specific people** at your site, or with **everyone at this site**.
+- **Collection grouping** — Artifacts saved while chatting show the correct study collection when you group or filter by protocol.
+
+## Administration
+
+- **Site settings** — Site administrators use **Site settings** for collection lists, **Access**, and **Export data**.
+- **Insights** — Usage analytics and optional **LLM Subtopic Analysis** help site and sponsor administrators understand how teams use Navigator.
+- **Preview as site or sponsor admin** — Global administrators can switch **Admin view** to experience the app as a site or sponsor administrator. See [Preview other admin views](/admin/preview-other-roles).
+
+## Sign-in and reliability
+
+- **Session timeout** — After 30 minutes of inactivity you are signed out for security; sign in again from the login page.
+- **Clearer session messages** — If your session ends, the login page explains why so you are not left on a blank screen.
+
+## Related
+
+- [Roles & Permissions](/reference/roles-and-permissions)
+- [Navigate the app](/getting-started/navigation)
