@@ -70,6 +70,12 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: 'Rightview',
+        src: 'img/rightview-white.png',
+        width: 140,
+        height: 36,
+      },
       links: [
         {
           title: 'Guide',
@@ -87,7 +93,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Rightview Research.`,
+      copyright: `Copyright © ${new Date().getFullYear()} FirstSearch Inc dba Rightview. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

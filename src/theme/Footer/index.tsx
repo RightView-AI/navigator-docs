@@ -1,17 +1,10 @@
-import React, {type CSSProperties, type ReactNode} from 'react';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import React, {type ReactNode} from 'react';
 import Footer from '@theme-original/Footer';
 
+/** Wrapper for footer layout hooks (logo comes from themeConfig). */
 export default function FooterWrapper(props: React.ComponentProps<typeof Footer>): ReactNode {
-  const logoUrl = useBaseUrl('/img/rightview-white.png');
-
   return (
-    <div
-      style={
-        {
-          '--rv-footer-logo': `url("${logoUrl}")`,
-        } as CSSProperties
-      }>
+    <div className="rv-footer-root">
       <Footer {...props} />
     </div>
   );
