@@ -70,12 +70,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      logo: {
-        alt: 'Rightview',
-        src: 'img/rightview-white.png',
-        width: 140,
-        height: 36,
-      },
       links: [
         {
           title: 'Guide',

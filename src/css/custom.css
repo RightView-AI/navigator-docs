@@ -444,19 +444,6 @@ body {
   z-index: 1;
 }
 
-.rv-footer-root .footer__logo {
-  display: block;
-  margin-bottom: 1.5rem;
-  filter: none;
-}
-
-.rv-footer-root .footer__logo img {
-  height: 2.25rem;
-  width: auto;
-  max-width: 10rem;
-  object-fit: contain;
-}
-
 .rv-footer-root .footer__title {
   color: #fff;
   font-family: var(--ifm-heading-font-family);
