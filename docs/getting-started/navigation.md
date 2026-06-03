@@ -31,8 +31,14 @@ On smaller screens, tap the **menu** icon (☰) in the top-left to open the side
 
 Users with admin roles may see additional links under an **Admin** section:
 
-- **Admin Panel** — manage users and sites (admin only)
-- **Sponsor Admin** — sponsor protocol and analytics views
-- **Site Analytics** — usage analytics for your site
+| Link | Who sees it | Purpose |
+| --- | --- | --- |
+| **Admin Panel** | Global administrators | Manage users, sites, documents, and audit history |
+| **Site settings** | Site administrators (and global admins) | Collection list, **Access** controls, and data export for your site |
+| **Insights** | Site administrators, sponsor administrators, global administrators | Usage and question analytics for your scope |
 
-These are covered briefly in [Roles & Permissions](/reference/roles-and-permissions).
+Global administrators also see **Admin view** in the sidebar to [preview site or sponsor administrator sessions](/admin/preview-other-roles) without a separate login.
+
+Sponsor administrators use **Insights** and sponsor protocol views; they do not use chat or **Collections** uploads in Navigator.
+
+See [Roles & Permissions](/reference/roles-and-permissions) for the full matrix.

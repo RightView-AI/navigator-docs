@@ -17,20 +17,28 @@ The artifact is saved to your personal library and linked to the conversation it
 
 ## Browse artifacts
 
-Open **Artifacts** from the sidebar to see all artifacts you can access:
+Open **Artifacts** from the sidebar. Use the tabs at the top:
 
-- **Your artifacts** — ones you created
-- **Shared with site** — artifacts colleagues have shared with your site
+- **My Artifacts** — responses and notes you saved
+- **Shared with Site** — artifacts others have shared with you (whole site or by name)
 
-Use the search bar and filters to find artifacts by title, protocol, or date.
+Use the search bar to find artifacts by title. Group or filter by **protocol** when you need artifacts tied to a specific study collection. Each card shows the linked protocol when one was selected in chat.
 
-## Share an artifact with your site
+## Share an artifact
 
-1. Open an artifact you own.
+Only the person who created an artifact can change sharing. Medical monitors and sponsor administrators cannot share artifacts from Navigator.
+
+1. Open an artifact you own (from the list or detail view).
 2. Click **Share**.
-3. Confirm sharing. The artifact becomes visible to other users at your site under shared artifacts.
+3. Choose who can see it:
+   - **Private** — only you (default for new saves)
+   - **Specific people** — check colleagues at your site, then **Save**
+   - **Everyone at this site** — visible under **Shared with Site** for all site users
+4. Click **Save** to apply.
 
-Site admins can edit or delete any site artifact. Regular users can only modify their own.
+Shared artifacts show a **Shared** indicator and, when available, who shared them and when. You can open **Share** again anytime to narrow access, add people, or make an artifact private.
+
+Site administrators can edit or delete any artifact visible at the site. Other users can only change artifacts they created.
 
 ## Edit or delete
 

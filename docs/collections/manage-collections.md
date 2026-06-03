@@ -33,6 +33,17 @@ Click **Manage collection** on a row to:
 - Upload additional PDFs
 - Remove outdated documents (site admins only for deletions)
 
+On narrow screens, scroll the table horizontally to reach all columns, including **Actions**.
+
+## Rename a collection (site administrators)
+
+Site administrators and global administrators can rename a study collection’s **Protocol ID** from the Collections table:
+
+1. In the **Protocol ID** column, click the **pencil** icon on the row.
+2. Enter the new identifier and click **Save**, or **Cancel** to keep the current name.
+
+Renaming updates the collection everywhere it appears, including chat and artifacts linked to that protocol. Choose the final protocol ID carefully so staff and reports stay consistent.
+
 ## Switching sites (admins)
 
 If you are a global admin with access to multiple sites, use the **site selector** in the Collections header to switch which site's collections you are viewing.
@@ -42,3 +53,7 @@ If you are a global admin with access to multiple sites, use the **site selector
 1. **Keep document types accurate** — citations display these labels to users.
 2. **Upload amendments promptly** — mark outdated protocol versions so staff know which content is current.
 3. **One collection per protocol** — avoid splitting the same protocol across multiple collections.
+
+## Related guides
+
+- [Restrict collection and document access](/collections/restrict-access) — limit who can use a collection or specific documents (site administrators)

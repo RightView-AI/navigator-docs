@@ -27,7 +27,13 @@ const sidebars: SidebarsConfig = {
       items: [
         'collections/upload-documents',
         'collections/manage-collections',
+        'collections/restrict-access',
       ],
+    },
+    {
+      type: 'category',
+      label: 'Administration',
+      items: ['admin/preview-other-roles'],
     },
     {
       type: 'category',

@@ -19,9 +19,14 @@ Site staff, medical monitors, and admins can upload documents. Sponsor admins ca
    - **Sponsor Name** (required) — the study sponsor
    - **PDF Files** (required) — drag and drop or browse to select one or more PDFs
 4. For each file, enter a **document type** (for example `lab manual`, `protocol document`, `investigator guide`).
-5. Click **Create collection**.
+5. If you are a **site administrator**, choose **Collection access** on the next step:
+   - **All site users**, or
+   - **Specific users only** (select who may use the new collection).
+6. Click **Create collection**.
 
 Navigator uploads and indexes each PDF. You will see an **Uploading** or **Creating** status until the collection is ready. When finished, the status changes to **Ready**.
+
+You can change access later under **Site settings → Access**. See [Restrict collection and document access](/collections/restrict-access).
 
 :::note PDF only
 Only **PDF** files are supported. Other formats are rejected.
