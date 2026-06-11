@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://rightview-ai.github.io',
-  baseUrl: '/navigator-docs/',
+  url: 'https://docs.rightview.ai',
+  baseUrl: '/',
 
   organizationName: 'RightView-AI',
   projectName: 'navigator-docs',
