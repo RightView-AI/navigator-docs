@@ -17,8 +17,6 @@ Visits has two views, reachable from the sidebar:
 | **Schedule of Assessments** | The protocol's visit schedule — visit names, windows, and the assessments required at each one |
 | **Patients** | A roster of patients on the protocol, their current visit status, and upcoming visit windows |
 
-![Visits section before a Schedule of Assessments has been built](/img/docs/visits-empty-state.png)
-
 ## Build a Schedule of Assessments
 
 A Schedule of Assessments (SoA) is built from your protocol document rather than entered by hand. Two ways to create one:

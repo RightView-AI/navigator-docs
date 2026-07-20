@@ -20,8 +20,6 @@ Chat is the core of Navigator. You ask a question in plain language, and Navigat
 
 While Navigator prepares your answer, a **Thinking** panel streams its progress live — see [View Flow](/chat/view-flow) for what that looks like.
 
-![Chat home with suggested starter questions for the selected collection](/img/docs/chat-home.png)
-
 ## Past conversations
 
 Each chat is saved in the sidebar under your recent conversations. Click one to reopen it, or start fresh with the **New chat** button.

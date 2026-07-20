@@ -53,8 +53,6 @@ You can change access later under **Site settings → Access**. See [Restrict co
 3. Upload additional files and assign document types.
 4. Wait until the collection shows **Ready** before asking questions about the new content in chat.
 
-![Collections table with protocol, sponsor, status, and document counts](/img/docs/collections-list.png)
-
 **One document per category:** each document type can only have one active document in a collection at a time — you can't upload a second, different file under a category that's already in use. If a document needs updating, use **Amend** on the existing one instead of uploading a new file under the same type.
 
 ## Document types
