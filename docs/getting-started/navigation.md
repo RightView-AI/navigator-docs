@@ -11,13 +11,15 @@ After signing in, you land on the main **Chat** view. A sidebar on the left give
 | Item | What it does |
 | --- | --- |
 | **Chat** | Ask questions about documents in a selected study collection |
-| **Inbox** | View responses you sent to Principal Investigators (PIs) and track their status |
+| **Notifications** | View responses you sent to Principal Investigators (PIs) and track their status |
 | **Collections** | Upload and manage study document collections (protocols) |
+| **Visits** | View a protocol's Schedule of Assessments and patient roster, when your site's CTMS/EMR is connected — see [Visits & Schedule of Assessments](/visits/overview) |
 | **Artifacts** | Browse saved answers and notes you or colleagues have shared |
 | **Contacts** | Manage PI contacts for sending responses |
-| **Settings** | Change your password and sign out |
 
-Medical monitors see **My PI Inbox** instead of the standard inbox.
+Change your password or sign out from your account menu at the bottom of the sidebar. Medical monitors see **My PI Inbox** instead of the standard notifications list.
+
+**Visits** only appears for sites with a connected clinical trial management or EMR system; sites without one won't see it in the sidebar.
 
 ## Chat header
 

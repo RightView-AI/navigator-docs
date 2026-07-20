@@ -15,8 +15,7 @@ Each row shows:
 | **Protocol ID** | Unique identifier for the study |
 | **Sponsor** | Sponsor organization name |
 | **Status** | Ready, Uploading/Creating, or Has amendments |
-| **Documents** | Number of PDFs in the collection |
-| **Document Types** | Tags such as Protocol Document, Lab Manual |
+| **Documents** | Number of current documents in the collection — a document you've amended still counts once, not twice |
 | **Actions** | **Manage collection** button |
 
 ## Status indicators
@@ -43,6 +42,10 @@ Site administrators and global administrators can rename a study collection’s 
 2. Enter the new identifier and click **Save**, or **Cancel** to keep the current name.
 
 Renaming updates the collection everywhere it appears, including chat and artifacts linked to that protocol. Choose the final protocol ID carefully so staff and reports stay consistent.
+
+## The study collection picker
+
+Once you're inside a study, the **study collection picker** in the sidebar shows which protocol you're currently working in and lets you switch. It scopes more than chat: **Contacts**, **Visits**, and **Artifacts** all follow whichever collection is active in the picker, so switching protocols there switches your view everywhere else in the app too.
 
 ## Switching sites (admins)
 

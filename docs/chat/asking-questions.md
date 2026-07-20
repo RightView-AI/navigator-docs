@@ -18,7 +18,9 @@ Chat is the core of Navigator. You ask a question in plain language, and Navigat
 2. Type your question, for example: *What are the inclusion criteria for Visit 2?*
 3. Press **Enter** or click the send button.
 
-While Navigator prepares your answer, you may see a progress message such as "Searching trial docs..."
+While Navigator prepares your answer, a **Thinking** panel streams its progress live — see [View Flow](/chat/view-flow) for what that looks like.
+
+![Chat home with suggested starter questions for the selected collection](/img/docs/chat-home.png)
 
 ## Past conversations
 
@@ -28,7 +30,7 @@ Each chat is saved in the sidebar under your recent conversations. Click one to 
 
 In the same conversation, you can ask short follow-up questions that build on your earlier messages—for example, after asking about inclusion criteria, you might ask *"What about exclusion criteria?"* or *"Is that allowed under ICH?"*
 
-Navigator uses recent turns in the thread to interpret follow-ups. For best results:
+Navigator uses recent turns in the thread to interpret follow-ups, so a short reply like *"is that allowed under ICH?"* is answered in the context of what you just asked rather than treated as a brand-new, unrelated question. For best results:
 
 - Stay in the **same conversation** when clarifying or drilling down.
 - Keep the **same study collection** selected unless you intentionally switch protocols.

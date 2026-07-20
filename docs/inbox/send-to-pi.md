@@ -19,11 +19,11 @@ Navigator lets you send a chat response to a **Principal Investigator (PI)** by 
 3. Optionally add a note or edit the message body.
 4. Click **Send**.
 
-Navigator sends an email from **research@rightview.ai** to the PI's address. The message includes the answer and a link back to Navigator.
+Navigator sends the email through **research@rightview.ai**, with the sender's name shown in the "From" line — for example *"Jane Doe (Your Site) via Rightview"* — so the PI can see at a glance who actually sent it, not just that it came from Navigator.
 
 ## Track in Inbox
 
-Open **Inbox** from the sidebar to see items you have sent:
+Open **Notifications** from the sidebar to see items you have sent:
 
 - Recipient name and email
 - Protocol and message preview

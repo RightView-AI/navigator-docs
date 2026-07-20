@@ -61,6 +61,11 @@ const config: Config = {
           label: 'User Guide',
         },
         {
+          to: '/changelog',
+          position: 'left',
+          label: 'Changelog',
+        },
+        {
           href: 'https://sites.rightview.ai',
           label: 'Open Navigator',
           position: 'right',
@@ -75,6 +80,7 @@ const config: Config = {
           title: 'Guide',
           items: [
             {label: "What's New", to: '/getting-started/whats-new'},
+            {label: 'Changelog', to: '/changelog'},
             {label: 'Upload Documents', to: '/collections/upload-documents'},
             {label: 'Access Control', to: '/collections/restrict-access'},
           ],

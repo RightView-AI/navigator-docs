@@ -34,6 +34,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Visits',
+      items: ['visits/overview'],
+    },
+    {
+      type: 'category',
       label: 'Artifacts',
       items: ['artifacts/save-and-share'],
     },
@@ -63,6 +68,7 @@ const sidebars: SidebarsConfig = {
       label: 'Reference',
       items: ['reference/roles-and-permissions'],
     },
+    'changelog',
   ],
 };
 

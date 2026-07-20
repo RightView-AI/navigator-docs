@@ -4,7 +4,17 @@ sidebar_position: 3
 
 # What's new in Navigator
 
-This page summarizes recent improvements that affect how you work in Navigator. For step-by-step instructions, follow the links in each section.
+This page summarizes recent improvements that affect how you work in Navigator. For step-by-step instructions, follow the links in each section. For the full version history, see the [Changelog](/changelog).
+
+## New this release
+
+- **Live reasoning while you wait** — Watch Navigator's reasoning stream in real time, with labeled steps for what it's checking, instead of a plain "thinking" spinner. See [View Flow](/chat/view-flow).
+- **More reliable follow-ups** — Multi-question threads are answered turn by turn, so a new question doesn't cause Navigator to re-answer everything you asked earlier in the conversation.
+- **Visits & Schedule of Assessments** — Sites with a connected CTMS or EMR can view a protocol's visit schedule and patient progress against it. See [Visits & Schedule of Assessments](/visits/overview).
+- **Redesigned collection picker** — The study collection selector in the sidebar is easier to find and now consistently scopes Contacts, Visits, and Artifacts, not just chat. See [Manage collections](/collections/manage-collections#the-study-collection-picker).
+- **One document per category** — Collections now guard against uploading two different documents under the same document type; use **Amend** to update an existing one instead. See [Upload documents](/collections/upload-documents).
+- **Clearer sender on PI escalations** — Emails sent through **Send to PI** now show your name in the "From" line. See [Send answers to a PI](/inbox/send-to-pi).
+- **Self-service password reset** — If your password has expired or an admin required a reset, the login page now walks you through setting a new one right there. See [Sign in](/getting-started/sign-in#if-youre-asked-to-set-a-new-password).
 
 ## Smarter chat
 
@@ -36,5 +46,6 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## Related
 
+- [Changelog](/changelog) — full version history
 - [Roles & Permissions](/reference/roles-and-permissions)
 - [Navigate the app](/getting-started/navigation)
