@@ -13,13 +13,13 @@ After signing in, you land on the main **Chat** view. A sidebar on the left give
 | **Chat** | Ask questions about documents in a selected study collection |
 | **Notifications** | View responses you sent to Principal Investigators (PIs) and track their status |
 | **Collections** | Upload and manage study document collections (protocols) |
-| **Visits** | View a protocol's Schedule of Assessments and patient roster, when your site's CTMS/EMR is connected — see [Visits & Schedule of Assessments](/visits/overview) |
+| **Visits** | View a protocol's Schedule of Assessments; also see the patient roster if your site's CTMS/EMR is connected — see [Visits & Schedule of Assessments](/visits/overview) |
 | **Artifacts** | Browse saved answers and notes you or colleagues have shared |
 | **Contacts** | Manage PI contacts for sending responses |
 
 Change your password or sign out from your account menu at the bottom of the sidebar. Medical monitors see **My PI Inbox** instead of the standard notifications list.
 
-**Visits** only appears for sites with a connected clinical trial management or EMR system; sites without one won't see it in the sidebar.
+**Visits** always appears in the sidebar — Schedule of Assessments needs no integration. The **Patients** sub-tab inside Visits is the only part that requires a connected clinical trial management or EMR system; without one, Patients won't be available but Schedule of Assessments still is.
 
 ## Chat header
 
@@ -31,13 +31,15 @@ On smaller screens, tap the **menu** icon (☰) in the top-left to open the side
 
 ## Admin links
 
-Users with admin roles may see additional links under an **Admin** section:
+Users with admin roles may see additional links under a **Management** section:
 
 | Link | Who sees it | Purpose |
 | --- | --- | --- |
-| **Admin Panel** | Global administrators | Manage users, sites, documents, and audit history |
-| **Site settings** | Site administrators (and global admins) | Collection list, **Access** controls, and data export — see [Site settings and Insights](/admin/site-settings) |
+| **Platform** | Global administrators | Manage users, sites, documents, and audit history |
+| **Sponsor** | Sponsor administrators | Sponsor protocol lists and sponsor Insights |
 | **Insights** | Site administrators, sponsor administrators, global administrators | Usage analytics and optional subtopic analysis |
+
+Site administrators manage collections and their access from **Collections → Manage** on a study collection — see [Restrict collection and document access](/collections/restrict-access). There is no separate settings page; collection and document access live inside that dialog.
 
 Global administrators also see **Admin view** in the sidebar to [preview site or sponsor administrator sessions](/admin/preview-other-roles) without a separate login.
 

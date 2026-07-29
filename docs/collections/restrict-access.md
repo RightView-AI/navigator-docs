@@ -6,36 +6,33 @@ sidebar_position: 3
 
 Site administrators can limit who at your site can use a study collection in chat, upload to it, or see individual documents inside it. Use this when a protocol includes sensitive appendices or when only certain roles should work with specific files.
 
-Platform administrators and site administrators always have full visibility across collections at their site. Global administrators can manage access for any site they select.
+Platform administrators and site administrators always have full visibility across collections at their site. Global administrators managing multiple sites can switch sites from the **site selector** in the Collections header first — see [Switching sites](/collections/manage-collections#switching-sites-admins).
 
 ## Open access settings
 
-1. In the sidebar, open **Site settings** (under **Admin**).
-2. Select the **Access** tab.
-3. If you manage multiple sites as a global administrator, choose the **Site** from the dropdown at the top of the page.
-
-You will see every study collection for that site in a list on the left. Each row shows whether access is open to all site users or limited to specific people.
+1. In the sidebar, open **Collections**.
+2. Find the study collection and click **Manage** on its row.
+3. In the **Manage collection** dialog, select the **Collection Settings** tab.
 
 ## Set collection-level access
 
-1. Click a collection in the list.
-2. Under **Collection access**, choose one of:
-   - **All site users** — anyone at the site can select this collection in chat and work with its documents.
-   - **Specific users only** — check the users who should have access, then click **Save access**.
-3. Users who are not on the list will not see the collection in chat or in collection lists.
+Under **Collection access** in **Collection Settings**, choose one of:
 
-Changing collection access applies to the whole study collection unless you set a different rule on individual documents.
+- **All site users** — anyone at the site can select this collection in chat and work with its documents.
+- **Specific users only** — check the users who should have access, then click **Save access**.
+
+Users who are not on the list will not see the collection in chat or in collection lists. Changing collection access applies to the whole study collection unless you set a different rule on individual documents.
 
 ## Set document-level access
 
 Some files in a collection may need tighter control than the collection default.
 
-1. With a collection selected, scroll to **Documents in collection**.
-2. Find the document row and click **Edit access** (or the access label on that row).
+1. In the same **Manage collection** dialog, switch to the **Documents** tab.
+2. Find the document row and click **Manage Access**.
 3. Choose **All site users** to inherit the collection rule, or **Specific users only** to override with a custom list.
 4. Click **Save access**.
 
-Documents without their own override inherit whatever you configured at the collection level. The access column shows labels such as **All site users** or **Inherits collection** so you can see the effective rule at a glance.
+Documents without their own override inherit whatever you configured at the collection level. Hovering **Manage Access** shows the document's current effective access.
 
 ## Set access when creating a collection
 

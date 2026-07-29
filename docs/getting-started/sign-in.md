@@ -34,7 +34,7 @@ Passwords periodically expire, and an administrator can require a reset on your 
 
 ## Session timeout
 
-For security, Navigator signs you out after **30 minutes of inactivity**. If this happens, you are redirected to the login page with a short message explaining that your session ended. Sign in again to continue.
+For security, Navigator signs you out after **60 minutes of inactivity**. If this happens, you are redirected to the login page with a short message explaining that your session ended. Sign in again to continue.
 
 If the app looked signed in but actions fail, refresh the page or sign in again—do not stay on a stale screen.
 

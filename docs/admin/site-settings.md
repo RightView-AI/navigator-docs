@@ -2,37 +2,15 @@
 sidebar_position: 2
 ---
 
-# Site settings and Insights
+# Insights for site administrators
 
-**Site settings** is where site administrators manage collections, document access, and optional data exports. **Insights** (analytics) shows how your site uses Navigator.
+**Insights** (analytics) shows how your site uses Navigator. Collection and document access are managed separately, from each collection's **Manage** dialog — see [Restrict collection and document access](/collections/restrict-access).
 
-Global administrators can open **Site settings** for any site when not acting as a specific site admin. Sponsor administrators use **Insights** only.
+Global administrators can open **Insights** for any site when not acting as a specific site admin. Sponsor administrators use **Insights** too, scoped to their sponsor.
 
-## Open Site settings
+## Open Insights
 
-1. In the sidebar under **Admin**, click **Site settings**.
-2. Use the left navigation inside Site settings:
-   - **Collections** — read-only list of study collections and document counts for your site
-   - **Access** — [collection and document access](/collections/restrict-access) controls
-   - **Insights** — opens the analytics page for your site (same data as the **Insights** sidebar link)
-
-Platform administrators managing multiple sites may see a **Site** dropdown on the **Access** tab.
-
-## Export site data
-
-From **Site settings**, click **Export data** in the header.
-
-1. Select one or more study collections (protocols).
-2. Choose what to include:
-   - **Questions and answers** from chat
-   - **Escalations** sent to Principal Investigators
-3. Click export. Navigator downloads a file to your computer.
-
-Use exports for internal reporting or audit support according to your organization’s policies.
-
-## Insights for site administrators
-
-Open **Insights** from the sidebar or from Site settings.
+Click **Insights** in the sidebar.
 
 Typical views include:
 

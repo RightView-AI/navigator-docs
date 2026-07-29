@@ -23,7 +23,7 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Upload documents | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Delete protocol documents | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Sponsor protocols & analytics | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Site Insights & export | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Site Insights | ❌ | ❌ | ❌ | ✅ | ✅ |
 | Manage PI contacts (own site) | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Manage PI contacts (any site) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Create / delete users & sites | ❌ | ❌ | ❌ | ❌ | ✅ |
@@ -41,10 +41,10 @@ Can chat and use the **My PI Inbox** to communicate with PIs.
 Views sponsor-level protocol lists and analytics. Cannot use chat or upload documents in the main Navigator interface.
 
 ### Site Admin
-Full control over their site's collections, artifacts, analytics, and PI contacts. Can delete protocol documents, rename study collections from **Collections**, and set [collection or document access](/collections/restrict-access) under **Site settings**. Sees all collections at the site regardless of access restrictions.
+Full control over their site's collections, artifacts, analytics, and PI contacts. Can delete protocol documents, rename study collections, and set [collection or document access](/collections/restrict-access) from **Collections → Manage** on a study collection. Sees all collections at the site regardless of access restrictions.
 
 ### Admin
-Global administrator. Can switch sites, manage all users, and access the Admin Panel. Can use **Admin view** to preview [site or sponsor administrator experiences](/admin/preview-other-roles) before changes go live.
+Global administrator. Can switch sites, manage all users, and access **Platform** settings. Can use **Admin view** to preview [site or sponsor administrator experiences](/admin/preview-other-roles) before changes go live.
 
 ## Requesting access changes
 

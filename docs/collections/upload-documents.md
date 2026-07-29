@@ -44,7 +44,7 @@ A single study collection can include PDFs and Office files together. You do not
 
 Navigator uploads and processes each file. You will see an **Uploading** or **Creating** status until the collection is ready. When finished, the status changes to **Ready**.
 
-You can change access later under **Site settings → Access**. See [Restrict collection and document access](/collections/restrict-access).
+You can change access later from **Manage → Collection Settings** on the collection. See [Restrict collection and document access](/collections/restrict-access).
 
 ## Add documents to an existing collection
 

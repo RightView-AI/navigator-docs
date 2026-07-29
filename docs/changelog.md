@@ -13,7 +13,7 @@ A history of Navigator releases. This page covers user-facing changes only — f
 
 - Multi-turn conversations are more reliable — follow-up questions are answered on their own, without Navigator re-answering everything asked earlier in the thread.
 - A live reasoning view now streams while an answer is generating, with visible step-by-step progress instead of a plain spinner.
-- New **Visits** section for sites with a connected clinical trial or EMR system: view a protocol's Schedule of Assessments and patient progress against it.
+- New **Visits** section: every site can view a protocol's Schedule of Assessments; sites with a connected clinical trial or EMR system also get patient progress against it.
 - Redesigned study collection picker that consistently scopes Contacts, Visits, and Artifacts to whichever protocol is active.
 - Collections now prevent uploading two different documents under the same document type by mistake — use **Amend** to update an existing one instead.
 - Emails sent through **Send to PI** now show your name as the sender.

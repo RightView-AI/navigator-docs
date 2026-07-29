@@ -10,7 +10,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 - **Live reasoning while you wait** — Watch Navigator's reasoning stream in real time, with labeled steps for what it's checking, instead of a plain "thinking" spinner. See [View Flow](/chat/view-flow).
 - **More reliable follow-ups** — Multi-question threads are answered turn by turn, so a new question doesn't cause Navigator to re-answer everything you asked earlier in the conversation.
-- **Visits & Schedule of Assessments** — Sites with a connected CTMS or EMR can view a protocol's visit schedule and patient progress against it. See [Visits & Schedule of Assessments](/visits/overview).
+- **Visits & Schedule of Assessments** — Every site can view a protocol's visit schedule; sites with a connected CTMS or EMR also get patient progress against it. See [Visits & Schedule of Assessments](/visits/overview).
 - **Redesigned collection picker** — The study collection selector in the sidebar is easier to find and now consistently scopes Contacts, Visits, and Artifacts, not just chat. See [Manage collections](/collections/manage-collections#the-study-collection-picker).
 - **One document per category** — Collections now guard against uploading two different documents under the same document type; use **Amend** to update an existing one instead. See [Upload documents](/collections/upload-documents).
 - **Clearer sender on PI escalations** — Emails sent through **Send to PI** now show your name in the "From" line. See [Send answers to a PI](/inbox/send-to-pi).
@@ -35,13 +35,13 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## Administration
 
-- **Site settings** — Site administrators use **Site settings** for collection lists, **Access**, and **Export data**.
+- **Collection access** — Site administrators manage who can use a study collection, or specific documents in it, from **Manage → Collection Settings** on each collection. See [Restrict collection and document access](/collections/restrict-access).
 - **Insights** — Usage analytics and optional **LLM Subtopic Analysis** help site and sponsor administrators understand how teams use Navigator.
 - **Preview as site or sponsor admin** — Global administrators can switch **Admin view** to experience the app as a site or sponsor administrator. See [Preview other admin views](/admin/preview-other-roles).
 
 ## Sign-in and reliability
 
-- **Session timeout** — After 30 minutes of inactivity you are signed out for security; sign in again from the login page.
+- **Session timeout** — After 60 minutes of inactivity you are signed out for security; sign in again from the login page.
 - **Clearer session messages** — If your session ends, the login page explains why so you are not left on a blank screen.
 
 ## Related

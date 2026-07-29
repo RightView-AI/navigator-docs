@@ -14,15 +14,15 @@ Choose one of:
 
 | View | What you see |
 | --- | --- |
-| **Platform admin** | Full admin panel, all sites, and normal platform tools |
-| **Site admin** | The same **Site settings** and collection experience a site administrator has for the selected site |
+| **Platform admin** | Full **Platform** settings, all sites, and normal platform tools |
+| **Site admin** | The same **Collections** (including collection and document access) and **Insights** experience a site administrator has for the selected site |
 | **Sponsor admin** | Sponsor protocol lists and sponsor **Insights**, scoped to the selected sponsor |
 
 ## Site admin preview
 
 1. Select **Site admin** in the view switcher.
 2. Pick the **site** you want to preview.
-3. Use **Site settings**, **Collections**, and **Insights** as that site’s administrator would.
+3. Use **Collections** (including **Manage** on a collection for access control) and **Insights** as that site’s administrator would.
 
 Your session badge shows that you are acting as site admin for that site. Switch back to **Platform admin** when finished.
 
