@@ -28,7 +28,7 @@ Results are generated on demand and may take a moment to load.
 
 Sponsor administrators see sponsor-scoped **Insights** and protocol lists. They do not upload documents or use chat in the main Navigator workspace.
 
-Global administrators can preview sponsor **Insights** using [Admin view → Sponsor admin](/admin/preview-other-roles).
+Global administrators can preview sponsor **Insights** using **Admin view → Sponsor admin** in the sidebar.
 
 ## Related guides
 

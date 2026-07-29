@@ -45,7 +45,7 @@ Users with admin roles may see additional links under a **Management** section:
 
 Site administrators manage collections and their access from **Collections → Manage** on a study collection — see [Restrict collection and document access](/collections/restrict-access). There is no separate settings page; collection and document access live inside that dialog.
 
-Global administrators also see **Admin view** in the sidebar to [preview site or sponsor administrator sessions](/admin/preview-other-roles) without a separate login.
+Global administrators also see **Admin view** in the sidebar to preview site or sponsor administrator sessions without a separate login.
 
 Sponsor administrators use **Insights** and sponsor protocol views; they do not use chat or **Collections** uploads in Navigator.
 

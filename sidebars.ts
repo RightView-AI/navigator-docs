@@ -55,7 +55,6 @@ const sidebars: SidebarsConfig = {
       label: 'Administration',
       items: [
         'admin/site-settings',
-        'admin/preview-other-roles',
       ],
     },
     {

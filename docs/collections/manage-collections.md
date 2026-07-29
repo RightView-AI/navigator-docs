@@ -51,7 +51,7 @@ Near the top of the sidebar, the **Study collection** dropdown shows which proto
 
 ## Switching sites (admins)
 
-Global administrators view collections for their own platform account by default. To view or manage another site's collections, use **Admin view → Site admin** to preview that site — see [Preview site and sponsor views](/admin/preview-other-roles).
+Global administrators view collections for their own platform account by default. To view or manage another site's collections, use **Admin view → Site admin** in the sidebar to preview that site.
 
 ## Best practices
 
