@@ -8,7 +8,7 @@ Manage your password and sign out from the **Settings** page.
 
 ## Open settings
 
-Click **Settings** in the sidebar, or go to [sites.rightview.ai/settings](https://sites.rightview.ai/settings).
+Click the **gear icon** at the bottom of the sidebar, or go to [sites.rightview.ai/settings](https://sites.rightview.ai/settings).
 
 ## Change your password
 

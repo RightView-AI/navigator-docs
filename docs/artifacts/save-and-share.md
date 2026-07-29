@@ -22,7 +22,7 @@ Open **Artifacts** from the sidebar. Use the tabs at the top:
 - **My Artifacts** — responses and notes you saved
 - **Shared with Site** — artifacts others have shared with you (whole site or by name)
 
-Use the search bar to find artifacts by title. Turn on **Group by collection** to organize artifacts by study collection. Each card shows the linked protocol when the artifact was saved from chat with a collection selected—new collections are labeled correctly (not grouped as "No collection").
+Artifacts are scoped to whichever study collection is active in the sidebar picker, the same as Contacts and Visits — switch collections there to see a different protocol's artifacts. Use the search bar to find artifacts by title within the current collection.
 
 ## Share an artifact
 
@@ -47,4 +47,4 @@ Site administrators can edit or delete any artifact visible at the site. Other u
 
 ## Download
 
-Some artifacts can be **Downloaded** for offline reference or your records.
+Every artifact can be downloaded as a **PDF** for offline reference or your records.

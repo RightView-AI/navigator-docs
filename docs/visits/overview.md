@@ -21,10 +21,20 @@ Visits has two views, reachable from the sidebar:
 
 A Schedule of Assessments (SoA) is built from your protocol document rather than entered by hand. Two ways to create one:
 
-1. **At upload time** — when uploading a protocol document, check **"contains the Schedule of Assessments"** so Navigator extracts it automatically.
-2. **From chat** — ask the assistant to build the schedule for the collection (for example, *"build the schedule of assessments for this protocol"*). Review the result before approving it.
+1. **At upload time** — when uploading a protocol document, check **"contains the Schedule of Assessments"** so Navigator extracts it automatically as soon as the document finishes processing.
+2. **From chat** — ask the assistant to build the schedule for the collection (for example, *"build the schedule of assessments for this protocol"*). If one already exists and looks complete, the assistant summarizes it instead — ask explicitly for a rebuild if the protocol changed.
 
-An SoA must be **approved** before the Patients view can calculate upcoming visits.
+Either way, the result is saved as a **draft** — visits, study-day windows, and required procedures at each one, read straight from the protocol's table. Nothing is entered by hand and nothing goes live until a site administrator reviews and approves it.
+
+## Approve a Schedule of Assessments
+
+Only **site administrators** (or global administrators) can edit or approve an SoA draft.
+
+1. Open **Visits → Schedule of Assessments**.
+2. Review the extracted visits, windows, and procedures against the protocol. Edit any visit directly if something needs correcting.
+3. Click **Approve** to move the schedule from draft to active.
+
+An SoA must be **approved** before the Patients view can calculate upcoming visits — a draft alone is not enough.
 
 ## Matching a study collection to a CTMS trial
 
@@ -36,7 +46,18 @@ Once an SoA is approved and a collection is matched to a CTMS trial, the Patient
 
 ## Protocol amendments
 
-When a protocol is amended, Navigator can help carry the change through: rebuilding the Schedule of Assessments from the amended document, flagging visits that need rescheduling, and re-checking whether currently enrolled patients still meet eligibility criteria under the new version. Review every suggested change before it's applied — nothing updates your CTMS automatically without your confirmation.
+How an amendment is handled depends on how the collection is managed:
+
+**Standard collections** — upload the amended protocol using **Amend** on the document (see [Amend a document](/collections/upload-documents#amend-an-existing-document)). Amending doesn't rebuild the SoA by itself — once the file finishes processing, ask the assistant in chat to rebuild the schedule. The result is a new **draft**; nothing changes for patients or in your CTMS until a site administrator reviews and approves it, same as building one from scratch.
+
+**Sponsor-managed collections** — when a sponsor publishes an amendment to a locked, sponsor-managed collection, Navigator runs the full amendment automatically at every affected site:
+
+1. Rebuilds the Schedule of Assessments from the amended protocol and diffs it against the prior version.
+2. For each active patient whose next visit changed, **automatically writes the new visit day into your CTMS** and records it in Write History — no confirmation step first.
+3. Flags any patient whose changed visit now requires additional procedures as possibly needing **re-consent**.
+4. Re-checks every active patient's eligibility against the amended inclusion/exclusion criteria and flags anyone who may need PI review.
+
+Open the amendment's **"… changes"** button above the Schedule of Assessments (or the matching Notifications entry) to see what changed, and which patients were rescheduled or flagged. Review happens after the fact — the CTMS write is already done by the time you see it.
 
 ## Related guides
 

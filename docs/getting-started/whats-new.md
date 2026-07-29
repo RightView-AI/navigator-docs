@@ -25,13 +25,13 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 ## Documents and collections
 
 - **More file types** — Upload PDFs, Microsoft Office files (Word, PowerPoint, Excel), CSV, HTML, Markdown, and common images—not only PDF. See [Upload documents](/collections/upload-documents).
-- **Rename collections** — Site administrators can rename a study collection’s Protocol ID from the **Collections** table.
+- **Rename collections** — Site administrators can rename a study collection's Protocol ID and sponsor name from **Manage → Collection Settings**.
 - **Access control** — Site administrators can limit who sees a whole collection or individual documents. See [Restrict collection and document access](/collections/restrict-access).
 
 ## Artifacts
 
 - **Flexible sharing** — Share saved answers privately, with **specific people** at your site, or with **everyone at this site**.
-- **Collection grouping** — Artifacts saved while chatting show the correct study collection when you group or filter by protocol.
+- **Scoped to your collection** — Artifacts always shows the active study collection's saved answers, in sync with the sidebar collection picker.
 
 ## Administration
 

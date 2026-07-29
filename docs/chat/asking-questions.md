@@ -26,9 +26,7 @@ Each chat is saved in the sidebar under your recent conversations. Click one to 
 
 ## Follow-up questions
 
-In the same conversation, you can ask short follow-up questions that build on your earlier messages—for example, after asking about inclusion criteria, you might ask *"What about exclusion criteria?"* or *"Is that allowed under ICH?"*
-
-Navigator uses recent turns in the thread to interpret follow-ups, so a short reply like *"is that allowed under ICH?"* is answered in the context of what you just asked rather than treated as a brand-new, unrelated question. For best results:
+In the same conversation, you can ask short follow-up questions that build on your earlier messages—for example, after asking about inclusion criteria, you might ask *"What about exclusion criteria?"* or *"Is that allowed under ICH?"* Navigator uses recent turns in the thread to interpret these, rather than treating them as brand-new, unrelated questions. For best results:
 
 - Stay in the **same conversation** when clarifying or drilling down.
 - Keep the **same study collection** selected unless you intentionally switch protocols.
@@ -39,7 +37,7 @@ Regulatory or governance follow-ups may pull regulatory sources in addition to y
 ## Tips for better answers
 
 - **Be specific** — mention visit numbers, procedures, or document types when you know them.
-- **One topic per message** — very long multi-part questions work better when broken into separate messages.
+- **One topic per message** — break long multi-part questions into separate messages.
 - **Pick the right collection** — answers primarily use documents uploaded to the selected study collection (plus regulatory sources when relevant).
 
 ## Feedback

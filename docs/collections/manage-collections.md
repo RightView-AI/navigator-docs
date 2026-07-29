@@ -16,30 +16,32 @@ Each row shows:
 | **Sponsor** | Sponsor organization name |
 | **Status** | Ready, Uploading/Creating, or Has amendments |
 | **Documents** | Number of current documents in the collection — a document you've amended still counts once, not twice |
-| **Actions** | **Manage collection** button |
+| **Actions** | **Manage** button |
 
 ## Status indicators
 
 - **Ready** (green) — all documents are processed and available for chat.
 - **Uploading / Creating** (spinner) — files are still being ingested. Chat may not include new content until this completes.
-- **Has amendments** (clock icon) — some documents have newer versions available. Review and upload updated PDFs as needed.
+- **Has amendments** (clock icon) — some documents have newer versions available. [Amend](/collections/upload-documents#amend-an-existing-document) the outdated ones as needed.
 
 ## Manage a collection
 
-Click **Manage collection** on a row to:
+Click **Manage** on a row to open the **Manage collection** dialog, with tabs for:
 
-- View all documents and their types
-- Upload additional PDFs
-- Remove outdated documents (site admins only for deletions)
+- **Documents** — view all documents and their types, upload additional files; site admins and admins can also amend, manage access, or delete existing documents
+- **Knowledge Base** — expert-verified Q&A pairs saved from chat for this collection (site admins and admins can delete entries)
+- **Collection Settings** (site admins and admins) — rename the collection and set [collection or document access](/collections/restrict-access)
+- **Delete** (site admins and admins) — delete the entire collection
 
 On narrow screens, scroll the table horizontally to reach all columns, including **Actions**.
 
 ## Rename a collection (site administrators)
 
-Site administrators and global administrators can rename a study collection’s **Protocol ID** from the Collections table:
+Site administrators and global administrators can rename a study collection's **Protocol ID** and sponsor name:
 
-1. In the **Protocol ID** column, click the **pencil** icon on the row.
-2. Enter the new identifier and click **Save**, or **Cancel** to keep the current name.
+1. Click **Manage** on the collection, then open the **Collection Settings** tab.
+2. Update the **Protocol ID** and/or **Sponsor name** fields.
+3. Click **Save**.
 
 Renaming updates the collection everywhere it appears, including chat and artifacts linked to that protocol. Choose the final protocol ID carefully so staff and reports stay consistent.
 
@@ -49,7 +51,7 @@ Once you're inside a study, the **study collection picker** in the sidebar shows
 
 ## Switching sites (admins)
 
-If you are a global admin with access to multiple sites, use the **site selector** in the Collections header to switch which site's collections you are viewing.
+Global administrators view collections for their own platform account by default. To view or manage another site's collections, use **Admin view → Site admin** to preview that site — see [Preview site and sponsor views](/admin/preview-other-roles).
 
 ## Best practices
 
@@ -60,3 +62,4 @@ If you are a global admin with access to multiple sites, use the **site selector
 ## Related guides
 
 - [Restrict collection and document access](/collections/restrict-access) — limit who can use a collection or specific documents (site administrators)
+- [Amend an existing document](/collections/upload-documents#amend-an-existing-document) — replace an outdated document with a new version

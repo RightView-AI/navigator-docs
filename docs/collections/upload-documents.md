@@ -49,11 +49,23 @@ You can change access later from **Manage → Collection Settings** on the colle
 ## Add documents to an existing collection
 
 1. Go to **Collections**.
-2. Find the protocol row and click **Manage collection**.
+2. Find the protocol row and click **Manage**.
 3. Upload additional files and assign document types.
 4. Wait until the collection shows **Ready** before asking questions about the new content in chat.
 
 **One document per category:** each document type can only have one active document in a collection at a time — you can't upload a second, different file under a category that's already in use. If a document needs updating, use **Amend** on the existing one instead of uploading a new file under the same type.
+
+## Amend an existing document
+
+Use **Amend** when a document has changed — a new protocol version, a corrected lab manual, and so on — rather than uploading a new file under the same document type.
+
+1. Open **Manage** on the collection and go to the **Documents** tab.
+2. Find the current document and click **Amend**.
+3. Choose the corrected file.
+
+The new file becomes the current version; the old one is kept as history (marked **superseded**) and stays indexed, but chat answers prefer the current version's content. Sponsor-managed documents (marked with a lock) can't be amended or deleted from the site — only the sponsor can update those.
+
+Amending a document does not automatically rebuild its Schedule of Assessments — ask the assistant in chat to rebuild it after the amended file finishes processing. See [Protocol amendments](/visits/overview#protocol-amendments).
 
 ## Document types
 

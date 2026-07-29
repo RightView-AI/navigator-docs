@@ -14,14 +14,15 @@ For any chat response, you can open a **Sources** sidebar that lists every docum
 
 ## Source groups
 
-Sources are organized into collapsible sections:
+Sources are organized into collapsible sections, shown only when relevant to that answer:
 
 | Group | Description |
 | --- | --- |
-| **Trial documents** | Citations from files in your study collection (PDF, Office, images, and other supported formats) |
-| **External search** | Web or PubMed results referenced in the answer |
-| **Governance / regulatory** | Regulatory or policy documents when applicable |
-| **PI verified** | Content confirmed by a Principal Investigator |
+| **PI Verified** | Content confirmed by a Principal Investigator |
+| **Regulatory** | Governance or regulatory documents cited alongside your study documents |
+| **EHR** | Data looked up directly from a connected EHR system |
+| **PubMed** | External PubMed search results referenced in the answer |
+| **Document type groups** (for example Protocol Document, Lab Manual) | Citations from files in your study collection, grouped by document type |
 
 Click a section header to expand or collapse it. Each item shows a short excerpt; click an item to jump to the full preview.
 
