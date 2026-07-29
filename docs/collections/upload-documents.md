@@ -93,7 +93,7 @@ When you open a citation, Navigator shows the relevant excerpt. **PDF** sources 
 | --- | --- |
 | Upload fails | Confirm the file type is supported and within your organization’s size limits. |
 | Collection stuck on "Creating" | Wait a few minutes, then refresh. Contact support if it persists. |
-| Chat cannot find new content | Ensure you selected the correct collection in the chat header and that status shows **Ready**. |
+| Chat cannot find new content | Ensure you selected the correct collection in the sidebar's **Study collection** picker and that status shows **Ready**. |
 | Wrong file type rejected | Check the table above; rename the extension if the file was saved in an unsupported format. |
 
 ## Related guides

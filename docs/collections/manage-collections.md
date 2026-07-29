@@ -47,7 +47,7 @@ Renaming updates the collection everywhere it appears, including chat and artifa
 
 ## The study collection picker
 
-Once you're inside a study, the **study collection picker** in the sidebar shows which protocol you're currently working in and lets you switch. It scopes more than chat: **Contacts**, **Visits**, and **Artifacts** all follow whichever collection is active in the picker, so switching protocols there switches your view everywhere else in the app too.
+Near the top of the sidebar, the **Study collection** dropdown shows which protocol you're currently working in and lets you switch. It scopes more than chat: **Contacts**, **Visits**, and **Artifacts** all follow whichever collection is active there, so switching protocols there switches your view everywhere else in the app too.
 
 ## Switching sites (admins)
 

@@ -9,7 +9,7 @@ Chat is the core of Navigator. You ask a question in plain language, and Navigat
 ## Before you start
 
 1. Sign in at [sites.rightview.ai](https://sites.rightview.ai).
-2. In the chat header, select the **study collection** (protocol) you want to query.
+2. In the sidebar, use the **Study collection** picker to select the protocol you want to query. The page title above chat shows which one is active.
 3. If no collections appear, ask your site admin to create one or see [Upload documents](/collections/upload-documents).
 
 ## Send a question

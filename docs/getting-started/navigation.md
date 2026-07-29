@@ -6,6 +6,10 @@ sidebar_position: 2
 
 After signing in, you land on the main **Chat** view. A sidebar on the left gives you access to the rest of Navigator.
 
+## Study collection picker
+
+Near the top of the sidebar, a **Study collection** dropdown sets which protocol you're working in. It scopes more than chat — Contacts, Visits, and Artifacts all follow whichever collection is active there. See [The study collection picker](/collections/manage-collections#the-study-collection-picker).
+
 ## Sidebar overview
 
 | Item | What it does |
@@ -23,7 +27,7 @@ Change your password or sign out from your account menu at the bottom of the sid
 
 ## Chat header
 
-At the top of the chat view, you will see **"You're chatting with"** followed by a **study collection selector**. Choose the protocol you want to ask questions about before sending a message. Answers are scoped to documents in that collection.
+At the top of the chat view, the page title shows which study collection is active (or **"No study collections yet"** if none exist). This is read-only — switch collections from the **Study collection** picker in the sidebar, not from the header.
 
 ## Mobile layout
 

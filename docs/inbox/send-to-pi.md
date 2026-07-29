@@ -10,7 +10,7 @@ Navigator lets you send a chat response to a **Principal Investigator (PI)** by 
 
 1. Add PI contacts for the protocol — see [PI contacts](/contacts/pi-contacts).
 2. Complete a chat response you want to share.
-3. Ensure the correct study collection is selected in the chat header.
+3. Ensure the correct study collection is selected in the sidebar's **Study collection** picker.
 
 ## Send to PI
 
