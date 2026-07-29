@@ -109,3 +109,17 @@ A history of Navigator releases. This page covers user-facing changes only — f
 - Manage PI contacts per protocol.
 - Automatic detection of medical terms to improve answer relevance.
 - Secure, multi-tenant sign-in scoped to your organization.
+
+## What's coming
+
+**Last updated: July 29, 2026**
+
+A look at the ideas and themes the team is currently working on for a future release. This isn't a commitment or a release date — priorities can shift, and this section is rewritten as plans evolve.
+
+- **Quality checks on uploaded source material** — a new way to catch issues in scanned or photographed source documents before they cause problems downstream.
+- **Usage visibility for site administrators** — a clearer picture of how much of your site's capacity is in use, so you know where you stand before you hit a limit.
+- **Self-service teammate invites** — site administrators inviting new teammates directly, without waiting on a platform administrator.
+- **Clearer amendment changes** — an easier way to see exactly what changed when a protocol is amended, instead of having to compare documents by hand.
+- **PI escalation status at a glance** — the age and status of questions you've sent to a PI, visible right in the sidebar.
+- **Continued speed and reliability work** — ongoing improvements to how quickly and consistently Navigator responds across chat and document processing.
+- **Stronger account security** — further hardening of password and account-recovery flows.

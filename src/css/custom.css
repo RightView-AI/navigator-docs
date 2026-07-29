@@ -148,6 +148,54 @@ body {
   box-shadow: 0 4px 18px rgba(15, 118, 110, 0.28);
 }
 
+/* ── Search (left-aligned, made obviously present) ─────────────────────────── */
+
+.navbar-search-prominent {
+  margin-right: 0.75rem;
+}
+
+.navbar-search-prominent .navbar__search-input {
+  width: 15rem;
+  padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 118, 110, 0.25);
+  background-color: rgba(15, 118, 110, 0.06);
+  background-position: 0.75rem center;
+  font-size: 0.875rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.navbar-search-prominent .navbar__search-input:hover {
+  border-color: rgba(15, 118, 110, 0.45);
+  background-color: rgba(15, 118, 110, 0.1);
+}
+
+.navbar-search-prominent .navbar__search-input:focus {
+  width: 18rem;
+  border-color: var(--rv-teal);
+  background-color: var(--rv-surface-elevated);
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
+}
+
+[data-theme='dark'] .navbar-search-prominent .navbar__search-input {
+  border-color: rgba(45, 212, 191, 0.3);
+  background-color: rgba(45, 212, 191, 0.08);
+}
+
+[data-theme='dark'] .navbar-search-prominent .navbar__search-input:focus {
+  background-color: var(--rv-surface-elevated);
+}
+
+@media (max-width: 996px) {
+  .navbar-search-prominent .navbar__search-input {
+    width: 9rem;
+  }
+
+  .navbar-search-prominent .navbar__search-input:focus {
+    width: 11rem;
+  }
+}
+
 /* ── Sidebar ────────────────────────────────────────────────────────────── */
 
 .theme-doc-sidebar-container {

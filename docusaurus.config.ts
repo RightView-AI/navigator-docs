@@ -66,6 +66,11 @@ const config: Config = {
       },
       items: [
         {
+          type: 'search',
+          position: 'left',
+          className: 'navbar-search-prominent',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'userGuideSidebar',
           position: 'left',

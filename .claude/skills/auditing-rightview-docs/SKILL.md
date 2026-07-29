@@ -139,6 +139,49 @@ npm run build
 Run this after every batch of edits, not just once at the end — it's cheap and
 catches mistakes before they compound.
 
+## Step 6 — Rewrite "What's coming" from the active Linear milestone
+
+`docs/changelog.md` ends with a **What's coming** section, right below the version
+history. Rewrite it fully every time you run this audit — it is not a running log,
+it has no history, and old bullets from a prior pass should not survive into the new
+one. Update the **"Last updated: <Month DD, YYYY>"** line under the heading to the
+current date every time, even if nothing else changed — it's the reader's signal
+for how stale this section might be.
+
+Source material: the Linear "Navigator" project's **currently active milestone**
+(check project memory / the QA checklist parent for which milestone that is — at
+last check it was v1.1.0, resolved the same way `predevelop-qa-checklist` resolves
+its active parent, not hardcoded). Pull issues for that milestone:
+
+```
+list_issues(project: "Navigator", fields: ["title", "status", "statusType", "projectMilestone", "labels"], limit: 100)
+```
+
+paginate with `cursor` until `hasNextPage` is false, then filter to that milestone's
+issues excluding `Done` / `Canceled` / `Duplicate` status and excluding the `Testing`
+label (those are QA verify tickets, not features). Group what's left by theme —
+several tickets are usually sub-tasks of one user-facing idea (e.g. seven separate
+"Source Quality Control" tickets are one theme: automated checks on uploaded source
+documents). Write one bullet per theme, not per ticket.
+
+**Language rules specific to this section** (stricter than the rest of the site):
+
+- **Zero technical detail.** No ticket IDs, no field/model/service names, no
+  "gated on a module flag", no CTMS/API/schema language. If a ticket is about
+  moving data to per-site Mongo collections, the reader-facing idea is nothing —
+  skip pure-infrastructure tickets entirely (perf, dependency health, logging,
+  internal migrations). Only include a theme if a business user would recognize
+  it as something that changes their day.
+- **Broad ideas, not feature specs.** "A clearer picture of how much of your
+  site's capacity is in use" — not "a capacity meter component with three
+  threshold states."
+- Explicitly non-committal: keep the framing line ("not a commitment or a release
+  date, rewritten as plans evolve") — priorities shift and this section must never
+  read as a promise.
+
+After rewriting, rebuild (`npm run build`) — this section is prose only, no links
+usually, but check for stray curly braces from ticket titles copied in verbatim.
+
 ## Search
 
 This site has no search by default. If asked to add search, prefer
