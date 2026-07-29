@@ -28,16 +28,16 @@ Each row shows:
 
 Click **Manage** on a row to open the **Manage collection** dialog, with tabs for:
 
-- **Documents** — view all documents and their types, upload additional files; site admins and admins can also amend, manage access, or delete existing documents
-- **Knowledge Base** — expert-verified Q&A pairs saved from chat for this collection (site admins and admins can delete entries)
-- **Collection Settings** (site admins and admins) — rename the collection and set [collection or document access](/collections/restrict-access)
-- **Delete** (site admins and admins) — delete the entire collection
+- **Documents** — view all documents and their types, upload additional files; site admins can also amend, manage access, or delete existing documents
+- **Knowledge Base** — expert-verified Q&A pairs saved from chat for this collection (site admins can delete entries)
+- **Collection Settings** (site admins) — rename the collection and set [collection or document access](/collections/restrict-access)
+- **Delete** (site admins) — delete the entire collection
 
 On narrow screens, scroll the table horizontally to reach all columns, including **Actions**.
 
 ## Rename a collection (site administrators)
 
-Site administrators and global administrators can rename a study collection's **Protocol ID** and sponsor name:
+Site administrators can rename a study collection's **Protocol ID** and sponsor name:
 
 1. Click **Manage** on the collection, then open the **Collection Settings** tab.
 2. Update the **Protocol ID** and/or **Sponsor name** fields.
@@ -48,10 +48,6 @@ Renaming updates the collection everywhere it appears, including chat and artifa
 ## The study collection picker
 
 Near the top of the sidebar, the **Study collection** dropdown shows which protocol you're currently working in and lets you switch. It scopes more than chat: **Contacts**, **Visits**, and **Artifacts** all follow whichever collection is active there, so switching protocols there switches your view everywhere else in the app too.
-
-## Switching sites (admins)
-
-Global administrators view collections for their own platform account by default. To view or manage another site's collections, use **Admin view → Site admin** in the sidebar to preview that site.
 
 ## Best practices
 

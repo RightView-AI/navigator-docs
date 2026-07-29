@@ -28,7 +28,7 @@ Either way, the result is saved as a **draft** — visits, study-day windows, an
 
 ## Approve a Schedule of Assessments
 
-Only **site administrators** (or global administrators) can edit or approve an SoA draft.
+Only **site administrators** can edit or approve an SoA draft.
 
 1. Open **Visits → Schedule of Assessments**.
 2. Review the extracted visits, windows, and procedures against the protocol. Edit any visit directly if something needs correcting.

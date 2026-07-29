@@ -6,7 +6,7 @@ sidebar_position: 2
 
 **Insights** (analytics) shows how your site uses Navigator. Collection and document access are managed separately, from each collection's **Manage** dialog — see [Restrict collection and document access](/collections/restrict-access).
 
-Global administrators can open **Insights** for any site when not acting as a specific site admin. Sponsor administrators use **Insights** too, scoped to their sponsor.
+Sponsor administrators use **Insights** too, scoped to their sponsor.
 
 ## Open Insights
 
@@ -27,8 +27,6 @@ Results are generated on demand and may take a moment to load.
 ## Sponsor Insights
 
 Sponsor administrators see sponsor-scoped **Insights** and protocol lists. They do not upload documents or use chat in the main Navigator workspace.
-
-Global administrators can preview sponsor **Insights** using **Admin view → Sponsor admin** in the sidebar.
 
 ## Related guides
 

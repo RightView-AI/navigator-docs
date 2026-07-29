@@ -37,7 +37,6 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 - **Collection access** — Site administrators manage who can use a study collection, or specific documents in it, from **Manage → Collection Settings** on each collection. See [Restrict collection and document access](/collections/restrict-access).
 - **Insights** — Usage analytics and optional **LLM Subtopic Analysis** help site and sponsor administrators understand how teams use Navigator.
-- **Preview as site or sponsor admin** — Global administrators can switch **Admin view** in the sidebar to experience the app as a site or sponsor administrator.
 
 ## Sign-in and reliability
 

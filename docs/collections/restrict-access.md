@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Site administrators can limit who at your site can use a study collection in chat, upload to it, or see individual documents inside it. Use this when a protocol includes sensitive appendices or when only certain roles should work with specific files.
 
-Platform administrators and site administrators always have full visibility across collections at their site. Global administrators managing multiple sites should preview the target site first via **Admin view → Site admin** — see [Switching sites](/collections/manage-collections#switching-sites-admins).
+Site administrators always have full visibility across collections at their site.
 
 ## Open access settings
 
