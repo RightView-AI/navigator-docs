@@ -8,7 +8,7 @@ Navigator lets you send a chat response to a **Principal Investigator (PI)** by 
 
 ## Before you send
 
-1. Add PI contacts for the protocol — see [PI contacts](/contacts/pi-contacts).
+1. Add PI contacts for the protocol - see [PI contacts](/contacts/pi-contacts).
 2. Complete a chat response you want to share.
 3. Ensure the correct study collection is selected in the sidebar's **Study collection** picker.
 
@@ -19,7 +19,7 @@ Navigator lets you send a chat response to a **Principal Investigator (PI)** by 
 3. Optionally add a note or edit the message body.
 4. Click **Send**.
 
-Navigator sends the email through **research@rightview.ai**, with the sender's name shown in the "From" line — for example *"Jane Doe (Your Site) via Rightview"* — so the PI can see at a glance who actually sent it, not just that it came from Navigator.
+Navigator sends the email through **research@rightview.ai**, with the sender's name shown in the "From" line - for example *"Jane Doe (Your Site) via Rightview"* - so the PI can see at a glance who actually sent it, not just that it came from Navigator.
 
 ## Track in Inbox
 

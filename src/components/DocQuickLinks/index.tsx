@@ -34,9 +34,9 @@ const LINKS: QuickLink[] = [
     description: 'Follow-ups and study collection scope',
   },
   {
-    to: '/getting-started/sign-in',
-    label: 'Sign in',
-    description: 'Magic link, password, and session timeout',
+    to: '/getting-started/tips-and-tricks',
+    label: 'Tips & tricks',
+    description: 'Prompt help, PHI/PII, and upload timing',
   },
 ];
 

@@ -10,6 +10,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'getting-started/sign-in',
         'getting-started/navigation',
+        'getting-started/tips-and-tricks',
         'getting-started/whats-new',
       ],
     },

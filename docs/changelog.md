@@ -5,22 +5,22 @@ title: Changelog
 
 # Changelog
 
-A history of Navigator releases. This page covers user-facing changes only — for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements.
+A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements.
 
-## v1.0.9 — July 2026
+## v1.0.9 - July 2026
 
 **Conversational memory & reliability**
 
-- Multi-turn conversations are more reliable — follow-up questions are answered on their own, without Navigator re-answering everything asked earlier in the thread.
+- Multi-turn conversations are more reliable - follow-up questions are answered on their own, without Navigator re-answering everything asked earlier in the thread.
 - A live reasoning view now streams while an answer is generating, with visible step-by-step progress instead of a plain spinner.
 - New **Visits** section: every site can view a protocol's Schedule of Assessments; sites with a connected clinical trial or EMR system also get patient progress against it.
 - Redesigned study collection picker that consistently scopes Contacts, Visits, and Artifacts to whichever protocol is active.
-- Collections now prevent uploading two different documents under the same document type by mistake — use **Amend** to update an existing one instead.
+- Collections now prevent uploading two different documents under the same document type by mistake - use **Amend** to update an existing one instead.
 - Emails sent through **Send to PI** now show your name as the sender.
 - Self-service password reset directly on the login page when a password has expired or a reset is required.
 - Numerous fixes to citation rendering, chat reliability, and document upload edge cases.
 
-## v1.0.8 — June 2026
+## v1.0.8 - June 2026
 
 **Security & compliance hardening**
 
@@ -30,18 +30,18 @@ A history of Navigator releases. This page covers user-facing changes only — f
 - Chat-based approval workflow for updates to connected trial/EMR systems.
 - Various reliability fixes across document search and administrator views.
 
-## v1.0.7 — June 2026
+## v1.0.7 - June 2026
 
 **Admin experience & governance citations**
 
 - Unified, consistent experience across platform, site, and sponsor administrator views.
-- Per-document access control — site administrators can restrict individual documents, not just whole collections.
+- Per-document access control - site administrators can restrict individual documents, not just whole collections.
 - Flexible artifact sharing: keep an answer private, share with specific people, or share with everyone at your site.
 - Regulatory and governance citations now appear alongside protocol citations in chat answers.
 - Broader file type support for uploads.
 - Chat history reliability and analytics accuracy improvements.
 
-## v1.0.6 — May 2026
+## v1.0.6 - May 2026
 
 **Speed & quality-of-life**
 
@@ -50,27 +50,27 @@ A history of Navigator releases. This page covers user-facing changes only — f
 - Improved password reset flow.
 - Clearer labels for sign-in options.
 
-## v1.0.5 — May 2026
+## v1.0.5 - May 2026
 
 **Skills-based answers & EHR lookups**
 
-- Purpose-built handling for common question types — eligibility, adverse event reporting, and protocol deviations get more targeted answers.
+- Purpose-built handling for common question types - eligibility, adverse event reporting, and protocol deviations get more targeted answers.
 - EHR lookups directly from chat, reducing the need to switch between systems.
 - Support for querying specific protocol amendment versions.
 - Data export for site administrators.
 - Redesigned sidebar and a smoother overall chat experience.
 
-## v1.0.4 — April 2026
+## v1.0.4 - April 2026
 
 **Analytics dashboard & real-time progress**
 
 - New analytics dashboard with usage drill-downs by site and protocol.
 - Real-time, step-by-step progress shown while an answer is generating.
-- Document versioning — upload an amendment and it becomes the current version automatically.
+- Document versioning - upload an amendment and it becomes the current version automatically.
 - Password sign-in added alongside magic-link sign-in.
 - Performance improvements that eliminate cold-start delays on the first question of the day.
 
-## v1.0.3 — April 2026
+## v1.0.3 - April 2026
 
 **Governance citations & sponsor analytics**
 
@@ -80,7 +80,7 @@ A history of Navigator releases. This page covers user-facing changes only — f
 - "Protocol Collections" renamed to "Study Collections" throughout the app.
 - Performance and reliability improvements to chat.
 
-## v1.0.2 — March 2026
+## v1.0.2 - March 2026
 
 **Compliance, audit & artifacts**
 
@@ -89,9 +89,9 @@ A history of Navigator releases. This page covers user-facing changes only — f
 - Account suspension capability for administrators.
 - Terms-of-use acceptance flow.
 - Tamper-evident audit log with CSV export.
-- Artifact sharing with attribution — see who shared an answer and when.
+- Artifact sharing with attribution - see who shared an answer and when.
 
-## v1.0.1 — February 2026
+## v1.0.1 - February 2026
 
 - PI-verified responses can automatically answer similar future questions, reducing repeat escalations.
 - Distinct citation styling for PI-verified answers.
@@ -99,7 +99,7 @@ A history of Navigator releases. This page covers user-facing changes only — f
 - Improved document ingestion.
 - PDF previews with the relevant passage highlighted.
 
-## v1.0.0 — February 2026
+## v1.0.0 - February 2026
 
 **Initial release**
 
@@ -114,12 +114,12 @@ A history of Navigator releases. This page covers user-facing changes only — f
 
 **Last updated: July 29, 2026**
 
-A look at the ideas and themes the team is currently working on for a future release. This isn't a commitment or a release date — priorities can shift, and this section is rewritten as plans evolve.
+A look at the ideas and themes the team is currently working on for a future release. This isn't a commitment or a release date - priorities can shift, and this section is rewritten as plans evolve.
 
-- **Quality checks on uploaded source material** — a new way to catch issues in scanned or photographed source documents before they cause problems downstream.
-- **Usage visibility for site administrators** — a clearer picture of how much of your site's capacity is in use, so you know where you stand before you hit a limit.
-- **Self-service teammate invites** — site administrators inviting new teammates directly, without waiting on a platform administrator.
-- **Clearer amendment changes** — an easier way to see exactly what changed when a protocol is amended, instead of having to compare documents by hand.
-- **PI escalation status at a glance** — the age and status of questions you've sent to a PI, visible right in the sidebar.
-- **Continued speed and reliability work** — ongoing improvements to how quickly and consistently Navigator responds across chat and document processing.
-- **Stronger account security** — further hardening of password and account-recovery flows.
+- **Quality checks on uploaded source material** - a new way to catch issues in scanned or photographed source documents before they cause problems downstream.
+- **Usage visibility for site administrators** - a clearer picture of how much of your site's capacity is in use, so you know where you stand before you hit a limit.
+- **Self-service teammate invites** - site administrators inviting new teammates directly, without waiting on a platform administrator.
+- **Clearer amendment changes** - an easier way to see exactly what changed when a protocol is amended, instead of having to compare documents by hand.
+- **PI escalation status at a glance** - the age and status of questions you've sent to a PI, visible right in the sidebar.
+- **Continued speed and reliability work** - ongoing improvements to how quickly and consistently Navigator responds across chat and document processing.
+- **Stronger account security** - further hardening of password and account-recovery flows.

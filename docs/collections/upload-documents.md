@@ -33,9 +33,9 @@ A single study collection can include PDFs and Office files together. You do not
 1. Open **Collections** from the sidebar.
 2. Click **Create new**.
 3. Fill in the form:
-   - **Protocol ID** (required) — for example `PROTO-2024-001`
-   - **Sponsor Name** (required) — the study sponsor
-   - **Files** (required) — drag and drop or browse; you can select multiple files at once
+   - **Protocol ID** (required) - for example `PROTO-2024-001`
+   - **Sponsor Name** (required) - the study sponsor
+   - **Files** (required) - drag and drop or browse; you can select multiple files at once
 4. For each file, enter a **document type**.
 5. If you are a **site administrator**, choose **Collection access** on the next step:
    - **All site users**, or
@@ -53,19 +53,19 @@ You can change access later from **Manage → Collection Settings** on the colle
 3. Upload additional files and assign document types.
 4. Wait until the collection shows **Ready** before asking questions about the new content in chat.
 
-**One document per category:** each document type can only have one active document in a collection at a time — you can't upload a second, different file under a category that's already in use. If a document needs updating, use **Amend** on the existing one instead of uploading a new file under the same type.
+**One document per category:** each document type can only have one active document in a collection at a time - you can't upload a second, different file under a category that's already in use. If a document needs updating, use **Amend** on the existing one instead of uploading a new file under the same type.
 
 ## Amend an existing document
 
-Use **Amend** when a document has changed — a new protocol version, a corrected lab manual, and so on — rather than uploading a new file under the same document type.
+Use **Amend** when a document has changed - a new protocol version, a corrected lab manual, and so on - rather than uploading a new file under the same document type.
 
 1. Open **Manage** on the collection and go to the **Documents** tab.
 2. Find the current document and click **Amend**.
 3. Choose the corrected file.
 
-The new file becomes the current version; the old one is kept as history (marked **superseded**) and stays indexed, but chat answers prefer the current version's content. Sponsor-managed documents (marked with a lock) can't be amended or deleted from the site — only the sponsor can update those.
+The new file becomes the current version; the old one is kept as history (marked **superseded**) and stays indexed, but chat answers prefer the current version's content. Sponsor-managed documents (marked with a lock) can't be amended or deleted from the site - only the sponsor can update those.
 
-Amending a document does not automatically rebuild its Schedule of Assessments — ask the assistant in chat to rebuild it after the amended file finishes processing. See [Protocol amendments](/visits/overview#protocol-amendments).
+Amending a document does not automatically rebuild its Schedule of Assessments - ask the assistant in chat to rebuild it after the amended file finishes processing. See [Protocol amendments](/visits/overview#protocol-amendments).
 
 ## Document types
 
@@ -81,7 +81,7 @@ Use descriptive, consistent names across your site so citations are easy to read
 
 ## Processing time
 
-Large files or collections with many documents may take a few minutes to process. You can leave the Collections page and return later; refresh if the status has not updated.
+Large files or collections with many documents may take a few minutes to process. Navigator checks status automatically, so you can leave the Collections page and return later without refreshing - the row updates from **Creating**/**Uploading** to **Ready** on its own. See [Tips & tricks](/getting-started/tips-and-tricks#uploads-take-a-few-minutes---you-dont-need-to-refresh).
 
 ## Source preview in chat
 
@@ -92,11 +92,12 @@ When you open a citation, Navigator shows the relevant excerpt. **PDF** sources 
 | Issue | What to try |
 | --- | --- |
 | Upload fails | Confirm the file type is supported and within your organization’s size limits. |
-| Collection stuck on "Creating" | Wait a few minutes, then refresh. Contact support if it persists. |
+| Collection stuck on "Creating" | Status updates automatically; wait a few minutes. If it's still stuck after an unusually long time, refresh the page, then contact support if it persists. |
 | Chat cannot find new content | Ensure you selected the correct collection in the sidebar's **Study collection** picker and that status shows **Ready**. |
 | Wrong file type rejected | Check the table above; rename the extension if the file was saved in an unsupported format. |
 
 ## Related guides
 
-- [Manage collections](/collections/manage-collections) — status, rename, amendments
+- [Manage collections](/collections/manage-collections) - status, rename, amendments
 - [Restrict collection and document access](/collections/restrict-access)
+- [Tips & tricks](/getting-started/tips-and-tricks)

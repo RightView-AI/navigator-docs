@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Insights for site administrators
 
-**Insights** (analytics) shows how your site uses Navigator. Collection and document access are managed separately, from each collection's **Manage** dialog — see [Restrict collection and document access](/collections/restrict-access).
+**Insights** (analytics) shows how your site uses Navigator. Collection and document access are managed separately, from each collection's **Manage** dialog - see [Restrict collection and document access](/collections/restrict-access).
 
 Sponsor administrators use **Insights** too, scoped to their sponsor.
 

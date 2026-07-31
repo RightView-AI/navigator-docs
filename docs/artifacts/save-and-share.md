@@ -19,10 +19,10 @@ The artifact is saved to your personal library and linked to the conversation it
 
 Open **Artifacts** from the sidebar. Use the tabs at the top:
 
-- **My Artifacts** — responses and notes you saved
-- **Shared with Site** — artifacts others have shared with you (whole site or by name)
+- **My Artifacts** - responses and notes you saved
+- **Shared with Site** - artifacts others have shared with you (whole site or by name)
 
-Artifacts are scoped to whichever study collection is active in the sidebar picker, the same as Contacts and Visits — switch collections there to see a different protocol's artifacts. Use the search bar to find artifacts by title within the current collection.
+Artifacts are scoped to whichever study collection is active in the sidebar picker, the same as Contacts and Visits - switch collections there to see a different protocol's artifacts. Use the search bar to find artifacts by title within the current collection.
 
 ## Share an artifact
 
@@ -31,9 +31,9 @@ Only the person who created an artifact can change sharing. Medical monitors and
 1. Open an artifact you own (from the list or detail view).
 2. Click **Share**.
 3. Choose who can see it:
-   - **Private** — only you (default for new saves)
-   - **Specific people** — check colleagues at your site, then **Save**
-   - **Everyone at this site** — visible under **Shared with Site** for all site users
+   - **Private** - only you (default for new saves)
+   - **Specific people** - check colleagues at your site, then **Save**
+   - **Everyone at this site** - visible under **Shared with Site** for all site users
 4. Click **Save** to apply.
 
 Shared artifacts show a **Shared** indicator and, when available, who shared them and when. You can open **Share** again anytime to narrow access, add people, or make an artifact private.
@@ -42,8 +42,8 @@ Site administrators can edit or delete any artifact visible at the site. Other u
 
 ## Edit or delete
 
-- **Edit** — update title or body content; changes are saved immediately.
-- **Delete** — permanently removes the artifact (your own, or any site artifact if you are a site admin).
+- **Edit** - update title or body content; changes are saved immediately.
+- **Delete** - permanently removes the artifact (your own, or any site artifact if you are a site admin).
 
 ## Download
 

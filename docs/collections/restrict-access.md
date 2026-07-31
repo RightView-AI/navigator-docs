@@ -18,8 +18,8 @@ Site administrators always have full visibility across collections at their site
 
 Under **Collection access** in **Collection Settings**, choose one of:
 
-- **All site users** — anyone at the site can select this collection in chat and work with its documents.
-- **Specific users only** — check the users who should have access, then click **Save access**.
+- **All site users** - anyone at the site can select this collection in chat and work with its documents.
+- **Specific users only** - check the users who should have access, then click **Save access**.
 
 Users who are not on the list will not see the collection in chat or in collection lists. Changing collection access applies to the whole study collection unless you set a different rule on individual documents.
 

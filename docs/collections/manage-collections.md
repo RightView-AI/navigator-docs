@@ -15,23 +15,23 @@ Each row shows:
 | **Protocol ID** | Unique identifier for the study |
 | **Sponsor** | Sponsor organization name |
 | **Status** | Ready, Uploading/Creating, or Has amendments |
-| **Documents** | Number of current documents in the collection — a document you've amended still counts once, not twice |
+| **Documents** | Number of current documents in the collection - a document you've amended still counts once, not twice |
 | **Actions** | **Manage** button |
 
 ## Status indicators
 
-- **Ready** (green) — all documents are processed and available for chat.
-- **Uploading / Creating** (spinner) — files are still being ingested. Chat may not include new content until this completes.
-- **Has amendments** (clock icon) — some documents have newer versions available. [Amend](/collections/upload-documents#amend-an-existing-document) the outdated ones as needed.
+- **Ready** (green) - all documents are processed and available for chat.
+- **Uploading / Creating** (spinner) - files are still being ingested. Chat may not include new content until this completes.
+- **Has amendments** (clock icon) - some documents have newer versions available. [Amend](/collections/upload-documents#amend-an-existing-document) the outdated ones as needed.
 
 ## Manage a collection
 
 Click **Manage** on a row to open the **Manage collection** dialog, with tabs for:
 
-- **Documents** — view all documents and their types, upload additional files; site admins can also amend, manage access, or delete existing documents
-- **Knowledge Base** — expert-verified Q&A pairs saved from chat for this collection (site admins can delete entries)
-- **Collection Settings** (site admins) — rename the collection and set [collection or document access](/collections/restrict-access)
-- **Delete** (site admins) — delete the entire collection
+- **Documents** - view all documents and their types, upload additional files; site admins can also amend, manage access, or delete existing documents
+- **Knowledge Base** - expert-verified Q&A pairs saved from chat for this collection (site admins can delete entries)
+- **Collection Settings** (site admins) - rename the collection and set [collection or document access](/collections/restrict-access)
+- **Delete** (site admins) - delete the entire collection
 
 On narrow screens, scroll the table horizontally to reach all columns, including **Actions**.
 
@@ -51,11 +51,11 @@ Near the top of the sidebar, the **Study collection** dropdown shows which proto
 
 ## Best practices
 
-1. **Keep document types accurate** — citations display these labels to users.
-2. **Upload amendments promptly** — mark outdated protocol versions so staff know which content is current.
-3. **One collection per protocol** — avoid splitting the same protocol across multiple collections.
+1. **Keep document types accurate** - citations display these labels to users.
+2. **Upload amendments promptly** - mark outdated protocol versions so staff know which content is current.
+3. **One collection per protocol** - avoid splitting the same protocol across multiple collections.
 
 ## Related guides
 
-- [Restrict collection and document access](/collections/restrict-access) — limit who can use a collection or specific documents (site administrators)
-- [Amend an existing document](/collections/upload-documents#amend-an-existing-document) — replace an outdated document with a new version
+- [Restrict collection and document access](/collections/restrict-access) - limit who can use a collection or specific documents (site administrators)
+- [Amend an existing document](/collections/upload-documents#amend-an-existing-document) - replace an outdated document with a new version

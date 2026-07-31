@@ -12,9 +12,9 @@ In the answer text, citation numbers appear as small teal badges (for example `[
 
 Some answers also include:
 
-- **Globe icons** — external references (for example PubMed search results)
-- **Shield icons** — PI-verified content that a Principal Investigator has confirmed
-- **Regulatory badges** — governance or regulatory references (for example `[Reg-1]`), shown as small teal badges you can click to inspect
+- **Globe icons** - external references (for example PubMed search results)
+- **Shield icons** - PI-verified content that a Principal Investigator has confirmed
+- **Regulatory badges** - governance or regulatory references (for example `[Reg-1]`), shown as small teal badges you can click to inspect
 
 ## Citation list below the answer
 
@@ -30,9 +30,9 @@ Click any row to open the same preview panel.
 
 The preview panel slides in from the right and shows:
 
-1. **Document details** — document type and file name
-2. **Highlighted excerpt** — the relevant passage from the document
-3. **Document viewer** — for PDF sources, an in-app viewer may scroll to the cited page; other file types show the extracted passage Navigator used
+1. **Document details** - document type and file name
+2. **Highlighted excerpt** - the relevant passage from the document
+3. **Document viewer** - for PDF sources, an in-app viewer may scroll to the cited page; other file types show the extracted passage Navigator used
 
 Close the panel with the **X** button or by clicking outside it on larger screens.
 
@@ -46,5 +46,5 @@ When a citation is marked **PI Verified**, it means a Principal Investigator has
 
 ## Related guides
 
-- [View all sources](/chat/viewing-sources) — see every source grouped by document type
-- [Send to PI](/inbox/send-to-pi) — share an answer with a Principal Investigator
+- [View all sources](/chat/viewing-sources) - see every source grouped by document type
+- [Send to PI](/inbox/send-to-pi) - share an answer with a Principal Investigator

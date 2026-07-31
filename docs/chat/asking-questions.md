@@ -18,7 +18,7 @@ Chat is the core of Navigator. You ask a question in plain language, and Navigat
 2. Type your question, for example: *What are the inclusion criteria for Visit 2?*
 3. Press **Enter** or click the send button.
 
-While Navigator prepares your answer, a **Thinking** panel streams its progress live — see [View Flow](/chat/view-flow) for what that looks like.
+While Navigator prepares your answer, a **Thinking** panel streams its progress live - see [View Flow](/chat/view-flow) for what that looks like.
 
 ## Past conversations
 
@@ -26,7 +26,7 @@ Each chat is saved in the sidebar under your recent conversations. Click one to 
 
 ## Follow-up questions
 
-In the same conversation, you can ask short follow-up questions that build on your earlier messages—for example, after asking about inclusion criteria, you might ask *"What about exclusion criteria?"* or *"Is that allowed under ICH?"* Navigator uses recent turns in the thread to interpret these, rather than treating them as brand-new, unrelated questions. For best results:
+In the same conversation, you can ask short follow-up questions that build on your earlier messages - for example, after asking about inclusion criteria, you might ask *"What about exclusion criteria?"* or *"Is that allowed under ICH?"* Navigator uses recent turns in the thread to interpret these, rather than treating them as brand-new, unrelated questions. For best results:
 
 - Stay in the **same conversation** when clarifying or drilling down.
 - Keep the **same study collection** selected unless you intentionally switch protocols.
@@ -36,9 +36,9 @@ Regulatory or governance follow-ups may pull regulatory sources in addition to y
 
 ## Tips for better answers
 
-- **Be specific** — mention visit numbers, procedures, or document types when you know them.
-- **One topic per message** — break long multi-part questions into separate messages.
-- **Pick the right collection** — answers primarily use documents uploaded to the selected study collection (plus regulatory sources when relevant).
+- **Be specific** - mention visit numbers, procedures, or document types when you know them.
+- **One topic per message** - break long multi-part questions into separate messages.
+- **Pick the right collection** - answers primarily use documents uploaded to the selected study collection (plus regulatory sources when relevant).
 
 ## Feedback
 
@@ -46,7 +46,8 @@ After a response finishes, you can use the **thumbs up / thumbs down** buttons t
 
 ## Related guides
 
-- [View citations](/chat/viewing-citations) — open numbered references in the answer
-- [View all sources](/chat/viewing-sources) — browse every source used for a response
-- [View Flow](/chat/view-flow) — see how Navigator built the answer
-- [Save as artifact](/artifacts/save-and-share) — keep a useful answer for later
+- [View citations](/chat/viewing-citations) - open numbered references in the answer
+- [View all sources](/chat/viewing-sources) - browse every source used for a response
+- [View Flow](/chat/view-flow) - see how Navigator built the answer
+- [Save as artifact](/artifacts/save-and-share) - keep a useful answer for later
+- [Tips & tricks](/getting-started/tips-and-tricks) - more prompt tips and general guidance
