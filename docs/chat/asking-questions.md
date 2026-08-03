@@ -18,7 +18,7 @@ Chat is the core of Navigator. You ask a question in plain language, and Navigat
 2. Type your question, for example: *What are the inclusion criteria for Visit 2?*
 3. Press **Enter** or click the send button.
 
-While Navigator prepares your answer, a **Thinking** panel streams its progress live - see [View Flow](/chat/view-flow) for what that looks like.
+While Navigator prepares your answer, a **Thinking** panel streams its progress live - see [View Flow](/chat/view-flow) for what that looks like. Click the same button again (now showing stop) to end the response early if you don't need the rest.
 
 ## Past conversations
 
@@ -39,10 +39,6 @@ Regulatory or governance follow-ups may pull regulatory sources in addition to y
 - **Be specific** - mention visit numbers, procedures, or document types when you know them.
 - **One topic per message** - break long multi-part questions into separate messages.
 - **Pick the right collection** - answers primarily use documents uploaded to the selected study collection (plus regulatory sources when relevant).
-
-## Feedback
-
-After a response finishes, you can use the **thumbs up / thumbs down** buttons to rate the answer.
 
 ## Related guides
 

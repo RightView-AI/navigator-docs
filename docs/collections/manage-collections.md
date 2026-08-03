@@ -14,7 +14,7 @@ Each row shows:
 | --- | --- |
 | **Protocol ID** | Unique identifier for the study |
 | **Sponsor** | Sponsor organization name |
-| **Status** | Ready, Uploading/Creating, or Has amendments |
+| **Status** | Ready, Uploading/Creating, Has amendments, or Failed |
 | **Documents** | Number of current documents in the collection - a document you've amended still counts once, not twice |
 | **Actions** | **Manage** button |
 
@@ -23,6 +23,7 @@ Each row shows:
 - **Ready** (green) - all documents are processed and available for chat.
 - **Uploading / Creating** (spinner) - files are still being ingested. Chat may not include new content until this completes.
 - **Has amendments** (clock icon) - some documents have newer versions available. [Amend](/collections/upload-documents#amend-an-existing-document) the outdated ones as needed.
+- **Failed** (red) - the upload didn't complete. Click **Dismiss** to clear the row, or **Manage** to see what went through and retry the rest.
 
 ## Manage a collection
 
@@ -47,7 +48,7 @@ Renaming updates the collection everywhere it appears, including chat and artifa
 
 ## The study collection picker
 
-Near the top of the sidebar, the **Study collection** dropdown shows which protocol you're currently working in and lets you switch. It scopes more than chat: **Contacts**, **Visits**, and **Artifacts** all follow whichever collection is active there, so switching protocols there switches your view everywhere else in the app too.
+Near the top of the sidebar, the **Study collection** dropdown shows which protocol you're currently working in and lets you switch. It scopes more than chat: **Users** (external contacts), **Visits**, and **Artifacts** all follow whichever collection is active there, so switching protocols there switches your view everywhere else in the app too.
 
 ## Best practices
 

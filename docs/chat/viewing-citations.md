@@ -8,23 +8,14 @@ Every chat answer includes **numbered citations** that point to the exact passag
 
 ## Inline citation badges
 
-In the answer text, citation numbers appear as small teal badges (for example `[1]`, `[2]`). Click a badge to open the **source preview** panel on the right side of the screen.
+In the answer text, citation numbers appear as small badges with a colored dot. Click a badge to open the **source preview** panel on the right side of the screen. The color tells you the source type:
 
-Some answers also include:
+- **Gray** - a passage from your study documents
+- **Green** - PI-verified content a Principal Investigator has confirmed
+- **Blue** - an external reference, for example a PubMed search result
+- **Amber** - a governance or regulatory reference (for example `[Reg-1]`)
 
-- **Globe icons** - external references (for example PubMed search results)
-- **Shield icons** - PI-verified content that a Principal Investigator has confirmed
-- **Regulatory badges** - governance or regulatory references (for example `[Reg-1]`), shown as small teal badges you can click to inspect
-
-## Citation list below the answer
-
-Scroll below the answer to see a full list of citations. Each row shows:
-
-- Citation number
-- Document type (for example Protocol Document, Lab Manual)
-- Page number (when available)
-
-Click any row to open the same preview panel.
+A badge covering more than one type shows overlapping dots; click it to open the full sources panel instead of a single preview.
 
 ## Source preview panel
 
@@ -42,7 +33,7 @@ Use the **Copy** button on a message to copy the full answer text including cita
 
 ## PI-verified citations
 
-When a citation is marked **PI Verified**, it means a Principal Investigator has reviewed and confirmed that content. These appear with a green shield icon instead of a number.
+When a citation is marked **PI Verified**, it means a Principal Investigator has reviewed and confirmed that content. These show with a green dot instead of gray.
 
 ## Related guides
 

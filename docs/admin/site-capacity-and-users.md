@@ -9,7 +9,7 @@ Site administrators can invite new teammates and see how their site's usage comp
 
 ## Invite a teammate
 
-1. Open **Users** in the sidebar.
+1. Open **Users** in the sidebar, on the **Site users** tab.
 2. Enter the new teammate's **email** (required) and **name** (optional).
 3. If your site has any restricted collections, optionally check the ones this person should have access to right away - unrestricted collections are already visible to everyone at your site.
 4. Click **Add user**.
@@ -18,7 +18,7 @@ The new teammate receives a magic-link email to set their password and sign in. 
 
 ## Site capacity
 
-A capacity meter at the top of the **Users** page shows how many users your site has against its limit. The same kind of meter appears on **Collections** for document and collection limits.
+A capacity meter at the top of the **Users** page (Site users tab) shows how many users your site has against its limit. **Collections** shows the same kind of usage count for study collections, and each collection's document count is visible in the collections table.
 
 - Meters show usage as you approach the limit so you know where you stand before you hit it.
 - If your site is at its user limit, **Add user** is disabled and Navigator shows who to contact to request more capacity.

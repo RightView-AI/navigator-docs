@@ -26,6 +26,7 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | MM inbox / send to PI | ❌ | ✅ | ❌ |
 | Use PI contacts (Send to PI) | ✅ | ✅ | ✅ |
 | Add / edit / remove PI contacts (own site) | ❌ | ❌ | ✅ |
+| Invite site users, view site capacity | ❌ | ❌ | ✅ |
 
 ### Sponsor-side
 
@@ -47,6 +48,10 @@ Views sponsor-level protocol lists and analytics. Cannot use chat or upload docu
 
 ### Site Admin
 Full control over their site's collections, artifacts, analytics, and PI contacts. Can delete protocol documents, rename study collections, and set [collection or document access](/collections/restrict-access) from **Collections → Manage** on a study collection. Sees all collections at the site regardless of access restrictions.
+
+## Two-factor authentication
+
+Site Admin, Sponsor Admin, and Medical Monitor accounts require MFA at sign-in. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
 
 ## Requesting access changes
 

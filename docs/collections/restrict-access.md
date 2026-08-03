@@ -36,7 +36,7 @@ Documents without their own override inherit whatever you configured at the coll
 
 ## Set access when creating a collection
 
-When a site administrator creates a new study collection from **Collections**, the upload flow includes an **Collection access** step before files are submitted. Choose **All site users** or **Specific users only** the same way as above so the new collection is restricted from the start.
+When a site administrator creates a new study collection from **Collections**, the upload flow includes a **Collection access** step before files are submitted. Choose **All site users** or **Specific users only** the same way as above so the new collection is restricted from the start.
 
 ## Tips
 

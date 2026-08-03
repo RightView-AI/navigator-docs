@@ -22,11 +22,11 @@ Open **Artifacts** from the sidebar. Use the tabs at the top:
 - **My Artifacts** - responses and notes you saved
 - **Shared with Site** - artifacts others have shared with you (whole site or by name)
 
-Artifacts are scoped to whichever study collection is active in the sidebar picker, the same as Contacts and Visits - switch collections there to see a different protocol's artifacts. Use the search bar to find artifacts by title within the current collection.
+Artifacts are scoped to whichever study collection is active in the sidebar picker, the same as Users (external contacts) and Visits - switch collections there to see a different protocol's artifacts. Use the search bar to find artifacts by title within the current collection.
 
 ## Share an artifact
 
-Only the person who created an artifact can change sharing. Medical monitors and sponsor administrators cannot share artifacts from Navigator.
+Only the person who created an artifact can change sharing. Sponsor administrators don't use chat or Artifacts in Navigator, so this doesn't apply to them.
 
 1. Open an artifact you own (from the list or detail view).
 2. Click **Share**.

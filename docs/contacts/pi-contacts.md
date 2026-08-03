@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # PI contacts
 
-**Contacts** stores Principal Investigator and other recipient details used when sending answers from chat.
+Stores Principal Investigator and other recipient details used when sending answers from chat.
 
 ## Open contacts
 
-Click **Contacts** in the sidebar.
+Click **Users** in the sidebar. Site administrators land on **Site users** first - switch to the **External contacts** tab.
 
 ## Add a contact
 

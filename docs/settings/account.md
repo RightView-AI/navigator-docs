@@ -15,7 +15,7 @@ Click the **gear icon** at the bottom of the sidebar, or go to [sites.rightview.
 Password changes apply only if you sign in with email and password (not magic link only).
 
 1. Enter your **current password**.
-2. Enter a **new password** (minimum 8 characters).
+2. Enter a **new password** (at least 8 characters, with an uppercase letter, a lowercase letter, and a number).
 3. Confirm the new password.
 4. Click **Update password**.
 
@@ -25,7 +25,7 @@ Click **Sign out** at the bottom of the settings page, or use the sign-out optio
 
 ## Your profile
 
-The settings page shows your registered email and role. Contact your administrator if your role or site assignment needs to change.
+The settings page shows your registered email and role, and lets you edit your **display name**. Contact your administrator if your role or site assignment needs to change.
 
 ## Two-factor authentication
 
