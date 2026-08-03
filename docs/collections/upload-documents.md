@@ -51,7 +51,7 @@ You can change access later from **Manage → Collection Settings** on the colle
 1. Go to **Collections**.
 2. Find the protocol row and click **Manage**.
 3. Upload additional files and assign document types.
-4. Wait until the collection shows **Ready** before asking questions about the new content in chat.
+4. A **Processing** row shows in the Documents tab while each file finishes ingesting - it stays visible even if you close the Manage dialog and come back later, so you always have visible confirmation the upload is still running. Wait until it clears before asking questions about the new content in chat.
 
 **One document per category:** each document type can only have one active document in a collection at a time - you can't upload a second, different file under a category that's already in use. If a document needs updating, use **Amend** on the existing one instead of uploading a new file under the same type.
 
@@ -64,6 +64,10 @@ Use **Amend** when a document has changed - a new protocol version, a corrected 
 3. Choose the corrected file.
 
 The new file becomes the current version; the old one is kept as history (marked **superseded**) and stays indexed, but chat answers prefer the current version's content. Sponsor-managed documents (marked with a lock) can't be amended or deleted from the site - only the sponsor can update those.
+
+If you re-upload a file that's byte-for-byte identical to the current version, Navigator recognizes it's unchanged and skips reprocessing instead of creating a new version.
+
+Use the **Download** button next to any document in the Documents tab to get a copy of the current file - available to anyone who can see that document row.
 
 Amending a document does not automatically rebuild its Schedule of Assessments - ask the assistant in chat to rebuild it after the amended file finishes processing. See [Protocol amendments](/visits/overview#protocol-amendments).
 

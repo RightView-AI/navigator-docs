@@ -8,13 +8,15 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **Live reasoning while you wait** - Watch Navigator's reasoning stream in real time, with labeled steps for what it's checking, instead of a plain "thinking" spinner. See [View Flow](/chat/view-flow).
-- **More reliable follow-ups** - Multi-question threads are answered turn by turn, so a new question doesn't cause Navigator to re-answer everything you asked earlier in the conversation.
-- **Visits & Schedule of Assessments** - Every site can view a protocol's visit schedule; sites with a connected CTMS or EMR also get patient progress against it. See [Visits & Schedule of Assessments](/visits/overview).
-- **Redesigned collection picker** - The study collection selector in the sidebar is easier to find and now consistently scopes Contacts, Visits, and Artifacts, not just chat. See [Manage collections](/collections/manage-collections#the-study-collection-picker).
-- **One document per category** - Collections now guard against uploading two different documents under the same document type; use **Amend** to update an existing one instead. See [Upload documents](/collections/upload-documents).
-- **Clearer sender on PI escalations** - Emails sent through **Send to PI** now show your name in the "From" line. See [Send answers to a PI](/inbox/send-to-pi).
-- **Self-service password reset** - If your password has expired or an admin required a reset, the login page now walks you through setting a new one right there. See [Sign in](/getting-started/sign-in#if-youre-asked-to-set-a-new-password).
+- **Two-factor authentication** - Administrator and medical monitor accounts now require an authenticator app code at sign-in, with backup codes and 30-day trusted devices. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
+- **Site capacity visibility** - Site administrators can see usage against their site's user, document, and collection limits, with in-app notices before a limit is hit. See [Users & site capacity](/admin/site-capacity-and-users).
+- **Self-service teammate invites** - Site administrators can invite new teammates directly by magic link, without waiting on a platform administrator. See [Users & site capacity](/admin/site-capacity-and-users).
+- **Smarter re-uploads and document download** - Re-uploading a byte-for-byte identical file is recognized as unchanged and skipped, and any document in Manage Collection can now be downloaded directly. See [Amend an existing document](/collections/upload-documents#amend-an-existing-document).
+- **PI escalation status in the sidebar** - See the age and status of questions you've sent to a PI at a glance.
+- **navigator-help** - Ask Navigator questions about how to use the product itself and get an answer without a protocol citation.
+- **Stop generating** - End a chat response early with a new button instead of waiting for it to finish.
+- **Clearer upload progress** - Adding a document in Manage Collection now shows a persistent "Processing" indicator, even if you close the dialog while it's still running. See [Upload documents](/collections/upload-documents).
+- **Visits without a CTMS/EMR connection** - Sites without a connected clinical trial or EMR system can now be enabled for Visits by an administrator, not only sites with an active integration.
 
 ## Smarter chat
 
@@ -37,11 +39,13 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 - **Collection access** - Site administrators manage who can use a study collection, or specific documents in it, from **Manage → Collection Settings** on each collection. See [Restrict collection and document access](/collections/restrict-access).
 - **Insights** - Usage analytics and optional **LLM Subtopic Analysis** help site and sponsor administrators understand how teams use Navigator.
+- **Site capacity** - Site administrators can track usage against user, document, and collection limits, and invite new teammates directly by magic link without a platform administrator. See [Users & site capacity](/admin/site-capacity-and-users).
 
 ## Sign-in and reliability
 
 - **Session timeout** - After 60 minutes of inactivity you are signed out for security; sign in again from the login page.
 - **Clearer session messages** - If your session ends, the login page explains why so you are not left on a blank screen.
+- **Two-factor authentication** - Administrator and medical monitor accounts require an authenticator app code at sign-in. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
 
 ## Related
 

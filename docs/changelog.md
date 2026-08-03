@@ -7,6 +7,24 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements.
 
+## v1.1.0 - August 2026
+
+**Site capacity, Visits, and account security**
+
+- **Two-factor authentication** for administrator and medical monitor accounts - an authenticator app code (with backup codes and 30-day trusted devices) is now required at sign-in. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
+- **Site capacity visibility** - site administrators can see usage against their site's user, document, and collection limits, with clear in-app notices before a limit is hit.
+- **Self-service teammate invites** - site administrators can invite new teammates directly by magic link, without waiting on a platform administrator.
+- **Smarter re-uploads and document download** - re-uploading a byte-for-byte identical file is now recognized as unchanged and skipped instead of creating a redundant version, and any document in Manage Collection can be downloaded directly.
+- **PI escalation status in the sidebar** - see the age and status of questions you've sent to a PI at a glance.
+- **Visits access by module, not just system connection** - sites without a connected CTMS/EMR can still be enabled for Visits by an administrator.
+- **navigator-help** - ask Navigator questions about how to use the product itself (uploading documents, session behavior, capabilities) and get an answer without a protocol citation.
+- **Stop generating** - a button to end a chat response early instead of waiting for it to finish.
+- **Readability pass on chat** - long answers are now easier to scan, with capped line length and clearer structure.
+- **Manage Collection upload feedback** - adding a document now shows a persistent "Processing" indicator, even if you close the dialog while it's still running.
+- Citations, thread titles, and message timestamps are more reliable across a number of edge cases (new chat mid-stream, switching study collections, timezone display).
+- Continued speed and reliability work across chat, ingestion, and administrator boot time, including health checks that fail fast and clearly when a dependency (database, AI service, file storage) is temporarily unavailable instead of hanging.
+- Schedule of Assessments history and administrative data now live in per-site storage for stronger tenant isolation.
+
 ## v1.0.9 - July 2026
 
 **Conversational memory & reliability**
@@ -112,14 +130,12 @@ A history of Navigator releases. This page covers user-facing changes only - for
 
 ## What's coming
 
-**Last updated: July 29, 2026**
+**Last updated: August 2026**
 
 A look at the ideas and themes the team is currently working on for a future release. This isn't a commitment or a release date - priorities can shift, and this section is rewritten as plans evolve.
 
-- **Quality checks on uploaded source material** - a new way to catch issues in scanned or photographed source documents before they cause problems downstream.
-- **Usage visibility for site administrators** - a clearer picture of how much of your site's capacity is in use, so you know where you stand before you hit a limit.
-- **Self-service teammate invites** - site administrators inviting new teammates directly, without waiting on a platform administrator.
-- **Clearer amendment changes** - an easier way to see exactly what changed when a protocol is amended, instead of having to compare documents by hand.
-- **PI escalation status at a glance** - the age and status of questions you've sent to a PI, visible right in the sidebar.
-- **Continued speed and reliability work** - ongoing improvements to how quickly and consistently Navigator responds across chat and document processing.
-- **Stronger account security** - further hardening of password and account-recovery flows.
+- **Source document quality checks** - a new Source Quality Control desk that reviews scanned or photographed source documents for legibility and completeness issues before they cause problems downstream.
+- **Site audit trail visibility** - site administrators will be able to view their own site's audit trail directly, without going through a platform administrator.
+- **A new site-level admin role** - a role that oversees multiple sites at once (rather than a single protocol), for organizations managing several sites.
+- **Clearer error messages during upload** - if a document upload hits a temporary service hiccup, Navigator will tell you plainly that it didn't go through and that retrying should work, instead of a generic error.
+- **Continued compliance hardening** - ongoing work on audit-trail integrity and resilience, including making sure audit records are never silently dropped during a temporary outage.

@@ -55,13 +55,14 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Administration',
       items: [
+        'admin/site-capacity-and-users',
         'admin/site-settings',
       ],
     },
     {
       type: 'category',
       label: 'Account',
-      items: ['settings/account'],
+      items: ['settings/account', 'settings/multi-factor-authentication'],
     },
     {
       type: 'category',

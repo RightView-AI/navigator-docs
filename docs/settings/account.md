@@ -27,6 +27,10 @@ Click **Sign out** at the bottom of the settings page, or use the sign-out optio
 
 The settings page shows your registered email and role. Contact your administrator if your role or site assignment needs to change.
 
+## Two-factor authentication
+
+Administrator and medical monitor accounts require an extra sign-in step. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication) for setup and troubleshooting.
+
 ## Terms of use
 
 The first time you sign in (or when terms are updated), you may be asked to review and accept Navigator’s **Terms of Use** before continuing. Medical monitors may see an additional signature agreement. Read the full terms at any time from the link on the login page.

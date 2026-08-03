@@ -4,15 +4,15 @@ sidebar_position: 1
 
 # Visits & Schedule of Assessments
 
-**Visits** keeps protocol visit windows and patient progress in one place, alongside the same chat you already use for document questions. Schedule of Assessments works for every site - the **Patients** view additionally needs a connected clinical trial management system (CTMS) or EMR.
+**Visits** keeps protocol visit windows and patient progress in one place, alongside the same chat you already use for document questions. Schedule of Assessments works for every site - the **Patients** view additionally needs to be enabled for your site by an administrator.
 
-**Who sees this:** the **Visits** item always appears in the sidebar. The **Patients** view inside it only becomes available once your site has a CTMS or EMR connection configured by an administrator - without one, you'll still have Schedule of Assessments, just not Patients.
+**Who sees this:** the **Visits** item always appears in the sidebar. The **Patients** view inside it only becomes available once an administrator enables it for your site - without it, you'll still have Schedule of Assessments, just not Patients. Enabling Patients no longer requires a connected clinical trial management system (CTMS) or EMR, though most sites that use it have one configured for live patient data.
 
 ## What's inside
 
 Visits has two views, reachable from the sidebar:
 
-| View | What it shows | Requires CTMS/EMR? |
+| View | What it shows | Requires the module enabled? |
 | --- | --- | --- |
 | **Schedule of Assessments** | The protocol's visit schedule - visit names, windows, and the assessments required at each one | No |
 | **Patients** | A roster of patients on the protocol, their current visit status, and upcoming visit windows | Yes |
