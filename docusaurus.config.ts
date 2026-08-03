@@ -11,6 +11,16 @@ const config: Config = {
     v4: true,
   },
 
+  // `future.v4: true` sets `mdx1CompatDisabledByDefault: true`, which silently defaults
+  // `markdown.mdx1Compat.admonitions` (and `comments`/`headingIds`) to false — the classic
+  // `:::info` / `:::tip` triple-colon syntax stops rendering with no build warning. Keep it
+  // on explicitly rather than losing the other future.v4 prep (fasterByDefault, etc).
+  markdown: {
+    mdx1Compat: {
+      admonitions: true,
+    },
+  },
+
   url: 'https://docs.rightview.ai',
   baseUrl: '/',
 

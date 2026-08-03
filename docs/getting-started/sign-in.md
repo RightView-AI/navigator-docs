@@ -28,6 +28,10 @@ If your account was just created, you may receive a welcome email with the same 
 
 If you forgot your password, click **Forgot password?**, enter your email, and follow the reset link sent to your inbox.
 
+:::info Two-factor authentication for privileged accounts
+Administrator, site administrator, sponsor administrator, and medical monitor accounts require an extra sign-in step - a 6-digit code from an authenticator app - in addition to your password or magic link. See [Two-factor authentication (MFA)](../settings/multi-factor-authentication.md) for setup and troubleshooting.
+:::
+
 ## If you're asked to set a new password
 
 Passwords periodically expire, and an administrator can require a reset on your account. If either applies, signing in with your old password now shows a **Set new password** form right on the login page instead of an error - enter and confirm a new password (at least 8 characters, with an uppercase letter, a lowercase letter, and a number) to finish signing in. There's no separate link to hunt for and no need to contact support first.
