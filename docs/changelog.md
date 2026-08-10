@@ -5,7 +5,7 @@ title: Changelog
 
 # Changelog
 
-A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements.
+A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see [What's coming](/whats-coming).
 
 ## v1.1.1 - August 2026
 
@@ -141,13 +141,4 @@ A history of Navigator releases. This page covers user-facing changes only - for
 - Automatic detection of medical terms to improve answer relevance.
 - Secure, multi-tenant sign-in scoped to your organization.
 
-## What's coming
-
-**Last updated: August 2026**
-
-A look at the ideas and themes the team is currently working on for a future release. This isn't a commitment or a release date - priorities can shift, and this section is rewritten as plans evolve.
-
-- **Optional two-factor authentication for regular users** - two-factor sign-in is currently required only for administrator and medical monitor accounts; regular users will be able to opt in for extra account security.
-- **Tamper-evident audit trail, externally anchored** - the audit log's tamper-evident hash chain will be periodically anchored outside the platform, so its integrity can be verified independently rather than relying solely on internal checks.
-- **More consistent search results** - a fix for a rare case where a chat question without a clear study context could pull in reference material from a different study.
-- **Sponsor insights accuracy** - keeping sponsor analytics summaries in sync when the underlying questions they're based on change.
+For upcoming plans and themes, see [What's coming](/whats-coming).
