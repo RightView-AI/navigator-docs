@@ -7,6 +7,19 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements.
 
+## v1.1.1 - August 2026
+
+**Source Quality Control, reliability, and sponsor experience**
+
+- **Source Quality Control** - a new Visits desk for reviewing scanned or photographed source documents. Upload a source document and Navigator checks it against ALCOA data-quality dimensions (attributable, legible, contemporaneous, original, accurate), flags missing signatures or required fields, and lets a coordinator record comments and resolution status on each finding.
+- **Sign-in attempt visibility** - the sign-in and authenticator-code screens now show a countdown ("Try again in...") if you're temporarily locked out after repeated failed attempts, instead of a generic error with no sense of when to retry.
+- **More forgiving authenticator codes** - a wider acceptance window for two-factor codes means an authenticator app with a slightly drifted clock (a known issue with some Microsoft Authenticator setups) is no longer incorrectly rejected.
+- **Faster, more reliable uploads** - a failure partway through a multi-file upload no longer aborts the whole batch; remaining files continue, and a document that fails to upload now tells you plainly that it didn't go through and to retry, instead of a generic error.
+- **Documents and Schedules show up immediately** - newly uploaded documents and generated Schedules of Assessments now appear right away in chat and Visits, without needing a manual page refresh.
+- **Revamped sponsor experience** - the sponsor dashboard now loads instantly on repeat visits, uses the same status indicators as the rest of the app, and adds search, filter, and sort to subject and protocol tables.
+- **Clearer chat citations** - a rare formatting glitch that could leave stray commas in a chat answer's Sources footer is fixed.
+- Continued reliability work on cold-start behavior after periods of inactivity, and on keeping documents and data properly scoped to the correct study and site.
+
 ## v1.1.0 - August 2026
 
 **Site capacity, Visits, and account security**
@@ -134,8 +147,7 @@ A history of Navigator releases. This page covers user-facing changes only - for
 
 A look at the ideas and themes the team is currently working on for a future release. This isn't a commitment or a release date - priorities can shift, and this section is rewritten as plans evolve.
 
-- **Source document quality checks** - a new Source Quality Control desk that reviews scanned or photographed source documents for legibility and completeness issues before they cause problems downstream.
-- **Site audit trail visibility** - site administrators will be able to view their own site's audit trail directly, without going through a platform administrator.
-- **A new site-level admin role** - a role that oversees multiple sites at once (rather than a single protocol), for organizations managing several sites.
-- **Clearer error messages during upload** - if a document upload hits a temporary service hiccup, Navigator will tell you plainly that it didn't go through and that retrying should work, instead of a generic error.
-- **Continued compliance hardening** - ongoing work on audit-trail integrity and resilience, including making sure audit records are never silently dropped during a temporary outage.
+- **Optional two-factor authentication for regular users** - two-factor sign-in is currently required only for administrator and medical monitor accounts; regular users will be able to opt in for extra account security.
+- **Tamper-evident audit trail, externally anchored** - the audit log's tamper-evident hash chain will be periodically anchored outside the platform, so its integrity can be verified independently rather than relying solely on internal checks.
+- **More consistent search results** - a fix for a rare case where a chat question without a clear study context could pull in reference material from a different study.
+- **Sponsor insights accuracy** - keeping sponsor analytics summaries in sync when the underlying questions they're based on change.

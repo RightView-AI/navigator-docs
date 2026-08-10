@@ -8,15 +8,12 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **Two-factor authentication** - Administrator and medical monitor accounts now require an authenticator app code at sign-in, with backup codes and 30-day trusted devices. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
-- **Site capacity visibility** - Site administrators can see usage against their site's user, document, and collection limits, with in-app notices before a limit is hit. See [Users & site capacity](/admin/site-capacity-and-users).
-- **Self-service teammate invites** - Site administrators can invite new teammates directly by magic link, without waiting on a platform administrator. See [Users & site capacity](/admin/site-capacity-and-users).
-- **Smarter re-uploads and document download** - Re-uploading a byte-for-byte identical file is recognized as unchanged and skipped, and any document in Manage Collection can now be downloaded directly. See [Amend an existing document](/collections/upload-documents#amend-an-existing-document).
-- **PI escalation status in the sidebar** - See the age and status of questions you've sent to a PI at a glance.
-- **navigator-help** - Ask Navigator questions about how to use the product itself and get an answer without a protocol citation.
-- **Stop generating** - End a chat response early with a new button instead of waiting for it to finish.
-- **Clearer upload progress** - Adding a document in Manage Collection now shows a persistent "Processing" indicator, even if you close the dialog while it's still running. See [Upload documents](/collections/upload-documents).
-- **Visits without a CTMS/EMR connection** - Sites without a connected clinical trial or EMR system can now be enabled for Visits by an administrator, not only sites with an active integration.
+- **Source Quality Control** - A new Visits desk for reviewing scanned or photographed source documents. Upload a source document and Navigator checks it against ALCOA data-quality dimensions, flags missing signatures or required fields, and lets a coordinator record comments and resolution status.
+- **Sign-in attempt visibility** - The sign-in and authenticator-code screens now show a countdown if you're temporarily locked out after repeated failed attempts. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
+- **More forgiving authenticator codes** - A wider acceptance window means an authenticator app with a slightly drifted clock is no longer incorrectly rejected.
+- **Faster, more reliable uploads** - A failure partway through a multi-file upload no longer aborts the whole batch, and a document that fails to upload tells you plainly that it didn't go through. See [Upload documents](/collections/upload-documents).
+- **Documents and Schedules show up immediately** - Newly uploaded documents and generated Schedules of Assessments now appear right away, without a manual page refresh.
+- **Revamped sponsor experience** - The sponsor dashboard loads instantly on repeat visits and adds search, filter, and sort to subject and protocol tables.
 
 ## Smarter chat
 
@@ -29,6 +26,10 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **More file types** - Upload PDFs, Microsoft Office files (Word, PowerPoint, Excel), CSV, HTML, Markdown, and common images - not only PDF. See [Upload documents](/collections/upload-documents).
 - **Rename collections** - Site administrators can rename a study collection's Protocol ID and sponsor name from **Manage → Collection Settings**.
 - **Access control** - Site administrators can limit who sees a whole collection or individual documents. See [Restrict collection and document access](/collections/restrict-access).
+
+## Visits
+
+- **Source Quality Control** - Upload scanned or photographed source documents for a study and Navigator reviews them against ALCOA data-quality dimensions (attributable, legible, contemporaneous, original, accurate), flagging missing signatures or required fields. Coordinators can record comments and resolution status on each finding.
 
 ## Artifacts
 
@@ -45,7 +46,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 - **Session timeout** - After 60 minutes of inactivity you are signed out for security; sign in again from the login page.
 - **Clearer session messages** - If your session ends, the login page explains why so you are not left on a blank screen.
-- **Two-factor authentication** - Administrator and medical monitor accounts require an authenticator app code at sign-in. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
+- **Two-factor authentication** - Administrator and medical monitor accounts require an authenticator app code at sign-in, with a countdown shown if you're temporarily locked out after repeated failed attempts. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
 
 ## Related
 
