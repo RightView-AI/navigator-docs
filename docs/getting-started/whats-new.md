@@ -11,6 +11,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Much faster document ingestion** - Navigator reads text pages with a fast text extractor and runs the heavy layout model only on pages with tables. A text-heavy protocol ingests several times faster (up to about 11 times faster on a mostly-text document). See [Upload documents](/collections/upload-documents).
 - **Live page-by-page upload progress** - uploading a document, creating a collection, and amending a document now show real per-page progress and elapsed time, not a spinner that looks stuck on a large PDF.
 - **Type-to-search the study collection switcher** - start typing to filter the collection list instead of scrolling.
+- **See the full sponsor name in the study collection switcher** - the switcher now grows to fit its text, so long protocol and sponsor names show in full instead of clipping.
 - **More reliable chat** - an answer appears in your conversation even if the live connection drops during the reply, and a rare "no answer" case now recovers the answer or explains a provider outage.
 - **Correct Insights totals** - Total Queries, Time Saved, and Self-Service rate now match the per-site numbers in the same view.
 - **Faster start** - Navigator starts quicker after an idle period, and the study collection list loads faster.

@@ -7,6 +7,13 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see [What's coming](/whats-coming).
 
+## v1.1.2-hotfix - August 2026
+
+**Readable study switcher and a limit on stuck answers**
+
+- **See the full sponsor name in the study collection switcher** - the switcher now grows to fit its text, so long protocol and sponsor names show in full instead of clipping.
+- **A stuck answer now stops on its own** - a chat answer that fails to finish now ends at a time limit instead of running without a bound. This protects service cost and frees the affected server.
+
 ## v1.1.2 - August 2026
 
 **Faster ingestion and answers, stronger data protection**
