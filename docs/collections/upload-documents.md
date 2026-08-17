@@ -42,7 +42,7 @@ A single study collection can include PDFs and Office files together. You do not
    - **Specific users only** (select who may use the new collection).
 6. Click **Create collection**.
 
-Navigator uploads and processes each file. You will see an **Uploading** or **Creating** status until the collection is ready. When finished, the status changes to **Ready**.
+Navigator uploads and processes each file. While it processes a PDF, you see a per-page progress indicator that shows how many pages are done and the time elapsed, not a fixed spinner. When finished, the status changes to **Ready**.
 
 You can change access later from **Manage → Collection Settings** on the collection. See [Restrict collection and document access](/collections/restrict-access).
 

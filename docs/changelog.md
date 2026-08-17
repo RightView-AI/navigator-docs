@@ -7,6 +7,19 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see [What's coming](/whats-coming).
 
+## v1.1.2 - August 2026
+
+**Faster ingestion and answers, stronger data protection**
+
+- **Much faster document ingestion** - Navigator now reads text pages with a fast text extractor and runs the heavy layout model only on pages that contain tables. A text-heavy protocol ingests several times faster (up to about 11 times faster on a mostly-text document); table pages keep the same accuracy.
+- **Live page-by-page upload progress** - uploading a document, creating a collection, and amending a document now show real per-page progress and elapsed time, instead of a spinner that looks stuck on a large PDF.
+- **Faster start and lists** - Navigator starts quicker after an idle period, and the study collection list loads faster.
+- **More reliable chat** - an answer now appears in your conversation even if the live connection drops during the reply. A rare case where the assistant finished with no visible answer now recovers the answer or explains a provider outage.
+- **Type-to-search the study collection switcher** - start typing to filter the collection list instead of scrolling.
+- **Correct Insights totals** - Total Queries, Time Saved, and Self-Service rate now match the per-site numbers shown in the same view.
+- **Stronger protection of patient information** - the step that removes patient identifiers before any external AI call is now reliable under load, so a busy moment no longer blocks an answer.
+- **Security fixes** - corrected file-path handling in page serving, sign-in rate limiting, sponsor data scoping, and chat and retrieval that stay strictly within the selected study.
+
 ## v1.1.1 - August 2026
 
 **Source Quality Control, reliability, and sponsor experience**

@@ -8,12 +8,12 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **Source Quality Control** - A new Visits desk for reviewing scanned or photographed source documents. Upload a source document and Navigator checks it against ALCOA data-quality dimensions, flags missing signatures or required fields, and lets a coordinator record comments and resolution status.
-- **Sign-in attempt visibility** - The sign-in and authenticator-code screens now show a countdown if you're temporarily locked out after repeated failed attempts. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
-- **More forgiving authenticator codes** - A wider acceptance window means an authenticator app with a slightly drifted clock is no longer incorrectly rejected.
-- **Faster, more reliable uploads** - A failure partway through a multi-file upload no longer aborts the whole batch, and a document that fails to upload tells you plainly that it didn't go through. See [Upload documents](/collections/upload-documents).
-- **Documents and Schedules show up immediately** - Newly uploaded documents and generated Schedules of Assessments now appear right away, without a manual page refresh.
-- **Revamped sponsor experience** - The sponsor dashboard loads instantly on repeat visits and adds search, filter, and sort to subject and protocol tables.
+- **Much faster document ingestion** - Navigator reads text pages with a fast text extractor and runs the heavy layout model only on pages with tables. A text-heavy protocol ingests several times faster (up to about 11 times faster on a mostly-text document). See [Upload documents](/collections/upload-documents).
+- **Live page-by-page upload progress** - uploading a document, creating a collection, and amending a document now show real per-page progress and elapsed time, not a spinner that looks stuck on a large PDF.
+- **Type-to-search the study collection switcher** - start typing to filter the collection list instead of scrolling.
+- **More reliable chat** - an answer appears in your conversation even if the live connection drops during the reply, and a rare "no answer" case now recovers the answer or explains a provider outage.
+- **Correct Insights totals** - Total Queries, Time Saved, and Self-Service rate now match the per-site numbers in the same view.
+- **Faster start** - Navigator starts quicker after an idle period, and the study collection list loads faster.
 
 ## Smarter chat
 
