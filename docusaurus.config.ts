@@ -92,6 +92,11 @@ const config: Config = {
           label: 'Changelog',
         },
         {
+          to: '/feature-request',
+          label: 'Request a Feature',
+          position: 'right',
+        },
+        {
           href: 'https://sites.rightview.ai',
           label: 'Open Navigator',
           position: 'right',
@@ -115,6 +120,7 @@ const config: Config = {
           title: 'Rightview',
           items: [
             {label: 'Navigator App', href: 'https://sites.rightview.ai'},
+            {label: 'Request a Feature', to: '/feature-request'},
             {label: 'Contact Support', href: 'mailto:research@rightview.ai'},
           ],
         },
