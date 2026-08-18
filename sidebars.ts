@@ -70,7 +70,7 @@ const sidebars: SidebarsConfig = {
       items: ['reference/roles-and-permissions'],
     },
     'changelog',
-    'whats-coming',
+    'roadmap',
   ],
 };
 

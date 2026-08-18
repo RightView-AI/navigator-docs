@@ -5,7 +5,7 @@ title: Changelog
 
 # Changelog
 
-A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see [What's coming](/whats-coming).
+A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
 ## v1.1.2-hotfix - August 2026
 
@@ -161,4 +161,4 @@ A history of Navigator releases. This page covers user-facing changes only - for
 - Automatic detection of medical terms to improve answer relevance.
 - Secure, multi-tenant sign-in scoped to your organization.
 
-For upcoming plans and themes, see [What's coming](/whats-coming).
+For upcoming plans and themes, see the [Roadmap](/roadmap).

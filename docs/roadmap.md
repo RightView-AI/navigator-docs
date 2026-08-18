@@ -1,9 +1,9 @@
 ---
 sidebar_position: 10
-title: What's coming
+title: Roadmap
 ---
 
-# What's coming
+# Roadmap
 
 **Last updated: August 2026**
 

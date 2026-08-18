@@ -52,6 +52,6 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 ## Related
 
 - [Changelog](/changelog) - full version history
-- [What's coming](/whats-coming) - upcoming plans and themes
+- [Roadmap](/roadmap) - upcoming plans and themes
 - [Roles & Permissions](/reference/roles-and-permissions)
 - [Navigate the app](/getting-started/navigation)
