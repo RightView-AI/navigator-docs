@@ -17,16 +17,12 @@ A look at the themes the team is working on. The versions and dates below are ta
 - **More CTMS integrations** - connect more clinical trial management systems for visit and subject data, starting with eClinPro.
 - **Navigator Chrome extension** - use Navigator in a browser extension alongside your other systems.
 - **Personal document uploads** - upload your own documents into a personal, private scope.
+- **Blinding controls** - keep randomization and treatment-arm details behind an explicit blinding check, so a blinded role cannot see unblinding information.
 
 ## Rightview 1.1.4 (October 2026)
 
 - **Automatic PHI redaction in uploaded documents** - remove patient identifiers from a document as it is uploaded.
 - **Navigator for FinOps** - a Navigator experience for financial operations.
-
-## Later
-
-- **Blinding controls** - keep randomization and treatment-arm details behind an explicit blinding check, so a blinded role cannot see unblinding information.
-- **Tamper-evident audit trail** - externally anchor the audit log's hash chain, so any change to a past record is detectable.
 
 ## Related
 
