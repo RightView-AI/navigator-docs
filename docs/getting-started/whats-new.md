@@ -8,13 +8,11 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **Much faster document ingestion** - Navigator reads text pages with a fast text extractor and runs the heavy layout model only on pages with tables. A text-heavy protocol ingests several times faster (up to about 11 times faster on a mostly-text document). See [Upload documents](/collections/upload-documents).
-- **Live page-by-page upload progress** - uploading a document, creating a collection, and amending a document now show real per-page progress and elapsed time, not a spinner that looks stuck on a large PDF.
-- **Type-to-search the study collection switcher** - start typing to filter the collection list instead of scrolling.
-- **See the full sponsor name in the study collection switcher** - the switcher now grows to fit its text, so long protocol and sponsor names show in full instead of clipping.
-- **More reliable chat** - an answer appears in your conversation even if the live connection drops during the reply, and a rare "no answer" case now recovers the answer or explains a provider outage.
-- **Correct Insights totals** - Total Queries, Time Saved, and Self-Service rate now match the per-site numbers in the same view.
-- **Faster start** - Navigator starts quicker after an idle period, and the study collection list loads faster.
+- **Dense documents ingest reliably** - a document with many tables, such as a lab manual, now finishes ingestion instead of failing at the step that removes patient identifiers. See [Upload documents](/collections/upload-documents).
+- **Patient photos stay out of external AI** - Navigator checks each source-document image for a face before any external image step, and skips a page that shows a face.
+- **Bookmark your protocols** - star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
+- **Faster collection access panel** - the "Loading access" panel in Collection Settings opens faster for site administrators.
+- **Correct last-login dates** - the Site users list shows a real last-login date for active users instead of "Never logged in".
 
 ## Smarter chat
 

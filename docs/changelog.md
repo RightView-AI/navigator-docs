@@ -7,6 +7,16 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
+## v1.1.3-beta - August 2026
+
+**Reliable ingestion for dense documents, and safer handling of images (beta)**
+
+- **Dense documents ingest reliably** - a document with many tables, such as a lab manual, no longer fails at the step that removes patient identifiers. Navigator now sends that check in smaller batches, so the document finishes.
+- **Patient photos are kept from external AI** - Navigator checks each source-document image for a face before any external image step. It skips a page that shows a face and tells the coordinator why.
+- **Bookmark your protocols** - star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
+- **Faster collection access panel** - the "Loading access" panel in Collection Settings opens faster for site administrators.
+- **Correct last-login dates** - the Site users list shows a real last-login date for active users instead of "Never logged in".
+
 ## v1.1.2-hotfix - August 2026
 
 **Readable study switcher and a limit on stuck answers**
