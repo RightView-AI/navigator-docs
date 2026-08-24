@@ -7,6 +7,15 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
+## v1.1.3-hotfix - August 2026
+
+**Faster chat and dashboards, and more reliable sign-in**
+
+- **The conversation list loads faster** - Navigator reads a compact summary of your chats instead of scanning your full chat history each time. The list in the sidebar opens faster, and stays fast as your history grows.
+- **Faster dashboards** - analytics and administrator dashboards reuse recent results for a short time, so they open faster and cost less to run.
+- **Sign-in shows your chats right away** - after you sign in, the chat sidebar loads on its own. You no longer need to switch browser tabs and back to make it appear.
+- **More reliable magic-link sign-in** - an idle server connection no longer causes a valid sign-in link to be refused.
+
 ## v1.1.3 - August 2026
 
 **Personal and site-wide documents, HIPAA-ready data protection, and reliable ingestion**
