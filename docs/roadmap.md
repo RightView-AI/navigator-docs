@@ -9,20 +9,12 @@ title: Roadmap
 
 A look at the themes the team is working on. The versions and dates below are targets, not commitments. Priorities and timing can shift. This page is rewritten as plans evolve.
 
-## Rightview 1.1.3 (September 2026)
-
-- **Bookmark your studies** - pin the study collections you use most for faster access.
-- **Faster UI and UX** - speed up common screens and cut wait time across the app.
-- **ICH GCP compliance** - continued work to align Navigator with ICH E6(R3) Good Clinical Practice guidance for technology vendors.
-- **More CTMS integrations** - connect more clinical trial management systems for visit and subject data, starting with eClinPro.
-- **Navigator Chrome extension** - use Navigator in a browser extension alongside your other systems.
-- **Personal document uploads** - upload your own documents into a personal, private scope.
-- **Blinding controls** - keep randomization and treatment-arm details behind an explicit blinding check, so a blinded role cannot see unblinding information.
-
 ## Rightview 1.1.4 (October 2026)
 
-- **Automatic PHI redaction in uploaded documents** - remove patient identifiers from a document as it is uploaded.
+- **eClinPro integrations and AI agents** - connect the eClinPro clinical trial management system, and add AI agents that take actions across your connected data.
 - **Navigator for FinOps** - a Navigator experience for financial operations.
+- **Knowledge graphs for incident prediction, detection, and remediation** - use knowledge graphs to predict incidents, detect them as they happen, and help remediate them.
+- **ICH GCP readiness** - continued work to align Navigator with ICH E6(R3) Good Clinical Practice guidance for technology vendors.
 
 ## Related
 
