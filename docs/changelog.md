@@ -7,15 +7,21 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
-## v1.1.3-beta - August 2026
+## v1.1.3 - August 2026
 
-**Reliable ingestion for dense documents, and safer handling of images (beta)**
+**Personal and site-wide documents, BAA-covered data storage, and reliable ingestion**
 
-- **Dense documents ingest reliably** - a document with many tables, such as a lab manual, no longer fails at the step that removes patient identifiers. Navigator now sends that check in smaller batches, so the document finishes.
-- **Patient photos are kept from external AI** - Navigator checks each source-document image for a face before any external image step. It skips a page that shows a face and tells the coordinator why.
+- **Upload your own documents** - upload personal documents inside a study. Only you can see them, and you can ask the assistant about them in chat.
+- **Site-wide documents** - site administrators can add documents that apply to every study. They appear in each study's document list for everyone at the site.
 - **Bookmark your protocols** - star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
-- **Faster collection access panel** - the "Loading access" panel in Collection Settings opens faster for site administrators.
+- **Patient data on a BAA-covered database** - Navigator stores your site's operational data on a database covered by a HIPAA Business Associate Agreement. The audit trail and the search index keep only de-identified data.
+- **Dense documents ingest reliably** - a document with many tables, such as a lab manual, no longer fails at the step that removes patient identifiers. Navigator sends that check in smaller batches, so the document finishes.
+- **Patient photos stay out of external AI** - Navigator checks each source-document image for a face before any external image step. It skips a page that shows a face and tells the coordinator why.
+- **Source Quality Control improvements** - source-document review uses an updated vision model, and Insights shows the most common Source QC issue types for a site.
+- **What's new at sign-in** - after an update, Navigator shows a short "What's new" note with the release's main features. Dismiss it with "Got it".
+- **Faster dashboards** - analytics and administrator dashboards load faster, and answers start sooner.
 - **Correct last-login dates** - the Site users list shows a real last-login date for active users instead of "Never logged in".
+- **Security and access fixes** - corrected sponsor-administrator access to site documents, scoped password reset to magic-link sessions, fixed stored-XSS handling in document responses, and de-identified patient data before it is stored.
 
 ## v1.1.2-hotfix - August 2026
 
