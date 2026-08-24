@@ -11,7 +11,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Upload your own documents** - upload personal documents inside a study. Only you can see them, and you can ask the assistant about them in chat. See [Upload documents](/collections/upload-documents).
 - **Site-wide documents** - site administrators can add documents that apply to every study at the site.
 - **Bookmark your protocols** - star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
-- **Patient data on a BAA-covered database** - your site's operational data is stored on a database covered by a HIPAA Business Associate Agreement. The audit trail and search index keep only de-identified data.
+- **HIPAA readiness** - Navigator protects your site's data with HIPAA-aligned safeguards, and keeps only de-identified data in the audit trail and search index.
 - **What's new at sign-in** - after an update, Navigator shows a short "What's new" note with the release's main features. Dismiss it with "Got it".
 - **Dense documents ingest reliably** - a document with many tables, such as a lab manual, now finishes ingestion instead of failing at the step that removes patient identifiers.
 
