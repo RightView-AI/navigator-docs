@@ -7,6 +7,18 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
+## v1.1.4 - September 2026
+
+**More reliable answers, accurate medical terms, and patient pre-screening**
+
+- **The assistant no longer gets stuck on hard questions** - when a question cannot be answered cleanly, Navigator stops searching and answers with what it found, or asks you to narrow the question. It no longer runs until it times out.
+- **Answers remember more of your conversation** - Navigator keeps more of your recent messages in context, so follow-up questions work further into a conversation.
+- **Medical terms stay accurate** - disease names such as Sjögren's and Parkinson's are no longer hidden by the step that removes patient identifiers, so eligibility answers keep the right condition.
+- **Patient pre-screening in the extension** - where your site enables it, capture a patient record in the browser extension and get an eligibility verdict against the study's inclusion and exclusion criteria, with a per-criterion breakdown.
+- **Answers stay scoped to your study** - Navigator keeps chat results to the selected study, and Visits plans and checklists now follow the same document access limits as chat.
+- **Added protection against prompt injection** - Navigator screens question input for instructions that try to override its behavior before it runs any tools.
+- **Steadier under load** - background cleanup of stored chat sessions lowers cost, and cold-start and connection handling on the document store is more reliable.
+
 ## v1.1.3-hotfix - August 2026
 
 **Faster chat and dashboards, and more reliable sign-in**

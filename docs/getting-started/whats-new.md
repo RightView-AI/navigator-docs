@@ -8,12 +8,11 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **Upload your own documents** - upload personal documents inside a study. Only you can see them, and you can ask the assistant about them in chat. See [Upload documents](/collections/upload-documents).
-- **Site-wide documents** - site administrators can add documents that apply to every study at the site.
-- **Bookmark your protocols** - star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
-- **HIPAA readiness** - Navigator protects your site's data with HIPAA-aligned safeguards, and keeps only de-identified data in the audit trail and search index.
-- **What's new at sign-in** - after an update, Navigator shows a short "What's new" note with the release's main features. Dismiss it with "Got it".
-- **Dense documents ingest reliably** - a document with many tables, such as a lab manual, now finishes ingestion instead of failing at the step that removes patient identifiers.
+- **More reliable answers on hard questions** - when Navigator cannot answer cleanly, it stops and answers with what it found, or asks you to narrow the question, instead of running until it times out.
+- **Answers remember more of your conversation** - Navigator keeps more of your recent messages in context, so follow-up questions work further into a conversation.
+- **Medical terms stay accurate** - disease names such as Sjögren's and Parkinson's are no longer hidden by the step that removes patient identifiers, so eligibility answers keep the right condition.
+- **Patient pre-screening in the extension** - where your site enables it, capture a patient record in the browser extension and get an eligibility verdict against the study's inclusion and exclusion criteria, with a per-criterion breakdown.
+- **Answers stay scoped to your study** - Navigator keeps chat results to the selected study, and Visits plans and checklists follow the same document access limits as chat.
 
 ## Smarter chat
 
@@ -28,6 +27,8 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Site-wide documents** - Site administrators can add documents that apply to every study at the site.
 - **Rename collections** - Site administrators can rename a study collection's Protocol ID and sponsor name from **Manage → Collection Settings**.
 - **Access control** - Site administrators can limit who sees a whole collection or individual documents. See [Restrict collection and document access](/collections/restrict-access).
+- **Bookmark your protocols** - Star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
+- **HIPAA-aligned data protection** - Navigator keeps only de-identified data in the audit trail and search index, and protects your site's data with HIPAA-aligned safeguards.
 
 ## Visits
 
