@@ -45,6 +45,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Chrome Extension',
+      items: ['extension/chrome-extension'],
+    },
+    {
+      type: 'category',
       label: 'Inbox & Contacts',
       items: [
         'inbox/send-to-pi',
