@@ -120,6 +120,7 @@ const config: Config = {
           title: 'Rightview',
           items: [
             {label: 'Navigator App', href: 'https://sites.rightview.ai'},
+            {label: 'System Status', href: 'https://sites.rightview.ai/status'},
             {label: 'Request a Feature', to: '/feature-request'},
             {label: 'Contact Support', href: 'mailto:research@rightview.ai'},
           ],
