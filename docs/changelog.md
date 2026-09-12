@@ -7,6 +7,17 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
+## v1.1.5-beta.1 - September 2026
+
+**A system status page, safer pre-screening, and a smoother browser extension**
+
+- **System status page** - a public status page shows whether Navigator is operational and lists any current incidents.
+- **Steadier answers on hard questions** - Navigator stops a chat run that keeps searching without finding useful results, and answers with what it has. This builds on the earlier fix for questions that used to run until they timed out.
+- **Save a web page into a study from the extension** - the browser extension can capture the page you are viewing, remove patient identifiers, and add it to a study. It also captures open PDFs and lets you pick which tab to capture. Heavy pages now have more time to capture.
+- **Safer patient pre-screening** - each pre-screening result is visible only to the person who ran it. Navigator also limits how many pre-screening requests one person or site can start in a short time.
+- **Smoother password reset** - a reset link works for an account that must reset its password or whose password expired, and the link stays valid until you finish the reset.
+- **Stronger data access limits** - more of Navigator's document retrieval applies the same access limits as chat, so answers stay within what you are allowed to see.
+
 ## v1.1.4 - September 2026
 
 **More reliable answers, accurate medical terms, and patient pre-screening**

@@ -8,11 +8,11 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **More reliable answers on hard questions** - when Navigator cannot answer cleanly, it stops and answers with what it found, or asks you to narrow the question, instead of running until it times out.
-- **Answers remember more of your conversation** - Navigator keeps more of your recent messages in context, so follow-up questions work further into a conversation.
-- **Medical terms stay accurate** - disease names such as Sjögren's and Parkinson's are no longer hidden by the step that removes patient identifiers, so eligibility answers keep the right condition.
-- **Patient pre-screening in the extension** - where your site enables it, capture a patient record in the browser extension and get an eligibility verdict against the study's inclusion and exclusion criteria, with a per-criterion breakdown.
-- **Answers stay scoped to your study** - Navigator keeps chat results to the selected study, and Visits plans and checklists follow the same document access limits as chat.
+- **System status page** - a public status page shows whether Navigator is operational and lists any current incidents.
+- **Steadier answers on hard questions** - Navigator stops a chat run that keeps searching without finding useful results and answers with what it has.
+- **Save a web page into a study from the extension** - the browser extension captures the page you are viewing, removes patient identifiers, and adds it to a study. It also captures open PDFs and lets you pick which tab to capture.
+- **Safer patient pre-screening** - each pre-screening result is visible only to the person who ran it, and Navigator limits how many requests one person or site can start in a short time.
+- **Smoother password reset** - a reset link works for an account that must reset its password or whose password expired, and stays valid until you finish the reset.
 
 ## Smarter chat
 
