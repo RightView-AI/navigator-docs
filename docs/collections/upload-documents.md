@@ -104,4 +104,5 @@ When you open a citation, Navigator shows the relevant excerpt. **PDF** sources 
 
 - [Manage collections](/collections/manage-collections) - status, rename, amendments
 - [Restrict collection and document access](/collections/restrict-access)
+- [Personal documents](/collections/personal-documents) - private files visible only to you
 - [Tips & tricks](/getting-started/tips-and-tricks)

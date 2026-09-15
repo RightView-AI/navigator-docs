@@ -31,6 +31,7 @@ const sidebars: SidebarsConfig = {
         'collections/upload-documents',
         'collections/manage-collections',
         'collections/restrict-access',
+        'collections/personal-documents',
       ],
     },
     {

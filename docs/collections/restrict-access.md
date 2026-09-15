@@ -48,4 +48,5 @@ When a site administrator creates a new study collection from **Collections**, t
 
 - [Upload documents](/collections/upload-documents)
 - [Manage collections](/collections/manage-collections)
+- [Personal documents](/collections/personal-documents) - private files only you can see
 - [Roles & Permissions](/reference/roles-and-permissions)
