@@ -92,6 +92,11 @@ const config: Config = {
           label: 'Changelog',
         },
         {
+          href: 'https://chromewebstore.google.com/detail/abailmienbplhpgipgbdgendbdfpaeak',
+          label: 'Get the Extension',
+          position: 'left',
+        },
+        {
           to: '/feature-request',
           label: 'Request a Feature',
           position: 'right',

@@ -12,11 +12,11 @@ The **Rightview Navigator** Chrome extension puts Navigator in a side panel next
 
 The extension is published **Unlisted** on the Chrome Web Store, so it installs like any other extension but isn't searchable.
 
-1. Open the install link from your Rightview contact in **Google Chrome**.
+1. Open the [Rightview Navigator listing on the Chrome Web Store](https://chromewebstore.google.com/detail/abailmienbplhpgipgbdgendbdfpaeak) in **Google Chrome**.
 2. Click **Add to Chrome**, then **Add extension** to confirm.
 3. Pin it (optional): click the puzzle-piece toolbar icon, then the pin next to **Rightview Navigator**, so the icon stays visible.
 
-It auto-updates from the Web Store - there's nothing to download or reinstall. If you don't have the link, ask your site administrator or Rightview contact.
+It auto-updates from the Web Store - there's nothing to download or reinstall. If the link does not open, ask your site administrator or Rightview contact.
 
 ## Open the panel and sign in
 
