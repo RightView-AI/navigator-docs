@@ -24,6 +24,14 @@ Upload a scanned or photographed source document (for example, a signed consent 
 
 Each upload appears as a row with its review status; click a row to open the full analysis, including per-dimension findings. Coordinators can add comments on a finding and mark it resolved once addressed. Uploaded source documents are stored separately from your study collection's protocol documents and are not used to answer chat questions.
 
+<video controls preload="metadata" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
+  <source src="/video/source-qc-in-app.mp4" type="video/mp4" />
+</video>
+
+:::tip Working inside your EDC?
+The [Chrome side-panel extension](/extension/chrome-extension#source-qc) runs the same ALCOA+ review against the page in front of you, without leaving your other system.
+:::
+
 ## Build a Schedule of Assessments
 
 A Schedule of Assessments (SoA) is built from your protocol document rather than entered by hand. Two ways to create one:

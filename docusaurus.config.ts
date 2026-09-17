@@ -87,6 +87,11 @@ const config: Config = {
           label: 'User Guide',
         },
         {
+          to: '/video-library',
+          position: 'left',
+          label: 'Video Library',
+        },
+        {
           to: '/changelog',
           position: 'left',
           label: 'Changelog',
