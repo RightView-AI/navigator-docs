@@ -22,7 +22,7 @@ While Navigator prepares your answer, a **Thinking** panel streams its progress 
 
 ## Past conversations
 
-Each chat is saved in the sidebar under your recent conversations. Click one to reopen it, or start fresh with the **New chat** button.
+Each chat is saved in the sidebar under your recent conversations. Click one to reopen it, or start fresh with the **New chat** button. To remove a conversation, hover over it in the sidebar and choose delete - its messages are archived and it no longer appears in the list.
 
 ## Follow-up questions
 

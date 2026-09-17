@@ -8,7 +8,7 @@ title: Two-factor authentication (MFA)
 Administrator and medical monitor accounts require an extra sign-in step - a 6-digit code from an authenticator app - in addition to your password or magic link. This protects the most sensitive accounts even if a password is ever compromised.
 
 :::info Who needs this
-MFA applies to privileged accounts: **platform administrators**, **site administrators**, **sponsor administrators**, and **medical monitors**. Standard user accounts are not required to set it up.
+MFA applies to privileged accounts: **platform administrators**, **site administrators**, **site editors**, **private editors**, **sponsor administrators**, and **medical monitors**. Standard user accounts are not required to set it up.
 :::
 
 ## Set up MFA (first sign-in)

@@ -38,6 +38,10 @@ Documents without their own override inherit whatever you configured at the coll
 
 When a site administrator creates a new study collection from **Collections**, the upload flow includes a **Collection access** step before files are submitted. Choose **All site users** or **Specific users only** the same way as above so the new collection is restricted from the start.
 
+## Confidential documents
+
+A **Private Editor** can upload confidential documents, such as a clinical trial agreement or a budget, that stay hidden from site administrators. Only the uploader, the members they add, and platform administrators can see a confidential document or ask about it in chat. This is stronger than a document-level access restriction, which a site administrator can still see and manage. See [Roles and permissions](/reference/roles-and-permissions).
+
 ## Tips
 
 - Restrict at the **collection** level when an entire protocol should be limited to a small team.

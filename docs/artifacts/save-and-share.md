@@ -48,3 +48,10 @@ Site administrators can edit or delete any artifact visible at the site. Other u
 ## Download
 
 Every artifact can be downloaded as a **PDF** for offline reference or your records.
+
+## Copy a table into Excel or Sheets
+
+When an artifact contains a table, such as a budget, use **Copy** to place it on your clipboard, then paste it where you need it:
+
+- **Excel or Google Sheets** - the table pastes with its rows and columns intact, one value per cell.
+- **Word or Google Docs** - the table keeps its formatting.
