@@ -4,6 +4,11 @@ const sidebars: SidebarsConfig = {
   userGuideSidebar: [
     'intro',
     {
+      type: 'link',
+      label: 'Video Library',
+      href: '/video-library',
+    },
+    {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
