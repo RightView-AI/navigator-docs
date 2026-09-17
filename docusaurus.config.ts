@@ -112,26 +112,17 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Guide',
-          items: [
-            {label: "What's New", to: '/getting-started/whats-new'},
-            {label: 'Changelog', to: '/changelog'},
-            {label: 'Upload Documents', to: '/collections/upload-documents'},
-            {label: 'Access Control', to: '/collections/restrict-access'},
-          ],
-        },
-        {
-          title: 'Rightview',
-          items: [
-            {label: 'Navigator App', href: 'https://sites.rightview.ai'},
-            {label: 'System Status', href: 'https://sites.rightview.ai/status'},
-            {label: 'Request a Feature', to: '/feature-request'},
-            {label: 'Contact Support', href: 'mailto:research@rightview.ai'},
-          ],
-        },
+        {label: 'Open Navigator', href: 'https://sites.rightview.ai'},
+        {label: 'Get the Extension', href: 'https://chromewebstore.google.com/detail/abailmienbplhpgipgbdgendbdfpaeak'},
+        {label: 'Changelog', to: '/changelog'},
+        {label: 'System Status', href: 'https://sites.rightview.ai/status'},
+        {label: 'Request a Feature', to: '/feature-request'},
+        {label: 'Contact Support', href: 'mailto:support@rightview.ai'},
+        {label: 'Privacy Policy', href: 'https://sites.rightview.ai/privacy'},
+        {label: 'Terms of Service', href: 'https://sites.rightview.ai/terms'},
+        {label: 'Trust Center', href: 'https://trust.rightview.ai'},
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} FirstSearch Inc dba Rightview. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Rightview Technologies Inc. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
