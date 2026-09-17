@@ -7,16 +7,34 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
-## v1.1.5-beta.1 - September 2026
+## v1.1.5 - September 2026
 
-**A system status page, safer pre-screening, and a smoother browser extension**
+**Navigator in your browser, smarter answers, new team roles, and stronger data protection**
 
-- **System status page** - a public status page shows whether Navigator is operational and lists any current incidents.
-- **Steadier answers on hard questions** - Navigator stops a chat run that keeps searching without finding useful results, and answers with what it has. This builds on the earlier fix for questions that used to run until they timed out.
-- **Save a web page into a study from the extension** - the browser extension can capture the page you are viewing, remove patient identifiers, and add it to a study. It also captures open PDFs and lets you pick which tab to capture. Heavy pages now have more time to capture.
-- **Safer patient pre-screening** - each pre-screening result is visible only to the person who ran it. Navigator also limits how many pre-screening requests one person or site can start in a short time.
-- **Smoother password reset** - a reset link works for an account that must reset its password or whose password expired, and the link stays valid until you finish the reset.
+### Navigator in your browser
+
+- **Chrome side-panel extension** - run Navigator in a side panel next to your EDC, a source document, or a screening record, without switching tabs. Chat with citations, run Source QC on the page in front of you, and pre-screen a record against the study's eligibility criteria. Ask your Rightview contact or site administrator for the install link. See [Chrome side-panel extension](/extension/chrome-extension).
+- **Save a web page into a study** - the extension captures the page you are viewing, removes patient identifiers, and adds it to a study. It also captures open PDFs and lets you pick which tab to capture.
+- **Patient pre-screening** - read a participant record on the page and check it against the study's inclusion and exclusion criteria, with a per-criterion result. Each result is visible only to the person who ran it.
+
+### Chat
+
+- **Smarter answers** - Navigator uses an upgraded AI model. Chat gives you clearer and more accurate answers across your studies.
+- **Quicker starts** - the chat home shows compact task chips. Pick one to start a common task in a click.
+- **Steadier answers on hard questions** - Navigator stops a chat run that keeps searching without finding useful results and answers with what it has.
+- **Delete a chat** - remove a conversation from the sidebar. Its messages are archived, not shown in the list.
+
+### Documents and roles
+
+- **New team roles** - a site administrator can assign a Site Editor, who uploads and manages study documents without full admin access, and a Private Editor, who uploads confidential documents that stay hidden from site administrators.
+- **Copy tables into Excel or Sheets** - copy a chat table and paste it into Excel or Google Sheets with its rows and columns intact. It also keeps its formatting in Word and Google Docs.
+
+### Security and reliability
+
+- **Personal and confidential documents stay sealed** - a site administrator's data export, document lists, and version history no longer show another user's personal or confidential document names, or chat answers based on them. Privileged editor roles now require a second sign-in factor.
 - **Stronger data access limits** - more of Navigator's document retrieval applies the same access limits as chat, so answers stay within what you are allowed to see.
+- **System status page** - a public status page shows whether Navigator is operational and lists any current incidents.
+- **Smoother password reset** - a reset link works for an account that must reset its password or whose password expired, and the link stays valid until you finish the reset.
 
 ## v1.1.4 - September 2026
 

@@ -8,11 +8,13 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **System status page** - a public status page shows whether Navigator is operational and lists any current incidents.
-- **Steadier answers on hard questions** - Navigator stops a chat run that keeps searching without finding useful results and answers with what it has.
-- **Save a web page into a study from the extension** - the browser extension captures the page you are viewing, removes patient identifiers, and adds it to a study. It also captures open PDFs and lets you pick which tab to capture.
-- **Safer patient pre-screening** - each pre-screening result is visible only to the person who ran it, and Navigator limits how many requests one person or site can start in a short time.
-- **Smoother password reset** - a reset link works for an account that must reset its password or whose password expired, and stays valid until you finish the reset.
+- **Navigator in your browser** - run Navigator in a Chrome side panel next to your EDC or source documents. Chat with citations, run Source QC on the page you are viewing, and pre-screen a record against the study's eligibility criteria. See [Chrome side-panel extension](/extension/chrome-extension).
+- **Smarter answers** - Navigator uses an upgraded AI model, so chat gives you clearer and more accurate answers.
+- **Quicker chat starts** - the chat home shows compact task chips. Pick one to start a common task in a click.
+- **New team roles** - a site administrator can assign a Site Editor (document write, no full admin access) and a Private Editor (confidential document upload, hidden from site administrators).
+- **Copy tables into Excel or Sheets** - copy a chat table and paste it with its rows and columns intact. It also keeps its formatting in Word and Google Docs.
+- **Delete a chat** - remove a conversation from the sidebar; its messages are archived, not shown in the list.
+- **Stronger data protection** - a site administrator's export and document views no longer show another user's personal or confidential document names, and privileged editor roles require a second sign-in factor.
 
 ## Smarter chat
 
