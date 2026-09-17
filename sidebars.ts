@@ -3,11 +3,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   userGuideSidebar: [
     'intro',
-    {
-      type: 'link',
-      label: 'Video Library',
-      href: '/video-library',
-    },
+    'video-library',
     {
       type: 'category',
       label: 'Getting Started',
