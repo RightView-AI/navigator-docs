@@ -51,6 +51,10 @@ Two things are specific to the panel:
 
 Source QC reviews a source document against the ALCOA data-quality dimensions (attributable, legible, contemporaneous, original, accurate) and flags issues such as a missing signature or field.
 
+<video controls preload="metadata" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
+  <source src="/video/source-qc-extension.mp4" type="video/mp4" />
+</video>
+
 1. Open the source document in a browser tab (for example, a page in your EDC).
 2. In the panel, switch to **Source QC** and click **Go**.
 3. The extension captures the **full page** of the active tab - Chrome briefly shows a "started debugging this browser" banner while it takes the screenshot, then stops. This capture only happens when you click **Go**.
