@@ -3,22 +3,34 @@ title: Video Library
 description: Short how-to walkthroughs for Navigator features.
 ---
 
+import Link from '@docusaurus/Link';
+
 # Video Library
 
-Short, narrated-free walkthroughs of Navigator features. More coming over time.
+Short, narration-free walkthroughs of Navigator features. More coming over time.
 
-## Source QC — browser extension
+<div className="rv-video-grid">
 
-Capture the source page in your active browser tab and run an ALCOA+ quality review right where you work, then review findings across ALCOA+ and protocol cross-reference. Full guide: [Chrome side-panel extension → Source QC](/extension/chrome-extension#source-qc).
+  <div className="rv-video-card">
+    <video controls preload="metadata">
+      <source src="/video/source-qc-extension.mp4" type="video/mp4" />
+    </video>
+    <div className="rv-video-card__body">
+      <span className="rv-video-card__title">Source QC — browser extension</span>
+      <p className="rv-video-card__desc">Capture the source page in your active browser tab and run an ALCOA+ quality review right where you work, with findings across ALCOA+ and protocol cross-reference.</p>
+      <Link className="rv-video-card__link" to="/extension/chrome-extension#source-qc">Full guide →</Link>
+    </div>
+  </div>
 
-<video controls preload="metadata" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
-  <source src="/video/source-qc-extension.mp4" type="video/mp4" />
-</video>
+  <div className="rv-video-card">
+    <video controls preload="metadata">
+      <source src="/video/source-qc-in-app.mp4" type="video/mp4" />
+    </video>
+    <div className="rv-video-card__body">
+      <span className="rv-video-card__title">Source QC — in Navigator</span>
+      <p className="rv-video-card__desc">Upload source scans from Visits → Source Quality Control, let Navigator run the ALCOA+ review, then open a row for the full per-dimension analysis.</p>
+      <Link className="rv-video-card__link" to="/visits/overview#source-quality-control">Full guide →</Link>
+    </div>
+  </div>
 
-## Source QC — in Navigator
-
-Upload source scans from **Visits → Source Quality Control**, let Navigator run the ALCOA+ review, then open a row for the full per-dimension analysis. Full guide: [Visits → Source Quality Control](/visits/overview#source-quality-control).
-
-<video controls preload="metadata" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
-  <source src="/video/source-qc-in-app.mp4" type="video/mp4" />
-</video>
+</div>
