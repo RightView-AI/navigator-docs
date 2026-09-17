@@ -514,6 +514,11 @@ body {
   text-underline-offset: 3px;
 }
 
+/* Hide the external-link icon Docusaurus appends to footer links. */
+.rv-footer-root .footer__link-item svg {
+  display: none;
+}
+
 .rv-footer-root .footer__copyright {
   color: rgba(255, 255, 255, 0.78);
   font-size: 0.8125rem;

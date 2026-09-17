@@ -62,4 +62,4 @@ Site Admin, Site Editor, Private Editor, Sponsor Admin, and Medical Monitor acco
 
 ## Requesting access changes
 
-Contact your organization's Navigator administrator or email **research@rightview.ai**.
+Contact your organization's Navigator administrator or email **support@rightview.ai**.

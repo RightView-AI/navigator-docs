@@ -48,4 +48,4 @@ If the app looked signed in but actions fail, refresh the page or sign in again 
 | --- | --- |
 | Magic link email not arriving | Check spam/junk folders. Confirm your email matches the one your admin registered. |
 | Link expired | Return to the login page and request a new link. |
-| Invalid email or password | Reset your password or contact **research@rightview.ai**. |
+| Invalid email or password | Reset your password or contact **support@rightview.ai**. |

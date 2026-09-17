@@ -14,7 +14,7 @@ Site administrators can invite new teammates and see how their site's usage comp
 3. If your site has any restricted collections, optionally check the ones this person should have access to right away - unrestricted collections are already visible to everyone at your site.
 4. Click **Add user**.
 
-The new teammate receives a magic-link email to set their password and sign in. They're added with the standard **User** role; contact **research@rightview.ai** to assign a different role.
+The new teammate receives a magic-link email to set their password and sign in. They're added with the standard **User** role; contact **support@rightview.ai** to assign a different role.
 
 ## Site capacity
 
