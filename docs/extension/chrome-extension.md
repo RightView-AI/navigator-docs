@@ -80,11 +80,13 @@ Pre-screening reads page text only (no screenshot). As with chat, treat the verd
 - **Panel is blank or won't load the chat** - your session may have timed out (60-minute idle). Reopen the panel; the login form should appear. If it still fails, your organization's setup may not be complete yet - contact your Rightview administrator.
 - **No Source QC or Pre-screening icon** - those modules aren't enabled for your site. An administrator can enable them.
 - **Source QC says "This is a PDF"** - upload the PDF to Navigator directly (see [Source Quality Control](/visits/overview#source-quality-control)); Chrome PDFs can't be screenshotted.
+- **Capture fails on a local file** - if the tab is a file you opened from your computer (its address starts with `file:///`), Chrome blocks the extension from reading it until you turn on one permission per extension. See [Allow access to local files](/extension/enable-file-access).
 - **Wrong page captured** - Source QC and Pre-screening act on the **active tab**. Make sure the tab you want is the focused one before you click **Go**.
 
 ## Related guides
 
 - [Ask questions in chat](/chat/asking-questions)
 - [View all sources](/chat/viewing-sources)
+- [Allow access to local files](/extension/enable-file-access)
 - [Visits & Source Quality Control](/visits/overview)
 - [Sign in](/getting-started/sign-in)
