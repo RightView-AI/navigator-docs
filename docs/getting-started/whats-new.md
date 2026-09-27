@@ -8,13 +8,12 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **Navigator in your browser** - run Navigator in a Chrome side panel next to your EDC or source documents. Chat with citations, run Source QC on the page you are viewing, and pre-screen a record against the study's eligibility criteria. See [Chrome side-panel extension](/extension/chrome-extension).
-- **Smarter answers** - Navigator uses an upgraded AI model, so chat gives you clearer and more accurate answers.
-- **Quicker chat starts** - the chat home shows compact task chips. Pick one to start a common task in a click.
-- **New team roles** - a site administrator can assign a Site Editor (document write, no full admin access) and a Private Editor (confidential document upload, hidden from site administrators).
-- **Copy tables into Excel or Sheets** - copy a chat table and paste it with its rows and columns intact. It also keeps its formatting in Word and Google Docs.
-- **Delete a chat** - remove a conversation from the sidebar; its messages are archived, not shown in the list.
-- **Stronger data protection** - a site administrator's export and document views no longer show another user's personal or confidential document names, and privileged editor roles require a second sign-in factor.
+- **Cross-check with EDC** - in the Chrome side panel, compare a source document tab with an EDC form tab field by field. Navigator marks each field Mismatch or Missing. See [Chrome side-panel extension](/extension/chrome-extension).
+- **Finance desk** - if your site has the Finance module, open **Finance** in the sidebar. Import invoices, click **Run reconciliation**, and see billable work that has no invoice.
+- **One view of each study** - Collections shows every document, PI-verified answer, and artifact in the study as searchable cards, with one **Upload** button.
+- **Answers from a contact come back to chat** - a contact's answer shows in the same chat thread as a verified answer.
+- **Refresh keeps your place** - a page refresh opens the view you were on.
+- **Tighter sponsor access** - sponsors see only the sites and studies they are enrolled in.
 
 ## Smarter chat
 
@@ -30,7 +29,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Rename collections** - Site administrators can rename a study collection's Protocol ID and sponsor name from **Manage → Collection Settings**.
 - **Access control** - Site administrators can limit who sees a whole collection or individual documents. See [Restrict collection and document access](/collections/restrict-access).
 - **Bookmark your protocols** - Star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
-- **HIPAA-aligned data protection** - Navigator keeps only de-identified data in the audit trail and search index, and protects your site's data with HIPAA-aligned safeguards.
+- **HIPAA-aligned data protection** - Navigator protects your site's data with HIPAA-aligned safeguards.
 
 ## Visits
 

@@ -7,6 +7,35 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
+## v1.1.6 - September 2026
+
+**Cross-check source documents against the EDC, a Finance desk, and one view of each study**
+
+### Navigator in your browser
+
+- **Cross-check with EDC** - in the Chrome side panel, pick the tab with a source document and the tab with the EDC form. Navigator compares them field by field and marks each field Mismatch or Missing. It saves the result on the Source QC record.
+- **Invoice capture** - capture invoice lines from a CTMS page into the Finance desk.
+- **Welcome page** - the extension opens a Welcome page on first launch. It shows how to let the extension read local PDF files. See [Enable file access](/extension/enable-file-access).
+
+### Finance desk
+
+- **Find billable work that is not invoiced** - if your site has the Finance module, open **Finance** in the sidebar. Import invoices by CSV or with Invoice capture, then click **Run reconciliation**. Navigator lists billable work from your source documents that has no invoice, with the amount and the source page as evidence.
+- **Review each result** - approve or dismiss each result, then export a pilot report.
+
+### Collections and chat
+
+- **One view of each study** - Collections shows every document, PI-verified answer, and artifact in the study as searchable cards. Click **Upload**, drop a file, and choose who can see it.
+- **Answers from a contact come back to chat** - when a contact answers a question you sent, the answer shows in the same chat thread as a verified answer.
+- **Clearer sources and steps** - chat shows sources as document cards and shows short step labels while Navigator works. Math formulas show correctly.
+- **Plain answers** - answers use plain English and define clinical acronyms.
+- **Refresh keeps your place** - when you refresh the page, Navigator opens the view you were on, not Chat.
+
+### Security and reliability
+
+- **Tighter sponsor access** - sponsors see only the sites and studies they are enrolled in. A sponsor amendment goes to a site only after the site approves it.
+- **Study-scoped actions** - Send to PI goes only to contacts registered for the study. eCRF updates from chat go only to the correct study and form.
+- **Complete study delete and rename** - deleting or renaming a study now updates every record that belongs to the study.
+
 ## v1.1.5 - September 2026
 
 **Navigator in your browser, smarter answers, new team roles, and stronger data protection**
