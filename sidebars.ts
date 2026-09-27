@@ -42,6 +42,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Finance',
+      items: ['finance/finance-desk'],
+    },
+    {
+      type: 'category',
       label: 'Artifacts',
       items: ['artifacts/save-and-share'],
     },

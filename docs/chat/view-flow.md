@@ -4,28 +4,38 @@ sidebar_position: 4
 
 # View Flow
 
-**View Flow** shows how Navigator handled a completed answer - useful when you want to understand the steps behind a response without reading technical logs.
+**View Flow** shows the steps that Navigator used to make an answer. You do not need to read technical logs.
 
-## Watching an answer take shape
+## Watch an answer take shape
 
-While Navigator is working on a response, a **Thinking** panel streams its reasoning live above the answer, with small labeled chips (for example, searching protocol documents or checking a schedule of assessments) appearing inline at the point they actually happened. You don't have to wait for the full answer to see what Navigator is doing.
+While Navigator works on an answer, a **Working** panel shows above the answer. Each step shows as a chip with a name and a short description, for example a search of the trial documents. The panel shows the number of steps.
 
-Once the answer finishes, the panel collapses to a single line - **"Thought for _Ns_"** - that you can click to re-expand and review the full reasoning at any time.
+- The current step shows a spinner.
+- A completed step shows a check mark.
 
-## When View Flow appears
+Navigator does not show its raw reasoning text.
 
-After an assistant message finishes generating, look for **View Flow** near the other message actions (alongside **View sources**, **Copy**, and **Save**).
+When the answer is complete, the panel collapses to one line, for example **Thought for 12s**.
 
-If the button is not shown, the message may still be streaming or the response did not include flow details.
+## Open View Flow
+
+1. Wait until the answer is complete.
+2. Below the answer, click **View Flow**. It shows next to **Copy message**, **View Sources**, and **Save**.
+
+If **View Flow** does not show, the answer has no flow details.
 
 ## What you see
 
-Click **View Flow** to open a panel on the right. It typically includes:
+The **Analysis Flow** panel opens on the right. It can include these sections:
 
-- Which capabilities Navigator applied to your question
-- High-level steps taken while building the answer
+- **Agent Routing** - how Navigator sent your question to the correct assistant.
+- **Workflow Selected** - the special workflow that Navigator used, if any.
+- **Connected Systems** - the connected systems that Navigator used, if any.
+- **Steps Taken** - the steps that Navigator did to make the answer.
 
-Use this when training staff, reviewing complex medical or operational questions, or confirming that the right study collection was in scope.
+Use View Flow to train staff, to review complex questions, or to confirm that the correct study was used.
+
+To close the panel, click the **X**.
 
 ## Related guides
 

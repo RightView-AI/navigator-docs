@@ -32,8 +32,8 @@ A history of Navigator releases. This page covers user-facing changes only - for
 
 ### Security and reliability
 
-- **Tighter sponsor access** - sponsors see only the sites and studies they are enrolled in. A sponsor amendment goes to a site only after the site approves it.
-- **Study-scoped actions** - Send to PI goes only to contacts registered for the study. eCRF updates from chat go only to the correct study and form.
+- **Tighter sponsor access** - sponsors see only the sites and studies they are enrolled in. A site administrator must approve the visit schedule changes in a sponsor amendment before Navigator applies them.
+- **Study-scoped actions** - **Ask a Contact** sends only to contacts registered for the study. eCRF updates from chat go only to the correct study and form.
 - **Complete study delete and rename** - deleting or renaming a study now updates every record that belongs to the study.
 
 ## v1.1.5 - September 2026

@@ -4,33 +4,37 @@ sidebar_position: 2
 
 # Allow access to local files
 
-Source QC and Pre-screening act on whatever tab you have open. When that tab is a **local file** (a PNG, PDF, or HTML file you opened from your computer, with an address that starts with `file:///`), Chrome blocks extensions from reading it unless you turn on one permission per extension. This is off by default for every extension, and Chrome only lets **you** turn it on; it can't be preset by the extension or the Web Store.
+The extension captures the page in a browser tab. Sometimes that tab shows a **local file**, for example a PDF, PNG, or HTML file that you open from your computer. The address of a local file starts with `file:///`. Chrome does not let an extension read local files until you turn on one setting for that extension. This setting is off by default. Only you can turn it on. The extension and the Chrome Web Store cannot turn it on for you.
 
-If you only ever work against web pages (your EDC, EMR, or anything at `http://`/`https://`), you don't need this. Turn it on when you want Navigator to read a file you've opened straight from disk.
+You do not need this setting for web pages, for example your EDC, EMR, or any page at `http://` or `https://`. Turn it on only if you want Navigator to read a file from your computer.
+
+## The Welcome page shows the status
+
+The first time you open the side panel, the **Welcome to Navigator** page shows the steps below. A status line below the steps tells you if file access is on or off. To see the Welcome page again, right-click the Rightview Navigator toolbar icon and select **Welcome and setup help**.
 
 ## Symptom
 
-You point Source QC or Pre-screening at a local file and the panel shows a message like *"This is a local file. Turn on 'Allow access to file URLs'…"*, or the capture just fails. That's this toggle being off.
+You start a capture on a local file, and the panel shows a message that starts with *"This is a local file. Turn on "Allow access to file URLs"..."*. Or the capture fails. The cause is that the setting is off.
 
 ## Turn it on
 
-1. Open **`chrome://extensions`** (paste it into the address bar and press Enter).
+1. Open **`chrome://extensions`**. Type it in the address bar and press Enter.
 2. Find **Rightview Navigator** and click **Details**.
-3. Scroll to **Allow access to file URLs** and switch it **on**.
-4. Go back to your file tab and **reload it** (or close and reopen the file) so the new permission applies.
+3. Find **Allow access to file URLs** and turn it on.
+4. Go back to the tab with your file. Reload the tab, or close the file and open it again.
 
-That's it. It stays on through extension updates and reinstalls. To turn it back off, flip the same switch.
+The setting stays on after extension updates and after you install the extension again. To turn it off, use the same switch.
 
-## Why Chrome makes you do this
+## Why Chrome asks you to do this
 
-File access lets an extension read files on your computer, so Chrome requires a deliberate, per-extension opt-in that only you can grant. There's no way to enable it automatically from the Web Store.
+With file access, an extension can read files on your computer. For this reason, Chrome makes you turn it on yourself, for each extension. The Chrome Web Store cannot turn it on automatically.
 
-## Avoid it entirely
+## Work without file access
 
-You don't have to open files from disk. Instead:
+You do not have to open files from your computer. You can do one of these:
 
-- **Open the document in a browser tab** - most EDCs and EMRs already serve source docs over the web, and those work with no extra permission.
-- **Upload the file to Navigator directly** in the main app, then run Source QC there. See [Source Quality Control](/visits/overview#source-quality-control).
+- **Open the document in a browser tab.** Most EDCs and EMRs show source documents on the web. These pages work without this setting.
+- **Upload the file to Navigator directly** in the main app. Then run Source QC there. See [Source Quality Control](/visits/overview#source-quality-control).
 
 ## Related guides
 

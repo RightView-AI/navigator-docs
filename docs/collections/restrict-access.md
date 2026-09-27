@@ -4,53 +4,66 @@ sidebar_position: 3
 
 # Restrict collection and document access
 
-Site administrators can limit who at your site can use a study collection in chat, upload to it, or see individual documents inside it. Use this when a protocol includes sensitive appendices or when only certain roles should work with specific files.
+Site administrators can limit who can use a study collection. They can also limit who can see a document in the collection. Use this when a protocol has sensitive appendices, or when only some staff must use some files.
 
-Site administrators always have full visibility across collections at their site.
+Site administrators can always see all collections at their site.
 
 ## Open access settings
 
-1. In the sidebar, open **Collections**.
-2. Find the study collection and click **Manage** on its row.
-3. In the **Manage collection** dialog, select the **Collection Settings** tab.
+1. In the sidebar, click **Collections**.
+2. Make sure the correct study shows at the top of the page.
+3. Click **Manage**. The **Manage collection** dialog opens on the **Collection Settings** tab.
 
-## Set collection-level access
+## Set collection access
 
-Under **Collection access** in **Collection Settings**, choose one of:
+Under **Collection access**, choose one option:
 
-- **All site users** - anyone at the site can select this collection in chat and work with its documents.
-- **Specific users only** - check the users who should have access, then click **Save access**.
+- **All site users** - all users at the site can use this collection.
+- **Specific users only** - select the users who get access.
 
-Users who are not on the list will not see the collection in chat or in collection lists. Changing collection access applies to the whole study collection unless you set a different rule on individual documents.
+Then click **Save access**.
 
-## Set document-level access
+Users who are not on the list do not see the collection in chat or in collection lists. The rule applies to all documents in the collection, unless a document has its own rule.
 
-Some files in a collection may need tighter control than the collection default.
+## Set document access
 
-1. In the same **Manage collection** dialog, switch to the **Documents** tab.
-2. Find the document row and click **Manage Access**.
-3. Choose **All site users** to inherit the collection rule, or **Specific users only** to override with a custom list.
-4. Click **Save access**.
+1. On the **Collections** page, find the document card.
+2. Click the **...** menu on the card.
+3. Click **Manage access**. The **Collection Settings** tab opens with the access settings for that document.
+4. Choose **All site users** to use the collection rule. Choose **Specific users only** to set a different list.
+5. Click **Save access**.
 
-Documents without their own override inherit whatever you configured at the collection level. Hovering **Manage Access** shows the document's current effective access.
+A document without its own rule uses the collection rule.
 
-## Set access when creating a collection
+## Set access when you create a collection
 
-When a site administrator creates a new study collection from **Collections**, the upload flow includes a **Collection access** step before files are submitted. Choose **All site users** or **Specific users only** the same way as above so the new collection is restricted from the start.
+When a site administrator creates a collection, the dialog has an access step. Choose **All site users** or **Specific users only**. The collection is then restricted from the start. See [Create a new collection](/collections/upload-documents#create-a-new-collection).
 
 ## Confidential documents
 
-A **Private Editor** can upload confidential documents, such as a clinical trial agreement or a budget, that stay hidden from site administrators. Only the uploader, the members they add, and platform administrators can see a confidential document or ask about it in chat. This is stronger than a document-level access restriction, which a site administrator can still see and manage. See [Roles and permissions](/reference/roles-and-permissions).
+A confidential document is sealed from site administrators. Only the uploader, the members the uploader adds, and platform administrators can see it or ask about it in chat. Use it for files such as a clinical trial agreement or a budget. This is stronger than document access, because a site administrator can see and change document access.
+
+To upload a confidential document:
+
+1. On the **Collections** page, click **Upload**.
+2. Add the files, then click **Next: Name Files →**.
+3. Under **Who can see this?**, select **Everyone in this trial**.
+4. Select the **Confidential** checkbox. This checkbox shows only if your role allows confidential uploads.
+5. Type a document type for each file.
+6. Under **Members for confidential files**, type the email addresses of the members, separated by commas. You always keep access.
+7. Click **Upload**.
+
+A confidential document shows a **Confidential** label on its card. See [Roles and permissions](/reference/roles-and-permissions).
 
 ## Tips
 
-- Restrict at the **collection** level when an entire protocol should be limited to a small team.
-- Use **document** overrides when one manual or appendix should stay private within an otherwise open collection.
-- After changing access, ask affected users to refresh the app if they still see a collection they should no longer access.
+- Restrict the **collection** when a small team must use the full protocol.
+- Restrict a **document** when one manual or appendix must stay private in an open collection.
+- After you change access, tell affected users to refresh the app.
 
 ## Related guides
 
 - [Upload documents](/collections/upload-documents)
 - [Manage collections](/collections/manage-collections)
-- [Personal documents](/collections/personal-documents) - private files only you can see
+- [Personal documents](/collections/personal-documents)
 - [Roles & Permissions](/reference/roles-and-permissions)

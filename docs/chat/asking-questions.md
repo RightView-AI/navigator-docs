@@ -4,46 +4,56 @@ sidebar_position: 1
 
 # Ask questions in chat
 
-Chat is the core of Navigator. You ask a question in plain language, and Navigator searches your study documents to produce an answer with numbered citations.
+Chat is the core of Navigator. You ask a question in plain language. Navigator searches your study documents and gives an answer with citations.
 
 ## Before you start
 
 1. Sign in at [sites.rightview.ai](https://sites.rightview.ai).
-2. In the sidebar, use the **Study collection** picker to select the protocol you want to query. The page title above chat shows which one is active.
-3. If no collections appear, ask your site admin to create one or see [Upload documents](/collections/upload-documents).
+2. In the sidebar, use the **Study collection** picker to select the protocol.
+3. If no collections show, ask your site administrator to create one. See [Upload documents](/collections/upload-documents).
 
 ## Send a question
 
-1. Click in the message box at the bottom of the chat.
+1. Click the message box at the bottom of the chat.
 2. Type your question, for example: *What are the inclusion criteria for Visit 2?*
 3. Press **Enter** or click the send button.
 
-While Navigator prepares your answer, a **Thinking** panel streams its progress live - see [View Flow](/chat/view-flow) for what that looks like. Click the same button again (now showing stop) to end the response early if you don't need the rest.
+While Navigator works, a **Working** panel shows each step as a chip, for example a search of the trial documents. The chip of the current step shows a spinner. A completed step shows a check mark. See [View Flow](/chat/view-flow).
+
+To stop the answer early, click the send button again. It now shows a stop icon.
+
+Answers can include tables and formatted math formulas.
 
 ## Past conversations
 
-Each chat is saved in the sidebar under your recent conversations. Click one to reopen it, or start fresh with the **New chat** button. To remove a conversation, hover over it in the sidebar and choose delete - its messages are archived and it no longer appears in the list.
+Navigator saves each chat in the chat history list next to the chat.
+
+- Click a chat to open it again.
+- Click **New chat** to start a new chat. You can also click **Chat** in the sidebar.
+- To remove a chat, hover over it and click **Archive chat**. The chat no longer shows in the list.
 
 ## Follow-up questions
 
-In the same conversation, you can ask short follow-up questions that build on your earlier messages - for example, after asking about inclusion criteria, you might ask *"What about exclusion criteria?"* or *"Is that allowed under ICH?"* Navigator uses recent turns in the thread to interpret these, rather than treating them as brand-new, unrelated questions. For best results:
+In the same chat, you can ask short follow-up questions. For example, after a question about inclusion criteria, ask *"What about exclusion criteria?"* Navigator uses the recent messages to understand the follow-up.
 
-- Stay in the **same conversation** when clarifying or drilling down.
-- Keep the **same study collection** selected unless you intentionally switch protocols.
-- If a follow-up seems off-topic, restate the key detail once (visit, procedure, or document type).
+For best results:
 
-Regulatory or governance follow-ups may pull regulatory sources in addition to your study documents. Use **View sources** to see every source used.
+- Stay in the **same chat** when you ask for more detail.
+- Keep the **same study collection** selected.
+- If a follow-up answer seems off-topic, repeat the key detail, for example the visit or the document type.
+
+Regulatory follow-up questions can use regulatory sources and your study documents. Click **View Sources** to see every source.
 
 ## Tips for better answers
 
-- **Be specific** - mention visit numbers, procedures, or document types when you know them.
-- **One topic per message** - break long multi-part questions into separate messages.
-- **Pick the right collection** - answers primarily use documents uploaded to the selected study collection (plus regulatory sources when relevant).
+- **Be specific.** Give visit numbers, procedures, or document types.
+- **Ask about one topic in each message.** Split long questions into separate messages.
+- **Select the correct collection.** Answers mainly use the documents of the selected study, plus regulatory sources when necessary.
 
 ## Related guides
 
-- [View citations](/chat/viewing-citations) - open numbered references in the answer
-- [View all sources](/chat/viewing-sources) - browse every source used for a response
-- [View Flow](/chat/view-flow) - see how Navigator built the answer
-- [Save as artifact](/artifacts/save-and-share) - keep a useful answer for later
-- [Tips & tricks](/getting-started/tips-and-tricks) - more prompt tips and general guidance
+- [View citations](/chat/viewing-citations)
+- [View all sources](/chat/viewing-sources)
+- [View Flow](/chat/view-flow)
+- [Save and share artifacts](/artifacts/save-and-share)
+- [Tips & tricks](/getting-started/tips-and-tricks)

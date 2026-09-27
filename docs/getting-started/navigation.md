@@ -4,46 +4,60 @@ sidebar_position: 2
 
 # Navigate the app
 
-After signing in, you land on the main **Chat** view. A sidebar on the left gives you access to the rest of Navigator.
+After you sign in, the main **Chat** view opens. The sidebar on the left gives you access to the rest of Navigator.
 
 ## Study collection picker
 
-Near the top of the sidebar, a **Study collection** dropdown sets which protocol you're working in. It scopes more than chat - Contacts, Visits, and Artifacts all follow whichever collection is active there. See [The study collection picker](/collections/manage-collections#the-study-collection-picker).
+Near the top of the sidebar, the **Study collection** picker sets the protocol that you work in. It scopes every view, not only chat. See [The study collection picker](/collections/manage-collections#the-study-collection-picker).
 
 ## Sidebar overview
 
-| Item | What it does |
-| --- | --- |
-| **Chat** | Ask questions about documents in a selected study collection |
-| **Notifications** | View responses you sent to Principal Investigators (PIs) and track their status |
-| **Collections** | Upload and manage study document collections (protocols) |
-| **Visits** | View a protocol's Schedule of Assessments; also see the patient roster if your site has the Patients module enabled - see [Visits & Schedule of Assessments](/visits/overview) |
-| **Artifacts** | Browse saved answers and notes you or colleagues have shared |
-| **Users** | Manage PI contacts for sending responses. Site administrators also see a **Site users** tab to invite teammates - see [Users & site capacity](/admin/site-capacity-and-users) |
+The **Workspace** section of the sidebar has these items. Some items show only for some roles, or only when your site has a module turned on.
 
-Change your password or sign out from your account menu at the bottom of the sidebar. Medical monitors see **My PI Inbox** instead of the standard notifications list.
+| Item | What it does | Who sees it |
+| --- | --- | --- |
+| **Chat** | Ask questions about the documents in the selected study collection. | Everyone |
+| **Notifications** | See the responses that you sent to Principal Investigators (PIs) and their status. | Everyone except medical monitors, who see **My PI Inbox** |
+| **Collections** | Search, upload, and manage the documents, knowledge, and artifacts for the selected study. See [Collections view](#collections-view). | Everyone |
+| **Visits** | Open the **Schedule of Assessments**, **Patients**, and **Source Quality Control** tabs. See [Visits & Schedule of Assessments](/visits/overview). | Sites with at least one Visits module. Not medical monitors. |
+| **Finance** | Reconcile billable work against the budget and the CTMS. See [Finance desk](/finance/finance-desk). | Sites with the Finance module. Not medical monitors. |
+| **Users** | Use PI contacts for **Send to PI**. Site administrators also see a **Site users** tab to invite teammates. See [Users & site capacity](/admin/site-capacity-and-users). | Everyone except medical monitors |
+| **Insights** | See usage analytics and optional subtopic analysis. | Site administrators |
+| **Help** | Open this user guide in a new tab. | Everyone |
 
-**Visits** always appears in the sidebar - Schedule of Assessments needs nothing extra. The **Patients** sub-tab inside Visits is the only part that requires the module to be enabled for your site by an administrator; without it, Patients won't be available but Schedule of Assessments still is.
+**Visits** shows only when your site has at least one of these modules: Schedule of Assessments, Patients, or Source Quality Control. Each tab in **Visits** shows only when its module is on.
+
+**Finance** is also an optional module. When it is on, the Chrome side panel also shows **Invoice capture**.
+
+## Collections view
+
+**Collections** shows one study at a time. Use the picker at the top of the page to switch the study.
+
+- **Search this study** finds documents, knowledge, and artifacts in the study.
+- The **All**, **Documents**, **Knowledge**, **Artifacts**, and **Site-wide** filters narrow the cards.
+- **Upload** adds files. Everyone can upload a personal document. Your role controls the other **Who can see this?** options.
+- **Manage** opens the collection settings. Only site administrators see it.
+
+Artifacts are in the **Collections** view. There is no separate **Artifacts** item in the sidebar. See [Upload documents](/collections/upload-documents) and [Save and share artifacts](/artifacts/save-and-share).
+
+## Account settings and sign out
+
+The bottom of the sidebar shows your name, email, and role. Click the gear icon (**Account settings**) to open your account settings. Click the sign-out icon to sign out.
 
 ## Chat header
 
-At the top of the chat view, the page title shows which study collection is active (or **"No study collections yet"** if none exist). This is read-only - switch collections from the **Study collection** picker in the sidebar, not from the header.
+At the top of the chat view, the title shows the active study collection. If there are no collections, it shows **No study collections yet**. The title is read-only. To switch collections, use the **Study collection** picker in the sidebar.
 
 ## Mobile layout
 
-On smaller screens, tap the **menu** icon (☰) in the top-left to open the sidebar. Tap a section to navigate and the sidebar closes automatically.
+On small screens, tap the **menu** icon (☰) in the top-left to open the sidebar. Tap a section to go to it. The sidebar then closes.
 
-## Admin links
+## Administrator links
 
-Site and sponsor administrators may see additional links under a **Management** section:
+Platform administrators see a **Management** section with a **Platform** link.
 
-| Link | Who sees it | Purpose |
-| --- | --- | --- |
-| **Sponsor** | Sponsor administrators | Sponsor protocol lists and sponsor Insights |
-| **Insights** | Site administrators, sponsor administrators | Usage analytics and optional subtopic analysis |
+Sponsor administrators do not use the main workspace. After sign-in, Navigator opens the sponsor page. It lists the sponsor's collections at enrolled sites.
 
-Site administrators manage collections and their access from **Collections → Manage** on a study collection - see [Restrict collection and document access](/collections/restrict-access). There is no separate settings page; collection and document access live inside that dialog.
+Site administrators manage collection access from **Manage** on a study collection. See [Restrict collection and document access](/collections/restrict-access).
 
-Sponsor administrators use **Insights** and sponsor protocol views; they do not use chat or **Collections** uploads in Navigator.
-
-See [Roles & Permissions](/reference/roles-and-permissions) for the full matrix.
+See [Roles and permissions](/reference/roles-and-permissions) for the full list.

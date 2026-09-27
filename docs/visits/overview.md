@@ -28,8 +28,14 @@ Each upload appears as a row with its review status; click a row to open the ful
   <source src="/video/source-qc-in-app.mp4" type="video/mp4" />
 </video>
 
+### Source data verification
+
+The Chrome extension can compare the values in your EDC with a source document, field by field. See [Cross-check with EDC](/extension/chrome-extension#cross-check-with-edc). Navigator saves the result on the Source QC record of that source document.
+
+To see the result, open the document from **Visits → Source Quality Control**. The **Source data verification** section shows each field with its EDC value and its source value. Each field has a verdict: **Match**, **Mismatch**, **Missing in EDC**, or **Missing in source**. The section header shows the number of fields to review.
+
 :::tip Working inside your EDC?
-The [Chrome side-panel extension](/extension/chrome-extension#source-qc) runs the same ALCOA+ review against the page in front of you, without leaving your other system.
+The [Chrome side-panel extension](/extension/chrome-extension#source-qc) runs the same ALCOA+ review on the page in the active tab. You do not have to leave your other system.
 :::
 
 ## Build a Schedule of Assessments

@@ -4,54 +4,57 @@ sidebar_position: 1
 
 # Save and share artifacts
 
-**Artifacts** are saved documents created from chat responses or written manually. Use them to keep vetted answers, visit notes, or reference material your team can reuse.
+**Artifacts** are saved documents that you make from chat answers. Use them to keep verified answers, visit notes, or reference material that your team can use again.
 
-## Save a chat response as an artifact
+## Save a chat answer as an artifact
 
-1. In chat, find the message you want to save.
-2. Click **Save as artifact** (bookmark icon) on that message.
-3. Enter a **title** and optionally edit the content in the rich text editor.
-4. Click **Save**.
+1. In chat, find the answer.
+2. Below the answer, click **Save**.
+3. In the dialog, type a title.
+4. Optional: click **Edit** to change the content. Click **Preview** to see the result.
+5. Click **Save**.
 
-The artifact is saved to your personal library and linked to the conversation it came from.
+The button below the answer changes to **Saved**. The artifact is linked to the active study.
 
-## Browse artifacts
+## Find your artifacts
 
-Open **Artifacts** from the sidebar. Use the tabs at the top:
+1. In the sidebar, click **Collections**.
+2. Make sure the correct study shows at the top of the page.
+3. Click the **Artifacts** filter chip.
 
-- **My Artifacts** - responses and notes you saved
-- **Shared with Site** - artifacts others have shared with you (whole site or by name)
+Each artifact shows as a card with the **Artifact** label. The card shows who made it and if it is shared. Type in the **Search this study…** box to find an artifact by title.
 
-Artifacts are scoped to whichever study collection is active in the sidebar picker, the same as Users (external contacts) and Visits - switch collections there to see a different protocol's artifacts. Use the search bar to find artifacts by title within the current collection.
+You see your own artifacts and the artifacts that others shared with you.
+
+## Open an artifact
+
+Click the artifact card. The artifact opens in a dialog.
 
 ## Share an artifact
 
-Only the person who created an artifact can change sharing. Sponsor administrators don't use chat or Artifacts in Navigator, so this doesn't apply to them.
+Only the creator of an artifact can change its sharing.
 
-1. Open an artifact you own (from the list or detail view).
-2. Click **Share**.
-3. Choose who can see it:
-   - **Private** - only you (default for new saves)
-   - **Specific people** - check colleagues at your site, then **Save**
-   - **Everyone at this site** - visible under **Shared with Site** for all site users
-4. Click **Save** to apply.
+1. Click the **...** menu on the artifact card, then click **Share**. You can also open the artifact and click **Share**.
+2. In the **Share artifact** dialog, choose who can see it:
+   - **Private** - only you. This is the default for a new artifact.
+   - **Specific people** - select users at your site.
+   - **Everyone at this site** - all users at your site.
+3. Click **Save**.
 
-Shared artifacts show a **Shared** indicator and, when available, who shared them and when. You can open **Share** again anytime to narrow access, add people, or make an artifact private.
+You can open **Share** again at any time to change who can see the artifact.
 
-Site administrators can edit or delete any artifact visible at the site. Other users can only change artifacts they created.
+## Edit an artifact
 
-## Edit or delete
+1. Click the **...** menu on the card, then click **Edit**. You can also open the artifact and click **Edit**.
+2. Change the title or the content.
+3. Click **Save**.
 
-- **Edit** - update title or body content; changes are saved immediately.
-- **Delete** - permanently removes the artifact (your own, or any site artifact if you are a site admin).
+## Delete an artifact
 
-## Download
+1. Click the **...** menu on the card.
+2. Click **Delete**.
 
-Every artifact can be downloaded as a **PDF** for offline reference or your records.
+## Related guides
 
-## Copy a table into Excel or Sheets
-
-When an artifact contains a table, such as a budget, use **Copy** to place it on your clipboard, then paste it where you need it:
-
-- **Excel or Google Sheets** - the table pastes with its rows and columns intact, one value per cell.
-- **Word or Google Docs** - the table keeps its formatting.
+- [Ask questions in chat](/chat/asking-questions)
+- [Manage collections](/collections/manage-collections)

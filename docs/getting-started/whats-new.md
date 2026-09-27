@@ -38,7 +38,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 ## Artifacts
 
 - **Flexible sharing** - Share saved answers privately, with **specific people** at your site, or with **everyone at this site**.
-- **Scoped to your collection** - Artifacts always shows the active study collection's saved answers, in sync with the sidebar collection picker.
+- **In Collections** - saved answers show as cards in **Collections**. Pick the **Artifacts** chip to see only artifacts.
 
 ## Administration
 

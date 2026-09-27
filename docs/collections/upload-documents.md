@@ -4,76 +4,93 @@ sidebar_position: 1
 
 # Upload documents
 
-Study **collections** group all files for a protocol: the protocol itself, lab manual, investigator guide, slides, spreadsheets, and other trial materials. Navigator reads and searches these files when you ask questions in chat.
+A study **collection** holds all files for a protocol. Examples are the protocol, the lab manual, the investigator guide, slides, and spreadsheets. Navigator reads and searches these files when you ask questions in chat.
 
 ## Who can upload
 
-Site staff, medical monitors, and administrators can upload documents. Sponsor administrators cannot upload from the Navigator app. See [Roles & Permissions](/reference/roles-and-permissions) for details.
+| Upload | Who can do it |
+| --- | --- |
+| A personal document (**Just me**) | All users who can open the **Collections** page |
+| A study document (**Everyone in this trial**) | Site administrators, site editors, and administrators |
+| A site-wide document (**Everyone at my site**) | Site administrators and administrators |
+
+See [Roles & Permissions](/reference/roles-and-permissions) for details.
 
 ## Supported file types
 
-You can upload the following formats to a study collection:
-
 | Category | Formats |
 | --- | --- |
-| **Documents** | PDF, Word (`.docx`, `.dotx`, `.docm`, `.dotm`) |
-| **Presentations** | PowerPoint (`.pptx`, `.potx`, `.ppsx`, `.pptm`, `.potm`, `.ppsm`) |
+| **Documents** | PDF, Word (`.docx`, `.dotx`, `.docm`) |
+| **Presentations** | PowerPoint (`.pptx`, `.potx`, `.ppsx`, `.pptm`) |
 | **Spreadsheets** | Excel (`.xlsx`, `.xlsm`), CSV |
-| **Web & text** | HTML (`.html`, `.htm`), Markdown (`.md`), AsciiDoc (`.adoc`, `.asciidoc`, `.asc`) |
+| **Web & text** | HTML (`.html`, `.htm`), Markdown (`.md`) |
 | **Images** | JPEG, PNG, TIFF, BMP, WebP |
 
-Assign a **document type** to each file (for example `protocol document`, `lab manual`) so citations are labeled clearly in chat.
+A collection can hold PDFs and Office files together. You do not need a different collection for each file type.
 
-:::tip Mixed collections
-A single study collection can include PDFs and Office files together. You do not need a separate collection per file type.
-:::
+## Upload a document
+
+1. In the sidebar, click **Collections**.
+2. Make sure the correct study shows at the top of the page.
+3. Click **Upload**. The **Add document** panel opens.
+4. Drag one or more files into the panel, or click to browse.
+5. Click **Next: Name Files →**.
+6. Under **Who can see this?**, select one option:
+   - **Just me** - a personal document only you can see.
+   - **Everyone in this trial** - a study document for all users with access to this study.
+   - **Everyone at my site** - a site-wide document for every study at your site.
+7. For each file, type a document type (for example `Lab Manual`). Site-wide documents do not need a document type.
+8. Optional: if a study document contains the Schedule of Assessments, select the **Schedule of Assessments** checkbox. Navigator then builds the visit schedule for the **Visits** tab.
+9. Click **Upload**.
+
+You only see the options that your role allows. When processing is complete, the panel shows **Document uploaded and processed successfully.**
+
+To make a study document confidential, see [Confidential documents](/collections/restrict-access#confidential-documents).
+
+**One document per type:** a collection can have only one current document for each document type. To update a document, use **Amend**. Do not upload a second file with the same type.
 
 ## Create a new collection
 
-1. Open **Collections** from the sidebar.
-2. Click **Create new**.
-3. Fill in the form:
-   - **Protocol ID** (required) - for example `PROTO-2024-001`
-   - **Sponsor Name** (required) - the study sponsor
-   - **Files** (required) - drag and drop or browse; you can select multiple files at once
-4. For each file, enter a **document type**.
-5. If you are a **site administrator**, choose **Collection access** on the next step:
-   - **All site users**, or
-   - **Specific users only** (select who may use the new collection).
-6. Click **Create collection**.
+Site administrators and administrators can create a collection.
 
-Navigator uploads and processes each file. While it processes a PDF, you see a per-page progress indicator that shows how many pages are done and the time elapsed, not a fixed spinner. When finished, the status changes to **Ready**.
+1. On the **Collections** page, click the study name at the top.
+2. Select **+ Create New**. The **Create New Study Collection** dialog opens.
+3. Enter the **Protocol ID** (for example `PROTO-2024-001`).
+4. Enter the **Sponsor Name**.
+5. Add one or more files.
+6. Click **Next: Name Files →**.
+7. Type a document type for each file.
+8. Site administrators: click **Next: Access →**. Then choose **All site users** or **Specific users only**.
+9. Click **Create Study Collection**.
 
-You can change access later from **Manage → Collection Settings** on the collection. See [Restrict collection and document access](/collections/restrict-access).
-
-## Add documents to an existing collection
-
-1. Go to **Collections**.
-2. Find the protocol row and click **Manage**.
-3. Upload additional files and assign document types.
-4. A **Processing** row shows in the Documents tab while each file finishes ingesting - it stays visible even if you close the Manage dialog and come back later, so you always have visible confirmation the upload is still running. Wait until it clears before asking questions about the new content in chat.
-
-**One document per category:** each document type can only have one active document in a collection at a time - you can't upload a second, different file under a category that's already in use. If a document needs updating, use **Amend** on the existing one instead of uploading a new file under the same type.
+You can change access later. See [Restrict collection and document access](/collections/restrict-access).
 
 ## Amend an existing document
 
-Use **Amend** when a document has changed - a new protocol version, a corrected lab manual, and so on - rather than uploading a new file under the same document type.
+Use **Amend** when a document changes, for example a new protocol version.
 
-1. Open **Manage** on the collection and go to the **Documents** tab.
-2. Find the current document and click **Amend**.
-3. Choose the corrected file.
+1. On the **Collections** page, find the document card.
+2. Click the **...** menu on the card.
+3. Click **Amend**.
+4. Select the new file.
 
-The new file becomes the current version; the old one is kept as history (marked **superseded**) and stays indexed, but chat answers prefer the current version's content. Sponsor-managed documents (marked with a lock) can't be amended or deleted from the site - only the sponsor can update those.
+The new file becomes the current version. Navigator keeps the old version as history. Chat answers use the current version first.
 
-If you re-upload a file that's byte-for-byte identical to the current version, Navigator recognizes it's unchanged and skips reprocessing instead of creating a new version.
+Sponsor-managed documents have no **Amend** action. Only the sponsor can update them.
 
-Use the **Download** button next to any document in the Documents tab to get a copy of the current file - available to anyone who can see that document row.
+If the new file is identical to the current version, Navigator does not process it again.
 
-Amending a document does not automatically rebuild its Schedule of Assessments - ask the assistant in chat to rebuild it after the amended file finishes processing. See [Protocol amendments](/visits/overview#protocol-amendments).
+Amending a document does not rebuild its Schedule of Assessments. After the new file is processed, ask the assistant in chat to rebuild it. See [Protocol amendments](/visits/overview#protocol-amendments).
+
+## Download a document
+
+1. Find the document card.
+2. Click the **...** menu on the card.
+3. Click **Download**.
 
 ## Document types
 
-Document types help Navigator label citations correctly. Common types include:
+Document types give citations a clear label in chat. Common types are:
 
 - Protocol document
 - Lab manual
@@ -81,28 +98,24 @@ Document types help Navigator label citations correctly. Common types include:
 - Presentation slides
 - Data collection form
 
-Use descriptive, consistent names across your site so citations are easy to read.
+Use the same type names across your site.
 
 ## Processing time
 
-Large files or collections with many documents may take a few minutes to process. Navigator checks status automatically, so you can leave the Collections page and return later without refreshing - the row updates from **Creating**/**Uploading** to **Ready** on its own. See [Tips & tricks](/getting-started/tips-and-tricks#uploads-take-a-few-minutes---you-dont-need-to-refresh).
-
-## Source preview in chat
-
-When you open a citation, Navigator shows the relevant excerpt. **PDF** sources may also open an in-app page viewer when a PDF is available. Other formats display the extracted text passage used in the answer.
+Large files can take a few minutes to process. You do not need to refresh the page. See [Tips & tricks](/getting-started/tips-and-tricks#uploads-take-a-few-minutes---you-dont-need-to-refresh).
 
 ## Troubleshooting
 
-| Issue | What to try |
+| Issue | What to do |
 | --- | --- |
-| Upload fails | Confirm the file type is supported and within your organization’s size limits. |
-| Collection stuck on "Creating" | Status updates automatically; wait a few minutes. If it's still stuck after an unusually long time, refresh the page, then contact support if it persists. |
-| Chat cannot find new content | Ensure you selected the correct collection in the sidebar's **Study collection** picker and that status shows **Ready**. |
-| Wrong file type rejected | Check the table above; rename the extension if the file was saved in an unsupported format. |
+| Upload fails | Make sure the file type is supported. Make sure the file is within your site's size limits. |
+| Upload shows a failed message | Click **Dismiss**, then upload the file again. If it fails again, contact support. |
+| Chat cannot find new content | Make sure the correct study is selected in the **Study collection** picker. Make sure processing is complete. |
+| You do not see an audience option | Your role does not allow it. Ask a site administrator. |
 
 ## Related guides
 
-- [Manage collections](/collections/manage-collections) - status, rename, amendments
+- [Manage collections](/collections/manage-collections)
 - [Restrict collection and document access](/collections/restrict-access)
-- [Personal documents](/collections/personal-documents) - private files visible only to you
+- [Personal documents](/collections/personal-documents)
 - [Tips & tricks](/getting-started/tips-and-tricks)

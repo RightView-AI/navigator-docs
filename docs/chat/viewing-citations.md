@@ -4,38 +4,43 @@ sidebar_position: 2
 
 # View citations
 
-Every chat answer includes **numbered citations** that point to the exact passages Navigator used. Citations help you verify answers against your source documents.
+Each chat answer includes citations. A citation points to the passage that Navigator used. Use citations to check an answer against your documents.
 
 ## Inline citation badges
 
-In the answer text, citation numbers appear as small badges with a colored dot. Click a badge to open the **source preview** panel on the right side of the screen. The color tells you the source type:
+A citation badge shows at the end of a paragraph or list item. The badge has a colored dot and the number of sources for that part of the answer. The color shows the source type:
 
 - **Gray** - a passage from your study documents
-- **Green** - PI-verified content a Principal Investigator has confirmed
-- **Blue** - an external reference, for example a PubMed search result
-- **Amber** - a governance or regulatory reference (for example `[Reg-1]`)
+- **Green** - a verified answer
+- **Blue** - an external reference, for example a PubMed result
+- **Amber** - a regulatory reference
 
-A badge covering more than one type shows overlapping dots; click it to open the full sources panel instead of a single preview.
+A badge with more than one source type shows overlapping dots.
+
+Click a badge:
+
+- If it has one source, the **source preview** panel opens.
+- If it has more than one source, the [sources panel](/chat/viewing-sources) opens.
 
 ## Source preview panel
 
-The preview panel slides in from the right and shows:
+The preview panel opens on the right. It shows:
 
-1. **Document details** - document type and file name
-2. **Highlighted excerpt** - the relevant passage from the document
-3. **Document viewer** - for PDF sources, an in-app viewer may scroll to the cited page; other file types show the extracted passage Navigator used
+1. The document type and the file name.
+2. **Document Preview** - for a PDF, a viewer that can go to the cited page.
+3. **Cited Text** - the passage that Navigator used.
 
-Close the panel with the **X** button or by clicking outside it on larger screens.
+To close the panel, click the **X**.
 
-## Copy answer with citations
+## Math in answers
 
-Use the **Copy** button on a message to copy the full answer text including citation references, useful for pasting into notes or emails.
+Navigator shows math formulas as formatted math, for example dose calculations.
 
-## PI-verified citations
+## Copy an answer with citations
 
-When a citation is marked **PI Verified**, it means a Principal Investigator has reviewed and confirmed that content. These show with a green dot instead of gray.
+Below the answer, click **Copy message**. Navigator copies the answer text and a list of its sources. You can paste it into notes or an email.
 
 ## Related guides
 
-- [View all sources](/chat/viewing-sources) - see every source grouped by document type
-- [Send to PI](/inbox/send-to-pi) - share an answer with a Principal Investigator
+- [View all sources](/chat/viewing-sources)
+- [Send answers to a PI](/inbox/send-to-pi)
