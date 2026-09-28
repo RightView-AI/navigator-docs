@@ -10,7 +10,7 @@ A study **collection** holds all files for a protocol. Examples are the protocol
 
 | Upload | Who can do it |
 | --- | --- |
-| A personal document (**Just me**) | All users who can open the **Collections** page |
+| A personal document (**Just me**) | All users who can open the **Study Documents** page |
 | A study document (**Everyone in this trial**) | Site administrators, site editors, and administrators |
 | A site-wide document (**Everyone at my site**) | Site administrators and administrators |
 
@@ -30,7 +30,7 @@ A collection can hold PDFs and Office files together. You do not need a differen
 
 ## Upload a document
 
-1. In the sidebar, click **Collections**.
+1. In the sidebar, click **Study Documents**.
 2. Make sure the correct study shows at the top of the page.
 3. Click **Upload**. The **Add document** panel opens.
 4. Drag one or more files into the panel, or click to browse.
@@ -53,8 +53,10 @@ To make a study document confidential, see [Confidential documents](/collections
 
 Site administrators and administrators can create a collection.
 
-1. On the **Collections** page, click the study name at the top.
-2. Select **+ Create New**. The **Create New Study Collection** dialog opens.
+1. In the sidebar, click **Study Documents**.
+2. Click **New Collection** at the top right of the page. The **Create New Study Collection** dialog opens.
+
+   You can also click the study name at the top of the page and select **+ Create New**.
 3. Enter the **Protocol ID** (for example `PROTO-2024-001`).
 4. Enter the **Sponsor Name**.
 5. Add one or more files.
@@ -69,7 +71,7 @@ You can change access later. See [Restrict collection and document access](/coll
 
 Use **Amend** when a document changes, for example a new protocol version.
 
-1. On the **Collections** page, find the document card.
+1. On the **Study Documents** page, find the document card.
 2. Click the **...** menu on the card.
 3. Click **Amend**.
 4. Select the new file.

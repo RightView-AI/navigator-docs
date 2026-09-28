@@ -18,7 +18,7 @@ The **Workspace** section of the sidebar has these items. Some items show only f
 | --- | --- | --- |
 | **Chat** | Ask questions about the documents in the selected study collection. | Everyone |
 | **Notifications** | See the responses that you sent to Principal Investigators (PIs) and their status. | Everyone except medical monitors, who see **My PI Inbox** |
-| **Collections** | Search, upload, and manage the documents, knowledge, and artifacts for the selected study. See [Collections view](#collections-view). | Everyone |
+| **Study Documents** | Search, upload, and manage the documents, knowledge, and artifacts for the selected study. See [Study Documents view](#study-documents-view). | Everyone |
 | **Visits** | Open the **Schedule of Assessments**, **Patients**, and **Source Quality Control** tabs. See [Visits & Schedule of Assessments](/visits/overview). | Sites with at least one Visits module. Not medical monitors. |
 | **Finance** | Reconcile billable work against the budget and the CTMS. See [Finance desk](/finance/finance-desk). | Sites with the Finance module. Not medical monitors. |
 | **Users** | Use PI contacts for **Send to PI**. Site administrators also see a **Site users** tab to invite teammates. See [Users & site capacity](/admin/site-capacity-and-users). | Everyone except medical monitors |
@@ -29,16 +29,17 @@ The **Workspace** section of the sidebar has these items. Some items show only f
 
 **Finance** is also an optional module. When it is on, the Chrome side panel also shows **Invoice capture**.
 
-## Collections view
+## Study Documents view
 
-**Collections** shows one study at a time. Use the picker at the top of the page to switch the study.
+**Study Documents** shows one study at a time. Use the picker at the top of the page to switch the study.
 
 - **Search this study** finds documents, knowledge, and artifacts in the study.
 - The **All**, **Documents**, **Knowledge**, **Artifacts**, and **Site-wide** filters narrow the cards.
 - **Upload** adds files. Everyone can upload a personal document. Your role controls the other **Who can see this?** options.
+- **New Collection** opens the **Create New Study Collection** dialog. You can also select **+ Create New** in the study picker. Only site administrators and administrators see these.
 - **Manage** opens the collection settings. Only site administrators see it.
 
-Artifacts are in the **Collections** view. There is no separate **Artifacts** item in the sidebar. See [Upload documents](/collections/upload-documents) and [Save and share artifacts](/artifacts/save-and-share).
+Artifacts are in the **Study Documents** view. There is no separate **Artifacts** item in the sidebar. See [Upload documents](/collections/upload-documents) and [Save and share artifacts](/artifacts/save-and-share).
 
 ## Account settings and sign out
 

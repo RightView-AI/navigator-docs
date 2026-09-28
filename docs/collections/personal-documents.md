@@ -16,15 +16,15 @@ A shared study document is visible to everyone with access to the study. A perso
 
 | Who | Can they see it? |
 | --- | --- |
-| **You** (the uploader) | Yes - in chat, citations, and the **Collections** page |
+| **You** (the uploader) | Yes - in chat, citations, and the **Study Documents** page |
 | Other site users | No |
 | Medical monitors, sponsors | No |
 | **Site administrators** | No |
 | Platform (Rightview) administrators | Only for support. It never goes into their chat answers. |
 
-## Upload from the Collections page
+## Upload from the **Study Documents** page
 
-1. In the sidebar, click **Collections**.
+1. In the sidebar, click **Study Documents**.
 2. Make sure the correct study shows at the top of the page.
 3. Click **Upload**.
 4. Add the file, then click **Next: Name Files →**.
@@ -60,7 +60,7 @@ Upload a new personal document with the **same document type**. The new file rep
 ## How it works in chat
 
 - Navigator searches your personal documents together with the shared documents.
-- In the **Collections** page and in the sources panel, a personal document shows a **Personal** label.
+- In the **Study Documents** page and in the sources panel, a personal document shows a **Personal** label.
 
 ## Related guides
 

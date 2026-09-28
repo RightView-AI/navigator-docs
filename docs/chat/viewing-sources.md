@@ -14,7 +14,7 @@ For each chat answer, you can open a sources panel. The panel shows every docume
 
 ## Document cards
 
-Each study document and verified answer shows as a card. The cards use the same labels as the **Collections** page:
+Each study document and verified answer shows as a card. The cards use the same labels as the **Study Documents** page:
 
 | Card label | Meaning |
 | --- | --- |

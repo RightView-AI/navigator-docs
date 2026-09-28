@@ -7,6 +7,11 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
+## v1.1.6-hotfix - September 2026
+
+- **Study Documents** - the **Collections** sidebar item is now **Study Documents**.
+- **New Collection button** - site administrators can click **New Collection** at the top of the **Study Documents** page to create a study collection. The **+ Create New** option in the study picker still works.
+
 ## v1.1.6 - September 2026
 
 **Cross-check source documents against the EDC, a Finance desk, and one view of each study**

@@ -35,7 +35,7 @@ If an answer is not fully supported by your documents, a note shows below it. Cl
 
 When the contact answers, the button changes to **Answered**. The answer shows below the chat message with the label **Verified answer** and the name of the contact.
 
-The verified answer also shows as a **Verified answer** card on the **Collections** page. See [Manage collections](/collections/manage-collections).
+The verified answer also shows as a **Verified answer** card on the **Study Documents** page. See [Manage collections](/collections/manage-collections).
 
 ## Track in Notifications
 

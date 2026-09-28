@@ -4,17 +4,17 @@ sidebar_position: 2
 
 # Manage collections
 
-The **Collections** page shows the document base for the active study. It shows all documents, verified answers, and artifacts for that study as cards.
+The **Study Documents** page shows the document base for the active study. It shows all documents, verified answers, and artifacts for that study as cards.
 
-## Open the Collections page
+## Open the **Study Documents** page
 
-1. In the sidebar, click **Collections**.
+1. In the sidebar, click **Study Documents**.
 2. The study name at the top of the page shows the active study.
 3. To change the study, click the study name and select a different study. Type in the filter box to find a study by ID or sponsor.
 
 ## The study collection picker
 
-The study you select on the **Collections** page is also the active study in the sidebar's **Study collection** picker. The picker sets the study for chat, **Users** (external contacts), **Visits**, and the **Collections** page. When you change the study in one place, all views change.
+The study you select on the **Study Documents** page is also the active study in the sidebar's **Study collection** picker. The picker sets the study for chat, **Users** (external contacts), **Visits**, and the **Study Documents** page. When you change the study in one place, all views change.
 
 :::tip Refresh keeps your place
 The page address includes the current view (for example `?view=collections`). When you refresh the page or open a shared link, Navigator opens the same view.
@@ -61,13 +61,12 @@ Sponsor-managed documents have no **Amend** or **Delete** action. Only the spons
 
 ## Create a study collection (site administrators)
 
-1. On the **Collections** page, click the study name at the top.
-2. Select **+ Create New**.
-3. Do the steps in [Create a new collection](/collections/upload-documents#create-a-new-collection).
+1. On the **Study Documents** page, click **New Collection** at the top right. You can also click the study name at the top and select **+ Create New**.
+2. Do the steps in [Create a new collection](/collections/upload-documents#create-a-new-collection).
 
 ## Rename a collection (site administrators)
 
-1. On the **Collections** page, select the study.
+1. On the **Study Documents** page, select the study.
 2. Click **Manage**. The **Manage collection** dialog opens on the **Collection Settings** tab.
 3. Change the **Protocol ID** or the **Sponsor name**.
 4. Click **Save**.

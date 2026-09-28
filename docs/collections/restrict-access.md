@@ -10,7 +10,7 @@ Site administrators can always see all collections at their site.
 
 ## Open access settings
 
-1. In the sidebar, click **Collections**.
+1. In the sidebar, click **Study Documents**.
 2. Make sure the correct study shows at the top of the page.
 3. Click **Manage**. The **Manage collection** dialog opens on the **Collection Settings** tab.
 
@@ -27,7 +27,7 @@ Users who are not on the list do not see the collection in chat or in collection
 
 ## Set document access
 
-1. On the **Collections** page, find the document card.
+1. On the **Study Documents** page, find the document card.
 2. Click the **...** menu on the card.
 3. Click **Manage access**. The **Collection Settings** tab opens with the access settings for that document.
 4. Choose **All site users** to use the collection rule. Choose **Specific users only** to set a different list.
@@ -45,7 +45,7 @@ A confidential document is sealed from site administrators. Only the uploader, t
 
 To upload a confidential document:
 
-1. On the **Collections** page, click **Upload**.
+1. On the **Study Documents** page, click **Upload**.
 2. Add the files, then click **Next: Name Files →**.
 3. Under **Who can see this?**, select **Everyone in this trial**.
 4. Select the **Confidential** checkbox. This checkbox shows only if your role allows confidential uploads.

@@ -10,7 +10,8 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 - **Cross-check with EDC** - in the Chrome side panel, compare a source document tab with an EDC form tab field by field. Navigator marks each field Mismatch or Missing. See [Chrome side-panel extension](/extension/chrome-extension).
 - **Finance desk** - if your site has the Finance module, open **Finance** in the sidebar. Import invoices, click **Run reconciliation**, and see billable work that has no invoice.
-- **One view of each study** - Collections shows every document, PI-verified answer, and artifact in the study as searchable cards, with one **Upload** button.
+- **Study Documents** - the **Collections** sidebar item is now **Study Documents**. Click **New Collection** at the top of the page to create a study collection.
+- **One view of each study** - **Study Documents** shows every document, PI-verified answer, and artifact in the study as searchable cards, with one **Upload** button.
 - **Answers from a contact come back to chat** - a contact's answer shows in the same chat thread as a verified answer.
 - **Refresh keeps your place** - a page refresh opens the view you were on.
 - **Tighter sponsor access** - sponsors see only the sites and studies they are enrolled in.
@@ -28,7 +29,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Site-wide documents** - Site administrators can add documents that apply to every study at the site.
 - **Rename collections** - Site administrators can rename a study collection's Protocol ID and sponsor name from **Manage → Collection Settings**.
 - **Access control** - Site administrators can limit who sees a whole collection or individual documents. See [Restrict collection and document access](/collections/restrict-access).
-- **Bookmark your protocols** - Star a protocol to pin it to the top of the study selector. The selector and the Collections grid group protocols into "Your protocols" and "Other protocols".
+- **Bookmark your protocols** - Star a protocol to pin it to the top of the study selector. The selector and the **Study Documents** grid group protocols into "Your protocols" and "Other protocols".
 - **HIPAA-aligned data protection** - Navigator protects your site's data with HIPAA-aligned safeguards.
 
 ## Visits
@@ -38,7 +39,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 ## Artifacts
 
 - **Flexible sharing** - Share saved answers privately, with **specific people** at your site, or with **everyone at this site**.
-- **In Collections** - saved answers show as cards in **Collections**. Pick the **Artifacts** chip to see only artifacts.
+- **In Study Documents** - saved answers show as cards in **Study Documents**. Pick the **Artifacts** chip to see only artifacts.
 
 ## Administration
 

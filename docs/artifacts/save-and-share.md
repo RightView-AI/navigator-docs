@@ -18,7 +18,7 @@ The button below the answer changes to **Saved**. The artifact is linked to the 
 
 ## Find your artifacts
 
-1. In the sidebar, click **Collections**.
+1. In the sidebar, click **Study Documents**.
 2. Make sure the correct study shows at the top of the page.
 3. Click the **Artifacts** filter chip.
 

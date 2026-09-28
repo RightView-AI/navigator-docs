@@ -18,7 +18,7 @@ The new teammate receives a magic-link email to set their password and sign in. 
 
 ## Site capacity
 
-A capacity meter at the top of the **Users** page (Site users tab) shows how many users your site has against its limit. **Collections** shows the same kind of usage count for study collections, and each collection's document count is visible in the collections table.
+A capacity meter at the top of the **Users** page (Site users tab) shows how many users your site has against its limit. The **Create New Study Collection** dialog shows the same kind of usage count for study collections.
 
 - Meters show usage as you approach the limit so you know where you stand before you hit it.
 - If your site is at its user limit, **Add user** is disabled and Navigator shows who to contact to request more capacity.
