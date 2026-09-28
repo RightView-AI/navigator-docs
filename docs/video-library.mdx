@@ -7,11 +7,11 @@ import Link from '@docusaurus/Link';
 
 # Video Library
 
-Short, narration-free walkthroughs of Navigator features. More coming over time.
+Short videos that show Navigator features from start to finish. They have no narration, so you can watch them with the sound off. We add new videos over time.
 
 ## Navigator Platform
 
-Features in the main Navigator app.
+Videos about the main Navigator app.
 
 <div className="rv-video-grid">
 
@@ -20,8 +20,9 @@ Features in the main Navigator app.
       <source src="/video/source-qc-in-app.mp4" type="video/mp4" />
     </video>
     <div className="rv-video-card__body">
-      <span className="rv-video-card__title">Source QC - in Navigator</span>
-      <p className="rv-video-card__desc">Upload source scans from Visits → Source Quality Control, let Navigator run the ALCOA+ review, then open a row for the full per-dimension analysis.</p>
+      <span className="rv-video-card__title">Review source quality in Navigator</span>
+      <span className="rv-video-card__meta">0:32</span>
+      <p className="rv-video-card__desc">Upload a source scan in Visits → Source Quality Control. Navigator checks it against ALCOA+ and the protocol. Open a row to see each finding by dimension, with the page it came from.</p>
       <Link className="rv-video-card__link" to="/visits/overview#source-quality-control">Full guide →</Link>
     </div>
   </div>
@@ -30,7 +31,7 @@ Features in the main Navigator app.
 
 ## Navigator in your Browser
 
-The Rightview Navigator Chrome extension: Navigator in a side panel next to your EDC, EMR, CTMS, or source documents.
+Videos about the Rightview Navigator Chrome extension. The extension shows Navigator in a side panel next to your EDC, EMR, CTMS, or source documents.
 
 <div className="rv-video-grid">
 
@@ -39,8 +40,9 @@ The Rightview Navigator Chrome extension: Navigator in a side panel next to your
       <source src="/video/extension-tour.mp4" type="video/mp4" />
     </video>
     <div className="rv-video-card__body">
-      <span className="rv-video-card__title">Navigator in your browser - full tour</span>
-      <p className="rv-video-card__desc">A three-minute tour of every tool in the side panel: Chat, page suggestions, Source QC, Cross-check with EDC, Pre-screening, Invoice capture with the Finance desk, and Save page.</p>
+      <span className="rv-video-card__title">Tour: Navigator in your browser</span>
+      <span className="rv-video-card__meta">3:17</span>
+      <p className="rv-video-card__desc">Every tool in the side panel, one after the other. Ask a cited question in Chat, let the page suggestion pick the tool, run Source QC, cross-check the EDC against source, pre-screen a patient, capture CTMS invoices, and save a page to the study. Start here if you are new to the extension.</p>
       <Link className="rv-video-card__link" to="/extension/chrome-extension">Full guide →</Link>
     </div>
   </div>
@@ -50,8 +52,9 @@ The Rightview Navigator Chrome extension: Navigator in a side panel next to your
       <source src="/video/source-qc-explainer.mp4" type="video/mp4" />
     </video>
     <div className="rv-video-card__body">
-      <span className="rv-video-card__title">Source QC and Cross-check with EDC - explainer</span>
-      <p className="rv-video-card__desc">A one-minute overview. The extension spots a source document, runs Source QC in one click, and points each finding back to the page. Then Cross-check with EDC compares the EDC with the source, field by field, and catches the mismatches.</p>
+      <span className="rv-video-card__title">Catch source and EDC errors before monitoring</span>
+      <span className="rv-video-card__meta">1:04</span>
+      <p className="rv-video-card__desc">Open a source document and click Run Source QC on the suggestion. The findings point back to the rows they came from. Then Cross-check with EDC compares 13 fields and catches a wrong visit date, a wrong systolic blood pressure, and an adverse event that is missing from the EDC.</p>
       <Link className="rv-video-card__link" to="/extension/chrome-extension#source-qc">Full guide →</Link>
     </div>
   </div>
@@ -61,8 +64,9 @@ The Rightview Navigator Chrome extension: Navigator in a side panel next to your
       <source src="/video/prescreening-explainer.mp4" type="video/mp4" />
     </video>
     <div className="rv-video-card__body">
-      <span className="rv-video-card__title">Pre-screening - explainer</span>
-      <p className="rv-video-card__desc">A one-minute overview. The extension checks a patient chart against the study criteria, gives a verdict for each criterion, and flags a borderline value for PI review.</p>
+      <span className="rv-video-card__title">Pre-screen a patient from their chart</span>
+      <span className="rv-video-card__meta">0:53</span>
+      <p className="rv-video-card__desc">Open a patient chart and click Check eligibility. Navigator checks each inclusion and exclusion criterion and shows why. One patient is likely included. A second patient has an eGFR just under the cutoff, so Navigator marks it Unknown and flags it for PI review.</p>
       <Link className="rv-video-card__link" to="/extension/chrome-extension#pre-screening">Full guide →</Link>
     </div>
   </div>
@@ -72,8 +76,9 @@ The Rightview Navigator Chrome extension: Navigator in a side panel next to your
       <source src="/video/finance-explainer.mp4" type="video/mp4" />
     </video>
     <div className="rv-video-card__body">
-      <span className="rv-video-card__title">Invoice capture and Finance desk - explainer</span>
-      <p className="rv-video-card__desc">A one-minute overview. The extension captures invoiceables from a CTMS page without duplicates. Then the Finance desk reconciles them against source and finds a billable procedure that the CTMS missed.</p>
+      <span className="rv-video-card__title">Find procedures your CTMS never invoiced</span>
+      <span className="rv-video-card__meta">1:04</span>
+      <p className="rv-video-card__desc">Capture the invoiceable rows from a CTMS page. Rows that are already on file are updated, not duplicated. Then the Finance desk matches each source visit to an invoiceable and finds a repeat lab sample that was never billed, ready to approve.</p>
       <Link className="rv-video-card__link" to="/finance/finance-desk">Full guide →</Link>
     </div>
   </div>
@@ -83,8 +88,9 @@ The Rightview Navigator Chrome extension: Navigator in a side panel next to your
       <source src="/video/source-qc-extension.mp4" type="video/mp4" />
     </video>
     <div className="rv-video-card__body">
-      <span className="rv-video-card__title">Source QC - browser extension</span>
-      <p className="rv-video-card__desc">Capture the source page in your active browser tab and run an ALCOA+ quality review right where you work, with findings across ALCOA+ and protocol cross-reference.</p>
+      <span className="rv-video-card__title">Run Source QC on a live page</span>
+      <span className="rv-video-card__meta">0:32</span>
+      <p className="rv-video-card__desc">A real Source QC run in the extension, not a mock-up. Capture the source page in your active tab and read the ALCOA+ and protocol findings in the side panel.</p>
       <Link className="rv-video-card__link" to="/extension/chrome-extension#source-qc">Full guide →</Link>
     </div>
   </div>

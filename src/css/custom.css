@@ -510,6 +510,12 @@ body {
   color: var(--rv-teal);
 }
 
+.rv-video-card__meta {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.78rem;
+  color: var(--ifm-color-content-secondary);
+}
+
 .rv-video-card__desc {
   margin: 0;
   font-size: 0.9rem;
