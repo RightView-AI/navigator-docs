@@ -119,6 +119,12 @@ If you set **EDC tab (optional)** to **None - just capture the source**, the but
 
 Pre-screening checks a patient record against the inclusion and exclusion criteria of the selected study.
 
+**Overview (1 min):** Pre-screening from start to finish.
+
+<video controls preload="metadata" poster="/video/prescreening-explainer-poster.jpg" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
+  <source src="/video/prescreening-explainer.mp4" type="video/mp4" />
+</video>
+
 1. Open the patient record in a browser tab. For example, open it in your EMR. The record can be a web page or a PDF.
 2. In the panel, select **Pre-screening**.
 3. Click **Check eligibility**.
@@ -131,6 +137,12 @@ The verdict is decision support. It is not a determination.
 ## Invoice capture
 
 Invoice capture reads invoice lines from a CTMS page and saves them in Finance.
+
+**Overview (1 min):** Invoice capture and the Finance desk from start to finish.
+
+<video controls preload="metadata" poster="/video/finance-explainer-poster.jpg" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
+  <source src="/video/finance-explainer.mp4" type="video/mp4" />
+</video>
 
 1. Open the CTMS invoice page in the active tab.
 2. In the panel, select **Invoice capture**.

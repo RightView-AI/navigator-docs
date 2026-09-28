@@ -12,6 +12,12 @@ The **Finance** desk finds billable work that your site has not invoiced yet. It
 
 Each result goes to a review queue. You approve or dismiss each item.
 
+**Overview (1 min):** capture invoiceables with the extension, reconcile them against source, and approve what is missing.
+
+<video controls preload="metadata" poster="/video/finance-explainer-poster.jpg" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
+  <source src="/video/finance-explainer.mp4" type="video/mp4" />
+</video>
+
 ## Who can use Finance
 
 Finance is an optional module. It is off by default. Contact Rightview to turn it on for your site.
