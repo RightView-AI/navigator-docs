@@ -67,6 +67,14 @@ These controls are specific to the panel:
 
 Source QC reviews a source document against the ALCOA+ data-quality dimensions and the protocol. It flags issues such as a missing signature or a missing field.
 
+**Overview (1 min):** Source QC and Cross-check with EDC from start to finish.
+
+<video controls preload="metadata" poster="/video/source-qc-explainer-poster.jpg" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
+  <source src="/video/source-qc-explainer.mp4" type="video/mp4" />
+</video>
+
+**Walkthrough:** a real Source QC run in the extension.
+
 <video controls preload="metadata" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
   <source src="/video/source-qc-extension.mp4" type="video/mp4" />
 </video>
