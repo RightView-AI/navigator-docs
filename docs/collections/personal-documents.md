@@ -42,6 +42,14 @@ A shared study document is visible to everyone with access to the study. A perso
 
 The **+** button shows only when a study is selected. A personal document always belongs to one study.
 
+## Delete a personal document
+
+1. On the **Study Documents** page, find the card with the **Personal** label.
+2. Click the **...** menu on the card, then click **Delete**.
+3. Confirm the delete.
+
+Deleting a personal document frees one of your personal document slots in that study.
+
 ## Supported file types and limits
 
 Personal documents accept the [same file formats as shared uploads](/collections/upload-documents#supported-file-types).

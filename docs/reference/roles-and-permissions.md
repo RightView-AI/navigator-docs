@@ -22,6 +22,8 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Upload study documents (**Everyone in this trial**) | ❌ | ❌ | ✅ | ❌ | ✅ |
 | Upload site-wide documents (**Everyone at my site**) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Delete protocol documents | ❌ | ❌ | ✅ | Confidential only | ✅ |
+| Delete own personal documents | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Change members of confidential documents | ❌ | ❌ | ❌ | ✅ | ❌ |
 | Upload confidential documents (hidden from site admins) | ❌ | ❌ | ❌ | ✅ | ❌ |
 | Restrict collection or document access | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Rename study collections | ❌ | ❌ | ❌ | ❌ | ✅ |

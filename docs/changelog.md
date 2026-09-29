@@ -7,6 +7,12 @@ title: Changelog
 
 A history of Navigator releases. This page covers user-facing changes only - for day-to-day how-tos, see the [User Guide](/) or [What's new](/getting-started/whats-new) for a rolling summary of the latest improvements. For future plans, see the [Roadmap](/roadmap).
 
+## v1.1.6-hotfix-2 - September 2026
+
+- **Confidential upload for Private Editors** - a Private Editor can upload a confidential document again. Under **Who can see this?**, select the **Confidential** option.
+- **Manage access for confidential documents** - open the **...** menu on a confidential document and click **Manage access** to add or remove members. Site administrators still cannot see the document.
+- **Delete your own documents** - you can delete your own personal documents. A Private Editor can delete the confidential documents they can see.
+
 ## v1.1.6-hotfix - September 2026
 
 - **Study Documents** - the **Collections** sidebar item is now **Study Documents**.

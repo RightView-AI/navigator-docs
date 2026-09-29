@@ -59,6 +59,8 @@ Click the **...** menu on a card to see its actions. The actions you see depend 
 
 Sponsor-managed documents have no **Amend** or **Delete** action. Only the sponsor can change them.
 
+On a personal document, you see **Delete** if you uploaded it. On a confidential document, members see **Manage access** and **Delete**. See [Confidential documents](/collections/restrict-access#confidential-documents).
+
 ## Create a study collection (site administrators)
 
 1. On the **Study Documents** page, click **New Collection** at the top right. You can also click the study name at the top and select **+ Create New**.

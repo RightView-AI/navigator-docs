@@ -47,13 +47,23 @@ To upload a confidential document:
 
 1. On the **Study Documents** page, click **Upload**.
 2. Add the files, then click **Next: Name Files →**.
-3. Under **Who can see this?**, select **Everyone in this trial**.
-4. Select the **Confidential** checkbox. This checkbox shows only if your role allows confidential uploads.
-5. Type a document type for each file.
-6. Under **Members for confidential files**, type the email addresses of the members, separated by commas. You always keep access.
-7. Click **Upload**.
+3. Under **Who can see this?**, select the **Confidential** option (me and members I choose). Platform administrators select **Everyone in this trial**, then select the **Confidential** checkbox.
+4. Type a document type for each file.
+5. Under **Members for confidential files**, type the email addresses of the members, separated by commas. You always keep access.
+6. Click **Upload**.
 
 A confidential document shows a **Confidential** label on its card. See [Roles and permissions](/reference/roles-and-permissions).
+
+### Change who can see a confidential document
+
+The uploader, other members, and platform administrators can change the members.
+
+1. On the **Study Documents** page, find the card with the **Confidential** label.
+2. Click the **...** menu on the card, then click **Manage access**.
+3. Select the people who must see the document. Clear the people who must not.
+4. Click **Save access**.
+
+You always keep access to a confidential document that you change. There is no **All site users** option, because the document must stay sealed from site administrators.
 
 ## Tips
 
