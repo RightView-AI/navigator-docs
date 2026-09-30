@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Chrome side-panel extension
@@ -20,13 +20,9 @@ Chrome updates the extension automatically. You do not need to download or insta
 
 ## First launch: the Welcome page
 
-The first time you open the panel, it shows a **Welcome to Navigator** page.
+When you add the extension, Chrome opens the [Welcome page](/extension/welcome) in a new tab. It shows how to pin the extension, sign in, and turn on access to local files. Chrome opens it only after a first install, not after an update.
 
-1. Read the **Turn on access to local files** steps. You need this setting only to capture a file that you open from your computer. See [Allow access to local files](/extension/enable-file-access).
-2. Look at the status line below the steps. It shows if file access is on or off.
-3. Click **Open Navigator**. The panel shows the Navigator sign-in form or chat.
-
-After the first time, the panel opens directly to Navigator. To see the Welcome page again, right-click the toolbar icon and select **Welcome and setup help**.
+The side panel opens directly to Navigator. To see the Welcome page again, right-click the toolbar icon and select **Setup help**.
 
 ## Open the panel and sign in
 

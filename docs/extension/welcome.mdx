@@ -1,0 +1,77 @@
+---
+sidebar_position: 1
+slug: /extension/welcome
+title: Welcome to Navigator in your browser
+hide_title: true
+---
+
+import DocHero from '@site/src/components/DocHero';
+import WelcomeSteps from '@site/src/components/WelcomeSteps';
+
+<DocHero
+  badge="Chrome extension"
+  title="You're all set. Welcome to Navigator."
+  subtitle="Navigator now opens in a side panel next to the page you work on, for example your EDC, a source document, or a screening record."
+  actions={
+    <div className="rv-hero__actions">
+      <a className="rv-hero__cta" href="https://sites.rightview.ai">Open Navigator</a>
+      <a className="rv-hero__cta rv-hero__cta--ghost" href="#turn-on-access-to-local-files">Set up local files</a>
+    </div>
+  }
+/>
+
+## Get started
+
+<WelcomeSteps
+  steps={[
+    {
+      title: 'Pin the extension',
+      body: <>Click the puzzle-piece icon in the Chrome toolbar. Click the pin next to <strong>Rightview Navigator</strong>.</>,
+    },
+    {
+      title: 'Open the panel',
+      body: <>Click the Rightview icon, or press <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>.</>,
+    },
+    {
+      title: 'Sign in',
+      body: <>Use the same email and password that you use for Navigator in the browser.</>,
+    },
+    {
+      title: 'Turn on access to local files',
+      optional: true,
+      body: <>Do this only to capture a file from your computer. <a href="#turn-on-access-to-local-files">See the steps below.</a></>,
+    },
+  ]}
+/>
+
+## Turn on access to local files
+
+Some source documents are files on your computer, for example a PDF or PNG that you open in Chrome. The address of a local file starts with `file:///`. To capture these files, Chrome must let this extension read them. Chrome turns this off by default. Only you can turn it on.
+
+<WelcomeSteps
+  steps={[
+    {title: 'Open the extensions page', body: <>Type <code>chrome://extensions</code> in the address bar and press Enter.</>},
+    {title: 'Open the details', body: <>Find <strong>Rightview Navigator</strong> and click <strong>Details</strong>.</>},
+    {title: 'Turn on the setting', body: <>Turn on <strong>Allow access to file URLs</strong>.</>},
+    {title: 'Reload your file', body: <>Go back to the tab with your file and reload it.</>},
+  ]}
+/>
+
+:::info
+You do not need this setting for web pages that start with `http://` or `https://`. The setting stays on after extension updates.
+:::
+
+Do not want to turn it on? You can open the document in a browser tab, or upload the file to Navigator directly. See [Allow access to local files](/extension/enable-file-access).
+
+## What you can do in the panel
+
+- Ask questions about your study.
+- Run Source QC on the page you view.
+- Compare source data with the EDC.
+- Capture invoices and pre-screen patients.
+
+See the full [Chrome side-panel extension guide](/extension/chrome-extension).
+
+## Need this page again?
+
+Right-click the Rightview Navigator icon in the toolbar. Select **Setup help**.
