@@ -7,7 +7,7 @@ import Link from '@docusaurus/Link';
 
 # Video Library
 
-Short videos that show Navigator features from start to finish. They have no narration, so you can watch them with the sound off. We add new videos over time.
+Short videos that show Navigator features from start to finish. We add new videos over time.
 
 ## Navigator Platform
 
@@ -36,13 +36,23 @@ Videos about the Rightview Navigator Chrome extension. The extension shows Navig
 <div className="rv-video-grid">
 
   <div className="rv-video-card">
+    <iframe src="https://www.loom.com/embed/bfc231ac44fa4d9e92882b752392301f" title="How to install the Rightview Navigator extension" allowFullScreen></iframe>
+    <div className="rv-video-card__body">
+      <span className="rv-video-card__title">Install the Navigator extension</span>
+      <span className="rv-video-card__meta">1:43</span>
+      <p className="rv-video-card__desc">Install Rightview Navigator from the Chrome Web Store and pin it to your toolbar. Start here if the extension is not installed yet, then watch the tour.</p>
+      <Link className="rv-video-card__link" to="/extension/chrome-extension#install">Full guide →</Link>
+    </div>
+  </div>
+
+  <div className="rv-video-card">
     <video controls preload="metadata" poster="/video/extension-tour-poster.jpg">
       <source src="/video/extension-tour.mp4" type="video/mp4" />
     </video>
     <div className="rv-video-card__body">
       <span className="rv-video-card__title">Tour: Navigator in your browser</span>
       <span className="rv-video-card__meta">3:17</span>
-      <p className="rv-video-card__desc">Every tool in the side panel, one after the other. Ask a cited question in Chat, let the page suggestion pick the tool, run Source QC, cross-check the EDC against source, pre-screen a patient, capture CTMS invoices, and save a page to the study. Start here if you are new to the extension.</p>
+      <p className="rv-video-card__desc">Every tool in the side panel, one after the other. Ask a cited question in Chat, let the page suggestion pick the tool, run Source QC, cross-check the EDC against source, pre-screen a patient, capture CTMS invoices, and save a page to the study. Watch this next if you are new to the extension.</p>
       <Link className="rv-video-card__link" to="/extension/chrome-extension">Full guide →</Link>
     </div>
   </div>

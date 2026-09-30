@@ -489,10 +489,12 @@ body {
   transform: translateY(-2px);
 }
 
-.rv-video-card video {
+.rv-video-card video,
+.rv-video-card iframe {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
+  border: 0;
   background: #0b1220;
   border-bottom: 1px solid rgba(15, 118, 110, 0.1);
 }
