@@ -53,7 +53,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Chrome Extension',
-      items: ['extension/chrome-extension', 'extension/enable-file-access'],
+      items: ['extension/welcome', 'extension/chrome-extension', 'extension/enable-file-access'],
     },
     {
       type: 'category',

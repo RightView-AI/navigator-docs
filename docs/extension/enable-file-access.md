@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Allow access to local files
@@ -8,9 +8,9 @@ The extension captures the page in a browser tab. Sometimes that tab shows a **l
 
 You do not need this setting for web pages, for example your EDC, EMR, or any page at `http://` or `https://`. Turn it on only if you want Navigator to read a file from your computer.
 
-## The Welcome page shows the status
+## The Welcome page has the steps
 
-The first time you open the side panel, the **Welcome to Navigator** page shows the steps below. A status line below the steps tells you if file access is on or off. To see the Welcome page again, right-click the Rightview Navigator toolbar icon and select **Welcome and setup help**.
+When you add the extension, Chrome opens the [Welcome page](/extension/welcome) with these steps. To see it again, right-click the Rightview Navigator toolbar icon and select **Setup help**.
 
 ## Symptom
 
