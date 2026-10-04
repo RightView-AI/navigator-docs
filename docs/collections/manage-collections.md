@@ -75,6 +75,24 @@ On a personal document, you see **Delete** if you uploaded it. On a confidential
 
 The new name shows everywhere the collection appears, including chat and artifacts. Choose the final protocol ID carefully. This keeps staff and reports consistent.
 
+## Link a collection to a CTMS study (site administrators)
+
+If your site has a CTMS, link each study collection to its CTMS study. **Patients**, **Finance**, chat, and protocol access then read the CTMS study that you link. The collection name and the CTMS study name can differ.
+
+1. On the **Study Documents** page, select the study.
+2. Click **Manage**. The **Manage collection** dialog opens on the **Collection Settings** tab.
+3. In the **CTMS study** section, read the current link. It shows **Not linked**, **Linked to** a study, or **Marked as not in the CTMS**.
+4. If Navigator shows **Suggested CTMS study**, click **Use this study**. Or pick a study from the list. Pick **Not in the CTMS** if the study has no CTMS study.
+5. Click **Save link**.
+
+A CTMS study can link to one collection only. A study that another collection uses shows in the list with that collection's name, and you cannot pick it.
+
+To remove a link, click **Clear link**. When you change or clear a link, Navigator marks the billing rows from the old study for review in Finance.
+
+If a study has no link, **Patients** and **Finance** show a notice. Click **Link it in Study settings** to open this section. Other users see **Ask a site admin to link it in Study settings.** Until you link it, Navigator reads the CTMS study that has the same name as the collection.
+
+If another collection already reads this CTMS study by its name, Navigator warns you before you save. Click **Link anyway** to continue, or **Cancel**. The other collection shows no data until you link it to its own CTMS study.
+
 ## Delete a collection (site administrators)
 
 1. Click **Manage**, then click the **Delete** tab.

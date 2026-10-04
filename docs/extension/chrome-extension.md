@@ -92,9 +92,11 @@ Cross-check with EDC does source data verification. It compares the values in th
 1. Open the source document in one tab.
 2. Open the EDC form in a second tab.
 3. In the panel, select **Cross-check with EDC**. The panel reads the list of your open tabs.
-4. In **Source tab**, select the tab with the source document. The default is the active tab.
-5. In **EDC tab (optional)**, select the tab with the EDC form. The panel remembers the EDC site that you used last.
+4. In **Source tab**, select the tab with the source document. The default is the active tab. Click **Use current tab** to pick the tab that you are on.
+5. In **EDC tab (optional)**, select the tab with the EDC form. The panel remembers the EDC site that you used last. This list does not show the source tab, PDF tabs, or image tabs.
 6. Click **Compare with EDC**.
+
+To find a tab, type in **Search tabs by title or site…**. If you open a page after the panel, click **Refresh tabs**.
 
 Navigator captures the source tab, reads the EDC tab, and compares them. The result shows each field with its **EDC** value and its **Source** value. Each field has one of these verdicts:
 

@@ -44,12 +44,23 @@ If you don't have your phone, enter one of the 8 backup codes you saved during s
 
 If you lose your phone and don't have your backup codes, contact your administrator or **support@rightview.ai** to have MFA reset on your account so you can enroll again.
 
+## Reset MFA for a teammate (site administrators)
+
+A site administrator can reset MFA for a site editor at the same site.
+
+1. Open **Users** in the sidebar, on the **Site users** tab.
+2. Find the person. If the person has MFA, a key icon (**Reset two-step verification**) shows in the row.
+3. Click the icon, then click **Reset MFA**.
+
+Navigator signs the person out everywhere. The person sets up the authenticator app again at the next sign-in. You cannot reset your own MFA. For other roles, ask a platform administrator or **support@rightview.ai**.
+
 ## Troubleshooting
 
 | Issue | What to try |
 | --- | --- |
 | "That code did not work" | Codes rotate every 30 seconds - use the newest one shown in your app, not one you copied earlier. Make sure your phone's clock is set to automatic/network time; a clock that's drifted causes valid codes to be rejected. |
 | Lost phone, no backup codes | Contact your administrator or **support@rightview.ai** to reset MFA on your account. |
+| Sign-in link is expired or used | On the sign-in page, click **Send a new link**. |
 | Setup QR code won't scan | Expand **Can't scan? Enter this key manually** and type the key into your authenticator app instead. |
 | Asked for a code again sooner than 30 days | The trusted-device cookie is per-browser and per-device - a new browser, incognito window, or clearing cookies resets it. |
 

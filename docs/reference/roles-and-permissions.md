@@ -33,6 +33,8 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Use PI contacts (Send to PI) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Add / edit / remove PI contacts (own site) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Invite site users, view site capacity | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Reset MFA for a site editor | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Link a collection to a CTMS study | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Finance desk: import invoiceables, run reconciliation, approve or dismiss results | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Finance desk: build and approve billing rules, **Sync now**, export the pilot report | ❌ | ❌ | ❌ | ❌ | ✅ |
 
@@ -54,7 +56,7 @@ The Finance rows apply only when your site has the Finance module. See [Finance 
 Standard site staff. Can chat, upload personal documents, save artifacts, and send answers to PI contacts. Adding contacts requires a site admin. Can use the Finance desk when the site has the Finance module.
 
 ### Medical Monitor
-Can chat and use the **My PI Inbox** to communicate with PIs. Does not see **Visits**, **Finance**, or **Users** in the sidebar.
+Can chat and use the **My PI Inbox** to communicate with PIs. Does not see **Visits**, **Finance**, or **Users** in the sidebar. Sees only the studies that an administrator assigned. Cannot change clinical or finance data.
 
 ### Sponsor Admin
 Sees only the sites and studies that an administrator enrolled for the sponsor. A site that is no longer enrolled drops out of the sponsor's views. Can stage documents and publish an amendment to the enrolled sites. Cannot use chat or upload documents in the main Navigator interface.

@@ -34,18 +34,17 @@ A collection can hold PDFs and Office files together. You do not need a differen
 2. Make sure the correct study shows at the top of the page.
 3. Click **Upload**. The **Add document** panel opens.
 4. Drag one or more files into the panel, or click to browse.
-5. Click **Next: Name Files →**.
-6. Under **Who can see this?**, select one option:
+5. Under **Who can see this?**, select one option:
    - **Just me** - a personal document only you can see.
    - **Everyone in this trial** - a study document for all users with access to this study.
+   - **Confidential** - a study document that stays hidden from site administrators. See [Confidential documents](/collections/restrict-access#confidential-documents).
    - **Everyone at my site** - a site-wide document for every study at your site.
+6. Click **Next: Name Files →**. The next step shows a **Visible to:** line with your choice. Click **← Back** to change it.
 7. For each file, type a document type (for example `Lab Manual`). Site-wide documents do not need a document type.
 8. Optional: if a study document contains the Schedule of Assessments, select the **Schedule of Assessments** checkbox. Navigator then builds the visit schedule for the **Visits** tab.
 9. Click **Upload**.
 
-You only see the options that your role allows. When processing is complete, the panel shows **Document uploaded and processed successfully.**
-
-To make a study document confidential, see [Confidential documents](/collections/restrict-access#confidential-documents).
+**Who can see this?** shows only after you add a file. You only see the options that your role allows. When processing is complete, the panel shows **Document uploaded and processed successfully.**
 
 **One document per type:** a collection can have only one current document for each document type. To update a document, use **Amend**. Do not upload a second file with the same type.
 
@@ -63,7 +62,8 @@ Site administrators and administrators can create a collection.
 6. Click **Next: Name Files →**.
 7. Type a document type for each file.
 8. Site administrators: click **Next: Access →**. Then choose **All site users** or **Specific users only**.
-9. Click **Create Study Collection**.
+9. If your site has a CTMS, the same step shows a **CTMS study** list. Click **Use this study** to accept the suggested study, or pick a study from the list. Pick **Decide later** to link it later. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators).
+10. Click **Create Study Collection**.
 
 You can change access later. See [Restrict collection and document access](/collections/restrict-access).
 

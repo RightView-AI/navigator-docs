@@ -29,8 +29,12 @@ If your account was just created, you may receive a welcome email with the same 
 If you forgot your password, click **Forgot password?**, enter your email, and follow the reset link sent to your inbox.
 
 :::info Two-factor authentication for privileged accounts
-Administrator, site administrator, sponsor administrator, and medical monitor accounts require an extra sign-in step - a 6-digit code from an authenticator app - in addition to your password or magic link. See [Two-factor authentication (MFA)](../settings/multi-factor-authentication.md) for setup and troubleshooting.
+Privileged accounts need an extra sign-in step. These are administrator, site administrator, site editor, private editor, sponsor administrator, and medical monitor accounts. The step is a 6-digit code from an authenticator app. You enter it after your password or magic link. See [Two-factor authentication (MFA)](../settings/multi-factor-authentication.md) for setup and troubleshooting.
 :::
+
+## If your sign-in link has expired
+
+A sign-in link works once and expires after a short time. If you open an expired or used link, the page shows **Send a new link**. Enter your email and click the button. Navigator sends a new link.
 
 ## If you're asked to set a new password
 

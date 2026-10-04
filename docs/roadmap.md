@@ -5,23 +5,22 @@ title: Roadmap
 
 # Roadmap
 
-**Last updated: September 2026**
+**Last updated: October 2026**
 
-A look at the themes the team is working on. The versions and dates below are targets, not commitments. Priorities and timing can shift. This page is rewritten as plans evolve. For what has already shipped, including the Chrome side-panel extension and HIPAA compliance, see the [Changelog](/changelog).
+## What's coming
 
-## Navigator v1.1.6 (October 2026)
+These are the themes that the team plans for Navigator v1.1.8. The plans are targets, not commitments. Priorities and timing can change. For what has already shipped, see the [Changelog](/changelog).
 
-- **eClinPro in chat** - connect the eClinPro clinical trial management system so you can ask about study documents, subjects, visits, and invoice status in chat, and plan visits against the live schedule.
-- **Stronger reasoning** - turn on the chat model's reasoning mode for chat and pre-screening, for better answers on complex questions.
-- **Multi-tab capture in the extension** - capture and work across content from more than one browser tab at a time.
-- **Continued compliance work** - SOC 2 Type 1 controls, scheduled data-retention enforcement, and tighter network access.
+### Navigator v1.1.8
 
-## Navigator v1.1.7 (November 2026)
-
-- **Finance reconciliation desk** - a new Finance area that checks study invoices against the work that was actually done, gives a recommendation for each item, and requires a person to approve an outcome before it is finalized.
-- **Finance questions in chat** - ask about invoices, budgets, and billing, answered from your connected finance data.
+- **Faster chat** - the team plans to shorten the time before an answer starts. The work covers faster document searches, parallel start-up steps, and less repeated loading of site settings.
+- **Knowledge that Navigator learns** - after a chat turn, Navigator will be able to add an entry to the study knowledge base. Site administrators will see these entries in **Manage collection** and can retract or delete them. Chat will label them **AI-curated**. Navigator will not add an entry that conflicts with a study document or a verified answer.
+- **Safer PI email replies** - Navigator plans to check the sender of an email reply from a PI. It also plans to label an email reply as a reply by email. The label will show in chat, in the audit trail, and in the PI inbox export. The team also plans tests to make sure that an automatic reply, such as an out-of-office message, cannot become a stored PI answer.
+- **Clear errors on the sponsor portfolio** - when the CTMS trial list cannot load, the sponsor portfolio will show an error. It will not show zero trials.
+- **Better page suggestions in the extension** - the extension plans to use a small model on your computer to suggest Source QC, Invoice capture, or Pre-screening. No page text leaves your computer.
+- **Scheduled data retention** - for sites that set a retention period, Navigator will remove expired data on a daily schedule.
 
 ## Related
 
-- [Changelog](/changelog) - full version history, including the v1.1.5 browser extension, smarter chat, and data-protection work
+- [Changelog](/changelog) - full version history
 - [What's new](/getting-started/whats-new) - a rolling summary of the current release

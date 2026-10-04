@@ -15,15 +15,17 @@ You can send a chat answer to a **Principal Investigator (PI)** or another study
 ## Send an answer to a contact
 
 1. Below the chat answer, click **Ask a Contact**.
-2. In the **Contact** list, select the contact.
+2. In the **Contact** list, select the contact (the first entry is **Choose Contact**).
 3. Optional: type a note in **Context (optional)**.
 4. Click **Ask a Contact**.
 
 The button changes to **Asked**.
 
-The **Contact** list shows only the contacts registered for the active study. Navigator does not send to a contact that is not registered for the study.
+The **Contact** list shows only the contacts registered for the study of the answer. Navigator does not send to a contact that is not registered for the study.
 
-If the list is empty, the panel shows **No contacts for this protocol.** Click **Manage contacts** to add a contact, or ask a site administrator.
+If the list is empty, the panel shows **No contacts for** and the study ID. Click **Manage contacts** to add a contact, or ask a site administrator.
+
+If the send fails, the panel shows an error such as **Could not send. Try again.** Click **Ask a Contact** again.
 
 Navigator sends the email from **research@rightview.ai**. The "From" line shows your name, for example *"Jane Doe (Your Site) via Rightview"*. The contact can see who sent the question.
 

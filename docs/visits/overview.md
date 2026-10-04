@@ -22,7 +22,11 @@ Visits has up to three views, reachable from the sidebar:
 
 Upload a scanned or photographed source document (for example, a signed consent form or a case report page) from **Visits → Source Quality Control**, one file at a time or in bulk. Navigator reviews each document against ALCOA data-quality dimensions - attributable, legible, contemporaneous, original, and accurate - and flags issues like a missing signature or a missing required field.
 
-Each upload appears as a row with its review status; click a row to open the full analysis, including per-dimension findings. Coordinators can add comments on a finding and mark it resolved once addressed. Uploaded source documents are stored separately from your study collection's protocol documents and are not used to answer chat questions.
+Each upload appears as a row with its review status; click a row to open the full analysis, including per-dimension findings.
+
+### Link a document to a subject and visit
+
+On the document detail, the **Subject link** card shows the subject and visit of the document. If the document has no link, Navigator can suggest one from the page header and the file name. Click **Confirm** to save the suggestion. Click **Change** to pick another subject and visit, or **Clear** to remove the link. Medical monitors see the link but cannot change it. A linked document shows on the patient page and in the Visit progress of that patient. Coordinators can add comments on a finding and mark it resolved once addressed. Uploaded source documents are stored separately from your study collection's protocol documents and are not used to answer chat questions.
 
 <video controls preload="metadata" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
   <source src="/video/source-qc-in-app.mp4" type="video/mp4" />
@@ -59,11 +63,26 @@ An SoA must be **approved** before the Patients view can calculate upcoming visi
 
 ## Matching a study collection to a CTMS trial
 
-Patients are matched to a study collection by an exact match between the collection's **Protocol ID** and the corresponding trial name in your CTMS. If the names don't match, the Patients view will tell you which trial names are available so you can rename the collection to line up - see [Rename a collection](/collections/manage-collections#rename-a-collection-site-administrators).
+A site administrator links each study collection to its CTMS study. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators). **Patients** reads the linked study.
+
+If a collection has no link, Navigator reads the CTMS study that has the same name as the collection **Protocol ID**. If no name matches, the view shows a notice that points to **Study settings**.
 
 ## Patient roster and visit windows
 
 Once an SoA is approved and a collection is matched to a CTMS trial, the Patients view shows each patient's progress against the schedule: which visit they're on, whether they're inside or outside the expected window, and what's due next. This is meant to support your own review, not replace clinical judgment or your CTMS as the system of record.
+
+The roster shows the number of subjects and how many have an upcoming visit. If the CTMS has a visit schedule, the next visit follows that schedule, even when it differs from the SoA.
+
+Navigator checks a limited number of subjects against the CTMS in each load. The header then shows the number of subjects that are **not checked yet**. Click **Load more** to check more.
+
+Open a patient to see more detail. A section shows only when your CTMS provides the data:
+
+- **Visit progress** - the EDC status of each visit: **Not started**, **Visit done, EDC pending**, **Entered**, **QC done**, or **Monitor reviewed**. A Source QC badge shows when a linked source document exists for the visit.
+- **Appointments** - the appointment and the window from your CTMS, next to the protocol visit.
+- **Subject queries** - open, replied, and closed data queries for the subject.
+- **Source QC** - the Source QC documents that link to the subject, with their findings.
+
+The roster shows an **Open query** flag for a subject with an open query.
 
 ## Protocol amendments
 

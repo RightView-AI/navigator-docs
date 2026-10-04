@@ -199,7 +199,17 @@ To remove a link, click **Unlink** next to the other number. Click **All patient
 
 ## Invoiceables tab
 
-The **Invoiceables** tab lists every CTMS line for the study, grouped by patient. The **Source** column shows where each line came from: **CTMS sync**, **CSV import**, or **Extension capture**. The **Evidence** column shows **Matched** when source work supports the line. Otherwise it shows **None yet**.
+The **Invoiceables** tab lists every CTMS line for the study. When Navigator holds invoice headers, it groups the lines under each invoice. The header shows the invoice number, the status, and the due date. Otherwise, the tab groups the lines by patient. The **Source** column shows where each line came from: **CTMS sync**, **CSV import**, or **Extension capture**. The **Evidence** column shows **Matched** when source work supports the line. Otherwise it shows **None yet**.
+
+### Payables
+
+If your CTMS provides payables, the **Invoiceables** tab also shows a **Payables** section. It lists site payments out, with their type, name, status, and amount. It also lists receipts with the amount and the balance. These rows are not clinical visits.
+
+## Subject payments
+
+If your CTMS provides subject payments, open a patient on the **Patients** tab. The **Subject payments** section lists each payment with its type, status, amount, amount paid, and payment type. If the patient has none, the section shows **No subject payments for this patient.**
+
+You can also ask chat for totals of subject payments and payables. See [Ask questions in chat](/chat/asking-questions#questions-on-ctms-data).
 
 ## Export the pilot report
 

@@ -27,9 +27,9 @@ A shared study document is visible to everyone with access to the study. A perso
 1. In the sidebar, click **Study Documents**.
 2. Make sure the correct study shows at the top of the page.
 3. Click **Upload**.
-4. Add the file, then click **Next: Name Files →**.
+4. Add the file.
 5. Under **Who can see this?**, select **Just me**.
-6. Type a document type (for example `my notes`).
+6. Click **Next: Name Files →**, then type a document type (for example `my notes`).
 7. Click **Upload**.
 
 ## Upload from chat
@@ -39,6 +39,8 @@ A shared study document is visible to everyone with access to the study. A perso
 3. Add the file.
 4. Type a document type.
 5. Click **Upload**.
+
+A status line above the message box shows the file name and the progress. When the file is ready, the line shows **Added** with the file name. If the upload fails, the line shows the reason. Click the **X** to close the line.
 
 The **+** button shows only when a study is selected. A personal document always belongs to one study.
 
