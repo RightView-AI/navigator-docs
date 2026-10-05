@@ -81,7 +81,7 @@ const sidebars: SidebarsConfig = {
       label: 'Reference',
       items: ['reference/roles-and-permissions'],
     },
-    'changelog',
+    {type: 'link', label: 'Changelog', href: '/changelog'},
     'roadmap',
   ],
 };

@@ -43,7 +43,20 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
         },
-        blog: false,
+        // Each release is its own post. The list page at /changelog shows truncated previews.
+        blog: {
+          path: 'changelog',
+          routeBasePath: 'changelog',
+          blogTitle: 'Changelog',
+          blogDescription:
+            'A history of Navigator releases, with the user-facing changes in each one.',
+          blogSidebarTitle: 'All releases',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 'ALL',
+          showReadingTime: false,
+          // Short releases such as hotfixes are shown in full on purpose.
+          onUntruncatedBlogPosts: 'ignore',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -57,7 +70,9 @@ const config: Config = {
       {
         hashed: true,
         docsRouteBasePath: '/',
-        indexBlog: false,
+        indexBlog: true,
+        blogRouteBasePath: '/changelog',
+        blogDir: 'changelog',
       },
     ],
   ],

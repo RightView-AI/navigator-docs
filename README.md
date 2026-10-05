@@ -35,6 +35,36 @@ Pushes to `main` deploy automatically via GitHub Actions (`.github/workflows/dep
 
 The `static/CNAME` file is committed for the custom domain.
 
+## Changelog
+
+Each release is its own page, and `/changelog` lists the releases as short previews. The releases live in `changelog/`, one file for each, and Docusaurus builds them as a blog.
+
+To add a release, create `changelog/YYYY-MM-DD-vX-Y-Z.md`. Use the release tag date. For a hotfix, name it `vX-Y-Z-hotfix` and set `tags: [hotfix]`.
+
+```markdown
+---
+slug: v1-1-8
+title: v1.1.8
+date: 2026-10-20T12:00:00Z
+tags: [release]
+description: "One sentence that says what the release is about"
+---
+
+**One sentence that says what the release is about**
+
+{/* truncate */}
+
+### First section
+
+- **A change** - what it does for the user.
+```
+
+- The preview on the `/changelog` list is one line. It is the bold sentence above `{/* truncate */}`. Write it so it names the biggest changes of the release, for example "Study links to the CTMS, a richer Patients page, and faster, safer chat". Do this for hotfixes too.
+- Use `{/* truncate */}`, not `<!-- truncate -->`. This site turns off HTML comments in MDX.
+- Two releases on one day need different times in `date`, so they keep their order.
+- `slug` replaces the dots with hyphens, so the page address stays `/changelog/v1-1-8`.
+- Keep the What's new page and the Roadmap in step with the release.
+
 ## Adding screenshots
 
 Place images in `static/img/docs/` and reference them in markdown:

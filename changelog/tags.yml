@@ -1,0 +1,9 @@
+release:
+  label: Release
+  permalink: release
+  description: Navigator releases.
+
+hotfix:
+  label: Hotfix
+  permalink: hotfix
+  description: Small releases that fix a specific problem between full releases.
