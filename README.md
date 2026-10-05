@@ -59,9 +59,8 @@ description: "One sentence that says what the release is about"
 - **A change** - what it does for the user.
 ```
 
-- Everything above `{/* truncate */}` is the preview on the `/changelog` list. Use the bold sentence for a release with sections. For a release that is only a bullet list, show the sentence and the first two bullets.
+- The preview on the `/changelog` list is one line. It is the bold sentence above `{/* truncate */}`. Write it so it names the biggest changes of the release, for example "Study links to the CTMS, a richer Patients page, and faster, safer chat". Do this for hotfixes too.
 - Use `{/* truncate */}`, not `<!-- truncate -->`. This site turns off HTML comments in MDX.
-- A short hotfix of three bullets or fewer needs no marker. It shows in full.
 - Two releases on one day need different times in `date`, so they keep their order.
 - `slug` replaces the dots with hyphens, so the page address stays `/changelog/v1-1-8`.
 - Keep the What's new page and the Roadmap in step with the release.
