@@ -35,10 +35,11 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Invite site users, view site capacity | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Reset MFA for a site editor | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Link a collection to a CTMS study | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Give users product modules | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Finance desk: import invoiceables, run reconciliation, approve or dismiss results | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Finance desk: build and approve billing rules, **Sync now**, export the pilot report | ❌ | ❌ | ❌ | ❌ | ✅ |
 
-The Finance rows apply only when your site has the Finance module. See [Finance desk](/finance/finance-desk).
+The Finance rows apply only when your site has the Finance module and you have been given it. See [Finance desk](/finance/finance-desk) and [Give a user modules](/admin/site-capacity-and-users#give-a-user-modules).
 
 ### Sponsor-side
 

@@ -14,7 +14,17 @@ Site administrators can invite new teammates and see how their site's usage comp
 3. If your site has any restricted collections, optionally check the ones this person should have access to right away - unrestricted collections are already visible to everyone at your site.
 4. Click **Add user**.
 
-The new teammate receives a magic-link email to set their password and sign in. They're added with the standard **User** role; contact **support@rightview.ai** to assign a different role.
+The new teammate receives a magic-link email to set their password and sign in. They're added with the standard **User** role and no modules; contact **support@rightview.ai** to assign a different role. To give them modules, see [Give a user modules](#give-a-user-modules).
+
+## Give a user modules
+
+A user sees **Visits**, **Finance**, and their tabs only when the site has the module and the user has it too.
+
+1. Open **Users** in the sidebar, on the **Site users** tab.
+2. Find the user. Use the switches under their name: **Source QC**, **Patients**, **Finance**, and **Schedule of Assessments**. Only modules that your site has show.
+3. Turn a switch on or off. The change saves right away and applies on the user's next request.
+
+Administrators and site administrators always get every module of the site, so their rows say **All site modules (role)**. You cannot give a module that your site does not have. Only a platform administrator changes modules for sponsor administrators and platform administrators.
 
 ## Site capacity
 

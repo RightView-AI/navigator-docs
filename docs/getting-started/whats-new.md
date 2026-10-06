@@ -8,6 +8,8 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
+- **Modules per user** - a site administrator gives each user the modules they need, in **Users** on the **Site users** tab. See [Give a user modules](/admin/site-capacity-and-users#give-a-user-modules).
+- **Clearer CTMS errors** - when Navigator cannot reach your CTMS, chat and the sponsor portfolio say so.
 - **Link a study to its CTMS study** - a site administrator picks the CTMS study for a collection in **Manage**, on the **Collection Settings** tab. Patients, Finance, and chat then read that study. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators).
 - **A richer Patients page** - the patient page shows EDC visit progress, subject queries, appointments, and linked Source QC documents. See [Visits & Schedule of Assessments](/visits/overview#patient-roster-and-visit-windows).
 - **Link Source QC documents to a subject** - Navigator suggests the subject and visit from the page header. You click **Confirm**.
@@ -58,6 +60,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## Administration
 
+- **Modules per user** - a user needs a module on the site and in their own list. Administrators and site administrators always get every module of the site.
 - **Collection access** - Site administrators manage who can use a study collection, or specific documents in it, from **Manage → Collection Settings** on each collection. See [Restrict collection and document access](/collections/restrict-access).
 - **Insights** - Usage analytics and optional **LLM Subtopic Analysis** help site and sponsor administrators understand how teams use Navigator.
 - **Tighter sponsor access** - sponsors see only the sites and studies they are enrolled in.
