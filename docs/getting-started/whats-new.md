@@ -16,6 +16,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Cleaner citations** - document names, math, and mixed citations show as chips and formatted text.
 - **Email replies from a contact** - chat labels them **PI response (email)**.
 - **Faster first upload** - Navigator starts the upload service when you point at an upload control.
+- **Scheduled data retention** - for a site that has a retention period, Navigator removes expired data every day.
 
 ## Navigator in your browser
 

@@ -36,7 +36,7 @@ The review runs outside the main app. A large document does not slow chat or oth
 
 ### Read the findings
 
-- Each finding shows the text from the page that supports it, with its **Location** and **Confidence**.
+- Each finding shows the text from the page that supports it, with its location.
 - When several checks report the same problem on a page, Navigator shows one finding.
 - Findings that Navigator is not sure about show in a separate **Needs review** list. They do not fail the document.
 
