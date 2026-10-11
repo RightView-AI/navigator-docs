@@ -104,7 +104,7 @@ Use the same type names across your site.
 
 ## Processing time
 
-Large files can take a few minutes to process. You do not need to refresh the page. See [Tips & tricks](/getting-started/tips-and-tricks#uploads-take-a-few-minutes---you-dont-need-to-refresh).
+Large files can take a few minutes to process. You do not need to refresh the page. Navigator starts the upload service when you point at an upload control, so the first upload after a quiet period waits less. If one status check fails for a short time, Navigator checks again and the upload continues. See [Tips & tricks](/getting-started/tips-and-tricks#uploads-take-a-few-minutes---you-dont-need-to-refresh).
 
 ## Troubleshooting
 

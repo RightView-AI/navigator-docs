@@ -39,6 +39,8 @@ When the contact answers, the button changes to **Answered**. The answer shows b
 
 The verified answer also shows as a **Verified answer** card on the **Study Documents** page. See [Manage collections](/collections/manage-collections).
 
+If the contact answers by email, chat labels the answer **PI response (email)**. Point at the label to read the full text: *PI response via email (sender checked, not dual authenticated)*. The card in **Study Documents** says **Email response from** and the name of the contact. **PI Verified** stays for an answer that a person signs in the app.
+
 ## Track in Notifications
 
 1. In the sidebar, click **Notifications**.

@@ -22,7 +22,23 @@ Visits has up to three views, reachable from the sidebar:
 
 Upload a scanned or photographed source document (for example, a signed consent form or a case report page) from **Visits → Source Quality Control**, one file at a time or in bulk. Navigator reviews each document against ALCOA data-quality dimensions - attributable, legible, contemporaneous, original, and accurate - and flags issues like a missing signature or a missing required field.
 
-Each upload appears as a row with its review status; click a row to open the full analysis, including per-dimension findings.
+Each upload appears as one row with its review status; click a row to open the full analysis, including per-dimension findings. The title shows above the file name. If a document has a subject link, the title shows the subject and visit. If not, the title shows the subject identifier that Navigator reads from the page, for example **Subject 1001**. If Navigator finds none, the title shows the file name. When you upload the same file again, the older uploads show under **N versions**.
+
+Use **Search names and comments…** to find a document by its name or by the text of a comment on a finding.
+
+### How Navigator reviews a document
+
+Navigator first reads the whole document. It then checks each page and checks the whole document again at the end. This finds problems that need more than one page, such as dates that conflict, a subject number that changes, or a missing page. A page check does not flag a calculated value that uses readings from other pages.
+
+Navigator reviews up to 50 pages of a PDF. If a PDF is longer, a notice shows how many pages Navigator reviewed. Upload the other pages as a separate document.
+
+The review runs outside the main app. A large document does not slow chat or other work.
+
+### Read the findings
+
+- Each finding shows the text from the page that supports it, with its **Location** and **Confidence**.
+- When several checks report the same problem on a page, Navigator shows one finding.
+- Findings that Navigator is not sure about show in a separate **Needs review** list. They do not fail the document.
 
 ### Link a document to a subject and visit
 

@@ -46,6 +46,22 @@ Each card has a colored label that shows the kind of item:
 
 Click a card to open it. A document opens in the document viewer. A verified answer or an artifact opens in a dialog.
 
+## Shortcuts to other records
+
+The **Study Documents** page also has shortcuts to records that live in other views. A shortcut opens the record in its own view. You cannot change a record from the shortcut. The search box finds shortcuts.
+
+| Shortcut | Where it shows | What you need | Opens |
+| --- | --- | --- | --- |
+| **Schedule of Assessments** card | Above the study documents | A saved schedule and the **Schedule of Assessments** module | **Visits → Schedule of Assessments** |
+| **Patient source documents** section | Below the study documents | The **Source QC** module | The document in **Visits → Source Quality Control** |
+| **Finance** section | Below the study documents | The **Finance** module | The **Billing rules** tab or the **Invoiceables** tab of **Finance** |
+
+- The **Schedule of Assessments** card shows **Draft** or **Approved**, the version, and the save date.
+- A **Patient source documents** card shows the subject and visit. If the document has no link, it shows the file name. The badge shows **Analyzing…**, **Failed**, **Pass**, **Issues found**, or **Complete**.
+- The **Finance** section starts with the **Billing rules** card. The card shows **Approved** or **Draft**, the number of rules, and the save date. An **Invoice** card follows for each imported invoice. It shows how the invoice came in, for example **File import**, **CTMS sync**, or **Screen capture**.
+
+A section shows its first row. Click **Show all** to see more, and **Collapse** to go back. Click **Load more** for the next cards.
+
 ## Card actions
 
 Click the **...** menu on a card to see its actions. The actions you see depend on your role and on the item.

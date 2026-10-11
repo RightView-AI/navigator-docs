@@ -11,7 +11,7 @@ Each chat answer includes citations. A citation points to the passage that Navig
 A citation badge shows at the end of a paragraph or list item. The badge has a colored dot and the number of sources for that part of the answer. The color shows the source type:
 
 - **Gray** - a passage from your study documents
-- **Green** - a verified answer
+- **Green** - a verified answer. An answer that a contact gave by email shows as **PI response (email)**.
 - **Blue** - an external reference, for example a PubMed result
 - **Amber** - a regulatory reference
 
@@ -34,7 +34,9 @@ To close the panel, click the **X**.
 
 ## Math in answers
 
-Navigator shows math formulas as formatted math, for example dose calculations.
+Navigator shows math formulas as formatted math, for example dose calculations. This includes math that starts with a digit.
+
+A citation to a study document shows as a numbered badge. A citation that mixes a study document and a regulation shows as separate badges.
 
 ## Copy an answer with citations
 

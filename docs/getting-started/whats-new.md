@@ -8,16 +8,14 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
-- **Modules per user** - a site administrator gives each user the modules they need, in **Users** on the **Site users** tab. See [Give a user modules](/admin/site-capacity-and-users#give-a-user-modules).
-- **Clearer CTMS errors** - when Navigator cannot reach your CTMS, chat and the sponsor portfolio say so.
-- **Link a study to its CTMS study** - a site administrator picks the CTMS study for a collection in **Manage**, on the **Collection Settings** tab. Patients, Finance, and chat then read that study. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators).
-- **A richer Patients page** - the patient page shows EDC visit progress, subject queries, appointments, and linked Source QC documents. See [Visits & Schedule of Assessments](/visits/overview#patient-roster-and-visit-windows).
-- **Link Source QC documents to a subject** - Navigator suggests the subject and visit from the page header. You click **Confirm**.
-- **Live answers** - chat shows the answer text while Navigator writes it.
-- **Questions on CTMS data** - where your CTMS supports it, ask chat about subject queries, study documents, invoice status, and payment totals.
-- **Safer Schedule of Assessments** - chat asks you to confirm before it replaces an approved schedule.
-- **Sharing choices come first** - in **Upload**, **Who can see this?** shows right after you add files.
-- **Reset MFA for site staff** - a site administrator can reset the authenticator app of a site editor from the **Site users** tab.
+- **Study Documents shortcuts** - the **Study Documents** page shows the saved Schedule of Assessments, patient source documents, billing rules, and invoices. See [Shortcuts to other records](/collections/manage-collections#shortcuts-to-other-records).
+- **Clearer Source QC findings** - each finding shows its evidence. Findings that Navigator is not sure about show in a **Needs review** list. Navigator shows one finding for one problem. See [Read the findings](/visits/overview#read-the-findings).
+- **Search in Source QC** - find a document by its name or by the text of a comment.
+- **Subject in the document title** - a Source QC document with no subject link shows the subject identifier that Navigator reads from the page.
+- **Faster, steadier chat** - Navigator runs independent searches at the same time. It also sends a second request when the model is slow to start.
+- **Cleaner citations** - document names, math, and mixed citations show as chips and formatted text.
+- **Email replies from a contact** - chat labels them **PI response (email)**.
+- **Faster first upload** - Navigator starts the upload service when you point at an upload control.
 
 ## Navigator in your browser
 
@@ -35,15 +33,21 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Follow-up questions** - Navigator keeps context from your recent messages in the same conversation, so short follow-ups (for example *"What about Visit 2?"*) work without repeating the full question.
 - **Regulatory references** - Answers can cite governance and regulatory sources alongside your study documents. Look for regulatory badges in the text and in **View sources**.
 - **View Flow** - On completed answers, open **View Flow** to see how Navigator approached your question (helpful for complex or multi-step responses).
-- **Answers from a contact come back to chat** - a contact's answer shows in the same chat thread as a **Verified answer**.
+- **Answers from a contact come back to chat** - a contact's answer shows in the same chat thread as a **Verified answer**. An email reply shows as **PI response (email)**.
+- **Live answers** - chat shows the answer text while Navigator writes it.
+- **Questions on CTMS data** - where your CTMS supports it, ask chat about subject queries, study documents, invoice status, and payment totals. See [Questions on CTMS data](/chat/asking-questions#questions-on-ctms-data).
+- **Clearer CTMS errors** - when Navigator cannot reach your CTMS, chat and the sponsor portfolio say so.
+- **Safer Schedule of Assessments** - chat asks you to confirm before it replaces an approved schedule.
 
 ## Documents and collections
 
 - **More file types** - Upload PDFs, Microsoft Office files (Word, PowerPoint, Excel), CSV, HTML, Markdown, and common images - not only PDF. See [Upload documents](/collections/upload-documents).
-- **Study Documents** - the **Study Documents** page shows every document, verified answer, and artifact in the study as searchable cards, with one **Upload** button. A site administrator clicks **New Collection** to create a study collection. A page refresh opens the view you were on.
+- **Study Documents** - the **Study Documents** page shows every document, verified answer, and artifact in the study as searchable cards, with one **Upload** button. It also has shortcuts to the Schedule of Assessments, patient source documents, billing rules, and invoices. A site administrator clicks **New Collection** to create a study collection. A page refresh opens the view you were on.
 - **Personal documents** - Upload documents inside a study that only you can see, and ask the assistant about them in chat.
 - **Site-wide documents** - Site administrators can add documents that apply to every study at the site.
 - **Rename collections** - Site administrators can rename a study collection's Protocol ID and sponsor name from **Manage → Collection Settings**.
+- **Link a study to its CTMS study** - a site administrator picks the CTMS study for a collection in **Manage**, on the **Collection Settings** tab. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators).
+- **Sharing choices come first** - in **Upload**, **Who can see this?** shows right after you add files.
 - **Access control** - Site administrators can limit who sees a whole collection or individual documents. See [Restrict collection and document access](/collections/restrict-access).
 - **Bookmark your protocols** - Star a protocol to pin it to the top of the study selector. The selector and the **Study Documents** grid group protocols into "Your protocols" and "Other protocols".
 - **HIPAA-aligned data protection** - Navigator protects your site's data with HIPAA-aligned safeguards.
@@ -51,7 +55,8 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 ## Visits
 
 - **Patients** - the patient roster shows each subject's next visit and window. The patient page adds visit progress, queries, and appointments when your CTMS provides them.
-- **Source Quality Control** - Upload scanned or photographed source documents for a study and Navigator reviews them against ALCOA data-quality dimensions (attributable, legible, contemporaneous, original, accurate), flagging missing signatures or required fields. Coordinators can record comments and resolution status on each finding.
+- **Link Source QC documents to a subject** - Navigator suggests the subject and visit from the page header. You click **Confirm**.
+- **Source Quality Control** - Upload scanned or photographed source documents for a study and Navigator reviews them against ALCOA data-quality dimensions (attributable, legible, contemporaneous, original, accurate), flagging missing signatures or required fields. Each finding shows its evidence, and uncertain findings show in a **Needs review** list. Coordinators can record comments and resolution status on each finding. Search finds a document by name or by comment text.
 
 ## Artifacts
 
@@ -71,6 +76,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Session timeout** - After 60 minutes of inactivity you are signed out for security; sign in again from the login page.
 - **Clearer session messages** - If your session ends, the login page explains why so you are not left on a blank screen.
 - **Two-factor authentication** - Administrator, editor, and medical monitor accounts require an authenticator app code at sign-in, with a countdown shown if you're temporarily locked out after repeated failed attempts. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
+- **Reset MFA for site staff** - a site administrator can reset the authenticator app of a site editor from the **Site users** tab.
 
 ## Related
 

@@ -24,6 +24,8 @@ To stop the answer early, click the send button again. It now shows a stop icon.
 
 The answer text shows while Navigator writes it. Answers can include tables and formatted math formulas.
 
+When an answer needs several searches, Navigator runs independent searches at the same time. If the model is slow to start, Navigator sends a second request and uses the first reply.
+
 ## Questions on CTMS data
 
 Where your site connects a CTMS that supports it, chat can answer from live CTMS data. For example, ask:
@@ -34,6 +36,8 @@ Where your site connects a CTMS that supports it, chat can answer from live CTMS
 - *How much have we paid subjects on this study?*
 
 These answers are read-only. Chat does not answer or close a query, and it does not change a payment. When you select a study, chat reads only that study. To ask about another study, select it first. Invoice and payment questions need the Finance module.
+
+If a user has limited access to studies, and Navigator cannot reach the CTMS to check a patient's study, chat does not show the EHR record of that patient. Chat says that it could not reach the CTMS.
 
 When you ask chat to build or save a Schedule of Assessments, chat never replaces an approved schedule by itself. It asks you to confirm first.
 

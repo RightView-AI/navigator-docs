@@ -21,6 +21,7 @@ Each study document and verified answer shows as a card. The cards use the same 
 | Document type (for example **Protocol Document** or **Lab Manual**) | A passage from a shared study document |
 | **Personal** | A passage from your personal document |
 | **Verified answer** | An answer that a contact verified |
+| **PI response (email)** | An answer that a contact gave by email |
 
 Each card shows the file name, the page number, and a short excerpt. Click a card to open the full preview.
 
