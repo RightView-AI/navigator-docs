@@ -34,7 +34,7 @@ The panel uses the same session as [sites.rightview.ai](https://sites.rightview.
 
 ## Panel views
 
-An icon rail on the left side of the panel changes the view. You can also press **Alt+1**, **Alt+2**, and so on to select a view. **Chat** and **Save page** always show. The other views show only if an administrator enables the module for your site.
+An icon rail on the left side of the panel changes the view. You can also press **Alt+1**, **Alt+2**, and so on to select a view. **Chat**, **Save page**, and **History** always show. The other views show only if an administrator enables the module for your site.
 
 | View | What it does | Module |
 | --- | --- | --- |
@@ -44,6 +44,7 @@ An icon rail on the left side of the panel changes the view. You can also press 
 | **Pre-screening** | Check a patient record against the study eligibility criteria. | Pre-screening |
 | **Invoice capture** | Capture invoice lines from a CTMS page into Finance. | Finance |
 | **Save page** | Save the text of the active tab as a shared document in the study. | None |
+| **History** | Open your recent chats, including pre-screening runs. | None |
 
 Each view except Chat shows the study at the top. Use the **Study** picker to change it. Click the back arrow to go back to chat.
 
@@ -126,7 +127,20 @@ Pre-screening checks a patient record against the inclusion and exclusion criter
 1. Open the patient record in a browser tab. For example, open it in your EMR. The record can be a web page or a PDF.
 2. In the panel, select **Pre-screening**.
 3. Click **Check eligibility**.
-4. The panel shows a verdict: **Likely included**, **Likely excluded**, or **More info needed**. Below the verdict, each criterion shows its result and the reason. Citations show the document name and page.
+4. While the check runs, the panel shows each step and marks it **Done** when it ends. To stop the check, click **Cancel**.
+5. The panel shows a verdict: **Likely included**, **Likely excluded**, or **More info needed**. Below the verdict, each criterion shows its result and the reason. Citations show the document name and page.
+
+### See the evidence on the page
+
+After the check, click **Show all evidence on the page**. The panel marks the text on the patient record that supports each criterion. To mark the evidence for one criterion only, click the mark icon on that criterion. Click **Clear marks on the page** to remove the marks.
+
+This needs version 1.7.0 or later of the extension. An older version shows a message that asks you to update it.
+
+### Ask follow-up questions
+
+Click **Continue in chat** under the result. The run opens as a chat in the panel. Ask follow-up questions about the verdict there.
+
+Each run is saved as a chat named with the study and the run time, for example **Pre-screening · FLOW_NCT03819153 · Oct 12, 12:33 AM**. To open a past run, select **History** in the panel.
 
 If the capture takes too long, the panel shows an error. Reload the patient record tab and try again. If the check takes too long, click **Keep waiting**.
 

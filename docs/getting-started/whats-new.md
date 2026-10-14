@@ -8,6 +8,10 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 ## New this release
 
+- **Pre-screening evidence on the page** - after a check in the side panel, click **Show all evidence on the page** to mark the supporting text on the patient record. Click **Continue in chat** to ask follow-up questions. See [Pre-screening](/extension/chrome-extension#pre-screening).
+- **Download artifacts** - open the menu on an artifact card and click **Download PDF**, **Download Word**, or **Print**. See [Download or print an artifact](/artifacts/save-and-share#download-or-print-an-artifact).
+- **Several artifacts from one message** - ask chat to save two or more artifacts in one message. Chat saves each one separately and links it under the answer.
+- **Call scripts in sections** - a pre-screening call script has an EMR review, a medication quick reference, the call questions, next steps, and an FAQ.
 - **Study Documents shortcuts** - the **Study Documents** page shows the saved Schedule of Assessments, patient source documents, billing rules, and invoices. See [Shortcuts to other records](/collections/manage-collections#shortcuts-to-other-records).
 - **Clearer Source QC findings** - each finding shows its evidence. Findings that Navigator is not sure about show in a **Needs review** list. Navigator shows one finding for one problem. See [Read the findings](/visits/overview#read-the-findings).
 - **Search in Source QC** - find a document by its name or by the text of a comment.

@@ -16,6 +16,8 @@ sidebar_position: 1
 
 The button below the answer changes to **Saved**. The artifact is linked to the active study.
 
+You can also ask chat to save an answer, for example *"Save this as a document titled Visit 2 checklist"*. A **Created artifact** link shows under the answer. Click it to open the artifact in **Study Documents**. To save two or more artifacts, name each one in the same message. Chat saves each one with its own title and content.
+
 ## Find your artifacts
 
 1. In the sidebar, click **Study Documents**.
@@ -29,6 +31,13 @@ You see your own artifacts and the artifacts that others shared with you.
 ## Open an artifact
 
 Click the artifact card. The artifact opens in a dialog.
+
+## Download or print an artifact
+
+1. Click the **...** menu on the artifact card.
+2. Click **Download PDF**, **Download Word**, or **Print**.
+
+Everyone who can see the artifact can download or print it.
 
 ## Share an artifact
 

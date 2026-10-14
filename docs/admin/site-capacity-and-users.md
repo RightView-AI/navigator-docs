@@ -24,7 +24,7 @@ A user sees **Visits**, **Finance**, and their tabs only when the site has the m
 2. Find the user. Use the switches under their name: **Source QC**, **Patients**, **Finance**, and **Schedule of Assessments**. Only modules that your site has show.
 3. Turn a switch on or off. The change saves right away and applies on the user's next request.
 
-Administrators and site administrators always get every module of the site, so their rows say **All site modules (role)**. You cannot give a module that your site does not have. Only a platform administrator changes modules for sponsor administrators and platform administrators.
+Administrators and site administrators always get every module of the site, so their rows say **All site modules (role)**. You cannot give a module that your site does not have. A Rightview platform administrator turns modules on for a site. To add a module to your site, contact your Rightview representative. Only a platform administrator changes modules for sponsor administrators and platform administrators.
 
 ## Site capacity
 
