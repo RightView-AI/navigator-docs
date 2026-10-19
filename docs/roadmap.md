@@ -9,7 +9,7 @@ title: Roadmap
 
 ## What's coming
 
-These are the themes that the team plans for Navigator v1.1.9. The plans are targets, not commitments. Priorities and timing can change. For what has already shipped, see the [Changelog](/changelog).
+These are the themes that the team plans for Navigator v1.1.9 and v1.2.0. The plans are targets, not commitments. Priorities and timing can change. For what has already shipped, see the [Changelog](/changelog).
 
 ### Navigator v1.1.9
 
@@ -19,6 +19,12 @@ These are the themes that the team plans for Navigator v1.1.9. The plans are tar
 - **Better page suggestions in the extension** - the extension plans to use a small model on your computer to suggest Source QC, Invoice capture, or Pre-screening. No page text leaves your computer.
 - **Knowledge that Navigator learns** - after a chat turn, Navigator will be able to add an entry to the study knowledge base. Site administrators will see these entries in **Manage collection** and can retract or delete them. Chat will label them **AI-curated**. Navigator will not add an entry that conflicts with a study document or a verified answer.
 - **Removal of old search data** - Navigator will remove the old Qwen3 search data. Search already uses Voyage-4.
+- **Excel support** - Navigator will be able to read Excel workbooks, so you can upload a spreadsheet to a study and ask chat about it.
+- **Charts in chat** - chat will be able to draw a chart when a chart answers your question better than a table.
+
+### Navigator v1.2.0
+
+- **Single sign-on (SSO)** - your organization will be able to connect its own identity provider, so your team signs in to Navigator with the same account they use for other work tools. Navigator plans to support both SAML and OpenID Connect.
 
 ## Related
 
