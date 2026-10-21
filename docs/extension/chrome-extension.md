@@ -18,6 +18,8 @@ The extension is on the Chrome Web Store.
 
 Chrome updates the extension automatically. You do not need to download or install it again.
 
+**Install reminder:** If you sign in to Navigator in Chrome (or another Chromium browser such as Edge) on a computer, and the extension is not installed, Navigator shows a small **Get the Navigator extension** notice one time. Click **Install** to open the Chrome Web Store listing, or **Not now** to close it. The notice does not come back, even on another computer or browser.
+
 ## First launch: the Welcome page
 
 When you add the extension, Chrome opens the [Welcome page](/extension/welcome) in a new tab. It shows how to pin the extension, sign in, and turn on access to local files. Chrome opens it only after a first install, not after an update.
@@ -84,7 +86,7 @@ Source QC reviews a source document against the ALCOA+ data-quality dimensions a
 
 Navigator also saves the capture in the main app, in **Visits → Source Quality Control**. There you can see all findings, add comments, and mark issues resolved. Click **Open in Rightview** below the result to go there.
 
-**PDFs and images:** If you open a PDF or an image directly in its own tab, the extension captures the original file. If the PDF is inside another page, the panel shows **This tab is a PDF**. Upload that PDF to Navigator directly.
+**PDFs and images:** If you open a PDF or an image directly in its own tab, the extension captures the original file. This also works for a PDF that you open from your computer, after you turn on [access to local files](/extension/enable-file-access). If the PDF is inside another page, the panel shows **This tab is a PDF**. Upload that PDF to Navigator directly.
 
 ## Cross-check with EDC
 
@@ -124,7 +126,7 @@ Pre-screening checks a patient record against the inclusion and exclusion criter
   <source src="/video/prescreening-explainer.mp4" type="video/mp4" />
 </video>
 
-1. Open the patient record in a browser tab. For example, open it in your EMR. The record can be a web page or a PDF.
+1. Open the patient record in a browser tab. For example, open it in your EMR. The record can be a web page or a PDF. For a PDF from your computer, first turn on [access to local files](/extension/enable-file-access).
 2. In the panel, select **Pre-screening**.
 3. Click **Check eligibility**.
 4. While the check runs, the panel shows each step and marks it **Done** when it ends. To stop the check, click **Cancel**.
@@ -177,12 +179,15 @@ Save page saves the text of the active tab as a shared document in the study. Al
 
 ## Page suggestions
 
-The extension can suggest a view for the page that you open. For example, on a source document it shows a small card with the text *"This looks like a source document. Run Source QC for [study]?"*. The extension reads the page on your computer only. It sends nothing to Navigator until you click the button on the card.
+The extension can suggest a view for the page that you open. When a page looks like a source document, a patient record, or a CTMS invoice page, a small round Rightview logo shows in the bottom-right corner of the page. The extension reads the page on your computer only. It sends nothing to Navigator until you click the logo.
 
-- Click the button on the card to open the panel and start the run for the named study.
+- Point to the logo to see the suggestion, for example **Run Source QC**.
+- Click the logo to open the panel and start that run for your study.
 - Press **Alt+Shift+Y** to accept the suggestion from the keyboard.
-- Click **X** to close the card. The card also closes after a few seconds with no activity.
-- Click **Pause suggestions** to stop suggestions on all pages. You can also right-click the toolbar icon and select **Pause page suggestions**. When suggestions are paused, the toolbar icon shows **OFF**. To start them again, click **Resume** at the top of the panel.
+- To hide the logo on this page, point to it and click the small **X**, or press **Esc**. Otherwise the logo stays until you use it or leave the page.
+- To stop suggestions on all pages, right-click the toolbar icon and select **Pause page suggestions**. When suggestions are paused, the toolbar icon shows **OFF**. To start them again, click **Resume** at the top of the panel.
+
+The extension suggests only the views that your account can open. For example, if Pre-screening is not on for your site, you never get a pre-screening suggestion. Suggestions start after you open the panel and sign in. They stop when you sign out of the panel, and start again when you sign in.
 
 ## Troubleshooting
 
@@ -191,6 +196,7 @@ The extension can suggest a view for the page that you open. For example, on a s
 - **Source QC shows "This tab is a PDF"** - Upload the PDF to Navigator directly. See [Source Quality Control](/visits/overview#source-quality-control).
 - **The capture fails on a local file** - The tab shows a file from your computer (its address starts with `file:///`). Chrome blocks the extension until you turn on file access. See [Allow access to local files](/extension/enable-file-access).
 - **Navigator captured the wrong page** - Source QC, Pre-screening, Invoice capture, and Save page use the active tab. Make sure that the correct tab is active before you start. Cross-check with EDC uses the tabs that you select.
+- **No page suggestions show** - Open the panel and sign in. Suggestions show only after that, and only for views that your account can open. Also check that the toolbar icon does not show **OFF**. If you updated the extension, reload the page.
 - **Cross-check with EDC shows no tabs** - Open the source and EDC pages in normal browser tabs. Click the back arrow, then select **Cross-check with EDC** again.
 
 ## Related guides
