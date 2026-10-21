@@ -6,26 +6,27 @@ sidebar_position: 3
 
 This page summarizes recent improvements that affect how you work in Navigator. For step-by-step instructions, follow the links in each section. For the full version history, see the [Changelog](/changelog).
 
-## New this release
+## New this release (v1.1.9 beta)
 
-- **Pre-screening evidence on the page** - after a check in the side panel, click **Show all evidence on the page** to mark the supporting text on the patient record. Click **Continue in chat** to ask follow-up questions. See [Pre-screening](/extension/chrome-extension#pre-screening).
-- **Download artifacts** - open the menu on an artifact card and click **Download PDF**, **Download Word**, or **Print**. See [Download or print an artifact](/artifacts/save-and-share#download-or-print-an-artifact).
-- **Several artifacts from one message** - ask chat to save two or more artifacts in one message. Chat saves each one separately and links it under the answer.
-- **Call scripts in sections** - a pre-screening call script has an EMR review, a medication quick reference, the call questions, next steps, and an FAQ.
-- **Study Documents shortcuts** - the **Study Documents** page shows the saved Schedule of Assessments, patient source documents, billing rules, and invoices. See [Shortcuts to other records](/collections/manage-collections#shortcuts-to-other-records).
-- **Clearer Source QC findings** - each finding shows its evidence. Findings that Navigator is not sure about show in a **Needs review** list. Navigator shows one finding for one problem. See [Read the findings](/visits/overview#read-the-findings).
-- **Search in Source QC** - find a document by its name or by the text of a comment.
-- **Subject in the document title** - a Source QC document with no subject link shows the subject identifier that Navigator reads from the page.
-- **Faster, steadier chat** - Navigator runs independent searches at the same time. It also sends a second request when the model is slow to start.
-- **Cleaner citations** - document names, math, and mixed citations show as chips and formatted text.
-- **Email replies from a contact** - chat labels them **PI response (email)**.
-- **Faster first upload** - Navigator starts the upload service when you point at an upload control.
-- **Scheduled data retention** - for a site that has a retention period, Navigator removes expired data every day.
+- **Charts in chat** - answers can show charts, including pie charts, timelines, number tiles, and side-by-side comparisons. See [Charts and visual blocks](/chat/asking-questions#charts-and-visual-blocks).
+- **Excel downloads** - an artifact with a table has **Download Excel**. Each table goes on its own sheet. See [Download or print an artifact](/artifacts/save-and-share#download-or-print-an-artifact).
+- **Spreadsheet artifacts** - ask chat for a spreadsheet. It opens in a grid that you can edit. See [Edit a spreadsheet artifact](/artifacts/save-and-share#edit-a-spreadsheet-artifact).
+- **Download from the artifact window** - an artifact that you open from a chat link has its own download buttons. See [Open an artifact](/artifacts/save-and-share#open-an-artifact).
+- **Call scripts you can work through** - tick questions and follow the action tags. See [Call scripts](/chat/asking-questions#call-scripts).
+- **Pre-screening results you can scan** - the verdict first, then the criteria that decide it, need information, or passed. See [Pre-screening results](/chat/asking-questions#pre-screening-results).
+- **Medication pre-screening reference** - ask chat for a study's required and prohibited medications, with washouts. See [Medication pre-screening reference](/chat/asking-questions#medication-pre-screening-reference).
+- **Insights in chat** - site administrators can ask chat about their site's usage. See [Questions on site Insights](/chat/asking-questions#questions-on-site-insights).
+- **Audit Log for site administrators** - an **Audit Log** tab shows the audit records of your own site, including failed sign-ins. See [Audit Log](/admin/site-settings#audit-log).
+- **Uploads up to 100 MB** - large study, confidential, and site-wide documents now upload. See [File size limit](/collections/upload-documents#file-size-limit).
+- **Upload progress** - a notice shows each upload, and the study picker shows **Uploading** or **Upload failed**. See [Follow upload progress](/collections/upload-documents#follow-upload-progress).
+- **Extension install reminder** - Navigator reminds you once to install the Chrome extension. See [Install reminder in Navigator](/extension/chrome-extension#install-reminder-in-navigator).
 
 ## Navigator in your browser
 
 - **Chrome side panel** - use Navigator next to your EDC, a source document, or a screening record. See [Chrome side-panel extension](/extension/chrome-extension).
 - **Cross-check with EDC** - compare a source document tab with an EDC form tab field by field. Navigator marks each field **Mismatch** or **Missing**, and saves the result on the Source QC record.
+- **Pre-screening evidence on the page** - after a check, click **Show all evidence on the page** to mark the supporting text on the patient record. See [Pre-screening](/extension/chrome-extension#pre-screening).
+- **Page suggestions** - a small round logo on a supported page suggests Source QC, Pre-screening, or Invoice capture. See [Page suggestions](/extension/chrome-extension#page-suggestions).
 - **Welcome page** - the extension opens a Welcome page after the first install. See [Welcome to Navigator in your browser](/extension/welcome).
 
 ## Finance
@@ -38,11 +39,12 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 - **Follow-up questions** - Navigator keeps context from your recent messages in the same conversation, so short follow-ups (for example *"What about Visit 2?"*) work without repeating the full question.
 - **Regulatory references** - Answers can cite governance and regulatory sources alongside your study documents. Look for regulatory badges in the text and in **View sources**.
 - **View Flow** - On completed answers, open **View Flow** to see how Navigator approached your question (helpful for complex or multi-step responses).
-- **Answers from a contact come back to chat** - a contact's answer shows in the same chat thread as a **Verified answer**. An email reply shows as **PI response (email)**.
+- **Answers from a contact come back to chat** - a contact's answer shows in the same chat thread. It is labeled **Verified response** when the contact signed it in the app or emailed it from a confirmed email domain, and **Response** otherwise.
 - **Live answers** - chat shows the answer text while Navigator writes it.
 - **Questions on CTMS data** - where your CTMS supports it, ask chat about subject queries, study documents, invoice status, and payment totals. See [Questions on CTMS data](/chat/asking-questions#questions-on-ctms-data).
 - **Clearer CTMS errors** - when Navigator cannot reach your CTMS, chat and the sponsor portfolio say so.
 - **Safer Schedule of Assessments** - chat asks you to confirm before it replaces an approved schedule.
+- **Several artifacts from one message** - ask chat to save two or more artifacts in one message. Chat saves each one separately and links it under the answer.
 
 ## Documents and collections
 
@@ -67,12 +69,13 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 
 - **Flexible sharing** - Share saved answers privately, with **specific people** at your site, or with **everyone at this site**.
 - **In Study Documents** - saved answers show as cards in **Study Documents**. Pick the **Artifacts** chip to see only artifacts.
+- **Download and print** - download an artifact as PDF, Word, or Excel, or print it, from the menu on its card.
 
 ## Administration
 
 - **Modules per user** - a user needs a module on the site and in their own list. Administrators and site administrators always get every module of the site.
 - **Collection access** - Site administrators manage who can use a study collection, or specific documents in it, from **Manage → Collection Settings** on each collection. See [Restrict collection and document access](/collections/restrict-access).
-- **Insights** - Usage analytics and optional **LLM Subtopic Analysis** help site and sponsor administrators understand how teams use Navigator.
+- **Insights** - usage numbers and **Topic insights** help site and sponsor administrators see how teams use Navigator. See [Insights & Audit Log](/admin/site-settings).
 - **Tighter sponsor access** - sponsors see only the sites and studies they are enrolled in.
 - **Site capacity** - Site administrators can track usage against user, document, and collection limits, and invite new teammates directly by magic link without a platform administrator. See [Users & site capacity](/admin/site-capacity-and-users).
 
