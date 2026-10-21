@@ -4,19 +4,19 @@ sidebar_position: 1
 
 # Visits & Schedule of Assessments
 
-**Visits** keeps protocol visit windows and patient progress in one place, alongside the same chat you already use for document questions. Schedule of Assessments works for every site - the **Patients** view additionally needs to be enabled for your site by an administrator.
+**Visits** keeps protocol visit windows and patient progress in one place, next to the chat that you use for document questions.
 
-**Who sees this:** the **Visits** item always appears in the sidebar. The **Patients** and **Source Quality Control** views inside it only become available once an administrator enables the corresponding module for your site - without them, you'll still have Schedule of Assessments. Enabling Patients no longer requires a connected clinical trial management system (CTMS) or EMR, though most sites that use it have one configured for live patient data.
+**Who sees this:** each view in **Visits** is a module. Rightview turns modules on for your site, and a site administrator gives them to users. See [Give a user modules](/admin/site-capacity-and-users#give-a-user-modules). **Visits** shows in the sidebar only when you have at least one of its modules. Medical monitors do not see **Visits**. **Patients** does not require a connected clinical trial management system (CTMS), but most sites that use it have one for live patient data.
 
 ## What's inside
 
-Visits has up to three views, reachable from the sidebar:
+Visits has up to three views. Click **Visits** in the sidebar, or point at it and pick a view:
 
-| View | What it shows | Requires the module enabled? |
-| --- | --- | --- |
-| **Schedule of Assessments** | The protocol's visit schedule - visit names, windows, and the assessments required at each one | No |
-| **Patients** | A roster of patients on the protocol, their current visit status, and upcoming visit windows | Yes |
-| **Source Quality Control** | Uploaded source documents and their ALCOA data-quality review results | Yes |
+| View | What it shows |
+| --- | --- |
+| **Schedule of Assessments** | The protocol's visit schedule: visit names, windows, and the assessments required at each one |
+| **Patients** | A roster of patients on the protocol, their current visit status, and upcoming visit windows |
+| **Source Quality Control** | Uploaded source documents and their ALCOA data-quality review results |
 
 ## Source Quality Control
 
@@ -109,11 +109,13 @@ How an amendment is handled depends on how the collection is managed:
 **Sponsor-managed collections** - when a sponsor publishes an amendment to a locked, sponsor-managed collection, Navigator runs the full amendment automatically at every affected site:
 
 1. Rebuilds the Schedule of Assessments from the amended protocol and diffs it against the prior version.
-2. For each active patient whose next visit changed, **automatically writes the new visit day into your CTMS** and records it in Write History - no confirmation step first.
+2. For each active patient whose next visit changed, stages the new visit day. Nothing is written to your CTMS yet.
 3. Flags any patient whose changed visit now requires additional procedures as possibly needing **re-consent**.
 4. Re-checks every active patient's eligibility against the amended inclusion/exclusion criteria and flags anyone who may need PI review.
 
-Open the amendment's **"… changes"** button above the Schedule of Assessments (or the matching Notifications entry) to see what changed, and which patients were rescheduled or flagged. Review happens after the fact - the CTMS write is already done by the time you see it.
+Open the amendment's **"… changes"** button above the Schedule of Assessments, or the matching **Notifications** entry, to see what changed and which patients are affected. Staged visit days show **Awaiting approval**.
+
+A site administrator clicks **Approve & apply N schedule changes** to write the new visit days to the CTMS. Applied changes then show **Rescheduled**.
 
 ## Related guides
 

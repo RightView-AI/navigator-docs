@@ -42,13 +42,16 @@ A shared study document is visible to everyone with access to the study. A perso
 
 A status line above the message box shows the file name and the progress. When the file is ready, the line shows **Added** with the file name. If the upload fails, the line shows the reason. Click the **X** to close the line.
 
+A progress message also shows in the corner of the screen, on every page. It ends with the result. See [Follow upload progress](/collections/upload-documents#follow-upload-progress).
+
 The **+** button shows only when a study is selected. A personal document always belongs to one study.
 
 ## Delete a personal document
 
 1. On the **Study Documents** page, find the card with the **Personal** label.
 2. Click the **...** menu on the card, then click **Delete**.
-3. Confirm the delete.
+
+Navigator deletes the document right away. There is no confirmation step.
 
 Deleting a personal document frees one of your personal document slots in that study.
 
@@ -61,7 +64,7 @@ Personal documents accept the [same file formats as shared uploads](/collections
 | **Size per file** | 5 MB |
 | **Personal documents per user, per study** | 5 |
 
-Your site can have different limits. Put larger files, or content that the team needs, in a shared document.
+Your site can have a different number of personal documents. Put larger files, or content that the team needs, in a shared document. A shared document can be up to 100 MB. See [File size limit](/collections/upload-documents#file-size-limit).
 
 ## Replace a personal document
 

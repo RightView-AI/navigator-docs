@@ -20,6 +20,8 @@ The study you select on the **Study Documents** page is also the active study in
 The page address includes the current view (for example `?view=collections`). When you refresh the page or open a shared link, Navigator opens the same view.
 :::
 
+When you come back to the Navigator tab or window, the document list refreshes. A page that you saved with **Save page** in the Chrome extension then shows without a page refresh.
+
 ## Find an item
 
 - Type in the **Search this study…** box to filter cards by title or label.
@@ -29,7 +31,7 @@ The page address includes the current view (for example `?view=collections`). Wh
 | --- | --- |
 | **All** | Every item in the study |
 | **Documents** | Study documents, including your personal and confidential documents |
-| **Knowledge** | Answers that a contact verified |
+| **Knowledge** | Answers from contacts |
 | **Artifacts** | Artifacts saved for this study |
 | **Site-wide** | Documents that apply to every study at your site |
 
@@ -40,11 +42,11 @@ Each card has a colored label that shows the kind of item:
 - **Document type** (for example **Protocol Document** or **Lab Manual**) - a shared study document.
 - **Personal** - a document only you can see. See [Personal documents](/collections/personal-documents).
 - **Confidential** - a document sealed from site administrators. See [Confidential documents](/collections/restrict-access#confidential-documents).
-- **Verified answer** - an answer that a contact verified.
+- **Verified response** or **Response** - a contact's answer to a question. **Verified response** means the contact signed the answer in the app, or sent it by email from a confirmed email domain. The card says **Answered by** or **Email response from** and the contact's name.
 - **Artifact** - a saved artifact. See [Save and share artifacts](/artifacts/save-and-share).
 - **Site-wide** - a document for all studies at your site.
 
-Click a card to open it. A document opens in the document viewer. A verified answer or an artifact opens in a dialog.
+Click a card to open it. A document opens in the document viewer. A contact answer or an artifact opens in a dialog.
 
 ## Shortcuts to other records
 
@@ -68,14 +70,26 @@ Click the **...** menu on a card to see its actions. The actions you see depend 
 
 | Item | Actions |
 | --- | --- |
-| Document | **Download**, **Amend**, **Manage access**, **Delete** |
-| Verified answer | **Delete** (site administrators) |
-| Artifact | **Edit**, **Share**, **Delete** (the creator) |
+| Document | **Download**, **Amend**, **Rename**, **Manage access**, **Delete** |
+| Contact answer | **Delete** (site administrators and administrators) |
+| Artifact | **Download PDF**, **Download Word**, **Download Excel** (only when the artifact has a table), **Print**. The creator also sees **Edit**, **Share**, and **Delete**. |
 | Site-wide document | **Download** |
 
-Sponsor-managed documents have no **Amend** or **Delete** action. Only the sponsor can change them.
+Sponsor-managed documents have no **Amend**, **Rename**, or **Delete** action. Only the sponsor can change them.
 
-On a personal document, you see **Delete** if you uploaded it. On a confidential document, members see **Manage access** and **Delete**. See [Confidential documents](/collections/restrict-access#confidential-documents).
+On a personal document, you see **Download**, and **Delete** if you uploaded it. On a confidential document, members see **Manage access** and **Delete**. A confidential document has no **Download** action. See [Confidential documents](/collections/restrict-access#confidential-documents).
+
+**Delete** removes the item right away. There is no confirmation step.
+
+## Rename a document
+
+Site administrators, site editors, and administrators can rename a shared study document.
+
+1. Click the **...** menu on the document card, then click **Rename**. The **Rename document** dialog opens.
+2. Type the new name. Keep the same file extension, for example `.pdf`.
+3. Click **Rename**.
+
+The new name applies to every version of the document. The file itself does not change. You cannot rename a personal or confidential document.
 
 ## Create a study collection (site administrators)
 
@@ -118,9 +132,15 @@ If another collection already reads this CTMS study by its name, Navigator warns
 
 This deletes every document in the collection. You cannot undo it.
 
+## Upload status
+
+While a new collection uploads, the **Study Documents** page shows **Uploading document 1 of 3. Documents show here as each one finishes.** The new study stays selected while it uploads. A progress message also shows on every page. See [Follow upload progress](/collections/upload-documents#follow-upload-progress).
+
+The sidebar's **Study collection** picker shows the upload status next to the study, for example **Uploading 45%** or **Upload failed**.
+
 ## Failed uploads
 
-If the last upload to a study failed, a message shows above the cards. Click **Dismiss** to remove it. For site administrators, the study list shows a warning mark next to a study with a failed upload.
+If the last upload to a study failed, a message shows above the cards. It starts with **Last upload to this study failed:** and gives the reason. Click **Dismiss** to remove it. For site administrators, the study list at the top of the **Study Documents** page shows a warning mark next to a study with a failed upload.
 
 ## Best practices
 

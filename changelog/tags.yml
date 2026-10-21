@@ -7,3 +7,8 @@ hotfix:
   label: Hotfix
   permalink: hotfix
   description: Small releases that fix a specific problem between full releases.
+
+beta:
+  label: Beta
+  permalink: beta
+  description: Pre-releases that are in testing before they reach all sites.
