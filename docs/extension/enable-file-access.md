@@ -6,7 +6,7 @@ sidebar_position: 3
 
 The extension captures the page in a browser tab. Sometimes that tab shows a **local file**, for example a PDF, PNG, or HTML file that you open from your computer. The address of a local file starts with `file:///`. Chrome does not let an extension read local files until you turn on one setting for that extension. This setting is off by default. Only you can turn it on. The extension and the Chrome Web Store cannot turn it on for you.
 
-With the setting on, you can run **Source QC** and **Pre-screening** on a PDF from your computer. The extension reads the file from the side panel, so you only need to open the PDF in a Chrome tab and start the run.
+With the setting on, you can run **Source QC**, **Cross-check with EDC**, and **Pre-screening** on a PDF from your computer. Open the PDF in a Chrome tab and start the run. The side panel reads the file.
 
 You do not need this setting for web pages, for example your EDC, EMR, or any page at `http://` or `https://`. Turn it on only if you want Navigator to read a file from your computer.
 

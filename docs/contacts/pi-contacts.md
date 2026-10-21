@@ -19,10 +19,10 @@ Only site administrators and administrators can add, edit, or remove contacts. O
 1. Make sure the correct study is selected.
 2. Enter the **Full Name**.
 3. Enter the **Email Address**.
-4. Select the **Role**. The default is **PI**.
+4. Select the **Role**: **Medical Monitor**, **PI**, **CRA**, **MSL**, **Support**, or **Other**. The default is **PI**.
 5. Click **Add Contact**.
 
-The contact is registered for the study that was active when you added it.
+The contact is registered for the study that was active when you added it. The first time an email address is added as a contact, Navigator sends that person a welcome email.
 
 ## Find a contact
 
@@ -31,7 +31,7 @@ The contact is registered for the study that was active when you added it.
 
 ## Edit or remove a contact
 
-Hover over the contact. Click the pencil icon to edit the contact, then click **Save**. Click the trash icon to remove the contact.
+Hover over the contact. Click the pencil icon to edit the contact, then click **Save** or **Cancel**. Click the trash icon to remove the contact.
 
 ## Use contacts in chat
 

@@ -9,19 +9,19 @@ For each chat answer, you can open a sources panel. The panel shows every docume
 ## Open the sources panel
 
 1. Find the chat answer.
-2. Below the answer, click **View Sources**. The number in brackets shows how many sources the answer used.
+2. Below the answer, click **View Sources**. The number in parentheses shows how many sources the answer used.
 3. The panel opens on the right. The title shows the number of sources.
 
 ## Document cards
 
-Each study document and verified answer shows as a card. The cards use the same labels as the **Study Documents** page:
+Each study document and PI answer shows as a card. The cards use the same labels as the **Study Documents** page:
 
 | Card label | Meaning |
 | --- | --- |
 | Document type (for example **Protocol Document** or **Lab Manual**) | A passage from a shared study document |
 | **Personal** | A passage from your personal document |
-| **Verified answer** | An answer that a contact verified |
-| **PI response (email)** | An answer that a contact gave by email |
+| **Verified response** | A PI answer signed in the app, or sent by email from a confirmed email domain |
+| **Response** | Any other PI answer by email |
 
 Each card shows the file name, the page number, and a short excerpt. Click a card to open the full preview.
 

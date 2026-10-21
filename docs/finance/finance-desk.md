@@ -35,7 +35,7 @@ When the module is on, **Finance** shows in the sidebar for these roles:
 | **Build rules from budget** and **Approve rules** | ❌ | ❌ | ❌ | ✅ |
 | **Export report** | ❌ | ❌ | ❌ | ✅ |
 
-Medical monitors and sponsor administrators do not see Finance. See [Roles and permissions](/reference/roles-and-permissions).
+Platform administrators can do everything a site admin can on the desk, including **Approve rules**. Medical monitors and sponsor administrators do not see Finance. See [Roles and permissions](/reference/roles-and-permissions).
 
 ## Open the desk
 
@@ -131,7 +131,7 @@ The **Billing rules** tab lists each rule from the budget:
 | **Evidence** | The evidence that the rule needs. |
 | **Source** | The budget document and page. |
 
-A new rule set is a draft. A site admin clicks **Approve rules** to make it active. Site admins can click **Rebuild from budget** to make a new draft, for example after a budget amendment. **Version history** lists earlier versions.
+A new rule set is a draft. It shows **Draft** with its version number and **needs approval**. A site admin or a platform administrator clicks **Approve rules** to make it active. The badge then shows **Approved**, the version, and who approved it. Site admins can click **Rebuild from budget** to make a new draft, for example after a budget amendment. **Version history** lists earlier versions.
 
 You can run reconciliation on draft rules. The results are provisional until a site admin approves the rules.
 

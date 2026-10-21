@@ -12,6 +12,7 @@ A study **collection** holds all files for a protocol. Examples are the protocol
 | --- | --- |
 | A personal document (**Just me**) | All users who can open the **Study Documents** page |
 | A study document (**Everyone in this trial**) | Site administrators, site editors, and administrators |
+| A confidential document (**Confidential**) | Private Editors and administrators |
 | A site-wide document (**Everyone at my site**) | Site administrators and administrators |
 
 See [Roles & Permissions](/reference/roles-and-permissions) for details.
@@ -28,12 +29,20 @@ See [Roles & Permissions](/reference/roles-and-permissions) for details.
 
 A collection can hold PDFs and Office files together. You do not need a different collection for each file type.
 
+## File size limit
+
+A study document, a confidential document, or a site-wide document can be up to 100 MB. This limit also applies when you create a collection or amend a document. Navigator sends each file straight to secure storage, so a file over 32 MB uploads the same way as a small one.
+
+A personal document has a smaller limit. See [Personal documents](/collections/personal-documents#supported-file-types-and-limits).
+
+If a file is too large, the upload shows **File too large. Maximum upload size is 100 MB.**
+
 ## Upload a document
 
 1. In the sidebar, click **Study Documents**.
 2. Make sure the correct study shows at the top of the page.
 3. Click **Upload**. The **Add document** panel opens.
-4. Drag one or more files into the panel, or click to browse.
+4. Drag one or more files into the panel, or click to browse. The panel shows **Reading file…** while it reads the files.
 5. Under **Who can see this?**, select one option:
    - **Just me** - a personal document only you can see.
    - **Everyone in this trial** - a study document for all users with access to this study.
@@ -45,6 +54,8 @@ A collection can hold PDFs and Office files together. You do not need a differen
 9. Click **Upload**.
 
 **Who can see this?** shows only after you add a file. You only see the options that your role allows. When processing is complete, the panel shows **Document uploaded and processed successfully.**
+
+**One upload at a time:** the **Add document** panel runs one upload at a time. While an upload runs, the **Upload** button stays off. If you switch to another study, the panel closes and clears your files. The **Upload** button stays off until the earlier upload ends.
 
 **One document per type:** a collection can have only one current document for each document type. To update a document, use **Amend**. Do not upload a second file with the same type.
 
@@ -60,12 +71,26 @@ Site administrators and administrators can create a collection.
 4. Enter the **Sponsor Name**.
 5. Add one or more files.
 6. Click **Next: Name Files →**.
-7. Type a document type for each file.
+7. Type a document type for each file. Optional: select the **Schedule of Assessments** checkbox for the file that contains it.
 8. Site administrators: click **Next: Access →**. Then choose **All site users** or **Specific users only**.
 9. If your site has a CTMS, the same step shows a **CTMS study** list. Click **Use this study** to accept the suggested study, or pick a study from the list. Pick **Decide later** to link it later. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators).
 10. Click **Create Study Collection**.
 
 You can change access later. See [Restrict collection and document access](/collections/restrict-access).
+
+The new study stays selected while its files upload. The **Study Documents** page shows **Uploading document 1 of 3. Documents show here as each one finishes.** Each document shows as a card when it is ready.
+
+## Follow upload progress
+
+When you create a collection or add documents, a progress message shows in the corner of the screen. It shows on every page, so you can keep working.
+
+- While the upload runs, the message shows **Uploading** and the study name, a progress bar, and the percent processed. For more than one file, it also shows the file number, for example **File 2 of 3**.
+- When the upload is done, the message shows **is ready** after the study name.
+- If the upload fails, the message shows **Upload failed:** and the study name, with the reason.
+
+The sidebar's **Study collection** picker also shows the status next to the study name, for example **Uploading 45%** or **Upload failed**.
+
+A personal document that you add from chat also shows this message.
 
 ## Amend an existing document
 
@@ -110,7 +135,9 @@ Large files can take a few minutes to process. You do not need to refresh the pa
 
 | Issue | What to do |
 | --- | --- |
-| Upload fails | Make sure the file type is supported. Make sure the file is within your site's size limits. |
+| Upload fails | Make sure the file type is supported. Make sure the file is 100 MB or smaller (5 MB for a personal document). |
+| **This file could not be read.** | The file is in a synced folder, such as OneDrive or SharePoint, or it changed after you picked it. Save a copy of the file to your computer and upload the copy. |
+| **The upload could not be sent.** | The file changed after you picked it, or something on your computer or network blocked it. Save a copy of the file to your computer and try again. |
 | Upload shows a failed message | Click **Dismiss**, then upload the file again. If it fails again, contact support. |
 | Chat cannot find new content | Make sure the correct study is selected in the **Study collection** picker. Make sure processing is complete. |
 | You do not see an audience option | Your role does not allow it. Ask a site administrator. |

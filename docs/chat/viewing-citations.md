@@ -11,11 +11,13 @@ Each chat answer includes citations. A citation points to the passage that Navig
 A citation badge shows at the end of a paragraph or list item. The badge has a colored dot and the number of sources for that part of the answer. The color shows the source type:
 
 - **Gray** - a passage from your study documents
-- **Green** - a verified answer. An answer that a contact gave by email shows as **PI response (email)**.
+- **Green** - a PI answer. It shows as **Verified response** when the PI signed it in the app, or answered by email from a confirmed email domain. Any other PI answer shows as **Response**.
 - **Blue** - an external reference, for example a PubMed result
 - **Amber** - a regulatory reference
 
 A badge with more than one source type shows overlapping dots.
+
+Charts and other [visual blocks](/chat/asking-questions#charts-and-visual-blocks) carry their citation badges in the block caption.
 
 Click a badge:
 
@@ -34,13 +36,13 @@ To close the panel, click the **X**.
 
 ## Math in answers
 
-Navigator shows math formulas as formatted math, for example dose calculations. This includes math that starts with a digit.
-
-A citation to a study document shows as a numbered badge. A citation that mixes a study document and a regulation shows as separate badges.
+Navigator shows math formulas as formatted math, for example dose calculations.
 
 ## Copy an answer with citations
 
-Below the answer, click **Copy message**. Navigator copies the answer text and a list of its sources. You can paste it into notes or an email.
+Below the answer, click **Copy message**. Navigator copies the answer text and a list of its sources. The button shows **Copied**. You can paste it into notes or an email.
+
+Charts, timelines, stats, and comparisons are copied as tables.
 
 ## Related guides
 
