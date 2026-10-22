@@ -146,7 +146,7 @@ Navigator checks each address when you click **Save**. If an address is not vali
 
 To suggest on every page again, delete all addresses and click **Save**.
 
-The list applies to the study that a user picks in the side panel. It needs extension version 1.9.0 or later. Each change is recorded in the audit log, with the old list and the new list. Captures that users start themselves, for example **Use current tab**, **Save page**, Source QC, and **Cross-check with EDC**, are not limited by this list.
+The list applies to the study that a user picks in the side panel. It needs extension version 1.9.0 or later. Each change is recorded in the audit log, with the old list and the new list. Captures that users start themselves are not limited by this list: **Use current tab**, **Save page**, Source QC, **Cross-check with EDC**, Pre-screening, and Invoice capture.
 
 ## Delete a collection (site administrators)
 
