@@ -42,6 +42,14 @@ A sign-in link works once and expires after 30 minutes. If you open an expired o
 
 Passwords expire after 90 days. An administrator can also require a reset on your account. In either case, signing in with your old password shows a **Set new password** form on the login page. Enter and confirm a new password to finish signing in. The password needs at least 8 characters, with an uppercase letter, a lowercase letter, and a number.
 
+## Limits on wrong attempts
+
+Navigator counts wrong passwords and wrong authenticator codes for each account. After 5 wrong attempts in 15 minutes, Navigator waits before it accepts another attempt. The page shows how long to wait. Wait, then try again. An administrator can reset your authenticator if you cannot sign in.
+
+When you confirm a change with your password, for example when you sign a contact answer or change your password, a wrong password keeps you signed in. Navigator counts it in the same limit.
+
+If your password has expired and your account uses MFA, Navigator asks for your authenticator code before it accepts the new password.
+
 ## Session timeout
 
 For security, Navigator signs you out after **60 minutes of inactivity**. The login page then shows **You were signed out due to 1 hour of inactivity.** Sign in again to continue.

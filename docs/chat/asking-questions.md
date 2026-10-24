@@ -102,6 +102,12 @@ If the study documents name no required or prohibited medications, chat says so 
 
 Navigator saves each reference as an artifact, named for example **ABC-123 Medication Pre-Screening Reference**. A **Created artifact:** link shows below the answer, and the **Save** button shows **Saved**.
 
+## Pre-screening in chat
+
+You can ask chat to pre-screen a patient. Select the study, then describe the patient in a message. Include facts such as age, conditions, and medicines. Chat runs the same pre-screening check as the Chrome side panel. Your site needs the Pre-screening module.
+
+The result shows in the view that [Pre-screening results](#pre-screening-results) describes. If you ask about a named subject, or ask a short follow-up, chat gives a normal text answer. If you close the tab or cancel the run, the check stops.
+
 ## Pre-screening results
 
 When you open a pre-screening run in chat, the result shows as a short view:
