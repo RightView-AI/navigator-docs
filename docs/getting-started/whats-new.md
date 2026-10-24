@@ -9,7 +9,7 @@ This page summarizes recent improvements that affect how you work in Navigator. 
 ## New this release (v1.1.9)
 
 - **Pre-screening in chat** - describe a patient in chat and Navigator runs the pre-screening check. See [Pre-screening in chat](/chat/asking-questions#pre-screening-in-chat).
-- **AI curator switch** - a site administrator turns the AI curator on or off for a study. See [Turn the AI curator on or off](/collections/manage-collections#turn-the-ai-curator-on-or-off-site-administrators).
+- **AI curator switch** - a site administrator turns the AI curator on or off for a study. It is off by default. See [Turn the AI curator on or off](/collections/manage-collections#turn-the-ai-curator-on-or-off-site-administrators).
 - **Previews and safer deletes** - more file types open in the preview, and a delete asks you to confirm. See [Card actions](/collections/manage-collections#card-actions).
 - **Limits on wrong attempts** - Navigator waits after 5 wrong passwords or codes in 15 minutes. See [Limits on wrong attempts](/getting-started/sign-in#limits-on-wrong-attempts).
 - **Charts in chat** - answers can show charts, including pie charts, timelines, number tiles, and side-by-side comparisons. See [Charts and visual blocks](/chat/asking-questions#charts-and-visual-blocks).

@@ -129,7 +129,7 @@ If another collection already reads this CTMS study by its name, Navigator warns
 
 ## Turn the AI curator on or off (site administrators)
 
-The AI curator learns from chats in a study. It is on by default.
+The AI curator learns from chats in a study. It is off by default. A site administrator turns it on for each study.
 
 After a chat turn, the curator saves facts that a study document or a contact answer states. Each fact is an **AI-curated** entry. Later answers can cite it. The curator never saves a fact that only a user stated.
 
