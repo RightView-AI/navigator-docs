@@ -5,19 +5,17 @@ title: Roadmap
 
 # Roadmap
 
-**Last updated: October 21, 2026**
+**Last updated: October 24, 2026**
 
 ## What's coming
 
-These are the themes that the team plans for the rest of Navigator v1.1.9 and for v1.2.0. The plans are targets, not commitments. Priorities and timing can change. For what has already shipped, see the [Changelog](/changelog).
+These are the themes that the team plans for the next releases. The plans are targets, not commitments. Priorities and timing can change. For what has already shipped, see the [Changelog](/changelog).
 
 ### Navigator v1.1.9
 
-The v1.1.9 beta is out for testing. See the [v1.1.9-beta changelog](/changelog/v1-1-9-beta). These themes are still planned for v1.1.9:
+Navigator v1.1.9 is out. See the [v1.1.9 changelog](/changelog/v1-1-9). These themes are planned for a later release:
 
-- **Knowledge that Navigator learns** - after a chat turn, Navigator will be able to add an entry to the study knowledge base. Site administrators will see these entries in **Manage collection** and can retract or delete them. Chat will label them **AI-curated**. Navigator will not add an entry that conflicts with a study document or a verified answer.
 - **Voice input in chat** - you will be able to speak a question instead of typing it.
-- **Pre-screening questions in chat** - when you ask chat whether a patient fits a study, Navigator plans to run the same pre-screening check that the side panel runs.
 - **Serious Source QC findings** - Source QC plans to mark some findings as high severity. Only an administrator will be able to resolve them.
 
 ### Navigator v1.2.0
