@@ -36,6 +36,6 @@ A capacity meter at the top of the **Users** page (Site users tab) shows how man
 
 ## Related guides
 
-- [Restrict collection and document access](/collections/restrict-access)
+- [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access)
 - [Roles & Permissions](/reference/roles-and-permissions)
 - [Insights for site administrators](/admin/site-settings)

@@ -29,4 +29,3 @@ These are the themes that the team plans for Navigator v1.1.9 and v1.2.0. The pl
 ## Related
 
 - [Changelog](/changelog) - full version history
-- [What's new](/getting-started/whats-new) - a rolling summary of the current release

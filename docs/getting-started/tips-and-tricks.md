@@ -13,7 +13,7 @@ Short pointers for getting more out of Navigator day to day.
 - **Pick the right study collection** - chat answers primarily use documents in the active collection, so confirm it in the sidebar before asking.
 - **Stay in the same conversation for follow-ups** - Navigator uses recent turns in the thread to interpret short follow-ups like *"What about exclusion criteria?"*. Starting a new chat loses that context.
 - **Restate the key detail if a follow-up goes off-topic** - naming the visit, procedure, or document type again gets the conversation back on track.
-- **Check the citations** - every answer includes numbered citations back to source documents. Open them to confirm the answer reflects what the source actually says before you rely on it. See [View citations](/chat/viewing-citations).
+- **Check the citations** - every answer includes numbered citations back to source documents. Open them to confirm the answer reflects what the source actually says before you rely on it. See [View citations](/chat/citations-and-sources#citations).
 
 See [Ask questions in chat](/chat/asking-questions) for the full guide.
 

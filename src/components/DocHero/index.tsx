@@ -20,7 +20,7 @@ export default function DocHero({title, subtitle, badge = 'User guide', actions}
             <a className="rv-hero__cta" href="https://sites.rightview.ai">
               Open Navigator
             </a>
-            <Link className="rv-hero__cta rv-hero__cta--ghost" to="/getting-started/whats-new">
+            <Link className="rv-hero__cta rv-hero__cta--ghost" to="/changelog">
               See what&apos;s new
             </Link>
           </div>

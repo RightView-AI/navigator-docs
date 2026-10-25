@@ -59,6 +59,6 @@ Platform administrators see a **Management** section with a **Platform** link.
 
 Sponsor administrators do not use the main workspace. After sign-in, Navigator opens the sponsor page. It lists the sponsor's collections at enrolled sites.
 
-Site administrators manage collection access from **Manage** on a study collection. See [Restrict collection and document access](/collections/restrict-access).
+Site administrators manage collection access from **Manage** on a study collection. See [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access).
 
 See [Roles and permissions](/reference/roles-and-permissions) for the full list.

@@ -37,7 +37,7 @@ A collection can hold PDFs and Office files together. You do not need a differen
 5. Under **Who can see this?**, select one option:
    - **Just me** - a personal document only you can see.
    - **Everyone in this trial** - a study document for all users with access to this study.
-   - **Confidential** - a study document that stays hidden from site administrators. See [Confidential documents](/collections/restrict-access#confidential-documents).
+   - **Confidential** - a study document that stays hidden from site administrators. See [Confidential documents](/collections/manage-collections#confidential-documents).
    - **Everyone at my site** - a site-wide document for every study at your site.
 6. Click **Next: Name Files →**. The next step shows a **Visible to:** line with your choice. Click **← Back** to change it.
 7. For each file, type a document type (for example `Lab Manual`). Site-wide documents do not need a document type.
@@ -65,7 +65,7 @@ Site administrators and administrators can create a collection.
 9. If your site has a CTMS, the same step shows a **CTMS study** list. Click **Use this study** to accept the suggested study, or pick a study from the list. Pick **Decide later** to link it later. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators).
 10. Click **Create Study Collection**.
 
-You can change access later. See [Restrict collection and document access](/collections/restrict-access).
+You can change access later. See [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access).
 
 ## Amend an existing document
 
@@ -118,6 +118,6 @@ Large files can take a few minutes to process. You do not need to refresh the pa
 ## Related guides
 
 - [Manage collections](/collections/manage-collections)
-- [Restrict collection and document access](/collections/restrict-access)
-- [Personal documents](/collections/personal-documents)
+- [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access)
+- [Personal documents](/collections/manage-collections#personal-documents)
 - [Tips & tricks](/getting-started/tips-and-tricks)

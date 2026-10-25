@@ -189,15 +189,49 @@ The extension can suggest a view for the page that you open. For example, on a s
 - **The panel is blank or does not load chat** - Your session possibly timed out after 60 minutes with no activity. Close the panel and open it again. The sign-in form shows. If the problem continues, contact your Rightview administrator.
 - **A view is not in the icon rail** - An administrator did not enable that module for your site.
 - **Source QC shows "This tab is a PDF"** - Upload the PDF to Navigator directly. See [Source Quality Control](/visits/overview#source-quality-control).
-- **The capture fails on a local file** - The tab shows a file from your computer (its address starts with `file:///`). Chrome blocks the extension until you turn on file access. See [Allow access to local files](/extension/enable-file-access).
+- **The capture fails on a local file** - The tab shows a file from your computer (its address starts with `file:///`). Chrome blocks the extension until you turn on file access. See [Allow access to local files](/extension/chrome-extension#allow-access-to-local-files).
 - **Navigator captured the wrong page** - Source QC, Pre-screening, Invoice capture, and Save page use the active tab. Make sure that the correct tab is active before you start. Cross-check with EDC uses the tabs that you select.
 - **Cross-check with EDC shows no tabs** - Open the source and EDC pages in normal browser tabs. Click the back arrow, then select **Cross-check with EDC** again.
+
+## Allow access to local files
+
+The extension captures the page in a browser tab. Sometimes that tab shows a **local file**, for example a PDF, PNG, or HTML file that you open from your computer. The address of a local file starts with `file:///`. Chrome does not let an extension read local files until you turn on one setting for that extension. This setting is off by default. Only you can turn it on. The extension and the Chrome Web Store cannot turn it on for you.
+
+You do not need this setting for web pages, for example your EDC, EMR, or any page at `http://` or `https://`. Turn it on only if you want Navigator to read a file from your computer.
+
+### The Welcome page has the steps
+
+When you add the extension, Chrome opens the [Welcome page](/extension/welcome) with these steps. To see it again, right-click the Rightview Navigator toolbar icon and select **Setup help**.
+
+### Symptom
+
+You start a capture on a local file, and the panel shows a message that starts with *"This is a local file. Turn on "Allow access to file URLs"..."*. Or the capture fails. The cause is that the setting is off.
+
+### Turn it on
+
+1. Open **`chrome://extensions`**. Type it in the address bar and press Enter.
+2. Find **Rightview Navigator** and click **Details**.
+3. Find **Allow access to file URLs** and turn it on.
+4. Go back to the tab with your file. Reload the tab, or close the file and open it again.
+
+The setting stays on after extension updates and after you install the extension again. To turn it off, use the same switch.
+
+### Why Chrome asks you to do this
+
+With file access, an extension can read files on your computer. For this reason, Chrome makes you turn it on yourself, for each extension. The Chrome Web Store cannot turn it on automatically.
+
+### Work without file access
+
+You do not have to open files from your computer. You can do one of these:
+
+- **Open the document in a browser tab.** Most EDCs and EMRs show source documents on the web. These pages work without this setting.
+- **Upload the file to Navigator directly** in the main app. Then run Source QC there. See [Source Quality Control](/visits/overview#source-quality-control).
 
 ## Related guides
 
 - [Ask questions in chat](/chat/asking-questions)
-- [View all sources](/chat/viewing-sources)
-- [Allow access to local files](/extension/enable-file-access)
+- [View all sources](/chat/citations-and-sources#all-sources)
+- [Allow access to local files](/extension/chrome-extension#allow-access-to-local-files)
 - [Visits & Source Quality Control](/visits/overview)
 - [Finance desk](/finance/finance-desk)
 - [Sign in](/getting-started/sign-in)

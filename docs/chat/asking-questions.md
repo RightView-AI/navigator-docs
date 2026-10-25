@@ -18,7 +18,7 @@ Chat is the core of Navigator. You ask a question in plain language. Navigator s
 2. Type your question, for example: *What are the inclusion criteria for Visit 2?*
 3. Press **Enter** or click the send button.
 
-While Navigator works, a **Working** panel shows each step as a chip, for example a search of the trial documents. The chip of the current step shows a spinner. A completed step shows a check mark. See [View Flow](/chat/view-flow).
+While Navigator works, a **Working** panel shows each step as a chip, for example a search of the trial documents. The chip of the current step shows a spinner. A completed step shows a check mark. See [View Flow](/chat/citations-and-sources#view-flow).
 
 To stop the answer early, click the send button again. It now shows a stop icon.
 
@@ -69,8 +69,8 @@ Regulatory follow-up questions can use regulatory sources and your study documen
 
 ## Related guides
 
-- [View citations](/chat/viewing-citations)
-- [View all sources](/chat/viewing-sources)
-- [View Flow](/chat/view-flow)
+- [View citations](/chat/citations-and-sources#citations)
+- [View all sources](/chat/citations-and-sources#all-sources)
+- [View Flow](/chat/citations-and-sources#view-flow)
 - [Save and share artifacts](/artifacts/save-and-share)
 - [Tips & tricks](/getting-started/tips-and-tricks)

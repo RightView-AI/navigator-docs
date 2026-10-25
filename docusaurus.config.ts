@@ -112,16 +112,6 @@ const config: Config = {
           label: 'Changelog',
         },
         {
-          href: 'https://chromewebstore.google.com/detail/abailmienbplhpgipgbdgendbdfpaeak',
-          label: 'Get the Extension',
-          position: 'left',
-        },
-        {
-          to: '/feature-request',
-          label: 'Request a Feature',
-          position: 'right',
-        },
-        {
           href: 'https://sites.rightview.ai',
           label: 'Open Navigator',
           position: 'right',
@@ -135,8 +125,9 @@ const config: Config = {
         {label: 'Open Navigator', href: 'https://sites.rightview.ai'},
         {label: 'Get the Extension', href: 'https://chromewebstore.google.com/detail/abailmienbplhpgipgbdgendbdfpaeak'},
         {label: 'Changelog', to: '/changelog'},
-        {label: 'System Status', href: 'https://sites.rightview.ai/status'},
+        {label: 'Roadmap', to: '/roadmap'},
         {label: 'Request a Feature', to: '/feature-request'},
+        {label: 'System Status', href: 'https://sites.rightview.ai/status'},
         {label: 'Contact Support', href: 'mailto:support@rightview.ai'},
         {label: 'Privacy Policy', href: 'https://sites.rightview.ai/privacy'},
         {label: 'Terms of Service', href: 'https://sites.rightview.ai/terms'},

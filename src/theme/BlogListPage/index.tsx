@@ -42,9 +42,7 @@ function BlogListPageContent(props: Props): ReactNode {
         <p>
           A history of Navigator releases. This page covers user-facing changes only. Each release
           has its own page: select a release, or <strong>Read more</strong>, for the full notes. For
-          day-to-day how-tos, see the <Link to="/">User Guide</Link>, or{' '}
-          <Link to="/getting-started/whats-new">What&apos;s new</Link> for a rolling summary of the
-          latest improvements. For future plans, see the <Link to="/roadmap">Roadmap</Link>.
+          day-to-day how-tos, see the <Link to="/">User Guide</Link>. For future plans, see the <Link to="/roadmap">Roadmap</Link>.
         </p>
       </header>
       <BlogPostItems items={items} />
