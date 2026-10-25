@@ -223,6 +223,12 @@ The extension can suggest a view for the page that you open. When a page looks l
 - To hide the logo on this page, point to it and click the small **X** (**Hide on this page**), or press **Esc**. Otherwise the logo stays until you use it or leave the page.
 - To stop suggestions on all pages, right-click the toolbar icon and select **Pause page suggestions**. When suggestions are paused, the toolbar icon shows **OFF**. To start them again, click **Resume** at the top of the panel.
 
+### Pages where suggestions show
+
+A site administrator can limit suggestions for each study to the site's own systems, for example the EHR, the EDC, and the CTMS. On other pages the extension shows no suggestion, and it does not read the page for suggestions. The list follows the study that you pick in the panel. If you see no suggestion on a page that you expect, ask your site administrator to add the page's address. See [Limit extension page suggestions](/collections/manage-collections#limit-extension-page-suggestions-site-administrators).
+
+This list does not limit captures that you start yourself, for example **Use current tab** or **Save page**.
+
 The extension suggests only the views that your account can open. For example, if Pre-screening is not on for your site, you never get a pre-screening suggestion. A medical monitor never gets a Source QC or invoice suggestion. Suggestions start after you open the panel and sign in. If your access changes, for example when you switch site, the extension updates the suggestions. When you sign out of the panel, the extension clears the list and removes any logo. Suggestions start again when you sign in.
 
 ## Troubleshooting

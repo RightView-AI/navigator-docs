@@ -127,6 +127,31 @@ If a study has no link, **Patients** and **Finance** show a notice. Click **Link
 
 If another collection already reads this CTMS study by its name, Navigator warns you before you save. Click **Link anyway** to continue, or **Cancel**. The other collection shows no data until you link it to its own CTMS study.
 
+## Limit extension page suggestions (site administrators)
+
+The Chrome extension can suggest a view on the page that you open, for example **Run Source QC** on a source document. By default it can suggest on every page. You can limit suggestions for a study to your site's own systems, for example the EHR, the EDC, and the CTMS. The extension then does not read other pages for suggestions.
+
+1. On the **Study Documents** page, select the study.
+2. Click **Manage**. The **Manage collection** dialog opens on the **Collection Settings** tab.
+3. In the **Extension page suggestions** section, type one web address on each line. For example, type `https://ehr.example-hospital.org/`.
+4. To allow PDFs and pages that users open from their computer, select **Local files**.
+5. Click **Save**.
+
+Rules for each address:
+
+- It must start with `http://` or `https://`.
+- A path is optional. An address with a path covers the pages under it. For example, `https://edc.example.com/study/123/` covers `https://edc.example.com/study/123/visits`, but not `https://edc.example.com/study/1234`.
+- To cover a domain and all its subdomains, start the host with `*.`, for example `https://*.example-hospital.org/`. You cannot use `*` in other places.
+- Type a port only when the system does not use the standard port, for example `https://ctms.example.org:8443/`.
+- Type an IP address in full, for example `http://10.0.0.5/`.
+- You can add up to 25 addresses. Rightview addresses are not allowed.
+
+Navigator checks each address when you click **Save**. If an address is not valid, Navigator shows a message and saves nothing. Navigator then shows the addresses in a standard form, without duplicates.
+
+To suggest on every page again, delete all addresses and click **Save**.
+
+The list applies to the study that a user picks in the side panel. It needs extension version 1.9.0 or later. Each change is recorded in the audit log, with the old list and the new list. Captures that users start themselves are not limited by this list: **Use current tab**, **Save page**, Source QC, **Cross-check with EDC**, Pre-screening, and Invoice capture.
+
 ## Turn the AI curator on or off (site administrators)
 
 The AI curator learns from chats in a study. It is off by default. A site administrator turns it on for each study.
