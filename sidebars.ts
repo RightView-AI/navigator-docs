@@ -12,77 +12,44 @@ const sidebars: SidebarsConfig = {
         'getting-started/sign-in',
         'getting-started/navigation',
         'getting-started/tips-and-tricks',
-        'getting-started/whats-new',
       ],
     },
     {
       type: 'category',
       label: 'Chat',
+      items: ['chat/asking-questions', 'chat/citations-and-sources'],
+    },
+    {
+      type: 'category',
+      label: 'Documents',
+      items: ['collections/upload-documents', 'collections/manage-collections'],
+    },
+    {
+      type: 'category',
+      label: 'Features',
       items: [
-        'chat/asking-questions',
-        'chat/viewing-citations',
-        'chat/viewing-sources',
-        'chat/view-flow',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Study Collections',
-      items: [
-        'collections/upload-documents',
-        'collections/manage-collections',
-        'collections/restrict-access',
-        'collections/personal-documents',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Visits',
-      items: ['visits/overview'],
-    },
-    {
-      type: 'category',
-      label: 'Finance',
-      items: ['finance/finance-desk'],
-    },
-    {
-      type: 'category',
-      label: 'Artifacts',
-      items: ['artifacts/save-and-share'],
-    },
-    {
-      type: 'category',
-      label: 'Chrome Extension',
-      items: ['extension/welcome', 'extension/chrome-extension', 'extension/enable-file-access'],
-    },
-    {
-      type: 'category',
-      label: 'Inbox & Contacts',
-      items: [
+        'visits/overview',
+        'finance/finance-desk',
+        'artifacts/save-and-share',
         'inbox/send-to-pi',
         'contacts/pi-contacts',
       ],
     },
+    'extension/chrome-extension',
     {
       type: 'category',
-      label: 'Administration',
+      label: 'Admin & Account',
       items: [
         'admin/site-capacity-and-users',
         'admin/site-settings',
+        'reference/roles-and-permissions',
+        'settings/account',
+        'settings/multi-factor-authentication',
       ],
-    },
-    {
-      type: 'category',
-      label: 'Account',
-      items: ['settings/account', 'settings/multi-factor-authentication'],
-    },
-    {
-      type: 'category',
-      label: 'Reference',
-      items: ['reference/roles-and-permissions'],
     },
     {type: 'link', label: 'Changelog', href: '/changelog'},
     'roadmap',
+    'feature-request',
   ],
 };
 

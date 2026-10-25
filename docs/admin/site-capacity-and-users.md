@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 title: Users & site capacity
+description: "Invite teammates, give users modules, and check your site's usage against its plan limits."
+keywords: ["invite user", "add user", "new teammate", "seats", "licenses", "plan limits", "usage", "modules", "site admin"]
 ---
 
 # Users & site capacity
@@ -46,6 +48,6 @@ On the **Site users** tab, click **Export site data** to download your site's do
 
 ## Related guides
 
-- [Restrict collection and document access](/collections/restrict-access)
+- [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access)
 - [Roles & Permissions](/reference/roles-and-permissions)
 - [Insights and Audit Log](/admin/site-settings)

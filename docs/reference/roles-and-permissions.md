@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "What each Navigator role can do, and how to request an access change."
+keywords: ["roles", "permissions", "access", "site administrator", "medical monitor", "sponsor", "private editor", "who can see", "can't see", "request access"]
 ---
 
 # Roles and permissions
@@ -73,7 +75,7 @@ Manages study documents without full site-admin access. Can upload study documen
 Uploads and manages **confidential** documents that stay hidden from site administrators, and sets which members can see them. Can delete confidential documents only, not shared ones. Has no other site-admin powers. A platform administrator assigns this role.
 
 ### Site Admin
-Full control over the site's collections, artifacts, analytics, and PI contacts. Sees the site's [Audit Log](/admin/site-settings#audit-log). Can delete protocol documents, rename study collections, and set [collection or document access](/collections/restrict-access) from **Manage** on a study collection. Sees all collections at the site, even with access restrictions. Confidential documents from a Private Editor stay hidden from Site Admins. Approves sponsor amendment schedule changes before they go to the CTMS. On the Finance desk, approves billing rules and exports the pilot report.
+Full control over the site's collections, artifacts, analytics, and PI contacts. Sees the site's [Audit Log](/admin/site-settings#audit-log). Can delete protocol documents, rename study collections, and set [collection or document access](/collections/manage-collections#restrict-collection-and-document-access) from **Manage** on a study collection. Sees all collections at the site, even with access restrictions. Confidential documents from a Private Editor stay hidden from Site Admins. Approves sponsor amendment schedule changes before they go to the CTMS. On the Finance desk, approves billing rules and exports the pilot report.
 
 ## Two-factor authentication
 

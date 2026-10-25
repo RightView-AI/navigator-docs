@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Change your password, sign out, and manage your profile."
+keywords: ["account", "profile", "change password", "sign out", "log out", "settings", "terms of use"]
 ---
 
 # Account settings

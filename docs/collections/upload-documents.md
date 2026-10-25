@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Upload protocols, manuals, and other files to a study collection."
+keywords: ["upload", "add file", "protocol", "lab manual", "PDF", "Word", "Excel", "supported file types", "size limit", "amend", "replace", "document type", "processing time", "failed upload"]
 ---
 
 # Upload documents
@@ -33,7 +35,7 @@ A collection can hold PDFs and Office files together. You do not need a differen
 
 A study document, a confidential document, or a site-wide document can be up to 100 MB. This limit also applies when you create a collection or amend a document. Navigator sends each file straight to secure storage, so a file over 32 MB uploads the same way as a small one.
 
-A personal document has a smaller limit. See [Personal documents](/collections/personal-documents#supported-file-types-and-limits).
+A personal document has a smaller limit. See [Personal documents](/collections/manage-collections#limits).
 
 If a file is too large, the upload shows **File too large. Maximum upload size is 100 MB.**
 
@@ -46,7 +48,7 @@ If a file is too large, the upload shows **File too large. Maximum upload size i
 5. Under **Who can see this?**, select one option:
    - **Just me** - a personal document only you can see.
    - **Everyone in this trial** - a study document for all users with access to this study.
-   - **Confidential** - a study document that stays hidden from site administrators. See [Confidential documents](/collections/restrict-access#confidential-documents).
+   - **Confidential** - a study document that stays hidden from site administrators. See [Confidential documents](/collections/manage-collections#confidential-documents).
    - **Everyone at my site** - a site-wide document for every study at your site.
 6. Click **Next: Name Files →**. The next step shows a **Visible to:** line with your choice. Click **← Back** to change it.
 7. For each file, type a document type (for example `Lab Manual`). Site-wide documents do not need a document type.
@@ -76,7 +78,7 @@ Site administrators and administrators can create a collection.
 9. If your site has a CTMS, the same step shows a **CTMS study** list. Click **Use this study** to accept the suggested study, or pick a study from the list. Pick **Decide later** to link it later. See [Link a collection to a CTMS study](/collections/manage-collections#link-a-collection-to-a-ctms-study-site-administrators).
 10. Click **Create Study Collection**.
 
-You can change access later. See [Restrict collection and document access](/collections/restrict-access).
+You can change access later. See [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access).
 
 The new study stays selected while its files upload. The **Study Documents** page shows **Uploading document 1 of 3. Documents show here as each one finishes.** Each document shows as a card when it is ready.
 
@@ -145,6 +147,6 @@ Large files can take a few minutes to process. You do not need to refresh the pa
 ## Related guides
 
 - [Manage collections](/collections/manage-collections)
-- [Restrict collection and document access](/collections/restrict-access)
-- [Personal documents](/collections/personal-documents)
+- [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access)
+- [Personal documents](/collections/manage-collections#personal-documents)
 - [Tips & tricks](/getting-started/tips-and-tricks)

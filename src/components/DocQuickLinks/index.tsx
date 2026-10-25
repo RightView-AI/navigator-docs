@@ -9,7 +9,7 @@ type QuickLink = {
 
 const LINKS: QuickLink[] = [
   {
-    to: '/getting-started/whats-new',
+    to: '/changelog',
     label: "What's new",
     description: 'Highlights from the latest Navigator release',
   },
@@ -24,7 +24,7 @@ const LINKS: QuickLink[] = [
     description: 'Private, selected colleagues, or whole site',
   },
   {
-    to: '/collections/restrict-access',
+    to: '/collections/manage-collections#restrict-collection-and-document-access',
     label: 'Access control',
     description: 'Limit collections and documents by user',
   },

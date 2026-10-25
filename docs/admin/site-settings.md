@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
 title: Insights & Audit Log
+description: "See how your site uses Navigator with Insights analytics and the Audit Log."
+keywords: ["insights", "analytics", "usage", "reports", "dashboard", "sponsor admin", "audit log"]
 ---
 
 # Insights and Audit Log for site administrators
@@ -10,7 +12,7 @@ Site administrators have two sidebar items that other site staff do not see:
 - **Insights** shows how your site uses Navigator.
 - **Audit Log** lists the recorded actions at your site.
 
-Collection and document access are managed separately, from each collection's **Manage** dialog. See [Restrict collection and document access](/collections/restrict-access).
+Collection and document access are managed separately, from each collection's **Manage** dialog. See [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access).
 
 ## Insights
 
@@ -60,5 +62,5 @@ Sponsor administrators see sponsor-scoped **Insights** and protocol lists. They 
 
 ## Related guides
 
-- [Restrict collection and document access](/collections/restrict-access)
+- [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access)
 - [Roles & Permissions](/reference/roles-and-permissions)

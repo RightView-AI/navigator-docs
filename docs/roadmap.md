@@ -29,4 +29,3 @@ Navigator v1.1.9 is out. See the [v1.1.9 changelog](/changelog/v1-1-9). These th
 ## Related
 
 - [Changelog](/changelog) - full version history
-- [What's new](/getting-started/whats-new) - a rolling summary of the current release

@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Save a chat answer as an artifact, then share, edit, download, or print it."
+keywords: ["artifact", "save answer", "share", "export", "download pdf", "word", "print", "delete", "edit"]
 ---
 
 # Save and share artifacts

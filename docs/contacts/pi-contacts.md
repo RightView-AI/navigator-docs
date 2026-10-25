@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Add and manage the PIs and other contacts who verify chat answers."
+keywords: ["PI", "principal investigator", "contact", "email", "add contact", "edit contact", "verify", "investigator"]
 ---
 
 # PI contacts

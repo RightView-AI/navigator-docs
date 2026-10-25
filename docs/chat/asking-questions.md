@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Ask Navigator a question in chat and get an answer with citations from your study documents."
+keywords: ["chat", "ask", "question", "prompt", "follow-up", "past conversations", "history", "CTMS", "search documents"]
 ---
 
 # Ask questions in chat
@@ -18,7 +20,7 @@ Chat is the core of Navigator. You ask a question in plain language. Navigator s
 2. Type your question, for example: *What are the inclusion criteria for Visit 2?*
 3. Press **Enter** or click the send button.
 
-While Navigator works, a **Working** panel shows each step as a chip, for example a search of the trial documents. The chip of the current step shows a spinner. A completed step shows a check mark. See [View Flow](/chat/view-flow).
+While Navigator works, a **Working** panel shows each step as a chip, for example a search of the trial documents. The chip of the current step shows a spinner. A completed step shows a check mark. See [View Flow](/chat/citations-and-sources#view-flow).
 
 To stop the answer early, click the send button again. It now shows a stop icon.
 
@@ -54,7 +56,7 @@ When data reads better as a picture, an answer can include a visual block. Most 
 
 A block can have a title and a caption. The caption usually holds the citation for the data.
 
-When you click **Copy message**, each block is copied as a table. See [Copy an answer with citations](/chat/viewing-citations#copy-an-answer-with-citations).
+When you click **Copy message**, each block is copied as a table. See [Copy an answer with citations](/chat/citations-and-sources#copy-an-answer-with-citations).
 
 ## Questions on site Insights
 
@@ -148,8 +150,8 @@ Regulatory follow-up questions can use regulatory sources and your study documen
 
 ## Related guides
 
-- [View citations](/chat/viewing-citations)
-- [View all sources](/chat/viewing-sources)
-- [View Flow](/chat/view-flow)
+- [View citations](/chat/citations-and-sources#citations)
+- [View all sources](/chat/citations-and-sources#all-sources)
+- [View Flow](/chat/citations-and-sources#view-flow)
 - [Save and share artifacts](/artifacts/save-and-share)
 - [Tips & tricks](/getting-started/tips-and-tricks)

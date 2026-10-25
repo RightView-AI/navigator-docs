@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+description: "Find your way around Navigator: sidebar, study collection picker, and views."
+keywords: ["sidebar", "menu", "study picker", "collection picker", "layout", "mobile", "where is", "navigate", "settings link"]
 ---
 
 # Navigate the app
@@ -62,6 +64,6 @@ Platform administrators see a **Management** section with a **Platform** link, a
 
 Sponsor administrators do not use the main workspace. After sign-in, Navigator opens the sponsor page. It lists the sponsor's collections at enrolled sites. The **Management** section has a **Sponsor** link back to that page.
 
-Site administrators manage collection access from **Manage** on a study collection. See [Restrict collection and document access](/collections/restrict-access).
+Site administrators manage collection access from **Manage** on a study collection. See [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access).
 
 See [Roles and permissions](/reference/roles-and-permissions) for the full list.
