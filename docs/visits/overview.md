@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Schedule of Assessments, patient visit windows, protocol amendments, and Source Quality Control."
+keywords: ["visits", "SoA", "schedule of assessments", "source QC", "quality control", "patients", "visit windows", "CTMS", "amendment", "approve", "roster"]
 ---
 
 # Visits & Schedule of Assessments

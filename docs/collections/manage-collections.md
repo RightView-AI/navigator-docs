@@ -1,8 +1,10 @@
 ---
 sidebar_position: 2
+description: "Manage study collections on the Study Documents page: cards, rename, delete, restrict access, and personal documents."
+keywords: ["study documents", "collection", "protocol", "rename", "delete", "CTMS", "access control", "restrict", "permissions", "confidential", "private", "personal document", "who can see", "share"]
 ---
 
-# Manage collections
+# Manage collections (Study Documents)
 
 The **Study Documents** page shows the document base for the active study. It shows all documents, verified answers, and artifacts for that study as cards.
 

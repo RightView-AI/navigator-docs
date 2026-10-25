@@ -1,8 +1,10 @@
 ---
 sidebar_position: 2
+description: "Use Navigator in Chrome: chat, Source QC, EDC cross-check, pre-screening, and invoice capture next to the page you work on."
+keywords: ["Chrome", "extension", "side panel", "browser", "EDC", "EMR", "source QC", "cross-check", "pre-screening", "invoice capture", "local file", "file URLs", "install", "toolbar"]
 ---
 
-# Chrome side-panel extension
+# Use Navigator in Chrome (side-panel extension)
 
 The **Rightview Navigator** Chrome extension shows Navigator in a side panel. The panel stays next to the page you work on, for example your EDC, a source document, or a screening record. It is the same Navigator that you use in the browser.
 

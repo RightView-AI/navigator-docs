@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Ask Navigator a question in chat and get an answer with citations from your study documents."
+keywords: ["chat", "ask", "question", "prompt", "follow-up", "past conversations", "history", "CTMS", "search documents"]
 ---
 
 # Ask questions in chat

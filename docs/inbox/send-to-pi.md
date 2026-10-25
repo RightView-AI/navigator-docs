@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Email a chat answer to a PI for verification and bring the verified answer back to chat."
+keywords: ["send to PI", "verify answer", "email", "verified answer", "medical monitor", "inbox", "notifications", "PI response"]
 ---
 
 # Send answers to a PI

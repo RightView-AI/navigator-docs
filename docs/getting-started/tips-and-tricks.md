@@ -1,5 +1,7 @@
 ---
 sidebar_position: 4
+description: "Short tips for better prompts, and what not to enter in chat."
+keywords: ["tips", "prompts", "better answers", "PHI", "PII", "privacy", "patient data", "upload timing"]
 ---
 
 # Tips & tricks

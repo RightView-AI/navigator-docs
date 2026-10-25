@@ -70,9 +70,10 @@ const config: Config = {
       {
         hashed: true,
         docsRouteBasePath: '/',
-        indexBlog: true,
-        blogRouteBasePath: '/changelog',
-        blogDir: 'changelog',
+        indexBlog: false,
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 12,
+        searchResultContextMaxLength: 80,
       },
     ],
   ],

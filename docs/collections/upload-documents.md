@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Upload protocols, manuals, and other files to a study collection."
+keywords: ["upload", "add file", "protocol", "lab manual", "PDF", "Word", "Excel", "supported file types", "size limit", "amend", "replace", "document type", "processing time", "failed upload"]
 ---
 
 # Upload documents

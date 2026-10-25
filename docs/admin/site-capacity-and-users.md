@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 title: Users & site capacity
+description: "Invite teammates, give users modules, and check your site's usage against its plan limits."
+keywords: ["invite user", "add user", "new teammate", "seats", "licenses", "plan limits", "usage", "modules", "site admin"]
 ---
 
 # Users & site capacity

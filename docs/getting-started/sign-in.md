@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "Sign in to Navigator with a magic link or a password."
+keywords: ["login", "log in", "sign in", "password", "magic link", "forgot password", "reset password", "expired link", "session timeout", "locked out"]
 ---
 
 # Sign in

@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+description: "Find your way around Navigator: sidebar, study collection picker, and views."
+keywords: ["sidebar", "menu", "study picker", "collection picker", "layout", "mobile", "where is", "navigate", "settings link"]
 ---
 
 # Navigate the app

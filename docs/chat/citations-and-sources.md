@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+description: "Check where a chat answer came from: citation badges, the sources panel, and View Flow."
+keywords: ["citation", "source", "reference", "evidence", "PubMed", "regulatory", "view sources", "view flow", "steps", "copy answer", "math"]
 ---
 
 # Citations, sources, and View Flow

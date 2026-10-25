@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: "What each Navigator role can do, and how to request an access change."
+keywords: ["roles", "permissions", "access", "site administrator", "medical monitor", "sponsor", "private editor", "who can see", "can't see", "request access"]
 ---
 
 # Roles and permissions

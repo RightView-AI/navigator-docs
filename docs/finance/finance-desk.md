@@ -1,8 +1,10 @@
 ---
 sidebar_position: 1
+description: "Find billable work that has not been invoiced, using billing rules and Source QC captures."
+keywords: ["finance", "billing", "invoice", "invoiceable", "reconciliation", "budget", "CTA", "subject payments", "money", "unbilled"]
 ---
 
-# Finance desk
+# Finance desk: invoices and billing
 
 The **Finance** desk finds billable work that your site has not invoiced yet. It compares three things for one study:
 

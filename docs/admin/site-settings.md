@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+description: "See how your site uses Navigator with Insights analytics."
+keywords: ["insights", "analytics", "usage", "reports", "dashboard", "sponsor admin"]
 ---
 
 # Insights for site administrators

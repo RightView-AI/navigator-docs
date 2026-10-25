@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
 title: Two-factor authentication (MFA)
+description: "Set up two-factor authentication, use backup codes, and recover a lost authenticator."
+keywords: ["MFA", "2FA", "two-factor", "authenticator app", "backup codes", "lost phone", "reset MFA", "6-digit code", "verification code"]
 ---
 
 # Two-factor authentication (MFA)
