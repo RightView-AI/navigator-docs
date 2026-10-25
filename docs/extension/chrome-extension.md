@@ -6,234 +6,169 @@ keywords: ["Chrome", "extension", "side panel", "browser", "EDC", "EMR", "source
 
 # Use Navigator in Chrome (side-panel extension)
 
-The **Rightview Navigator** Chrome extension shows Navigator in a side panel. The panel stays next to the page you work on, for example your EDC, a source document, or a screening record. It is the same Navigator that you use in the browser.
-
-**Who it is for:** coordinators and other site staff who work in a second system, such as an EDC, EMR, or CTMS. Use the panel to ask questions, run Source QC, compare source data with the EDC, or pre-screen a patient. You do not have to leave the other system.
+The **Rightview Navigator** Chrome extension shows Navigator in a side panel next to the page you work on, for example your EDC, a source document, or a screening record. It is the same Navigator as in the browser. Use it to ask questions, run Source QC, compare source data with the EDC, or pre-screen a patient without leaving the other system.
 
 ## Install
 
-The extension is on the Chrome Web Store.
-
 1. In **Google Chrome**, open the [Rightview Navigator listing on the Chrome Web Store](https://chromewebstore.google.com/detail/abailmienbplhpgipgbdgendbdfpaeak).
-2. Click **Add to Chrome**. Then click **Add extension** to confirm.
-3. (Optional) Pin the extension. Click the puzzle-piece icon in the toolbar, then click the pin next to **Rightview Navigator**.
+2. Click **Add to Chrome**, then **Add extension**.
+3. (Optional) Click the puzzle-piece icon in the toolbar and pin **Rightview Navigator**.
 
-Chrome updates the extension automatically. You do not need to download or install it again.
-
-## First launch: the Welcome page
-
-When you add the extension, Chrome opens the [Welcome page](/extension/welcome) in a new tab. It shows how to pin the extension, sign in, and turn on access to local files. Chrome opens it only after a first install, not after an update.
-
-The side panel opens directly to Navigator. To see the Welcome page again, right-click the toolbar icon and select **Setup help**.
+Chrome updates the extension automatically. After the first install, Chrome opens the [Welcome page](/extension/welcome) with steps to pin the extension, sign in, and turn on access to local files. To see it again, right-click the toolbar icon and select **Setup help**.
 
 ## Open the panel and sign in
 
-1. Click the **Rightview Navigator** toolbar icon, or press **Alt+Shift+R**. The panel opens on the right side of the browser window.
-2. If you are not signed in, the Navigator sign-in form shows in the panel. Sign in with your Navigator account. The extension does not use a separate account.
-3. After sign-in, the panel shows chat for one study collection. To change the collection, use the collection picker at the top of the panel.
+1. Click the toolbar icon, or press **Alt+Shift+R**. The panel opens on the right.
+2. If you are not signed in, sign in with your Navigator account. The extension has no separate account.
+3. The panel opens to chat for one study collection. Use the collection picker at the top to change it.
 
-The panel uses the same session as [sites.rightview.ai](https://sites.rightview.ai). If you are signed in there, the panel opens directly to chat. After 60 minutes with no activity, Navigator signs you out and shows the sign-in form again. This is a requirement for a PHI application. You cannot extend it.
+The panel shares your session with [sites.rightview.ai](https://sites.rightview.ai). After 60 minutes with no activity, Navigator signs you out. This is a PHI requirement, and you cannot extend it.
 
 ## Panel views
 
-An icon rail on the left side of the panel changes the view. You can also press **Alt+1**, **Alt+2**, and so on to select a view. **Chat**, **Save page**, and **History** always show. The other views show only if an administrator enables the module for your site.
+The icon rail on the left changes the view. You can also press **Alt+1**, **Alt+2**, and so on. **Chat**, **Save page**, and **History** always show. The other views show only if an administrator enables the module for your site.
 
 | View | What it does | Module |
 | --- | --- | --- |
 | **Chat** | Ask questions about the selected study collection. Answers include citations. | None |
-| **Source QC** | Capture the page in the active tab and run an ALCOA+ quality review. | Source QC |
-| **Cross-check with EDC** | Compare the EDC values with the source document, field by field. | Source QC |
+| **Source QC** | Capture the active tab and run an ALCOA+ quality review. | Source QC |
+| **Cross-check with EDC** | Compare EDC values with a source document, field by field. | Source QC |
 | **Pre-screening** | Check a patient record against the study eligibility criteria. | Pre-screening |
 | **Invoice capture** | Capture invoice lines from a CTMS page into Finance. | Finance |
-| **Save page** | Save the text of the active tab as a shared document in the study. | None |
+| **Save page** | Save the text of the active tab as a shared study document. | None |
 | **History** | Open your recent chats, including pre-screening runs. | None |
 
-Each view except Chat shows the study at the top. Use the **Study** picker to change it. Click the back arrow to go back to chat.
+Each view except Chat shows a **Study** picker at the top. Click the back arrow to return to chat.
 
 ## Chat
 
-Chat in the panel works the same as chat in the main app. Select a collection, type a question, and get an answer with numbered citations. See [Ask questions in chat](/chat/asking-questions) for the full guide.
+Chat in the panel works like chat in the main app. See [Ask questions in chat](/chat/asking-questions). Three controls are specific to the panel:
 
-These controls are specific to the panel:
-
-- **Cross-reference current screen** - a checkbox below the message box. Select it before you send a message. Navigator then also reads the visible text of the page in the active tab. For example, ask *"Does this record meet Visit 2 requirements?"*. Navigator reads only the text, and only for that one message.
-- **Open the full Rightview app** - the arrow icon at the top of the panel. It opens the full Navigator app in a new tab.
-- **Sign out** - the icon at the top of the panel.
+- **Cross-reference current screen** - a checkbox below the message box. Select it before you send, and Navigator also reads the visible text of the active tab for that one message. For example: *"Does this record meet Visit 2 requirements?"*
+- **Open the full Rightview app** - the arrow icon at the top. It opens Navigator in a new tab.
+- **Sign out** - the icon at the top.
 
 > Do not enter protected personal or patient identifiers (PHI/PII) into chat. AI can sometimes give incorrect information. Always use your professional judgement.
 
 ## Source QC
 
-Source QC reviews a source document against the ALCOA+ data-quality dimensions and the protocol. It flags issues such as a missing signature or a missing field.
-
-**Overview (1 min):** Source QC and Cross-check with EDC from start to finish.
+Source QC reviews a source document against the ALCOA+ dimensions and the protocol, and flags issues such as a missing signature or field.
 
 <video controls preload="metadata" poster="/video/source-qc-explainer-poster.jpg" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
   <source src="/video/source-qc-explainer.mp4" type="video/mp4" />
 </video>
 
-**Walkthrough:** a real Source QC run in the extension.
-
 <video controls preload="metadata" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
   <source src="/video/source-qc-extension.mp4" type="video/mp4" />
 </video>
 
-1. Open the source document in a browser tab. For example, open a page in your EDC.
-2. In the panel, select **Source QC**.
-3. Click **Run Source QC**.
-4. The extension captures the full page of the active tab. Chrome shows a "started debugging this browser" banner during the capture. The banner closes when the capture is complete.
-5. Navigator uploads and analyzes the capture. The panel shows each finding as a **Flag** or a **Note**. If there are no issues, the panel shows **No issues found**.
+1. Open the source document in a browser tab, for example a page in your EDC.
+2. In the panel, select **Source QC** and click **Run Source QC**.
+3. The extension captures the full page of the active tab. Chrome shows a "started debugging this browser" banner until the capture finishes.
+4. Navigator analyzes the capture. The panel shows each finding as a **Flag** or a **Note**, or **No issues found**.
 
-Navigator also saves the capture in the main app, in **Visits → Source Quality Control**. There you can see all findings, add comments, and mark issues resolved. Click **Open in Rightview** below the result to go there.
+Navigator also saves the capture in **Visits → Source Quality Control**, where you can see all findings, add comments, and mark issues resolved. Click **Open in Rightview** to go there.
 
-**PDFs and images:** If you open a PDF or an image directly in its own tab, the extension captures the original file. If the PDF is inside another page, the panel shows **This tab is a PDF**. Upload that PDF to Navigator directly.
+A PDF or image that you open directly in its own tab is captured as the original file. If the PDF is inside another page, the panel shows **This tab is a PDF**. Upload that PDF to Navigator directly.
 
 ## Cross-check with EDC
 
-Cross-check with EDC does source data verification. It compares the values in the EDC with the values in the source document, field by field.
+Cross-check with EDC does source data verification. It compares the values in the EDC with the source document, field by field.
 
-1. Open the source document in one tab.
-2. Open the EDC form in a second tab.
-3. In the panel, select **Cross-check with EDC**. The panel reads the list of your open tabs.
-4. In **Source tab**, select the tab with the source document. The default is the active tab. Click **Use current tab** to pick the tab that you are on.
-5. In **EDC tab (optional)**, select the tab with the EDC form. The panel remembers the EDC site that you used last. This list does not show the source tab, PDF tabs, or image tabs.
-6. Click **Compare with EDC**.
+1. Open the source document in one tab and the EDC form in another.
+2. In the panel, select **Cross-check with EDC**.
+3. In **Source tab**, pick the tab with the source document. The default is the active tab, and **Use current tab** selects the tab you are on.
+4. In **EDC tab (optional)**, pick the EDC form tab. The panel remembers your last EDC site. The list does not show the source tab, PDF tabs, or image tabs.
+5. Click **Compare with EDC**.
 
-To find a tab, type in **Search tabs by title or site…**. If you open a page after the panel, click **Refresh tabs**.
+To find a tab, type in **Search tabs by title or site…**. If you opened a page after the panel, click **Refresh tabs**.
 
-Navigator captures the source tab, reads the EDC tab, and compares them. The result shows each field with its **EDC** value and its **Source** value. Each field has one of these verdicts:
+Each field in the result shows its **EDC** value, its **Source** value, and a verdict:
 
 | Verdict | Meaning |
 | --- | --- |
 | **Match** | The EDC value and the source value are the same. |
-| **Mismatch** | The EDC value and the source value are different. |
+| **Mismatch** | The values are different. |
 | **Missing in EDC** | The source has a value, but the EDC does not. |
 | **Missing in source** | The EDC has a value, but the source does not. |
 
-A summary line above the result shows the number of fields compared, mismatches, and missing values.
+A summary line shows the number of fields compared, mismatches, and missing values. Navigator saves the comparison on the document's Source QC record, in the **Source data verification** section of the document in the main app. Click **Open in Rightview** to go there, or **New cross-check** to compare again.
 
-Navigator saves the comparison on the Source QC record of the source document. In the main app, open **Visits → Source Quality Control** and open the document. The comparison shows in the **Source data verification** section. Click **Open in Rightview** below the result to go there. To compare again, click **New cross-check**.
-
-If you set **EDC tab (optional)** to **None - just capture the source**, the button changes to **Capture source**. Navigator then uploads the source for Source QC only, with no comparison.
+If you set **EDC tab (optional)** to **None - just capture the source**, the button becomes **Capture source** and Navigator uploads the source for Source QC only.
 
 ## Pre-screening
 
 Pre-screening checks a patient record against the inclusion and exclusion criteria of the selected study.
 
-**Overview (1 min):** Pre-screening from start to finish.
-
 <video controls preload="metadata" poster="/video/prescreening-explainer-poster.jpg" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
   <source src="/video/prescreening-explainer.mp4" type="video/mp4" />
 </video>
 
-1. Open the patient record in a browser tab. For example, open it in your EMR. The record can be a web page or a PDF.
-2. In the panel, select **Pre-screening**.
-3. Click **Check eligibility**.
-4. While the check runs, the panel shows each step and marks it **Done** when it ends. To stop the check, click **Cancel**.
-5. The panel shows a verdict: **Likely included**, **Likely excluded**, or **More info needed**. Below the verdict, each criterion shows its result and the reason. Citations show the document name and page.
-
-### See the evidence on the page
-
-After the check, click **Show all evidence on the page**. The panel marks the text on the patient record that supports each criterion. To mark the evidence for one criterion only, click the mark icon on that criterion. Click **Clear marks on the page** to remove the marks.
-
-This needs version 1.7.0 or later of the extension. An older version shows a message that asks you to update it.
-
-### Ask follow-up questions
-
-Click **Continue in chat** under the result. The run opens as a chat in the panel. Ask follow-up questions about the verdict there.
-
-Each run is saved as a chat named with the study and the run time, for example **Pre-screening · FLOW_NCT03819153 · Oct 12, 12:33 AM**. To open a past run, select **History** in the panel.
-
-If the capture takes too long, the panel shows an error. Reload the patient record tab and try again. If the check takes too long, click **Keep waiting**.
+1. Open the patient record in a browser tab, for example in your EMR. It can be a web page or a PDF.
+2. In the panel, select **Pre-screening** and click **Check eligibility**.
+3. The panel marks each step **Done** as it ends. Click **Cancel** to stop.
+4. The panel shows a verdict: **Likely included**, **Likely excluded**, or **More info needed**. Each criterion shows its result, the reason, and citations with the document name and page.
 
 The verdict is decision support. It is not a determination.
 
+If the capture takes too long, the panel shows an error. Reload the record tab and try again. If the check takes too long, click **Keep waiting**.
+
+### See the evidence on the page
+
+Click **Show all evidence on the page** to mark the supporting text on the patient record. To mark one criterion, click the mark icon on it. Click **Clear marks on the page** to remove the marks. This needs extension version 1.7.0 or later. An older version asks you to update.
+
+### Ask follow-up questions
+
+Click **Continue in chat** under the result to ask follow-up questions about the verdict. Each run is saved as a chat named with the study and run time, for example **Pre-screening · FLOW_NCT03819153 · Oct 12, 12:33 AM**. Open past runs from **History**.
+
 ## Invoice capture
 
-Invoice capture reads invoice lines from a CTMS page and saves them in Finance.
-
-**Overview (1 min):** Invoice capture and the Finance desk from start to finish.
-
-<video controls preload="metadata" poster="/video/finance-explainer-poster.jpg" style={{width: '100%', maxWidth: '840px', borderRadius: '8px'}}>
-  <source src="/video/finance-explainer.mp4" type="video/mp4" />
-</video>
-
-1. Open the CTMS invoice page in the active tab.
-2. In the panel, select **Invoice capture**.
-3. Click **Capture invoices**.
-4. Review the rows. Clear the checkbox of each row that you do not want to save.
-5. If the page shows more than one patient, check the patient on each row. Then select **I checked the patient on every selected row**.
-6. Click **Save** (the button shows the number of selected rows). If a row is already on file, Navigator updates it. It does not make a duplicate.
-
-Click **View in Finance** to see the saved rows. For more information, see [Finance desk](/finance/finance-desk).
+Invoice capture reads invoice lines from a CTMS page and saves them in Finance. For the full steps, see [Capture a CTMS page with Invoice capture](/finance/finance-desk#capture-a-ctms-page-with-invoice-capture).
 
 ## Save page
 
 Save page saves the text of the active tab as a shared document in the study. All users with access to the study can search and cite it. Navigator removes patient identifiers before it stores the text.
 
 1. Open the page in the active tab.
-2. In the panel, select **Save page**.
-3. Click **Capture page**.
-4. Check the title. Type a document type, for example "Lab Manual".
-5. Click **Save to collection**.
+2. In the panel, select **Save page** and click **Capture page**.
+3. Check the title and type a document type, for example "Lab Manual".
+4. Click **Save to collection**.
 
 ## Page suggestions
 
-The extension can suggest a view for the page that you open. For example, on a source document it shows a small card with the text *"This looks like a source document. Run Source QC for [study]?"*. The extension reads the page on your computer only. It sends nothing to Navigator until you click the button on the card.
+The extension can suggest a view for the page you open. For example, on a source document it shows a card: *"This looks like a source document. Run Source QC for [study]?"* The extension reads the page on your computer only and sends nothing to Navigator until you click the button on the card.
 
-- Click the button on the card to open the panel and start the run for the named study.
-- Press **Alt+Shift+Y** to accept the suggestion from the keyboard.
-- Click **X** to close the card. The card also closes after a few seconds with no activity.
-- Click **Pause suggestions** to stop suggestions on all pages. You can also right-click the toolbar icon and select **Pause page suggestions**. When suggestions are paused, the toolbar icon shows **OFF**. To start them again, click **Resume** at the top of the panel.
+- Click the button on the card, or press **Alt+Shift+Y**, to open the panel and start the run.
+- Click **X** to close the card. It also closes after a few seconds with no activity.
+- Click **Pause suggestions**, or right-click the toolbar icon and select **Pause page suggestions**, to stop suggestions on all pages. The toolbar icon then shows **OFF**. Click **Resume** at the top of the panel to start them again.
 
 ## Troubleshooting
 
-- **The panel is blank or does not load chat** - Your session possibly timed out after 60 minutes with no activity. Close the panel and open it again. The sign-in form shows. If the problem continues, contact your Rightview administrator.
+- **The panel is blank or does not load chat** - Your session may have timed out. Close the panel and open it again. If the problem continues, contact your Rightview administrator.
 - **A view is not in the icon rail** - An administrator did not enable that module for your site.
 - **Source QC shows "This tab is a PDF"** - Upload the PDF to Navigator directly. See [Source Quality Control](/visits/overview#source-quality-control).
-- **The capture fails on a local file** - The tab shows a file from your computer (its address starts with `file:///`). Chrome blocks the extension until you turn on file access. See [Allow access to local files](/extension/chrome-extension#allow-access-to-local-files).
-- **Navigator captured the wrong page** - Source QC, Pre-screening, Invoice capture, and Save page use the active tab. Make sure that the correct tab is active before you start. Cross-check with EDC uses the tabs that you select.
+- **The capture fails on a local file** - See [Allow access to local files](#allow-access-to-local-files).
+- **Navigator captured the wrong page** - Source QC, Pre-screening, Invoice capture, and Save page use the active tab. Make sure the correct tab is active first. Cross-check with EDC uses the tabs you select.
 - **Cross-check with EDC shows no tabs** - Open the source and EDC pages in normal browser tabs. Click the back arrow, then select **Cross-check with EDC** again.
 
 ## Allow access to local files
 
-The extension captures the page in a browser tab. Sometimes that tab shows a **local file**, for example a PDF, PNG, or HTML file that you open from your computer. The address of a local file starts with `file:///`. Chrome does not let an extension read local files until you turn on one setting for that extension. This setting is off by default. Only you can turn it on. The extension and the Chrome Web Store cannot turn it on for you.
+A tab can show a **local file**, for example a PDF, PNG, or HTML file from your computer. Its address starts with `file:///`. Chrome does not let an extension read local files until you turn on one setting for that extension. The setting is off by default, and only you can turn it on. You do not need it for web pages at `http://` or `https://`, such as your EDC or EMR.
 
-You do not need this setting for web pages, for example your EDC, EMR, or any page at `http://` or `https://`. Turn it on only if you want Navigator to read a file from your computer.
+If it is off, a capture on a local file fails or shows *"This is a local file. Turn on "Allow access to file URLs"..."*. To turn it on:
 
-### The Welcome page has the steps
-
-When you add the extension, Chrome opens the [Welcome page](/extension/welcome) with these steps. To see it again, right-click the Rightview Navigator toolbar icon and select **Setup help**.
-
-### Symptom
-
-You start a capture on a local file, and the panel shows a message that starts with *"This is a local file. Turn on "Allow access to file URLs"..."*. Or the capture fails. The cause is that the setting is off.
-
-### Turn it on
-
-1. Open **`chrome://extensions`**. Type it in the address bar and press Enter.
+1. Open **`chrome://extensions`** (type it in the address bar).
 2. Find **Rightview Navigator** and click **Details**.
-3. Find **Allow access to file URLs** and turn it on.
-4. Go back to the tab with your file. Reload the tab, or close the file and open it again.
+3. Turn on **Allow access to file URLs**.
+4. Reload the tab with your file, or close and reopen the file.
 
-The setting stays on after extension updates and after you install the extension again. To turn it off, use the same switch.
+The setting stays on after updates and reinstalls. Use the same switch to turn it off.
 
-### Why Chrome asks you to do this
-
-With file access, an extension can read files on your computer. For this reason, Chrome makes you turn it on yourself, for each extension. The Chrome Web Store cannot turn it on automatically.
-
-### Work without file access
-
-You do not have to open files from your computer. You can do one of these:
-
-- **Open the document in a browser tab.** Most EDCs and EMRs show source documents on the web. These pages work without this setting.
-- **Upload the file to Navigator directly** in the main app. Then run Source QC there. See [Source Quality Control](/visits/overview#source-quality-control).
+You can also skip this setting. Open the document in a browser tab (most EDCs and EMRs show source documents on the web), or upload the file in the main app and run Source QC there. See [Source Quality Control](/visits/overview#source-quality-control).
 
 ## Related guides
 
 - [Ask questions in chat](/chat/asking-questions)
-- [View all sources](/chat/citations-and-sources#all-sources)
-- [Allow access to local files](/extension/chrome-extension#allow-access-to-local-files)
 - [Visits & Source Quality Control](/visits/overview)
 - [Finance desk](/finance/finance-desk)
 - [Sign in](/getting-started/sign-in)
