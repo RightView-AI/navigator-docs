@@ -79,7 +79,11 @@ Sponsor-managed documents have no **Amend**, **Rename**, or **Delete** action. O
 
 On a personal document, you see **Download**, and **Delete** if you uploaded it. On a confidential document, members see **Manage access** and **Delete**. A confidential document has no **Download** action. See [Confidential documents](/collections/restrict-access#confidential-documents).
 
-**Delete** removes the item right away. There is no confirmation step.
+**Delete** asks you to confirm before it removes a document, a contact answer, or an artifact. Click **Delete** again in the dialog to continue. You cannot undo it.
+
+When you delete the current version of a document, Navigator also deletes its earlier versions. The dialog says so.
+
+To see what a card holds, click it. A document opens in a preview. PDFs, images, Word (.docx), Markdown, and CSV files show in the preview. A text file (.txt) has **Download** only.
 
 ## Rename a document
 
@@ -147,6 +151,18 @@ Navigator checks each address when you click **Save**. If an address is not vali
 To suggest on every page again, delete all addresses and click **Save**.
 
 The list applies to the study that a user picks in the side panel. It needs extension version 1.9.0 or later. Each change is recorded in the audit log, with the old list and the new list. Captures that users start themselves are not limited by this list: **Use current tab**, **Save page**, Source QC, **Cross-check with EDC**, Pre-screening, and Invoice capture.
+
+## Turn the AI curator on or off (site administrators)
+
+The AI curator learns from chats in a study. It is off by default. A site administrator turns it on for each study.
+
+After a chat turn, the curator saves facts that a study document or a contact answer states. Each fact is an **AI-curated** entry. Later answers can cite it. The curator never saves a fact that only a user stated.
+
+1. On the **Study Documents** page, select the study.
+2. Click **Manage**, then open the **Collection Settings** tab.
+3. In the **AI curator** section, turn the switch on or off.
+
+When you turn it off, the curator adds no new entries. Chat also stops using the existing entries. Navigator does not delete them. They stay in the **Knowledge** filter.
 
 ## Delete a collection (site administrators)
 
