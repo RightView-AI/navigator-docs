@@ -7,7 +7,7 @@ keywords: ["MFA", "2FA", "two-factor", "authenticator app", "backup codes", "los
 
 # Two-factor authentication (MFA)
 
-Administrator and medical monitor accounts require an extra sign-in step - a 6-digit code from an authenticator app - in addition to your password or magic link. This protects the most sensitive accounts even if a password is ever compromised.
+Administrator, editor, and medical monitor accounts need an extra sign-in step: a 6-digit code from an authenticator app. You enter it after your password or magic link. This protects the account even if someone learns the password.
 
 :::info Who needs this
 MFA applies to privileged accounts: **platform administrators**, **site administrators**, **site editors**, **private editors**, **sponsor administrators**, and **medical monitors**. Standard user accounts are not required to set it up.
@@ -23,7 +23,7 @@ The first time you sign in on a privileged account, Navigator walks you through 
    - Can't scan it? Expand **Can't scan? Enter this key manually** and type the key into your app instead.
 4. Type the current 6-digit code from your app into the box and click **Confirm and continue**.
 5. Navigator shows **8 backup codes**. Click **Copy all codes** and save them somewhere safe - a password manager or a printed note in a secure location. Each code works once and lets you sign in if you lose access to your authenticator app.
-6. Enter the current app code one more time and click **Finish sign-in**.
+6. Enter the current app code one more time and click **Finish sign-in**. To skip the code on this browser for 30 days, check **Trust this computer for 30 days (skip the code next time)** first.
 
 You're enrolled - every sign-in from here on asks for a code, unless you trust the device (below).
 
@@ -32,15 +32,18 @@ You're enrolled - every sign-in from here on asks for a code, unless you trust t
 Once enrolled, signing in is a two-step process:
 
 1. Enter your email and password (or use your magic link) as usual.
-2. Navigator asks for your **6-digit code**. Open your authenticator app and type the current code, or use one of your saved backup codes if you don't have your phone.
+2. Navigator shows **Enter your security code**. Type the current code from your authenticator app in **Authenticator or backup code**. If you don't have your phone, type one of your backup codes.
+3. Click **Continue**.
 
 ### Trust this computer for 30 days
 
-Check **Trust this computer for 30 days** before continuing and Navigator skips the code prompt on that browser for 30 days. Only do this on a device you control - a personal laptop, not a shared or public computer. Trust expires automatically after 30 days, or immediately if you sign out and clear cookies.
+Check **Trust this computer for 30 days (skip the code next time)** before you click **Continue**. Navigator then skips the code on that browser for 30 days. Only do this on a device you control, not on a shared or public computer.
+
+Trust ends after 30 days. It also ends if you clear the browser's cookies. When you change your password, Navigator removes trust from your other devices.
 
 ## Using backup codes
 
-If you don't have your phone, enter one of the 8 backup codes you saved during setup in place of the 6-digit app code. Each backup code works exactly once. If you're running low, contact your administrator to have a fresh set generated.
+If you don't have your phone, enter one of the 8 backup codes you saved during setup in place of the 6-digit app code. Each backup code works once. You cannot get new backup codes on their own. If you are running low, ask for an MFA reset. You get 8 new codes when you set up MFA again.
 
 ## Losing access to your authenticator app
 
@@ -54,7 +57,7 @@ A site administrator can reset MFA for a site editor at the same site.
 2. Find the person. If the person has MFA, a key icon (**Reset two-step verification**) shows in the row.
 3. Click the icon, then click **Reset MFA**.
 
-Navigator signs the person out everywhere. The person sets up the authenticator app again at the next sign-in. You cannot reset your own MFA. For other roles, ask a platform administrator or **support@rightview.ai**.
+Navigator signs the person out everywhere and removes their trusted devices. The person sets up the authenticator app again at the next sign-in. You cannot reset your own MFA. For other roles, ask a platform administrator or **support@rightview.ai**.
 
 ## Troubleshooting
 

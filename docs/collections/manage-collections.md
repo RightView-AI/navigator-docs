@@ -20,9 +20,11 @@ The study you select here is also the active study in the sidebar's **Study coll
 The page address includes the current view (for example `?view=collections`), so a refresh or a shared link opens the same view.
 :::
 
+When you return to the Navigator tab or window, the document list refreshes. A page you saved with **Save page** in the Chrome extension then shows without a page refresh.
+
 ## Find an item
 
-Type in **Search this study…** to filter cards by title or label, or click a filter chip: **All**, **Documents** (including your personal and confidential documents), **Knowledge** (answers that a contact verified), **Artifacts**, or **Site-wide** (documents that apply to every study at your site).
+Type in **Search this study…** to filter cards by title or label, or click a filter chip: **All**, **Documents** (including your personal and confidential documents), **Knowledge** (answers from contacts), **Artifacts**, or **Site-wide** (documents that apply to every study at your site).
 
 ## Read the cards
 
@@ -31,11 +33,11 @@ Each card has a colored label:
 - **Document type** (for example **Protocol Document** or **Lab Manual**) - a shared study document.
 - **Personal** - only you can see it. See [Personal documents](#personal-documents).
 - **Confidential** - sealed from site administrators. See [Confidential documents](#confidential-documents).
-- **Verified answer** - an answer that a contact verified.
+- **Verified response** or **Response** - a contact's answer to a question. **Verified response** means the contact signed the answer in the app, or sent it by email from a confirmed email domain. The card says **Answered by** or **Email response from** and the contact's name.
 - **Artifact** - a saved artifact. See [Save and share artifacts](/artifacts/save-and-share).
 - **Site-wide** - a document for all studies at your site.
 
-Click a card to open it. A document opens in the viewer. A verified answer or an artifact opens in a dialog.
+Click a card to open it. A document opens in the viewer. A contact answer or an artifact opens in a dialog.
 
 ## Shortcuts to other records
 
@@ -59,12 +61,20 @@ Click the **...** menu on a card. The actions depend on your role and the item.
 
 | Item | Actions |
 | --- | --- |
-| Document | **Download**, **Amend**, **Manage access**, **Delete** |
-| Verified answer | **Delete** (site administrators) |
-| Artifact | **Edit**, **Share**, **Delete** (the creator) |
+| Document | **Download**, **Amend**, **Rename**, **Manage access**, **Delete** |
+| Contact answer | **Delete** (site administrators and administrators) |
+| Artifact | **Download PDF**, **Download Word**, **Download Excel** (only when the artifact has a table), **Print**. The creator also sees **Edit**, **Share**, and **Delete**. |
 | Site-wide document | **Download** |
 
-Sponsor-managed documents have no **Amend** or **Delete**. Only the sponsor can change them. On a personal document, the uploader sees **Delete**. On a confidential document, members see **Manage access** and **Delete**.
+Sponsor-managed documents have no **Amend**, **Rename**, or **Delete**. Only the sponsor can change them. On a personal document, you see **Download**, and **Delete** if you uploaded it. On a confidential document, members see **Manage access** and **Delete**, and there is no **Download**.
+
+**Delete** asks you to confirm before it removes a document, a contact answer, or an artifact. You cannot undo it. When you delete the current version of a document, Navigator also deletes its earlier versions. The dialog says so.
+
+A document opens in a preview. PDFs, images, Word (.docx), Markdown, and CSV files show in the preview. A text file (.txt) has **Download** only.
+
+## Rename a document
+
+Site administrators, site editors, and administrators can rename a shared study document. Click the **...** menu on the card, then **Rename**. Type the new name, keeping the same file extension (for example `.pdf`), and click **Rename**. The new name applies to every version. The file itself does not change. You cannot rename a personal or confidential document.
 
 ## Create a study collection (site administrators)
 
@@ -90,6 +100,32 @@ A CTMS study can link to one collection only. A study that another collection us
 
 With no link, Navigator reads the CTMS study that has the same name as the collection. If another collection already reads that study by name, Navigator warns you before you save. Click **Link anyway** or **Cancel**. The other collection shows no data until you link it to its own study. **Patients** and **Finance** show a notice for an unlinked study. Site administrators see **Link it in Study settings**, and other users see **Ask a site admin to link it in Study settings.**
 
+## Limit extension page suggestions (site administrators)
+
+The Chrome extension can suggest a view on the page you open, for example **Run Source QC** on a source document. By default it can suggest on every page. You can limit suggestions for a study to your site's own systems, for example the EHR, the EDC, and the CTMS. The extension then does not read other pages for suggestions.
+
+1. Select the study and click **Manage** to open **Collection Settings**.
+2. In **Extension page suggestions**, type one web address on each line, for example `https://ehr.example-hospital.org/`.
+3. To allow PDFs and pages that users open from their computer, select **Local files**.
+4. Click **Save**.
+
+Rules for each address:
+
+- It must start with `http://` or `https://`. A path is optional, and an address with a path covers the pages under it. For example, `https://edc.example.com/study/123/` covers `.../study/123/visits` but not `.../study/1234`.
+- To cover a domain and all its subdomains, start the host with `*.`, for example `https://*.example-hospital.org/`. You cannot use `*` anywhere else.
+- Type a port only when the system does not use the standard port, for example `https://ctms.example.org:8443/`. Type an IP address in full, for example `http://10.0.0.5/`.
+- You can add up to 25 addresses. Rightview addresses are not allowed.
+
+Navigator checks each address when you click **Save**. If one is not valid, it shows a message and saves nothing. It then shows the addresses in a standard form, without duplicates. To suggest on every page again, delete all addresses and click **Save**.
+
+The list applies to the study a user picks in the side panel, and needs extension version 1.9.0 or later. Each change is recorded in the audit log with the old and new list. Captures that users start themselves are not limited: **Use current tab**, **Save page**, Source QC, **Cross-check with EDC**, Pre-screening, and Invoice capture.
+
+## Turn the AI curator on or off (site administrators)
+
+The AI curator learns from chats in a study. It is off by default, and a site administrator turns it on for each study. After a chat turn, it saves facts that a study document or a contact answer states. Each fact is an **AI-curated** entry that later answers can cite. It never saves a fact that only a user stated.
+
+To change it, select the study, click **Manage**, open **Collection Settings**, and turn the **AI curator** switch on or off. When it is off, the curator adds no new entries and chat stops using the existing ones. Navigator does not delete them, and they stay in the **Knowledge** filter.
+
 ## Delete a collection (site administrators)
 
 1. Click **Manage**, then the **Delete** tab.
@@ -97,9 +133,13 @@ With no link, Navigator reads the CTMS study that has the same name as the colle
 
 This deletes every document in the collection. You cannot undo it.
 
+## Upload status
+
+While a new collection uploads, the page shows **Uploading document 1 of 3. Documents show here as each one finishes.** The new study stays selected. A progress message also shows on every page. See [Follow upload progress](/collections/upload-documents#follow-upload-progress). The **Study collection** picker shows the status next to the study, for example **Uploading 45%** or **Upload failed**.
+
 ## Failed uploads
 
-If the last upload to a study failed, a message shows above the cards. Click **Dismiss** to remove it. Site administrators also see a warning mark next to the study in the study list.
+If the last upload to a study failed, a message above the cards starts with **Last upload to this study failed:** and gives the reason. Click **Dismiss** to remove it. Site administrators also see a warning mark next to the study in the study list.
 
 ## Best practices
 
@@ -168,17 +208,17 @@ From chat:
 2. Click **+**. The **Add a personal document** panel opens.
 3. Add the file, type a document type, and click **Upload**.
 
-A status line above the message box shows the progress, then **Added** with the file name. If the upload fails, it shows the reason. A personal document always belongs to one study.
+A status line above the message box shows the progress, then **Added** with the file name. If the upload fails, it shows the reason. A progress message also shows in the corner of every page. See [Follow upload progress](/collections/upload-documents#follow-upload-progress). A personal document always belongs to one study.
 
 ### Replace or delete a personal document
 
 To replace one, upload a new personal document with the **same document type**. It replaces only your personal document of that type, not the shared document or other users' personal documents.
 
-To delete one, click the **...** menu on the card with the **Personal** label, then **Delete**, and confirm. This frees one of your personal document slots in that study.
+To delete one, click the **...** menu on the card with the **Personal** label, then **Delete**. This frees one of your personal document slots in that study.
 
 ### Limits
 
-Personal documents accept the [same file formats as shared uploads](/collections/upload-documents#supported-file-types). By default each file can be up to 5 MB, and you can have 5 personal documents per study. Your site can have different limits. Put larger files, or content the team needs, in a shared document.
+Personal documents accept the [same file formats as shared uploads](/collections/upload-documents#supported-file-types). By default each file can be up to 5 MB, and you can have 5 personal documents per study. Your site can have a different number of personal documents. Put larger files, or content the team needs, in a shared document. A shared document can be up to 100 MB. See [File size limit](/collections/upload-documents#file-size-limit).
 
 ## Related guides
 

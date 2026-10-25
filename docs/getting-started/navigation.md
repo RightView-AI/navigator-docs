@@ -19,12 +19,13 @@ The **Workspace** section of the sidebar has these items. Some items show only f
 | Item | What it does | Who sees it |
 | --- | --- | --- |
 | **Chat** | Ask questions about the documents in the selected study collection. | Everyone |
-| **Notifications** | See the responses that you sent to Principal Investigators (PIs) and their status. | Everyone except medical monitors, who see **My PI Inbox** |
+| **Notifications** | See the questions that you sent to contacts, their answers, and sponsor amendment notices. | Everyone except medical monitors, who see **My PI Inbox** |
 | **Study Documents** | Search, upload, and manage the documents, knowledge, and artifacts for the selected study. See [Study Documents view](#study-documents-view). | Everyone |
-| **Visits** | Open the **Schedule of Assessments**, **Patients**, and **Source Quality Control** tabs. See [Visits & Schedule of Assessments](/visits/overview). | Sites with at least one Visits module. Not medical monitors. |
+| **Visits** | Open the **Schedule of Assessments**, **Patients**, and **Source Quality Control** tabs. Point at **Visits** to pick a tab. See [Visits & Schedule of Assessments](/visits/overview). | Sites with at least one Visits module. Not medical monitors. |
 | **Finance** | Reconcile billable work against the budget and the CTMS. See [Finance desk](/finance/finance-desk). | Sites with the Finance module. Not medical monitors. |
 | **Users** | Use PI contacts for **Send to PI**. Site administrators also see a **Site users** tab to invite teammates. See [Users & site capacity](/admin/site-capacity-and-users). | Everyone except medical monitors |
-| **Insights** | See usage analytics and optional subtopic analysis. | Site administrators |
+| **Insights** | See usage analytics and topic insights. See [Insights and Audit Log](/admin/site-settings). | Site administrators and platform administrators |
+| **Audit Log** | See the recorded actions at your site, including failed sign-ins. See [Audit Log](/admin/site-settings#audit-log). | Site administrators |
 | **Help** | Open this user guide in a new tab. | Everyone |
 
 **Visits** shows only when your site has at least one of these modules: Schedule of Assessments, Patients, or Source Quality Control. Each tab in **Visits** shows only when its module is on.
@@ -47,6 +48,8 @@ Artifacts are in the **Study Documents** view. There is no separate **Artifacts*
 
 The bottom of the sidebar shows your name, email, and role. Click the gear icon (**Account settings**) to open your account settings. Click the sign-out icon to sign out.
 
+On a computer, click the arrow on the edge of the sidebar to collapse it to icons. Click it again to expand it.
+
 ## Chat header
 
 At the top of the chat view, the title shows the active study collection. If there are no collections, it shows **No study collections yet**. The title is read-only. To switch collections, use the **Study collection** picker in the sidebar.
@@ -57,9 +60,9 @@ On small screens, tap the **menu** icon (☰) in the top-left to open the sideba
 
 ## Administrator links
 
-Platform administrators see a **Management** section with a **Platform** link.
+Platform administrators see a **Management** section with a **Platform** link, and a list to view the app as another role, for example **Site admin**.
 
-Sponsor administrators do not use the main workspace. After sign-in, Navigator opens the sponsor page. It lists the sponsor's collections at enrolled sites.
+Sponsor administrators do not use the main workspace. After sign-in, Navigator opens the sponsor page. It lists the sponsor's collections at enrolled sites. The **Management** section has a **Sponsor** link back to that page.
 
 Site administrators manage collection access from **Manage** on a study collection. See [Restrict collection and document access](/collections/manage-collections#restrict-collection-and-document-access).
 

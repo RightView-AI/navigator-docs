@@ -14,7 +14,7 @@ The **Finance** desk finds billable work that your site has not invoiced yet. Fo
 
 ## Who can use Finance
 
-Finance is an optional module, off by default. Contact Rightview to turn it on for your site. When it is on, **Finance** shows in the sidebar for Users, Site Editors, Private Editors, and Site Admins. Medical monitors and sponsor administrators do not see it. See [Roles and permissions](/reference/roles-and-permissions).
+Finance is an optional module, off by default. Contact Rightview to turn it on for your site. When it is on, **Finance** shows in the sidebar for Users, Site Editors, Private Editors, and Site Admins. Platform administrators can do everything a Site Admin can on the desk, including **Approve rules**. Medical monitors and sponsor administrators do not see it. See [Roles and permissions](/reference/roles-and-permissions).
 
 All of these roles can import invoiceables, use **Invoice capture**, run reconciliation, approve or dismiss results, and link patient numbers. Only Site Admins can use **Sync now**, **Build rules from budget**, **Approve rules**, and **Export report**.
 
@@ -78,7 +78,7 @@ If your site has a CTMS connection that supports billing, Site Admins see **Sync
 
 The **Billing rules** tab lists each rule from the budget: its number (BR1, BR2, and so on), the item, the trigger, the amount, the frequency, the effective dates, the evidence it needs, and the budget page it came from. **(bundled)** means that another payment includes the item.
 
-A new rule set is a draft. A Site Admin clicks **Approve rules** to make it active, or **Rebuild from budget** to make a new draft, for example after a budget amendment. **Version history** lists earlier versions. You can run reconciliation on draft rules, but the results are provisional until a Site Admin approves them.
+A new rule set is a draft. It shows **Draft**, its version, and **needs approval**. A Site Admin or platform administrator clicks **Approve rules** to make it active. The badge then shows **Approved**, the version, and who approved it. A Site Admin can also click **Rebuild from budget** to make a new draft, for example after a budget amendment. **Version history** lists earlier versions. You can run reconciliation on draft rules, but the results are provisional until a Site Admin approves them.
 
 ## Run reconciliation
 

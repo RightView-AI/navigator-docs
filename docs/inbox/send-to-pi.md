@@ -21,7 +21,7 @@ You can send a chat answer to a **Principal Investigator (PI)** or another study
 3. Optional: type a note in **Context (optional)**.
 4. Click **Ask a Contact**.
 
-The button changes to **Asked**.
+The button changes to **Asked**. Click it again to see when and to whom you sent it. Click **View in Inbox** to open the item in **Notifications**.
 
 The **Contact** list shows only the contacts registered for the study of the answer. Navigator does not send to a contact that is not registered for the study.
 
@@ -29,19 +29,24 @@ If the list is empty, the panel shows **No contacts for** and the study ID. Clic
 
 If the send fails, the panel shows an error such as **Could not send. Try again.** Click **Ask a Contact** again.
 
-Navigator sends the email from **research@rightview.ai**. The "From" line shows your name, for example *"Jane Doe (Your Site) via Rightview"*. The contact can see who sent the question.
+Navigator sends the email from **research@rightview.ai**. If your account has a name, the "From" line shows it, for example *"Jane Doe (Your Site) via Rightview"*. The contact can see who sent the question.
 
 :::tip Low-confidence answers
 If an answer is not fully supported by your documents, a note shows below it. Click **Not what you needed? Ask a contact** to send it to a contact.
 :::
 
-## Get the verified answer
+## Get the contact's answer
 
-When the contact answers, the button changes to **Answered**. The answer shows below the chat message with the label **Verified answer** and the name of the contact.
+When the contact answers, the button changes to **Answered**. The answer shows below the chat message with a label and the name of the contact:
 
-The verified answer also shows as a **Verified answer** card on the **Study Documents** page. See [Manage collections](/collections/manage-collections).
+| Label | Meaning |
+| --- | --- |
+| **Verified response** | The contact signed the answer in the app. Or the contact answered by email, and Navigator confirmed the sending email domain. |
+| **Response** | The contact answered by email, and Navigator could not confirm the sending domain. The answer is not verified. |
 
-If the contact answers by email, chat labels the answer **PI response (email)**. Point at the label to read the full text: *PI response via email (sender checked, not dual authenticated)*. The card in **Study Documents** says **Email response from** and the name of the contact. **PI Verified** stays for an answer that a person signs in the app.
+Point at the label to read what Navigator checked.
+
+The answer also shows as a card with the same label on the **Study Documents** page. For an email answer, the card says **Email response from** and the name of the contact. See [Manage collections](/collections/manage-collections).
 
 ## Track in Notifications
 

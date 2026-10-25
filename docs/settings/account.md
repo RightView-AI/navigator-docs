@@ -6,33 +6,42 @@ keywords: ["account", "profile", "change password", "sign out", "log out", "sett
 
 # Account settings
 
-Manage your password and sign out from the **Settings** page.
+Change your display name and password, and sign out.
 
-## Open settings
+## Open account settings
 
-Click the **gear icon** at the bottom of the sidebar, or go to [sites.rightview.ai/settings](https://sites.rightview.ai/settings).
+Click the gear icon (**Account settings**) at the bottom of the sidebar. The **Account settings** window opens.
 
-## Change your password
-
-Password changes apply only if you sign in with email and password (not magic link only).
-
-1. Enter your **current password**.
-2. Enter a **new password** (at least 8 characters, with an uppercase letter, a lowercase letter, and a number).
-3. Confirm the new password.
-4. Click **Update password**.
-
-## Sign out
-
-Click **Sign out** at the bottom of the settings page, or use the sign-out option in the sidebar. You will return to the login page.
+You can also go to [sites.rightview.ai/settings](https://sites.rightview.ai/settings). That page has the same settings.
 
 ## Your profile
 
-The settings page shows your registered email and role, and lets you edit your **display name**. Contact your administrator if your role or site assignment needs to change.
+The **Account** section shows your email.
+
+1. Enter your **Display name**.
+2. Click **Save display name**.
+
+Your role shows at the bottom of the sidebar, under your email. Contact your administrator if your role or site needs to change.
+
+## Change your password
+
+1. Enter your **Current password**.
+2. Enter a **New password**. It needs at least 8 characters, with an uppercase letter, a lowercase letter, and a number.
+3. Enter it again in **Confirm new password**.
+4. Click **Update password**.
+
+A password change signs you out of your other devices and removes their trusted-device status. You stay signed in on this device.
+
+If you do not know your current password, click **Forgot your current password?** on the settings page. Navigator emails you a reset link.
+
+## Sign out
+
+Click **Sign out** in account settings, or click the sign-out icon at the bottom of the sidebar. The login page opens.
 
 ## Two-factor authentication
 
-Administrator and medical monitor accounts require an extra sign-in step. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication) for setup and troubleshooting.
+Administrator, editor, and medical monitor accounts need an extra sign-in step. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication) for setup and troubleshooting.
 
-## Terms of use
+## Terms of Use
 
-The first time you sign in (or when terms are updated), you may be asked to review and accept Navigator’s **Terms of Use** before continuing. Medical monitors may see an additional signature agreement. Read the full terms at any time from the link on the login page.
+The first time you sign in, or when the terms change, Navigator asks you to accept the **Terms of Use** before you continue. Medical monitors see **Terms of Use & Signature Agreement**. The login page links to the full **Terms of Service** and **Privacy Policy**.

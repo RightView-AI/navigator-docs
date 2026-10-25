@@ -31,6 +31,8 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Rename study collections | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Approve sponsor amendment schedule changes | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Site Insights | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Audit Log for own site | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Edit and approve a Schedule of Assessments | ❌ | ❌ | ❌ | ❌ | ✅ |
 | MM inbox / send to PI | ❌ | ✅ | ❌ | ❌ | ❌ |
 | Use PI contacts (Send to PI) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Add / edit / remove PI contacts (own site) | ❌ | ❌ | ❌ | ❌ | ✅ |
@@ -41,7 +43,7 @@ Navigator uses role-based access. Your administrator assigns a role when your ac
 | Finance desk: import invoiceables, run reconciliation, approve or dismiss results | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Finance desk: build and approve billing rules, **Sync now**, export the pilot report | ❌ | ❌ | ❌ | ❌ | ✅ |
 
-The Finance rows apply only when your site has the Finance module and you have been given it. See [Finance desk](/finance/finance-desk) and [Give a user modules](/admin/site-capacity-and-users#give-a-user-modules).
+The Finance rows apply only when your site has the Finance module and you have been given it. Platform administrators can also build and approve billing rules, use **Sync now**, and export the pilot report. See [Finance desk](/finance/finance-desk) and [Give a user modules](/admin/site-capacity-and-users#give-a-user-modules).
 
 ### Sponsor-side
 
@@ -67,17 +69,17 @@ Sees only the sites and studies that an administrator enrolled for the sponsor. 
 When a sponsor publishes an amendment, each enrolled site gets the documents as locked, sponsor-managed documents. If the amendment changes the visit schedule, Navigator stages the changes. Nothing is written to the site's CTMS until a site admin approves the changes.
 
 ### Site Editor
-Manages study documents without full site-admin access. Can upload study documents, add documents to a collection, and delete protocol documents. Cannot restrict access, rename collections, add site-wide documents, view Site Insights, or invite users. A platform administrator assigns this role.
+Manages study documents without full site-admin access. Can upload study documents, add documents to a collection, and delete protocol documents. Cannot restrict access, rename collections, add site-wide documents, view Site Insights or the Audit Log, or invite users. A platform administrator assigns this role.
 
 ### Private Editor
 Uploads and manages **confidential** documents that stay hidden from site administrators, and sets which members can see them. Can delete confidential documents only, not shared ones. Has no other site-admin powers. A platform administrator assigns this role.
 
 ### Site Admin
-Full control over the site's collections, artifacts, analytics, and PI contacts. Can delete protocol documents, rename study collections, and set [collection or document access](/collections/manage-collections#restrict-collection-and-document-access) from **Manage** on a study collection. Sees all collections at the site, even with access restrictions. Confidential documents from a Private Editor stay hidden from Site Admins. Approves sponsor amendment schedule changes before they go to the CTMS. On the Finance desk, approves billing rules and exports the pilot report.
+Full control over the site's collections, artifacts, analytics, and PI contacts. Sees the site's [Audit Log](/admin/site-settings#audit-log). Can delete protocol documents, rename study collections, and set [collection or document access](/collections/manage-collections#restrict-collection-and-document-access) from **Manage** on a study collection. Sees all collections at the site, even with access restrictions. Confidential documents from a Private Editor stay hidden from Site Admins. Approves sponsor amendment schedule changes before they go to the CTMS. On the Finance desk, approves billing rules and exports the pilot report.
 
 ## Two-factor authentication
 
-Site Admin, Site Editor, Private Editor, Sponsor Admin, and Medical Monitor accounts require MFA at sign-in. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
+Platform administrator, Site Admin, Site Editor, Private Editor, Sponsor Admin, and Medical Monitor accounts require MFA at sign-in. User accounts do not. See [Two-factor authentication (MFA)](/settings/multi-factor-authentication).
 
 ## Requesting access changes
 

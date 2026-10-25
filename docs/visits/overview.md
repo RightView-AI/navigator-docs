@@ -6,13 +6,15 @@ keywords: ["visits", "SoA", "schedule of assessments", "source QC", "quality con
 
 # Visits & Schedule of Assessments
 
-**Visits** keeps protocol visit windows and patient progress in one place. The **Visits** item always shows in the sidebar. **Schedule of Assessments** works for every site. **Patients** and **Source Quality Control** need an administrator to enable the module for your site. Patients does not need a connected CTMS or EMR, though most sites that use it have one for live patient data.
+**Visits** keeps protocol visit windows and patient progress in one place, next to the chat you use for document questions.
 
-| View | What it shows | Module needed |
-| --- | --- | :---: |
-| **Schedule of Assessments** | The protocol's visit names, windows, and the assessments at each visit | No |
-| **Patients** | Patients on the protocol, their current visit status, and upcoming visit windows | Yes |
-| **Source Quality Control** | Uploaded source documents and their ALCOA review results | Yes |
+Each view in **Visits** is a module. Rightview turns modules on for your site, and a site administrator gives them to users. See [Give a user modules](/admin/site-capacity-and-users#give-a-user-modules). **Visits** shows in the sidebar only when you have at least one of its modules. Medical monitors do not see **Visits**. **Patients** does not need a connected CTMS, though most sites that use it have one for live patient data.
+
+| View | What it shows |
+| --- | --- |
+| **Schedule of Assessments** | The protocol's visit names, windows, and the assessments at each visit |
+| **Patients** | Patients on the protocol, their current visit status, and upcoming visit windows |
+| **Source Quality Control** | Uploaded source documents and their ALCOA review results |
 
 ## Source Quality Control
 
@@ -94,11 +96,11 @@ Open a patient for detail. A section shows only when your CTMS provides the data
 **Sponsor-managed collections:** when a sponsor publishes an amendment to a locked collection, Navigator runs the full amendment at every affected site:
 
 1. Rebuilds the SoA from the amended protocol and compares it with the prior version.
-2. For each active patient whose next visit changed, **writes the new visit day into your CTMS** and records it in Write History. There is no confirmation step first.
+2. For each active patient whose next visit changed, stages the new visit day. Nothing is written to your CTMS yet.
 3. Flags any patient whose changed visit needs more procedures as possibly needing **re-consent**.
 4. Re-checks each active patient's eligibility against the amended inclusion and exclusion criteria, and flags anyone who may need PI review.
 
-Open the **"… changes"** button above the SoA (or the matching Notifications entry) to see what changed and which patients were rescheduled or flagged. Review happens after the fact, because the CTMS write is already done.
+Open the **"… changes"** button above the SoA, or the matching **Notifications** entry, to see what changed and which patients are affected. Staged visit days show **Awaiting approval**. A site administrator clicks **Approve & apply N schedule changes** to write the new visit days to the CTMS. Applied changes then show **Rescheduled**.
 
 ## Related guides
 
