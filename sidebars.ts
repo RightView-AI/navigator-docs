@@ -36,6 +36,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'extension/chrome-extension',
+    'extension/passive-capture',
     {
       type: 'category',
       label: 'Admin & Account',
