@@ -20,7 +20,7 @@ Each saved page is sent to Rightview as the page HTML and a screenshot. Nothing 
 
 ## How often it is read
 
-Rightview reads the saved pages every 3 hours to find billable work your site may have missed.
+Rightview reads the saved pages every 3 hours to find billable work your site may have missed. For a study with billing rules, it looks for evidence of the items in those rules. Each finding names the rule it matches. Work that no rule of the study covers is not kept. A study with no billing rules uses a standard list of work types instead.
 
 ## Where results show
 
