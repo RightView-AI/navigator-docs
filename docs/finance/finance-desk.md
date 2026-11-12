@@ -29,7 +29,7 @@ The desk works on one study at a time. With no study selected, it shows **Select
 
 A new study shows a **Set up this study** checklist. Reconciliation needs billing rules and invoiceables. You can add them in any order.
 
-1. **Build billing rules.** Upload the CTA or budget to the study collection, then ask in chat: *"Build the billing rules for this study."* You can also click **Build rules from budget** on the **Billing rules** tab.
+1. **Build billing rules.** Upload the CTA or budget to the study collection, then ask in chat: *"Build the billing rules for this study."* You can also click **Build rules from budget** on the **Billing rules** tab. A box lists the documents in the study. Tick the CTA, budget, or amendment files to read, then click **Build rules**. Navigator ticks the likely files for you.
 2. **Approve billing rules.** A Site Admin reviews the draft on the **Billing rules** tab and clicks **Approve rules**.
 3. **Import invoiceables** with **Import CSV**, **Invoice capture**, or **Sync now**.
 4. **Run reconciliation.**
@@ -78,7 +78,7 @@ If your site has a CTMS connection that supports billing, Site Admins see **Sync
 
 The **Billing rules** tab lists each rule from the budget: its number (BR1, BR2, and so on), the item, the trigger, the amount, the frequency, the effective dates, the evidence it needs, and the budget page it came from. **(bundled)** means that another payment includes the item.
 
-A new rule set is a draft. It shows **Draft**, its version, and **needs approval**. A Site Admin or platform administrator clicks **Approve rules** to make it active. The badge then shows **Approved**, the version, and who approved it. You can also click **Rebuild from budget** to make a new draft, for example after a budget amendment. A new draft replaces the active rules until a Site Admin approves it. **Version history** lists earlier versions. You can run reconciliation on draft rules, but the results are provisional until a Site Admin approves them.
+A new rule set is a draft. It shows **Draft**, its version, and **needs approval**. A Site Admin or platform administrator clicks **Approve rules** to make it active. The badge then shows **Approved**, the version, and who approved it. You can also click **Rebuild from budget** to make a new draft, for example after a budget amendment. The same box asks which documents to read. A new draft replaces the active rules until a Site Admin approves it. **Version history** lists earlier versions. You can run reconciliation on draft rules, but the results are provisional until a Site Admin approves them.
 
 ## Run reconciliation
 
